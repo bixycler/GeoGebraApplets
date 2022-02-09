@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="0" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1475" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="318" tab="ALGEBRA" window="1409,594,458,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="326" window="346,23,1344,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="259.113624937931" yZero="302.6067535324194" scale="216.39687379100403" yscale="216.39687379100468"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="10"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="CircularCurrent" author="" date="">
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="3.225368457685521"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="200" x="268" y="30" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
+	<bgColor r="255" g="0" b="0" alpha="102"/>
+	<layer val="0"/>
+	<labelOffset x="-15" y="1"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="6" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="0.1°" speed="0.3" type="1" playing="true"/>
+	<ggbscript onUpdate="If(ϕ &lt; oϕ, SetValue(t0,t0+2 π))&#xa;SetValue(oϕ,ϕ)"/>
+	<caption val="Phase ϕ"/>
+</element>
+<element type="numeric" label="A">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-14" y="-2"/>
+	<labelMode val="9"/>
+	<slider min="0.1" max="1" absoluteScreenLocation="true" width="200" x="231" y="37" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+	<caption val="Amplitude A"/>
+</element>
+<element type="numeric" label="v">
+	<value val="0.3"/>
+	<show object="true" label="true"/>
+	<condition showObject="xSpacecraft"/>
+	<objColor r="0" g="153" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-1" y="5"/>
+	<labelMode val="9"/>
+	<slider min="-1" max="1" absoluteScreenLocation="true" width="160" x="11" y="91" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<caption val="&#x1f680;v"/>
+</element>
+<element type="numeric" label="t0">
+	<value val="6.283185307179586"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<fixed val="true"/>
+</element>
+<expression label="t" exp="t0 + ϕ" />
+<element type="numeric" label="t">
+	<value val="9.508553764865107"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="13" y="10"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Play ▶&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Pause ⏸&quot;)&apos;);}"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<caption val="Play ▶"/>
+</element>
+<command name="Circle">
+	<input a0="(0, 0)" a1="A"/>
+	<output a0="CurCircle"/>
+</command>
+<element type="conic" label="CurCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(A, 0)" a1="(-ϕ)"/>
+	<output a0="P"/>
+</command>
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9964928592495044" y="0.08367784333231548" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="P"/>
+	<output a0="vPhase"/>
+</command>
+<element type="vector" label="vPhase">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.9964928592495044" y="0.08367784333231548" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O"/>
+</element>
+<element type="numeric" label="N">
+	<value val="100"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-3" y="6"/>
+	<labelMode val="1"/>
+	<slider min="20" max="200" absoluteScreenLocation="true" width="200" x="12" y="64" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<command name="Sequence">
+	<input a0="((A * cos(ϕ + (k * ((2 * π)) / N))), ((-A) * sin(ϕ + (k * ((2 * π)) / N))))" a1="k" a2="1" a3="N"/>
+	<output a0="Psc" randomResult="{(-0.9892723329629883, 0.1460830285624117), (-0.9781476007338056, 0.2079116908177595), (-0.9631625667976582, 0.26891982061526554), (-0.9443763702374811, 0.3288666467385831), (-0.9218631515885005, 0.38751558645210293), (-0.8957117602394128, 0.44463517918492756), (-0.8660254037844386, 0.5000000000000001), (-0.8329212407100995, 0.5533915492433439), (-0.7965299180241964, 0.6045991148623747), (-0.7569950556517564, 0.6534206039901054), (-0.7144726796328034, 0.6996633405133654), (-0.6691306063588581, 0.7431448254773944), (-0.6211477802783105, 0.7836934573258396), (-0.5707135676844314, 0.8211492091337043), (-0.5180270093731303, 0.8553642601605066), (-0.4632960351198621, 0.8862035792312145), (-0.4067366430758001, 0.913545457642601), (-0.34857204732181546, 0.9372819894918915), (-0.2890317969444713, 0.9573194975320674), (-0.2283508701106558, 0.9735789028731603), (-0.16676874671610267, 0.9859960370705049), (-0.10452846326765336, 0.9945218953682734), (-0.04187565372919987, 0.9991228300988584), (0.02094241988335725, 0.9997806834748455), (0.08367784333231543, 0.9964928592495044), (0.1460830285624112, 0.9892723329629883), (0.20791169081775943, 0.9781476007338056), (0.2689198206152663, 0.963162566797658), (0.3288666467385835, 0.944376370237481), (0.3875155864521029, 0.9218631515885005), (0.4446351791849271, 0.895711760239413), (0.5000000000000001, 0.8660254037844386), (0.5533915492433445, 0.8329212407100991), (0.604599114862375, 0.7965299180241961), (0.6534206039901054, 0.7569950556517565), (0.6996633405133651, 0.7144726796328037), (0.7431448254773942, 0.6691306063588581), (0.7836934573258402, 0.6211477802783099), (0.8211492091337041, 0.5707135676844315), (0.8553642601605066, 0.5180270093731303), (0.8862035792312145, 0.46329603511986217), (0.913545457642601, 0.40673664307580015), (0.9372819894918917, 0.3485720473218147), (0.9573194975320674, 0.28903179694447134), (0.9735789028731603, 0.22835087011065586), (0.9859960370705049, 0.16676874671610273), (0.9945218953682733, 0.10452846326765342), (0.9991228300988584, 0.04187565372919905), (0.9997806834748455, -0.020942419883357186), (0.9964928592495044, -0.08367784333231536), (0.9892723329629884, -0.14608302856241112), (0.9781476007338056, -0.20791169081775937), (0.963162566797658, -0.26891982061526626), (0.944376370237481, -0.32886664673858346), (0.9218631515885006, -0.3875155864521028), (0.8957117602394127, -0.44463517918492784), (0.8660254037844386, -0.5), (0.8329212407100992, -0.5533915492433445), (0.7965299180241961, -0.604599114862375), (0.7569950556517565, -0.6534206039901054), (0.7144726796328031, -0.6996633405133657), (0.6691306063588582, -0.7431448254773942), (0.62114778027831, -0.7836934573258402), (0.5707135676844315, -0.8211492091337041), (0.5180270093731304, -0.8553642601605065), (0.4632960351198614, -0.8862035792312148), (0.4067366430758002, -0.9135454576426009), (0.34857204732181474, -0.9372819894918917), (0.2890317969444714, -0.9573194975320674), (0.2283508701106559, -0.9735789028731602), (0.16676874671610192, -0.985996037070505), (0.10452846326765347, -0.9945218953682733), (0.0418756537291991, -0.9991228300988584), (-0.020942419883357127, -0.9997806834748455), (-0.0836778433323153, -0.9964928592495044), (-0.14608302856241107, -0.9892723329629884), (-0.20791169081775845, -0.9781476007338058), (-0.2689198206152662, -0.963162566797658), (-0.3288666467385834, -0.944376370237481), (-0.38751558645210277, -0.9218631515885006), (-0.44463517918492856, -0.8957117602394123), (-0.5000000000000008, -0.8660254037844383), (-0.5533915492433445, -0.8329212407100992), (-0.6045991148623749, -0.7965299180241961), (-0.6534206039901053, -0.7569950556517566), (-0.699663340513365, -0.7144726796328038), (-0.7431448254773936, -0.6691306063588589), (-0.7836934573258401, -0.62114778027831), (-0.8211492091337041, -0.5707135676844316), (-0.8553642601605074, -0.5180270093731288), (-0.8862035792312153, -0.46329603511986067), (-0.9135454576426012, -0.40673664307579943), (-0.9372819894918917, -0.3485720473218148), (-0.9573194975320674, -0.28903179694447145), (-0.9735789028731602, -0.22835087011065597), (-0.9859960370705049, -0.16676874671610287), (-0.9945218953682733, -0.10452846326765443), (-0.9991228300988584, -0.041875653729199165), (-0.9997806834748455, 0.020942419883357065), (-0.9964928592495043, 0.08367784333231701)}"/>
+</command>
+<element type="list" label="Psc">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="xCircle ∧ xFull"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(x(Psc(k)), 0)" a1="k" a2="1" a3="N"/>
+	<output a0="Psl" randomResult="{(-0.9892723329629883, 0), (-0.9781476007338056, 0), (-0.9631625667976582, 0), (-0.9443763702374811, 0), (-0.9218631515885005, 0), (-0.8957117602394128, 0), (-0.8660254037844386, 0), (-0.8329212407100995, 0), (-0.7965299180241964, 0), (-0.7569950556517564, 0), (-0.7144726796328034, 0), (-0.6691306063588581, 0), (-0.6211477802783105, 0), (-0.5707135676844314, 0), (-0.5180270093731303, 0), (-0.4632960351198621, 0), (-0.4067366430758001, 0), (-0.34857204732181546, 0), (-0.2890317969444713, 0), (-0.2283508701106558, 0), (-0.16676874671610267, 0), (-0.10452846326765336, 0), (-0.04187565372919987, 0), (0.02094241988335725, 0), (0.08367784333231543, 0), (0.1460830285624112, 0), (0.20791169081775943, 0), (0.2689198206152663, 0), (0.3288666467385835, 0), (0.3875155864521029, 0), (0.4446351791849271, 0), (0.5000000000000001, 0), (0.5533915492433445, 0), (0.604599114862375, 0), (0.6534206039901054, 0), (0.6996633405133651, 0), (0.7431448254773942, 0), (0.7836934573258402, 0), (0.8211492091337041, 0), (0.8553642601605066, 0), (0.8862035792312145, 0), (0.913545457642601, 0), (0.9372819894918917, 0), (0.9573194975320674, 0), (0.9735789028731603, 0), (0.9859960370705049, 0), (0.9945218953682733, 0), (0.9991228300988584, 0), (0.9997806834748455, 0), (0.9964928592495044, 0), (0.9892723329629884, 0), (0.9781476007338056, 0), (0.963162566797658, 0), (0.944376370237481, 0), (0.9218631515885006, 0), (0.8957117602394127, 0), (0.8660254037844386, 0), (0.8329212407100992, 0), (0.7965299180241961, 0), (0.7569950556517565, 0), (0.7144726796328031, 0), (0.6691306063588582, 0), (0.62114778027831, 0), (0.5707135676844315, 0), (0.5180270093731304, 0), (0.4632960351198614, 0), (0.4067366430758002, 0), (0.34857204732181474, 0), (0.2890317969444714, 0), (0.2283508701106559, 0), (0.16676874671610192, 0), (0.10452846326765347, 0), (0.0418756537291991, 0), (-0.020942419883357127, 0), (-0.0836778433323153, 0), (-0.14608302856241107, 0), (-0.20791169081775845, 0), (-0.2689198206152662, 0), (-0.3288666467385834, 0), (-0.38751558645210277, 0), (-0.44463517918492856, 0), (-0.5000000000000008, 0), (-0.5533915492433445, 0), (-0.6045991148623749, 0), (-0.6534206039901053, 0), (-0.699663340513365, 0), (-0.7431448254773936, 0), (-0.7836934573258401, 0), (-0.8211492091337041, 0), (-0.8553642601605074, 0), (-0.8862035792312153, 0), (-0.9135454576426012, 0), (-0.9372819894918917, 0), (-0.9573194975320674, 0), (-0.9735789028731602, 0), (-0.9859960370705049, 0), (-0.9945218953682733, 0), (-0.9991228300988584, 0), (-0.9997806834748455, 0), (-0.9964928592495043, 0)}"/>
+</command>
+<element type="list" label="Psl">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="xFull"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="hairL">
+	<value val="0.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="A1" exp="-10"/>
+<element type="numeric" label="A1">
+	<value val="-10"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A2" exp="-9"/>
+<element type="numeric" label="A2">
+	<value val="-9"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A3">
+	<value val="-8"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A4">
+	<value val="-7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A5">
+	<value val="-6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A6">
+	<value val="-5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A7">
+	<value val="-4"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A8">
+	<value val="-3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A9">
+	<value val="-2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A10">
+	<value val="-1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A11">
+	<value val="0"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A12">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A13">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A14">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A15">
+	<value val="4"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A16">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A17">
+	<value val="6"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A18">
+	<value val="7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A19">
+	<value val="8"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A20">
+	<value val="9"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="10" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="numeric" label="A21">
+	<value val="10"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="B1" exp="((A * cos(ϕ + (A1 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A1 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A1)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8553642601605066" y="-0.5180270093731302" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B2" exp="((A * cos(ϕ + (A2 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A2 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A2)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8862035792312147" y="-0.4632960351198616" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B3" exp="((A * cos(ϕ + (A3 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A3 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A3)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.913545457642601" y="-0.40673664307580004" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B4" exp="((A * cos(ϕ + (A4 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A4 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A4)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9372819894918915" y="-0.34857204732181535" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B5" exp="((A * cos(ϕ + (A5 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A5 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A5)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9573194975320672" y="-0.2890317969444717" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B6" exp="((A * cos(ϕ + (A6 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A6 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A6)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9735789028731603" y="-0.22835087011065575" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B7" exp="((A * cos(ϕ + (A7 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A7 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A7)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.985996037070505" y="-0.16676874671610217" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B8" exp="((A * cos(ϕ + (A8 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A8 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A8)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9945218953682734" y="-0.10452846326765329" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B9" exp="((A * cos(ϕ + (A9 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A9 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B9">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A9)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9991228300988584" y="-0.04187565372919981" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B10" exp="((A * cos(ϕ + (A10 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A10 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B10">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A10)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9997806834748455" y="0.020942419883356867" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B11" exp="((A * cos(ϕ + (A11 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A11 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B11">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A11)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9964928592495044" y="0.08367784333231548" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B12" exp="((A * cos(ϕ + (A12 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A12 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B12">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A12)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9892723329629883" y="0.1460830285624117" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B13" exp="((A * cos(ϕ + (A13 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A13 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B13">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A13)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9781476007338056" y="0.2079116908177595" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B14" exp="((A * cos(ϕ + (A14 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A14 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B14">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A14)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9631625667976582" y="0.26891982061526554" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B15" exp="((A * cos(ϕ + (A15 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A15 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B15">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A15)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9443763702374811" y="0.3288666467385831" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B16" exp="((A * cos(ϕ + (A16 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A16 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B16">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A16)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9218631515885005" y="0.38751558645210293" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B17" exp="((A * cos(ϕ + (A17 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A17 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B17">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="0" g="255" b="0" alpha="0" dynamicr="Mod[((-A17)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8957117602394128" y="0.44463517918492756" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B18" exp="((A * cos(ϕ + (A18 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A18 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B18">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A18)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8660254037844386" y="0.5000000000000001" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B19" exp="((A * cos(ϕ + (A19 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A19 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B19">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A19)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8329212407100995" y="0.5533915492433439" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B20" exp="((A * cos(ϕ + (A20 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A20 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B20">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A20)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7965299180241964" y="0.6045991148623747" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B21" exp="((A * cos(ϕ + (A21 * ((2 * π)) / N))), ((-A) * sin(ϕ + (A21 * ((2 * π)) / N))))" type="point" />
+<element type="point" label="B21">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCircle ∧ (¬xForce)"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A21)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7569950556517564" y="0.6534206039901054" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C1" exp="((A * cos(ϕ + (A1 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A1)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8553642601605066" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C2" exp="((A * cos(ϕ + (A2 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A2)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8862035792312147" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C3" exp="((A * cos(ϕ + (A3 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A3)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.913545457642601" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C4" exp="((A * cos(ϕ + (A4 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A4)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9372819894918915" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C5" exp="((A * cos(ϕ + (A5 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A5)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9573194975320672" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C6" exp="((A * cos(ϕ + (A6 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A6)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9735789028731603" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C7" exp="((A * cos(ϕ + (A7 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A7)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.985996037070505" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C8" exp="((A * cos(ϕ + (A8 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A8)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9945218953682734" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C9" exp="((A * cos(ϕ + (A9 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C9">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A9)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9991228300988584" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C10" exp="((A * cos(ϕ + (A10 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A10)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9997806834748455" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C11" exp="((A * cos(ϕ + (A11 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A11)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9964928592495044" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C12" exp="((A * cos(ϕ + (A12 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A12)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9892723329629883" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C13" exp="((A * cos(ϕ + (A13 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C13">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A13)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9781476007338056" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C14" exp="((A * cos(ϕ + (A14 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C14">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A14)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9631625667976582" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C15" exp="((A * cos(ϕ + (A15 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C15">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A15)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9443763702374811" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C16" exp="((A * cos(ϕ + (A16 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C16">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A16)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9218631515885005" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C17" exp="((A * cos(ϕ + (A17 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C17">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A17)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8957117602394128" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C18" exp="((A * cos(ϕ + (A18 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C18">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A18)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8660254037844386" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C19" exp="((A * cos(ϕ + (A19 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C19">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A19)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8329212407100995" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C20" exp="((A * cos(ϕ + (A20 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C20">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A20)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7965299180241964" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C21" exp="((A * cos(ϕ + (A21 * ((2 * π)) / N))), 0)" type="point" />
+<element type="point" label="C21">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="Mod[((-A21)) / N, 1]" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7569950556517564" y="0" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="((-A), 0)" a1="(A, 0)"/>
+	<output a0="sCurrent"/>
+</command>
+<element type="segment" label="sCurrent">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="2" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="boolean" label="xCircle">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="106" y="6"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(!xCircle,{SetValue(xForce,false)})"/>
+	<caption val="Circle"/>
+</element>
+<element type="boolean" label="xFull">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="227" y="38"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Full Thread"/>
+</element>
+<command name="Vector">
+	<input a0="C11" a1="C12"/>
+	<output a0="vVelo"/>
+</command>
+<element type="vector" label="vVelo">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="-8"/>
+	<labelMode val="3"/>
+	<coords x="0.007220526286516038" y="0" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="C11"/>
+	<caption val="v"/>
+</element>
+<command name="Vector">
+	<input a0="B11" a1="B12"/>
+	<output a0="vVeloC"/>
+</command>
+<element type="vector" label="vVeloC">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xCircle"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.007220526286516038" y="0.06240518523009622" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="B11"/>
+	<caption val="p"/>
+</element>
+<element type="boolean" label="xForce">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="184" y="7"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(xForce,{SetValue(xCircle,true),SetValue(N,20)})"/>
+	<caption val="Force"/>
+</element>
+<expression label="r" exp="(abs(B12 - B11) + abs(B10 - B11)) / (abs(C12 - C11) + abs(C10 - C11))" />
+<element type="numeric" label="r">
+	<value val="11.956494615472067"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="Pp" exp="(x(B11) + (r * x(C12 - C11)), y(B11))" type="point" />
+<element type="point" label="Pp">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9101606755839009" y="0.08367784333231548" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Pn" exp="(x(B11) + (r * x(C10 - C11)), y(B11))" type="point" />
+<element type="point" label="Pn">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.0358037118964143" y="0.08367784333231548" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="Pp"/>
+	<output a0="sPp"/>
+</command>
+<element type="segment" label="sPp">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0.08633218366560347" z="-0.007224090939307051"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="Pn"/>
+	<output a0="sPn"/>
+</command>
+<element type="segment" label="sPn">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-0.03931085264690992" z="0.0032894473690478626"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="Pc" exp="(Pp + Pn) / 2" type="point" />
+<element type="point" label="Pc">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.9729821937401576" y="0.08367784333231548" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="P" a1="Pc"/>
+	<output a0="vForce"/>
+</command>
+<element type="vector" label="vForce">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xForce"/>
+	<objColor r="255" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="-7"/>
+	<labelMode val="3"/>
+	<coords x="0.023510665509346773" y="0" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="P"/>
+	<caption val="F"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[((A * cos((k * ((2 * π)) / N))), ((-A) * sin((k * ((2 * π)) / N)))), ((A * cos((k * ((2 * π)) / N))), (A * sin((k * ((2 * π)) / N))))]" a1="k" a2="1" a3="N / 2"/>
+	<output a0="lSpace" randomResult="{0.12558103905862675, 0.2506664671286085, 0.37476262917144926, 0.4973797743297096, 0.6180339887498948, 0.736249105369356, 0.8515585831301454, 0.9635073482034306, 1.0716535899579933, 1.1755705045849463, 1.2748479794973795, 1.3690942118573775, 1.457937254842823, 1.5410264855515785, 1.618033988749895, 1.6886558510040302, 1.7526133600877274, 1.8096541049320392, 1.859552971776503, 1.902113032590307, 1.9371663222572622, 1.9645745014573774, 1.9842294026289558, 1.9960534568565431, 2, 1.9960534568565431, 1.9842294026289555, 1.9645745014573772, 1.9371663222572622, 1.902113032590307, 1.859552971776503, 1.809654104932039, 1.752613360087727, 1.68865585100403, 1.618033988749895, 1.5410264855515785, 1.4579372548428229, 1.369094211857377, 1.274847979497379, 1.1755705045849465, 1.0716535899579933, 0.9635073482034304, 0.851558583130145, 0.7362491053693555, 0.6180339887498942, 0.49737977432970965, 0.37476262917144915, 0.2506664671286082, 0.12558103905862628, 0}"/>
+</command>
+<element type="list" label="lSpace">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xSpMarks"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="xSpMarks">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="331" y="39"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Space Markers"/>
+</element>
+<element type="boolean" label="xSpacecraft">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="379" y="66"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="SetValue(t0,0)"/>
+	<caption val="Spacecraft"/>
+</element>
+<expression label="pos" exp="(A * cos((t * v) - π / 2))" />
+<element type="numeric" label="pos">
+	<value val="0.2850192624699764"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="Pvp" exp="(pos, ((-A) * sin((t * v) - π / 2)))" type="point" />
+<element type="point" label="Pvp">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xSpacecraft ∧ xCircle"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.2850192624699764" y="-0.9585217890173758" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="&#x1f680;+"/>
+</element>
+<expression label="Pvn" exp="(pos, (A * sin((t * v) - π / 2)))" type="point" />
+<element type="point" label="Pvn">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xSpacecraft ∧ xCircle"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-1" y="23"/>
+	<labelMode val="3"/>
+	<coords x="0.2850192624699764" y="0.9585217890173758" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="&#x1f680;-"/>
+</element>
+<command name="Segment">
+	<input a0="Pvp" a1="Pvn"/>
+	<output a0="lPv"/>
+</command>
+<element type="segment" label="lPv">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xSpacecraft ∧ xCircle"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.9170435780347517" y="0" z="0.5463943467342696"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="angle" label="oϕ">
+	<angleStyle val="3"/>
+	<value val="3.225368457685521"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<fixed val="true"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[Psl(k), (x(Psc(k)), (hairL * sgn(y(Psc(k)))))]" a1="k" a2="1" a3="N"/>
+	<output a0="lPsl" randomResult="{0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1}"/>
+</command>
+<element type="list" label="lPsl">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="xFull"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Pvl" exp="(((1 + v) * Pvp) + ((1 - v) * Pvn)) / 2" type="point" />
+<element type="point" label="Pvl">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="xSpacecraft"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.2850192624699764" y="-0.2875565367052128" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="&#x1f680;"/>
+</element>
+</construction>
+</geogebra>

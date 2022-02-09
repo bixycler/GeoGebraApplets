@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="0" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1475" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="358" tab="ALGEBRA" window="1409,594,458,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="367" window="346,23,1344,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="289.26854926464307" yZero="456.5321911811967" scale="83.0780863823826" yscale="83.07808638238285"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="9" grid="10"/>
+	<axis id="0" show="true" label="t (time)" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="1" show="true" label="q (displacement)" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Circular2MassSpringSystem" author="" date="">
+<element type="numeric" label="m1">
+	<value val="0.5"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612" dynamicr="m1" dynamicg="0" dynamicb="m2" colorSpace="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<slider min="0.1" max="0.9" absoluteScreenLocation="true" width="130" x="15" y="190" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+</element>
+<expression label="m2" exp="1 - m1" />
+<element type="numeric" label="m2">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="mm" exp="sqrt((m1 * m2))" />
+<element type="numeric" label="mm">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="13" y="10"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Play ▶&quot;)&apos;); ggbApplet.evalCommand(&apos;SetCaption(T,&quot;&#x1f90f;T&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Pause ⏸&quot;)&apos;);ggbApplet.evalCommand(&apos;SetCaption(T,&quot;T&quot;)&apos;);}&#xa;"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<caption val="Pause ⏸"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="p1'" exp="p1&apos;(t, q1, p1, q2, p2) = q2 - q1" type="function"/>
+<element type="functionnvar" label="p1&apos;">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="q1&apos;" exp="q1&apos;(t, q1, p1, q2, p2) = p1 / m1" />
+<element type="functionnvar" label="q1&apos;">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="q2&apos;" exp="q2&apos;(t, q1, p1, q2, p2) = p2 / m2" />
+<element type="functionnvar" label="q2&apos;">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="p2'" exp="p2&apos;(t, q1, p1, q2, p2) = q1 - q2" type="function"/>
+<element type="functionnvar" label="p2&apos;">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="q1" exp="q1(x) = -1 + (2 * m2) - ((2 * m2) * cos(x / mm))" />
+<element type="function" label="q1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="q2" exp="q2(x) = 1 - (2 * m1) + ((2 * m1) * cos(x / mm))" />
+<element type="function" label="q2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="p2" exp="p2(x) = ((-2 * mm) * sin(x / mm))" />
+<element type="function" label="p2">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="21"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(tm,Mod(x(T)+2 π mm,4 π mm) -2 π mm)"/>
+	<coords x="1.598407346410207" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="numeric" label="tm">
+	<value val="1.598407346410207"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="((-2 * π) * mm)" max="((2 * π) * mm)" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="1" playing="true"/>
+	<ggbscript onUpdate="SetCoords(T,tm,0)"/>
+</element>
+<expression label="p1" exp="p1(x) = ((2 * mm) * sin(x / mm))" />
+<element type="function" label="p1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+</element>
+<expression label="P1" exp="(tm, p1(tm))" type="point" />
+<element type="point" label="P1">
+	<show object="false" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.598407346410207" y="-0.05519397715107476" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="P2" exp="(tm, p2(tm))" type="point" />
+<element type="point" label="P2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.598407346410207" y="0.05519397715107476" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Q1" exp="(tm, q1(tm))" type="point" />
+<element type="point" label="Q1">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.598407346410207" y="0.9984756506226111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="Q2" exp="(tm, q2(tm))" type="point" />
+<element type="point" label="Q2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.598407346410207" y="-0.9984756506226111" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="PolyLine">
+	<input a0="{P1, Q1, P2, Q2}"/>
+	<output a0="TSlice"/>
+</command>
+<element type="polyline" label="TSlice">
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="80" y="3"/>
+	<labelMode val="0"/>
+</element>
+<expression label="txtm1" exp="&quot;m1 = &quot; + m1 + &quot;&quot;" />
+<element type="text" label="txtm1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<font serif="true" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="6" y="207"/>
+</element>
+<expression label="txtm2" exp="&quot;m2 = &quot; + m2 + &quot;&quot;" />
+<element type="text" label="txtm2">
+	<show object="true" label="true" ev="40"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<absoluteScreenLocation x="5" y="51"/>
+</element>
+<command name="NSolveODE">
+	<input a0="{q1&apos;, p1&apos;, q2&apos;, p2&apos;}" a1="0" a2="{-1, 0, 1, 0}" a3="((2 * π) * mm)"/>
+	<output a0="sq1" a1="sp1" a2="sq2" a3="sp2"/>
+</command>
+<element type="locus" label="sq1">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="locus" label="sp1">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="5" type="15" typeHidden="1" opacity="178"/>
+</element>
+<element type="locus" label="sq2">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="locus" label="sp2">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="5" type="15" typeHidden="1" opacity="178"/>
+</element>
+<expression label="eq1" exp="x = ((-2 * π) * mm)" type="line" />
+<element type="line" label="eq1">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1" y="0" z="3.141592653589793"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="Opp" exp="(0, 4)" type="point"/>
+<element type="point" label="Opp">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="(-2, 0) + Opp" a1="(2, 0) + Opp"/>
+	<output a0="vP"/>
+</command>
+<element type="vector" label="vP">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="79" y="-12"/>
+	<labelMode val="3"/>
+	<coords x="4" y="0" z="0"/>
+	<lineStyle thickness="2" type="30" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-2" y="4" z="1"/>
+	<caption val="$p = m⋅\frac{dq}{dt} $"/>
+</element>
+<command name="Circle">
+	<input a0="(0, q1(tm)) + Opp" a1="sqrt(m1) / 5"/>
+	<output a0="M1"/>
+</command>
+<element type="conic" label="M1">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0.52"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="24.964758829867133" A3="0" A4="0" A5="-4.998475650622611"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="(0, q2(tm)) + Opp" a1="sqrt(m2) / 5"/>
+	<output a0="M2"/>
+</command>
+<element type="conic" label="M2">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0.52"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.989148419905359" A3="0" A4="0" A5="-3.001524349377389"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="PP1" exp="(p1(tm), q1(tm)) + Opp" type="point" />
+<element type="point" label="PP1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xPhasePortrait"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<trace val="true"/>
+	<coords x="-0.05519397715107476" y="4.998475650622611" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PP2" exp="(p2(tm), q2(tm)) + Opp" type="point" />
+<element type="point" label="PP2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xPhasePortrait"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<trace val="true"/>
+	<coords x="0.05519397715107476" y="3.001524349377389" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+</element>
+<element type="boolean" label="xPhasePortrait">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="105" y="5"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+	<caption val="Phase Portrait"/>
+</element>
+</construction>
+</geogebra>
