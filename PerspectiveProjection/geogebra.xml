@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="6e2105ce-3703-4f90-8f1d-5dbd886f7937"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.12893982808022922" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="3,3" size="210" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="379" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="225" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="404" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="231" window="1207,404,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1512" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="177" height="591"/>
+	<coordSystem xZero="-21.499999999999957" yZero="203.5" scale="49.999999999999815" yscale="49.999999999999986"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="10"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="224" height="775"/>
+	<coordSystem xMin="x(AnchorBottomLeft)" xMax="x(AnchorTopRight)" yMin="y(AnchorBottomLeft)" yMax="y(AnchorTopRight)"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0" yZero="0" zZero="0" scale="75" xAngle="44.999999999999986" zAngle="-90"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="true"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="1" distance="600"/>
+</euclidianView3D>
+<construction title="PerspectiveProjection" author="" date="">
+<element type="angle" label="goα">
+	<angleStyle val="3"/>
+	<value val="0.08726646259971647"/>
+	<slider min="0" max="1.5707963267948966" absoluteScreenLocation="true" width="180" x="15" y="121" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="7"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="1°" speed="1" type="0" playing="true"/>
+	<caption val="Ground obj angle"/>
+</element>
+<expression label="goa" exp="goα / (360°)" />
+<element type="numeric" label="goa">
+	<value val="0.013888888888888888"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<command name="PointIn">
+	<input a0="xOyPlane"/>
+	<output a0="grdObjCenter"/>
+</command>
+<element type="point3d" label="grdObjCenter">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="5"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="3.207193842600344" y="1.6280167674036838" z="0" w="1"/>
+	<pointSize val="3"/>
+	<caption val="$\scalebox{1}{Object.on.Ground}$"/>
+</element>
+<command name="Circle">
+	<input a0="grdObjCenter" a1="1" a2="xOyPlane"/>
+	<output a0="grdCircle"/>
+</command>
+<element type="conic3d" label="grdCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Point">
+	<input a0="grdCircle" a1="goa + 1 / 8"/>
+	<output a0="gop5"/>
+</command>
+<element type="point3d" label="gop5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.5644062329138047" y="0.8619723242847058" z="0" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="zAxis"/>
+	<output a0="Eye"/>
+</command>
+<element type="point3d" label="Eye">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-39" y="-1"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(hEye,z(Eye))"/>
+	<coords x="0" y="0" z="2.5" w="1"/>
+	<pointSize val="3"/>
+	<caption val="$\scalebox{1}{Eye}$"/>
+</element>
+<command name="Point">
+	<input a0="grdCircle" a1="goa + 0 / 4"/>
+	<output a0="gop4"/>
+</command>
+<element type="point3d" label="gop4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.210999144508598" y="1.5408610246560257" z="0" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="grdCircle" a1="goa + 3 / 4"/>
+	<output a0="gop3"/>
+</command>
+<element type="point3d" label="gop3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="3.1200380998526858" y="2.6242114654954296" z="0" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="grdCircle" a1="goa + 2 / 4"/>
+	<output a0="gop2"/>
+</command>
+<element type="point3d" label="gop2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="4.20338854069209" y="1.715172510151342" z="0" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Circle">
+	<input a0="(0, 1, 0)" a1="(0, 0, 1)" a2="(0, -1, 0)"/>
+	<output a0="gimbalRing"/>
+</command>
+<element type="conic3d" label="gimbalRing">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865476" A5="-0.7071067811865476"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Point">
+	<input a0="grdCircle" a1="goa + 1 / 4"/>
+	<output a0="gop1"/>
+</command>
+<element type="point3d" label="gop1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="3.294349585348002" y="0.6318220693119383" z="0" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="gimbalRing"/>
+	<output a0="P"/>
+</command>
+<element type="point3d" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="8"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(αScreen,cos⁻¹(|z(P)|))"/>
+	<coords x="0" y="0.7071067811865475" z="0.7071067811865477" w="1"/>
+	<pointSize val="3"/>
+	<caption val="Screen slope"/>
+</element>
+<expression label="O" exp="(0, 0, 0)" type="point"/>
+<element type="point3d" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="P"/>
+	<output a0="screenLine"/>
+</command>
+<element type="line3d" label="screenLine">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0.7071067811865475" vz="0.7071067811865477" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<element type="angle" label="αScreen">
+	<angleStyle val="3"/>
+	<value val="0.7853981633974483"/>
+	<slider min="0" max="1.5707963267948966" absoluteScreenLocation="true" width="180" x="15" y="81" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="11"/>
+	<objColor r="204" g="102" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="-28" y="-2"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="1°" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(P,(0,sin(αScreen),cos(αScreen)))&#xa;"/>
+	<caption val="Screen angle"/>
+</element>
+<command name="Plane">
+	<input a0="P" a1="xAxis"/>
+	<output a0="screen"/>
+</command>
+<element type="plane3d" label="screen">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="175" g="238" b="238" alpha="0.37"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="11"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-0.7071067811865477" z="0.7071067811865475" w="0"/>
+	<fading val="0.1"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+</element>
+<command name="Intersect">
+	<input a0="screenLine" a1="screen"/>
+	<output a0="F_{0}"/>
+</command>
+<element type="point3d" label="F_{0}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0.7071067811865475" z="0.7071067811865477" w="0"/>
+	<pointSize val="3"/>
+</element>
+<command name="InfiniteCone">
+	<input a0="O" a1="Vector[(0, 0, 1)]" a2="π / 2"/>
+	<output a0="f"/>
+</command>
+<element type="quadric" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0.2"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="NaN" A1="NaN" A2="NaN" A3="NaN" A4="NaN" A5="NaN" A6="NaN" A7="NaN" A8="NaN" A9="NaN"/>
+	<eqnStyle style="implicit"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="204" g="102" b="0" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="27" y="10"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="91" height="27" />
+	<caption val="Animation"/>
+</element>
+<element type="button" label="butSideView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="263"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(screenNorm)"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To Screen view"/>
+</element>
+<element type="button" label="butTopView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="296"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, 0, -1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To Ground view"/>
+</element>
+<element type="button" label="butSlantView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="361"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((-0.5, 1, -1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To slant view"/>
+</element>
+<element type="point" label="AnchorBottomLeft">
+	<show object="false" label="false" ev="11"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0.48" y="-8.36" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="AnchorTopRight" exp="(5.16, 3.92)" type="point"/>
+<element type="point" label="AnchorTopRight">
+	<show object="false" label="false" ev="11"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="5.16" y="3.92" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="Eye" a1="yAxis"/>
+	<output a0="grdVanishPointRay"/>
+</command>
+<element type="line3d" label="grdVanishPointRay">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="2.5" ow="1" vx="0" vy="1" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Intersect">
+	<input a0="grdVanishPointRay" a1="screenLine"/>
+	<output a0="grdVanishPoint"/>
+</command>
+<element type="point3d" label="grdVanishPoint">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2.499999999999999" z="2.5" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Line">
+	<input a0="grdVanishPoint" a1="xAxis"/>
+	<output a0="grdVanishLine"/>
+</command>
+<element type="line3d" label="grdVanishLine">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="2.499999999999999" oz="2.5" ow="1" vx="1" vy="0" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<caption val="$\scalebox{1.5}{Ground Horizon}$"/>
+</element>
+<element type="numeric" label="hEye">
+	<value val="2.5"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="-23" y="-23"/>
+	<labelMode val="9"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="200" x="172" y="419" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetCoords(Eye,0,0,hEye)"/>
+	<caption val="Eye&apos;h"/>
+</element>
+<command name="Line">
+	<input a0="Eye" a1="screenLine"/>
+	<output a0="scrVanishPointRay"/>
+</command>
+<element type="line3d" label="scrVanishPointRay">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="2.5" ow="1" vx="0" vy="0.7071067811865475" vz="0.7071067811865477" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Intersect">
+	<input a0="scrVanishPointRay" a1="yAxis"/>
+	<output a0="scrVanishPoint"/>
+</command>
+<element type="point3d" label="scrVanishPoint">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-2.4999999999999982" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Line">
+	<input a0="scrVanishPoint" a1="xAxis"/>
+	<output a0="scrVanishLine"/>
+</command>
+<element type="line3d" label="scrVanishLine">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-26" y="-1"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="-2.4999999999999982" oz="0" ow="1" vx="1" vy="0" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<caption val="$\scalebox{1.5}{Screen Horizon}$"/>
+</element>
+<command name="PointIn">
+	<input a0="screen"/>
+	<output a0="scrObjCenter"/>
+</command>
+<element type="point3d" label="scrObjCenter">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="5"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="-2.6" y="-1.0185449728701348" z="-1.018544972870135" w="1"/>
+	<pointSize val="3"/>
+	<caption val="$\scalebox{1}{Object.on.Screen}$"/>
+</element>
+<command name="Circle">
+	<input a0="scrObjCenter" a1="1" a2="screen"/>
+	<output a0="scrCircle"/>
+</command>
+<element type="conic3d" label="scrCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="gop1"/>
+	<output a0="gor1"/>
+</command>
+<element type="ray3d" label="gor1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="gor1" a1="screen"/>
+	<output a0="gip1"/>
+</command>
+<element type="point3d" label="gip1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.6297387849940743" y="0.5043566136012555" z="0.5043566136012556" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="gop2"/>
+	<output a0="gor2"/>
+</command>
+<element type="ray3d" label="gor2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="gor2" a1="screen"/>
+	<output a0="gip2"/>
+</command>
+<element type="point3d" label="gip2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.493010980315234" y="1.017261159549648" z="1.0172611595496484" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="gop3"/>
+	<output a0="gor3"/>
+</command>
+<element type="ray3d" label="gor3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="gor3" a1="screen"/>
+	<output a0="gip3"/>
+</command>
+<element type="point3d" label="gip3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.5222040117108182" y="1.2803001413807333" z="1.2803001413807336" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="gop4"/>
+	<output a0="gor4"/>
+</command>
+<element type="ray3d" label="gor4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="gor4" a1="screen"/>
+	<output a0="gip4"/>
+</command>
+<element type="point3d" label="gip4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.367901006133221" y="0.9532999373488662" z="0.953299937348866" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="gop5"/>
+	<output a0="gor5"/>
+</command>
+<element type="ray3d" label="gor5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="gor5" a1="screen"/>
+	<output a0="gip5"/>
+</command>
+<element type="point3d" label="gip5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.9069209868194024" y="0.6409722040678155" z="0.6409722040678156" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Conic">
+	<input a0="gip1" a1="gip2" a2="gip3" a3="gip4" a4="gip5"/>
+	<output a0="grdCircleImg"/>
+</command>
+<element type="conic3d" label="grdCircleImg">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="-0.6426515957381335" y0="-0.7661585517993196" z0="1.0" x1="0.7661585517993196" y1="-0.6426515957381335" z1="1.0"/>
+	<matrix A0="-1.2560192165424586" A1="-0.9888162925146814" A2="0" A3="0.7561214538013236" A4="0.4635530478814064" A5="-0.03621204883880247"/>
+	<eqnStyle style="parametric"/>
+</element>
+<expression label="grdSquare" exp="{Polygon[gop1, gop2, gop3, gop4]}" />
+<element type="list" label="grdSquare">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="grdSquareImg" exp="{Polygon[gip1, gip2, gip3, gip4]}" />
+<element type="list" label="grdSquareImg">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="153" b="204" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="gop1" a1="gop2"/>
+	<output a0="gol1"/>
+</command>
+<element type="line3d" label="gol1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="3.294349585348002" oy="0.6318220693119383" oz="0" ow="1" vx="0.9090389553440876" vy="1.0833504408394037" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gop2" a1="gop3"/>
+	<output a0="gol2"/>
+</command>
+<element type="line3d" label="gol2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="4.20338854069209" oy="1.715172510151342" oz="0" ow="1" vx="-1.083350440839404" vy="0.9090389553440876" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gop3" a1="gop4"/>
+	<output a0="gol3"/>
+</command>
+<element type="line3d" label="gol3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="3.1200380998526858" oy="2.6242114654954296" oz="0" ow="1" vx="-0.9090389553440876" vy="-1.083350440839404" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gop4" a1="gop1"/>
+	<output a0="gol4"/>
+</command>
+<element type="line3d" label="gol4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="2.210999144508598" oy="1.5408610246560257" oz="0" ow="1" vx="1.083350440839404" vy="-0.9090389553440874" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gip1" a1="gip2"/>
+	<output a0="gil1"/>
+</command>
+<element type="line3d" label="gil1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="2.6297387849940743" oy="0.5043566136012555" oz="0.5043566136012556" ow="1" vx="-0.1367278046788405" vy="0.5129045459483924" vz="0.5129045459483927" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gip2" a1="gip3"/>
+	<output a0="gil2"/>
+</command>
+<element type="line3d" label="gil2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="2.493010980315234" oy="1.017261159549648" oz="1.0172611595496484" ow="1" vx="-0.9708069686044156" vy="0.2630389818310854" vz="0.2630389818310852" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gip3" a1="gip4"/>
+	<output a0="gil3"/>
+</command>
+<element type="line3d" label="gil3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="1.5222040117108182" oy="1.2803001413807333" oz="1.2803001413807336" ow="1" vx="-0.15430300557759713" vy="-0.32700020403186714" vz="-0.3270002040318676" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="gip4" a1="gip1"/>
+	<output a0="gil4"/>
+</command>
+<element type="line3d" label="gil4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="1.367901006133221" oy="0.9532999373488662" oz="0.953299937348866" ow="1" vx="1.2618377788608532" vy="-0.4489433237476107" vz="-0.44894332374761037" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<element type="boolean" label="χRays">
+	<value val="false"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="115" y="164"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χObjects">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="164"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="angle" label="soα">
+	<angleStyle val="3"/>
+	<value val="0.017453292519943295"/>
+	<slider min="0" max="90°" absoluteScreenLocation="true" width="180" x="15" y="161" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="7"/>
+	<objColor r="0" g="102" b="153" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="1°" speed="1" type="0" playing="true"/>
+	<caption val="Screen object angle"/>
+</element>
+<expression label="soa" exp="soα / (360°)" />
+<element type="numeric" label="soa">
+	<value val="0.002777777777777778"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<command name="Point">
+	<input a0="scrCircle" a1="soa + 1 / 4"/>
+	<output a0="sop1"/>
+</command>
+<element type="point3d" label="sop1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.5825475935627167" y="-1.725544058268959" z="-1.7255440582689594" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="scrCircle" a1="soa + 2 / 4"/>
+	<output a0="sop2"/>
+</command>
+<element type="point3d" label="sop2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.6001523048436088" y="-1.006204257930308" z="-1.0062042579303083" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="scrCircle" a1="soa + 3 / 4"/>
+	<output a0="sop3"/>
+</command>
+<element type="point3d" label="sop3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.6174524064372835" y="-0.3115458874713106" z="-0.3115458874713106" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="scrCircle" a1="soa + 0 / 4"/>
+	<output a0="sop4"/>
+</command>
+<element type="point3d" label="sop4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-3.5998476951563916" y="-1.0308856878099617" z="-1.030885687809962" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Point">
+	<input a0="scrCircle" a1="soa + 1 / 8"/>
+	<output a0="sop5"/>
+</command>
+<element type="point3d" label="sop5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-3.2946583704589973" y="-1.5271950236669722" z="-1.5271950236669725" w="1"/>
+	<pointSize val="1"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="sop1"/>
+	<output a0="sor1"/>
+</command>
+<element type="ray3d" label="sor1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="sop2"/>
+	<output a0="sor2"/>
+</command>
+<element type="ray3d" label="sor2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="sop3"/>
+	<output a0="sor3"/>
+</command>
+<element type="ray3d" label="sor3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="sop4"/>
+	<output a0="sor4"/>
+</command>
+<element type="ray3d" label="sor4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Ray">
+	<input a0="Eye" a1="sop5"/>
+	<output a0="sor5"/>
+</command>
+<element type="ray3d" label="sor5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRays"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Intersect">
+	<input a0="sor1" a1="xOyPlane"/>
+	<output a0="sip1"/>
+</command>
+<element type="point3d" label="sip1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.527937916366612" y="-1.0209005245680998" z="0" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Intersect">
+	<input a0="sor2" a1="xOyPlane"/>
+	<output a0="sip2"/>
+</command>
+<element type="point3d" label="sip2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.140943444199233" y="-0.7174455507365852" z="0" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Intersect">
+	<input a0="sor3" a1="xOyPlane"/>
+	<output a0="sip3"/>
+</command>
+<element type="point3d" label="sip3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.32741391319724" y="-0.27702365525991235" z="0" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Intersect">
+	<input a0="sor4" a1="xOyPlane"/>
+	<output a0="sip4"/>
+</command>
+<element type="point3d" label="sip4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.548827697526795" y="-0.7299058784096253" z="0" w="1"/>
+	<pointSize val="2"/>
+</element>
+<expression label="scrSquare" exp="{Polygon[sop1, sop2, sop3, sop4]}" />
+<element type="list" label="scrSquare">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="χObjects"/>
+	<objColor r="0" g="153" b="255" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="scrSquareImg" exp="{Polygon[sip1, sip2, sip3, sip4]}" />
+<element type="list" label="scrSquareImg">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="sor5" a1="xOyPlane"/>
+	<output a0="sip5"/>
+</command>
+<element type="point3d" label="sip5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.0452562832796697" y="-0.9480513202688041" z="0" w="1"/>
+	<pointSize val="2"/>
+</element>
+<command name="Conic">
+	<input a0="sip1" a1="sip2" a2="sip3" a3="sip4" a4="sip5"/>
+	<output a0="scrCircleImg"/>
+</command>
+<element type="conic3d" label="scrCircleImg">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="-0.613063545299337" y0="0.7900336001873638" z0="1.0" x1="-0.7900336001873638" y1="-0.613063545299337" z1="1.0"/>
+	<matrix A0="-1.517267309410987" A1="-1.0415232917378212" A2="0" A3="-0.9279762553811296" A4="0.37308245859131595" A5="0.4830679647205876"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Line">
+	<input a0="sip1" a1="sip2"/>
+	<output a0="sil1"/>
+</command>
+<element type="line3d" label="sil1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="-1.527937916366612" oy="-1.0209005245680998" oz="0" ow="1" vx="0.38699447216737903" vy="0.30345497383151454" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sip2" a1="sip3"/>
+	<output a0="sil2"/>
+</command>
+<element type="line3d" label="sil2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="-1.140943444199233" oy="-0.7174455507365852" oz="0" ow="1" vx="-1.186470468998007" vy="0.4404218954766729" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sip3" a1="sip4"/>
+	<output a0="sil3"/>
+</command>
+<element type="line3d" label="sil3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="-2.32741391319724" oy="-0.27702365525991235" oz="0" ow="1" vx="-0.22141378432955516" vy="-0.45288222314971294" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sip4" a1="sip1"/>
+	<output a0="sil4"/>
+</command>
+<element type="line3d" label="sil4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="-2.548827697526795" oy="-0.7299058784096253" oz="0" ow="1" vx="1.0208897811601831" vy="-0.2909946461584745" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sop1" a1="sop2"/>
+	<output a0="sol1"/>
+</command>
+<element type="line3d" label="sol1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="-2.5825475935627167" oy="-1.725544058268959" oz="-1.7255440582689594" ow="1" vx="0.9823952887191079" vy="0.7193398003386509" vz="0.7193398003386511" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sop2" a1="sop3"/>
+	<output a0="sol2"/>
+</command>
+<element type="line3d" label="sol2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="-1.6001523048436088" oy="-1.006204257930308" oz="-1.0062042579303083" ow="1" vx="-1.0173001015936747" vy="0.6946583704589975" vz="0.6946583704589977" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sop3" a1="sop4"/>
+	<output a0="sol3"/>
+</command>
+<element type="line3d" label="sol3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="-2.6174524064372835" oy="-0.3115458874713106" oz="-0.3115458874713106" ow="1" vx="-0.9823952887191081" vy="-0.7193398003386511" vz="-0.7193398003386513" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="sop4" a1="sop1"/>
+	<output a0="sol4"/>
+</command>
+<element type="line3d" label="sol4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χObjLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="-3.5998476951563916" oy="-1.0308856878099617" oz="-1.030885687809962" ow="1" vx="1.017300101593675" vy="-0.6946583704589973" vz="-0.6946583704589975" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<element type="boolean" label="χObjLines">
+	<value val="false"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="16" y="195"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Vector">
+	<input a0="(0, z(P), (-y(P)))"/>
+	<output a0="screenNorm"/>
+</command>
+<element type="vector3d" label="screenNorm">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0.7071067811865477" z="-0.7071067811865475" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="329"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetActiveView(-1)&#xa;CenterView(O)&#xa;SetViewDirection(Vector((-1,0,0)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To side view"/>
+</element>
+</construction>
+</geogebra>

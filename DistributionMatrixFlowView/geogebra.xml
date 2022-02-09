@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="CC38C941-72E4-4D8C-BBDF-600EFA86A0F4"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.12492836676217765" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="1,3" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,3" size="279" window="100,100,700,550" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="501" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="218" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1519" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="483" height="735"/>
+	<coordSystem xZero="256.99999999999994" yZero="382.9999999999998" scale="49.99999999999998" yscale="49.99999999999998"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="217" height="775"/>
+	<coordSystem xZero="215.00000000000006" yZero="314.99999999999983" scale="50.000000000000014" yscale="49.999999999999986"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="-0.10326789521065267" yZero="-0.05386533188961268" zZero="-1.2664052794955105" scale="125.91917045320685" xAngle="35.264389682754654" zAngle="-135"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="true" label="Particle(Id)" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="State(Space)" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="true" label="Time" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="true"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="DistributionMatrixFlowView" author="" date="">
+<expression label="fExpM" exp="fExpM(x, y) = ℯ^((x * y))" type="function"/>
+<element type="functionnvar" label="fExpM">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="213" g="0" b="249" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fSin" exp="fSin(x, y) = sin(x + y)" type="function"/>
+<element type="functionnvar" label="fSin">
+	<show object="false" label="true" ev="11"/>
+	<objColor r="101" g="87" b="210" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fExp" exp="fExp(x, y) = ℯ^(x + y)" type="function"/>
+<element type="functionnvar" label="fExp">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="219" g="97" b="20" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fAdd" exp="fAdd(x, y) = x + y" type="function"/>
+<element type="functionnvar" label="fAdd">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fMul" exp="fMul(x, y) = (x * y)" type="function"/>
+<element type="functionnvar" label="fMul">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="213" g="0" b="249" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fPow" exp="fPow(x, y) = y^(x)" type="function"/>
+<element type="functionnvar" label="fPow">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="101" g="87" b="210" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fPol" exp="fPol(x, y) = x^(y)" type="function"/>
+<element type="functionnvar" label="fPol">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="219" g="97" b="20" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fSinM" exp="fSinM(x, y) = sin((x * y))" type="function"/>
+<element type="functionnvar" label="fSinM">
+	<show object="false" label="true" ev="11"/>
+	<objColor r="101" g="87" b="210" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="fSinCos" exp="fSinCos(x, y) = (sin(x) * cos(y))" type="function"/>
+<element type="functionnvar" label="fSinCos">
+	<show object="false" label="true" ev="11"/>
+	<objColor r="219" g="97" b="20" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<element type="angle" label="α">
+	<angleStyle val="3"/>
+	<value val="4.50294947014537"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="120" x="8" y="50" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="false" label="true" ev="7"/>
+	<objColor r="255" g="127" b="0" alpha="0.10000000149011612"/>
+	<bgColor r="255" g="127" b="0" alpha="127"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="butTop">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="122"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0,0,-1)))&#xa;"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="Distribution View"/>
+</element>
+<element type="button" label="butFront">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="160"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0,1,0)))"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="Matrix View"/>
+</element>
+<element type="button" label="butSide">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="197"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((-1,0,0)))"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="Flow View"/>
+</element>
+<element type="button" label="butSlant">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="16" y="235"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((1,1,-1)))"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="Whole View"/>
+</element>
+<command name="Point">
+	<input a0="zAxis"/>
+	<output a0="T"/>
+</command>
+<element type="point3d" label="T">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(time,z(T))"/>
+	<coords x="0" y="0" z="0.5" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="boolean" label="xSurface">
+	<value val="false"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="265"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Surface"/>
+</element>
+<element type="numeric" label="NP">
+	<value val="30"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="255" g="102" b="0" alpha="0.10000000149011612"/>
+	<bgColor r="255" g="102" b="0" alpha="102"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="4"/>
+	<labelMode val="1"/>
+	<slider min="10" max="100" absoluteScreenLocation="true" width="100" x="18" y="103" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="text1" exp="&quot;z = e^{xy}&quot;"/>
+<element type="text" label="text1">
+	<show object="false" label="false" ev="37"/>
+	<objColor r="0" g="100" b="100" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="true" sizeM="1.4" size="7" style="1"/>
+	<absoluteScreenLocation x="284" y="30"/>
+</element>
+<expression label="funcs" exp="{fAdd, fMul, fPol, fPow, fExp, fExpM, fSin, fSinCos, fSinM}" />
+<element type="list" label="funcs">
+	<show object="true" label="true" ev="11"/>
+	<objColor r="0" g="100" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelOffset x="10" y="10"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<selectedIndex val="4"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<caption val="Dist.f"/>
+</element>
+<command name="SelectedElement">
+	<input a0="funcs"/>
+	<output a0="f"/>
+</command>
+<element type="functionnvar" label="f">
+	<show object="false" label="true" ev="11"/>
+	<objColor r="204" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="xParticles">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="297"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Particles"/>
+</element>
+<element type="boolean" label="xStateSpace">
+	<value val="true"/>
+	<show object="false" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="369"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="State Space"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="xAxis"/>
+	<output a0="lParticles"/>
+</command>
+<element type="line3d" label="lParticles">
+	<show object="true" label="false" ev="7"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0.5" ow="1" vx="1" vy="0" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<element type="numeric" label="W">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<fixed val="true"/>
+</element>
+<command name="Surface">
+	<input a0="u" a1="f(u, v)" a2="v" a3="u" a4="(-W)" a5="W" a6="v" a7="(-W)" a8="W"/>
+	<output a0="Surf"/>
+</command>
+<element type="surfacecartesian3d" label="Surf">
+	<show object="true" label="false" ev="7"/>
+	<condition showObject="xSurface"/>
+	<objColor r="0" g="255" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="yAxis"/>
+	<output a0="lState"/>
+</command>
+<element type="line3d" label="lState">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0.5" ow="1" vx="0" vy="1" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Sequence">
+	<input a0="((W * k / NP), f((W * k / NP), z(T)), z(T))" a1="k" a2="(-NP)" a3="NP"/>
+	<output a0="Particles" randomResult="{(-5, 0.01110899653824231, 0.5), (-4.833333333333333, 0.01312372873694097, 0.5), (-4.666666666666667, 0.015503853599009318, 0.5), (-4.5, 0.018315638888734186, 0.5), (-4.333333333333334, 0.021637370719493086, 0.5), (-4.166666666666667, 0.025561533206507395, 0.5), (-4, 0.030197383422318508, 0.5), (-3.8333333333333335, 0.0356739933472524, 0.5), (-3.6666666666666665, 0.04214384350927641, 0.5), (-3.5, 0.04978706836786395, 0.5), (-3.333333333333333, 0.05881647164242992, 0.5), (-3.1666666666666665, 0.06948345122280156, 0.5), (-3, 0.08208499862389881, 0.5), (-2.833333333333333, 0.0969719678644051, 0.5), (-2.6666666666666665, 0.11455884399268774, 0.5), (-2.5, 0.1353352832366127, 0.5), (-2.3333333333333335, 0.1598797460796939, 0.5), (-2.166666666666667, 0.1888756028375618, 0.5), (-2, 0.22313016014842985, 0.5), (-1.8333333333333333, 0.2635971381157268, 0.5), (-1.6666666666666665, 0.31140322391459774, 0.5), (-1.5, 0.36787944117144233, 0.5), (-1.3333333333333333, 0.43459820850707825, 0.5), (-1.1666666666666667, 0.513417119032592, 0.5), (-1, 0.6065306597126334, 0.5), (-0.8333333333333333, 0.7165313105737893, 0.5), (-0.6666666666666666, 0.8464817248906141, 0.5), (-0.5, 1, 0.5), (-0.3333333333333333, 1.181360412865646, 0.5), (-0.16666666666666666, 1.3956124250860895, 0.5), (0, 1.6487212707001282, 0.5), (0.16666666666666666, 1.9477340410546757, 0.5), (0.3333333333333333, 2.3009758908928246, 0.5), (0.5, 2.718281828459045, 0.5), (0.6666666666666666, 3.21127054315356, 0.5), (0.8333333333333333, 3.793667894683177, 0.5), (1, 4.4816890703380645, 0.5), (1.1666666666666667, 5.29449005047003, 0.5), (1.3333333333333333, 6.254700951936328, 0.5), (1.5, 7.3890560989306495, 0.5), (1.6666666666666665, 8.72913836372013, 0.5), (1.8333333333333333, 10.312258501325761, 0.5), (2, 12.182493960703471, 0.5), (2.166666666666667, 14.391916095149897, 0.5), (2.3333333333333335, 17.002039940094015, 0.5), (2.5, 20.085536923187664, 0.5), (2.6666666666666665, 23.728258192205153, 0.5), (2.833333333333333, 28.03162489452612, 0.5), (3, 33.115451958692304, 0.5), (3.1666666666666665, 39.1212839981532, 0.5), (3.333333333333333, 46.216336215892454, 0.5), (3.5, 54.59815003314423, 0.5), (3.6666666666666665, 64.5000930648557, 0.5), (3.8333333333333335, 76.19785657297062, 0.5), (4, 90.01713130052178, 0.5), (4.166666666666667, 106.34267539816551, 0.5), (4.333333333333334, 125.62902691361423, 0.5), (4.5, 148.41315910257657, 0.5), (4.666666666666667, 175.3294309121147, 0.5), (4.833333333333333, 207.12724888983445, 0.5), (5, 244.69193226422033, 0.5)}"/>
+</command>
+<element type="list" label="Particles">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xParticles"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[(0, y(Particles(k + NP + 1)), z(T)), (x(Particles(k + NP + 1)), y(Particles(k + NP + 1)), z(T))]" a1="k" a2="(-NP)" a3="NP"/>
+	<output a0="vsParticles" randomResult="{(-5, 0, 0), (-4.833333333333333, 0, 0), (-4.666666666666667, 0, 0), (-4.5, 0, 0), (-4.333333333333334, 0, 0), (-4.166666666666667, 0, 0), (-4, 0, 0), (-3.8333333333333335, 0, 0), (-3.6666666666666665, 0, 0), (-3.5, 0, 0), (-3.333333333333333, 0, 0), (-3.1666666666666665, 0, 0), (-3, 0, 0), (-2.833333333333333, 0, 0), (-2.6666666666666665, 0, 0), (-2.5, 0, 0), (-2.3333333333333335, 0, 0), (-2.166666666666667, 0, 0), (-2, 0, 0), (-1.8333333333333333, 0, 0), (-1.6666666666666665, 0, 0), (-1.5, 0, 0), (-1.3333333333333333, 0, 0), (-1.1666666666666667, 0, 0), (-1, 0, 0), (-0.8333333333333333, 0, 0), (-0.6666666666666666, 0, 0), (-0.5, 0, 0), (-0.3333333333333333, 0, 0), (-0.16666666666666666, 0, 0), (0, 0, 0), (0.16666666666666666, 0, 0), (0.3333333333333333, 0, 0), (0.5, 0, 0), (0.6666666666666666, 0, 0), (0.8333333333333333, 0, 0), (1, 0, 0), (1.1666666666666667, 0, 0), (1.3333333333333333, 0, 0), (1.5, 0, 0), (1.6666666666666665, 0, 0), (1.8333333333333333, 0, 0), (2, 0, 0), (2.166666666666667, 0, 0), (2.3333333333333335, 0, 0), (2.5, 0, 0), (2.6666666666666665, 0, 0), (2.833333333333333, 0, 0), (3, 0, 0), (3.1666666666666665, 0, 0), (3.333333333333333, 0, 0), (3.5, 0, 0), (3.6666666666666665, 0, 0), (3.8333333333333335, 0, 0), (4, 0, 0), (4.166666666666667, 0, 0), (4.333333333333334, 0, 0), (4.5, 0, 0), (4.666666666666667, 0, 0), (4.833333333333333, 0, 0), (5, 0, 0)}"/>
+</command>
+<element type="list" label="vsParticles">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="xParDist"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[(x(Particles(k + NP + 1)), 0, z(T)), (x(Particles(k + NP + 1)), y(Particles(k + NP + 1)), z(T))]" a1="k" a2="(-NP)" a3="NP"/>
+	<output a0="vParticles" randomResult="{(0, 0.01110899653824231, 0), (0, 0.01312372873694097, 0), (0, 0.015503853599009318, 0), (0, 0.018315638888734186, 0), (0, 0.021637370719493086, 0), (0, 0.025561533206507395, 0), (0, 0.030197383422318508, 0), (0, 0.0356739933472524, 0), (0, 0.04214384350927641, 0), (0, 0.04978706836786395, 0), (0, 0.05881647164242992, 0), (0, 0.06948345122280156, 0), (0, 0.08208499862389881, 0), (0, 0.0969719678644051, 0), (0, 0.11455884399268774, 0), (0, 0.1353352832366127, 0), (0, 0.1598797460796939, 0), (0, 0.1888756028375618, 0), (0, 0.22313016014842985, 0), (0, 0.2635971381157268, 0), (0, 0.31140322391459774, 0), (0, 0.36787944117144233, 0), (0, 0.43459820850707825, 0), (0, 0.513417119032592, 0), (0, 0.6065306597126334, 0), (0, 0.7165313105737893, 0), (0, 0.8464817248906141, 0), (0, 1, 0), (0, 1.181360412865646, 0), (0, 1.3956124250860895, 0), (0, 1.6487212707001282, 0), (0, 1.9477340410546757, 0), (0, 2.3009758908928246, 0), (0, 2.718281828459045, 0), (0, 3.21127054315356, 0), (0, 3.793667894683177, 0), (0, 4.4816890703380645, 0), (0, 5.29449005047003, 0), (0, 6.254700951936328, 0), (0, 7.3890560989306495, 0), (0, 8.72913836372013, 0), (0, 10.312258501325761, 0), (0, 12.182493960703471, 0), (0, 14.391916095149897, 0), (0, 17.002039940094015, 0), (0, 20.085536923187664, 0), (0, 23.728258192205153, 0), (0, 28.03162489452612, 0), (0, 33.115451958692304, 0), (0, 39.1212839981532, 0), (0, 46.216336215892454, 0), (0, 54.59815003314423, 0), (0, 64.5000930648557, 0), (0, 76.19785657297062, 0), (0, 90.01713130052178, 0), (0, 106.34267539816551, 0), (0, 125.62902691361423, 0), (0, 148.41315910257657, 0), (0, 175.3294309121147, 0), (0, 207.12724888983445, 0), (0, 244.69193226422033, 0)}"/>
+</command>
+<element type="list" label="vParticles">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="xParState"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="u" a1="f(u, z(T))" a2="z(T)" a3="u" a4="(-W)" a5="W"/>
+	<output a0="cParticles"/>
+</command>
+<element type="curvecartesian3d" label="cParticles">
+	<show object="true" label="false" ev="7"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="xParState">
+	<value val="false"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="394"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Particles&apos; State"/>
+</element>
+<element type="boolean" label="xParDist">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="362"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Particles&apos; Distribution"/>
+</element>
+<element type="boolean" label="xParDens">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="330"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Particles&apos; Density"/>
+</element>
+<command name="Derivative">
+	<input a0="f" a1="x"/>
+	<output a0="f_{dx}"/>
+</command>
+<element type="functionnvar" label="f_{dx}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="1 / f_{dx}(u, z(T))" a1="f(u, z(T))" a2="z(T)" a3="u" a4="(-W)" a5="W"/>
+	<output a0="cDensity"/>
+</command>
+<element type="curvecartesian3d" label="cDensity">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xParDens"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="Derivative">
+	<input a0="f" a1="y"/>
+	<output a0="f_{dt}"/>
+</command>
+<element type="functionnvar" label="f_{dt}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<element type="numeric" label="time">
+	<value val="0.5"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-27" y="21"/>
+	<labelMode val="9"/>
+	<slider min="(-W)" max="W" absoluteScreenLocation="true" width="200" x="173" y="259" fixed="false" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="0.1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetCoords(T, 0,0,time)"/>
+	<caption val="T"/>
+</element>
+</construction>
+</geogebra>

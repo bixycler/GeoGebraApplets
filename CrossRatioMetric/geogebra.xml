@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="E1D6F882-CB5F-4BF4-B867-20BED6D25E20"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="794" height="542" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.3992443324937028" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="794" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="317" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="361" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="793" height="445"/>
+	<coordSystem xZero="238.3778251033058" yZero="455.3513908057852" scale="68.21374999999999" yscale="68.21374999999998"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="255" g="127" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="h" unitLabel="" tickStyle="0" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="CrossRatioMetric" author="" date="">
+<element type="point" label="V">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="N"/>
+</command>
+<element type="point" label="N">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="-1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript val="SetValue(ManMoves, Append(&quot;N&quot;,ManMoves\{&quot;N&quot;}))"/>
+	<ggbscript onUpdate="If(χHarmonic==false &amp;&amp; abs(x(N)-nh)&lt;εsnap,SetCoords(N,nh,0))&#xa;UpdateConstruction()&#xa;If(χHarmonic,SetCoords(P, ph, 0))&#xa;Execute(cmdmNPcClean)"/>
+	<coords x="-1" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="x(N) ≟ x(N)" a1="x(N)" a2="Infinity"/>
+	<output a0="n"/>
+</command>
+<element type="numeric" label="n">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="P"/>
+</command>
+<element type="point" label="P">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript val="SetValue(ManMoves, Append(&quot;P&quot;,ManMoves\{&quot;P&quot;}))"/>
+	<ggbscript onUpdate="If(χHarmonic==false &amp;&amp; abs(x(P)-ph)&lt;εsnap,SetCoords(P,ph,0))&#xa;UpdateConstruction()&#xa;If(χHarmonic,SetCoords(N, nh,0))&#xa;Execute(cmdmNPcClean)"/>
+	<coords x="1" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="x(P) ≟ x(P)" a1="x(P)" a2="Infinity"/>
+	<output a0="p"/>
+</command>
+<element type="numeric" label="p">
+	<value val="1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="I"/>
+</command>
+<element type="point" label="I">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript val="SetValue(ManMoves, Append(&quot;I&quot;,ManMoves\{&quot;I&quot;}))"/>
+	<ggbscript onUpdate="If(χHarmonic==false &amp;&amp; abs(x(I)-dh) &lt; εsnap, SetCoords(I,dh,0))&#xa;UpdateConstruction()&#xa;If(χHarmonic,SetCoords(E,eh,0))&#xa;Execute(cmdmNPcClean)"/>
+	<coords x="0.16666666666666666" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="x(I) ≟ x(I)" a1="x(I)" a2="Infinity"/>
+	<output a0="d"/>
+</command>
+<element type="numeric" label="d">
+	<value val="0.16666666666666666"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="E"/>
+</command>
+<element type="point" label="E">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-3" y="-6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript val="SetValue(ManMoves, Append(&quot;E&quot;,ManMoves\{&quot;E&quot;}))"/>
+	<ggbscript onUpdate="If(χHarmonic==false &amp;&amp; abs(x(E)-eh)&lt;εsnap,SetCoords(E,eh,0))&#xa;UpdateConstruction()&#xa;If(χHarmonic,SetCoords(I,dh,0))&#xa;Execute(cmdmNPcClean)"/>
+	<coords x="6" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="x(E) ≟ x(E)" a1="x(E)" a2="Infinity"/>
+	<output a0="e"/>
+</command>
+<element type="numeric" label="e">
+	<value val="6"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="abs(n) ≠ Infinity" a1="Line[V, N]" a2="Line[V, xAxis]"/>
+	<output a0="lVN"/>
+</command>
+<element type="line" label="lVN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="-1" z="4"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Point">
+	<input a0="lVN"/>
+	<output a0="N&apos;"/>
+</command>
+<element type="point" label="N&apos;">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.3737320183033349" y="2.5050719267866604" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="abs(p) ≠ Infinity" a1="Line[V, P]" a2="Line[V, xAxis]"/>
+	<output a0="lVP"/>
+</command>
+<element type="line" label="lVP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-1" y="18"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="1" z="-4"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Point">
+	<input a0="lVP"/>
+	<output a0="P&apos;"/>
+</command>
+<element type="point" label="P&apos;">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.5232248256246689" y="1.9071006975013245" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="N&apos;" a1="P&apos;"/>
+	<output a0="l"/>
+</command>
+<element type="line" label="l">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="-12"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<ggbscript onUpdate="SetValue(Parallels,1)"/>
+	<coords x="0.5979712292853359" y="0.8969568439280038" z="-2.023460414855071"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+	<caption val="$ℓ$"/>
+</element>
+<command name="If">
+	<input a0="abs(d) ≠ Infinity" a1="Line[V, I]" a2="Line[V, xAxis]"/>
+	<output a0="lVI"/>
+</command>
+<element type="line" label="lVI">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="18"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<ggbscript onUpdate="SetValue(Parallels,1)&#xa;SetValue(Perpendiculars,1)"/>
+	<coords x="4" y="0.16666666666666666" z="-0.6666666666666666"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="l" a1="lVI"/>
+	<output a0="I&apos;"/>
+</command>
+<element type="point" label="I&apos;">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.2607278268094907" y="7.695194173230061" z="3.488165504164459"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+</element>
+<command name="If">
+	<input a0="abs(e) ≠ Infinity" a1="Line[V, E]" a2="Line[V, xAxis]"/>
+	<output a0="lVE"/>
+</command>
+<element type="line" label="lVE">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<ggbscript onUpdate="SetValue(Parallels,1)&#xa;SetValue(Perpendiculars,1)"/>
+	<coords x="4" y="6" z="-24"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="l" a1="lVE"/>
+	<output a0="E&apos;"/>
+</command>
+<element type="point" label="E&apos;">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-9.386201765141664" y="6.257467843427776" z="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+</element>
+<command name="Angle">
+	<input a0="N" a1="V" a2="P"/>
+	<output a0="View"/>
+</command>
+<element type="angle" label="View">
+	<angleStyle val="0"/>
+	<value val="0.4899573262537283"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0.57"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="191"/>
+	<arcSize val="30"/>
+</element>
+<element type="boolean" label="χHarmonic">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="4" y="17"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χHarmonic, If(ManMoves(1)==&quot;N&quot;, SetCoords(N,nh,0), If(ManMoves(1)==&quot;P&quot;, SetCoords(P,ph,0), If(ManMoves(1)==&quot;E&quot;, SetCoords(E,eh,0), If(ManMoves(1)==&quot;I&quot;, SetCoords(I,dh,0), 0)))), 0)&#xa;RunUpdateScript(cr)"/>
+</element>
+<element type="boolean" label="χMetric">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="49"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χMetric==false, SetValue(NMetric,1), SetValue(NMetric,NMetricDefault))"/>
+</element>
+<element type="button" label="butReset">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="43" y="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetCoords(N, -1,0)&#xa;SetCoords(P, 1,0)&#xa;SetCoords(I, 0.5,0)&#xa;SetCoords(E, 6,0)&#xa;SetCoords(V, 0,4)&#xa;SetCoords(P&apos;, (2 x(P)+x(V))/3,(2 y(P)+y(V))/3)&#xa;SetCoords(N&apos;, (x(N)+x(V))/2,(y(N)+y(V))/2)"/>
+	<caption val="Reset"/>
+</element>
+<expression label="txtMovables" exp="&quot;Movables: h(N, P, I, E), V, ℓ(N&apos;, P&apos;)&quot;"/>
+<element type="text" label="txtMovables">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="99" y="22"/>
+</element>
+<element type="numeric" label="NMetric">
+	<value val="10"/>
+	<show object="true" label="true"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-29" y="4"/>
+	<labelMode val="9"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="50" x="111" y="70" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<caption val="N"/>
+</element>
+<expression label="ω" exp="10^(10)"/>
+<element type="numeric" label="ω">
+	<value val="10000000000"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="εsnap">
+	<value val="0.1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="ε">
+	<value val="0.01"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="If">
+	<input a0="n ≠ n ∨ abs(n) ≟ Infinity" a1="(2 * p) - e" a2="If[p ≠ p ∨ abs(p) ≟ Infinity, (2 * n) - e, If[e ≠ e ∨ abs(e) ≟ Infinity, (n + p) / 2, (((2 * n) * p) - ((n + p) * e)) / (n + p - (2 * e))]]"/>
+	<output a0="dh"/>
+</command>
+<element type="numeric" label="dh">
+	<value val="0.16666666666666666"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="n ≠ n ∨ abs(n) ≟ Infinity" a1="(2 * p) - d" a2="If[p ≠ p ∨ abs(p) ≟ Infinity, (2 * n) - d, If[d ≠ d ∨ abs(d) ≟ Infinity, (n + p) / 2, (((2 * n) * p) - ((n + p) * d)) / (n + p - (2 * d))]]"/>
+	<output a0="eh"/>
+</command>
+<element type="numeric" label="eh">
+	<value val="6"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="e ≠ e ∨ abs(e) ≟ Infinity" a1="(2 * d) - p" a2="If[d ≠ d ∨ abs(d) ≟ Infinity, (2 * e) - p, If[p ≠ p ∨ abs(p) ≟ Infinity, (d + e) / 2, (((2 * d) * e) - ((d + e) * p)) / (e + d - (2 * p))]]"/>
+	<output a0="nh"/>
+</command>
+<element type="numeric" label="nh">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="e ≠ e ∨ abs(e) ≟ Infinity" a1="(2 * d) - n" a2="If[d ≠ d ∨ abs(d) ≟ Infinity, (2 * e) - n, If[n ≠ n ∨ abs(n) ≟ Infinity, (d + e) / 2, (((2 * d) * e) - ((d + e) * n)) / (d + e - (2 * n))]]"/>
+	<output a0="ph"/>
+</command>
+<element type="numeric" label="ph">
+	<value val="1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="dr" exp="1 / (p - e) - 1 / (n - e)" />
+<element type="numeric" label="dr">
+	<value val="-0.05714285714285716"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="dl" exp="(e - p) / (e - n)" />
+<element type="numeric" label="dl">
+	<value val="0.7142857142857143"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="e ≠ e ∨ abs(e) ≟ Infinity" a1="(d - p) / (d - n)" a2="If[d ≠ d ∨ abs(d) ≟ Infinity, (e - n) / (e - p), If[p ≠ p ∨ abs(p) ≟ Infinity, (e - n) / (d - n), If[n ≠ n ∨ abs(n) ≟ Infinity, (d - p) / (e - p), (((e - n) * (d - p))) / (((d - n) * (e - p)))]]]"/>
+	<output a0="cr"/>
+</command>
+<element type="numeric" label="cr">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<ggbscript onUpdate="If(cr==-1, SetColor(χHarmonic,&quot;red&quot;), SetColor(χHarmonic,&quot;black&quot;))"/>
+</element>
+<expression label="vU&apos;" exp="Vector[N&apos;, P&apos;] / abs(Vector[N&apos;, P&apos;])" type="vector" />
+<element type="vector" label="vU&apos;">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8320502943378436" y="-0.554700196225229" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+</element>
+<command name="If">
+	<input a0="x(N&apos;) ≟ x(N&apos;) ∧ x(E&apos;) ≟ x(E&apos;)" a1="(Vector[N&apos;, E&apos;] * vU&apos;)" a2="Infinity"/>
+	<output a0="mN&apos;E&apos;"/>
+</command>
+<element type="numeric" label="mN&apos;E&apos;">
+	<value val="Infinity"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="x(N&apos;) ≟ x(N&apos;) ∧ x(I&apos;) ≟ x(I&apos;)" a1="(Vector[N&apos;, I&apos;] * vU&apos;)" a2="Infinity"/>
+	<output a0="mN&apos;I&apos;"/>
+</command>
+<element type="numeric" label="mN&apos;I&apos;">
+	<value val="0.539003982110128"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="x(P&apos;) ≟ x(P&apos;) ∧ x(E&apos;) ≟ x(E&apos;)" a1="(Vector[P&apos;, E&apos;] * vU&apos;)" a2="Infinity"/>
+	<output a0="mP&apos;E&apos;"/>
+</command>
+<element type="numeric" label="mP&apos;E&apos;">
+	<value val="Infinity"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="x(P&apos;) ≟ x(P&apos;) ∧ x(I&apos;) ≟ x(I&apos;)" a1="(Vector[P&apos;, I&apos;] * vU&apos;)" a2="Infinity"/>
+	<output a0="mP&apos;I&apos;"/>
+</command>
+<element type="numeric" label="mP&apos;I&apos;">
+	<value val="-0.539003982110128"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="x(E&apos;) ≠ x(E&apos;) ∨ abs(x(E&apos;)) ≟ Infinity" a1="mP&apos;I&apos; / mN&apos;I&apos;" a2="If[x(I&apos;) ≠ x(I&apos;) ∨ abs(x(I&apos;)) ≟ Infinity, mN&apos;E&apos; / mP&apos;E&apos;, If[x(N&apos;) ≠ x(N&apos;) ∨ abs(x(N&apos;)) ≟ Infinity, mP&apos;I&apos; / mP&apos;E&apos;, If[x(P&apos;) ≠ x(P&apos;) ∨ abs(x(P&apos;)) ≟ Infinity, mN&apos;E&apos; / mN&apos;I&apos;, ((mN&apos;E&apos; * mP&apos;I&apos;)) / ((mN&apos;I&apos; * mP&apos;E&apos;))]]]"/>
+	<output a0="cr&apos;"/>
+</command>
+<element type="numeric" label="cr&apos;">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="txtVars" exp="&quot;n = &quot; + n + &quot;, p = &quot; + p + &quot;; d=&quot; + d + &quot;, e=&quot; + e + &quot;&quot;" />
+<element type="text" label="txtVars">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<absoluteScreenLocation x="350" y="22"/>
+</element>
+<expression label="txtCrossRatio" exp="&quot;(N,P;E,I)=\frac{NE\cdot PI}{NI\cdot PE}=&quot; + (LaTeX[cr]) + &quot;=\frac{&quot; + (LaTeX[e - n]) + &quot;\times&quot; + (LaTeX[d - p]) + &quot;}{&quot; + (LaTeX[d - n]) + &quot;\times&quot; + (LaTeX[e - p]) + &quot;}&quot;" />
+<element type="text" label="txtCrossRatio">
+	<show object="true" label="false"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="330" y="26"/>
+</element>
+<expression label="txtCrossRatio&apos;" exp="&quot;(N&apos;,P&apos;;E&apos;,I&apos;)=\frac{N&apos;E&apos;\cdot P&apos;I&apos;}{N&apos;I&apos;\cdot P&apos;E&apos;}=&quot; + (LaTeX[cr&apos;]) + &quot;=\frac{&quot; + (LaTeX[mN&apos;E&apos;]) + &quot;\times&quot; + (LaTeX[mP&apos;I&apos;]) + &quot;}{&quot; + (LaTeX[mN&apos;I&apos;]) + &quot;\times&quot; + (LaTeX[mP&apos;E&apos;]) + &quot;}&quot;" />
+<element type="text" label="txtCrossRatio&apos;">
+	<show object="true" label="false"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="299" y="78"/>
+</element>
+<expression label="ManMoves" exp="{&quot;I&quot;, &quot;P&quot;, &quot;E&quot;, &quot;N&quot;}"/>
+<element type="list" label="ManMoves">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Metrics" exp="{&quot;Perspective&quot;, &quot;Exponential&quot;, &quot;Growth&quot;}"/>
+<element type="list" label="Metrics">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="30" y="80"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="Parallels" exp="{&quot;Make Para∥el&quot;, &quot;ℓ ∥ VE&quot;, &quot;ℓ ∥ VI&quot;}"/>
+<element type="list" label="Parallels">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="160" y="40"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(SelectedElement(Parallels)==&quot;ℓ ∥ VE&quot;, SetCoords(P&apos;,x(P&apos;p),y(P&apos;p)), If(SelectedElement(Parallels)==&quot;ℓ ∥ VI&quot;, SetCoords(N&apos;,x(N&apos;p),y(N&apos;p)), 0))"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<selectedIndex val="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="Perpendiculars" exp="{&quot;Perpendicular&quot;, &quot;VI ⊥ VE&quot;}"/>
+<element type="list" label="Perpendiculars">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="160" y="70"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(SelectedElement(Perpendiculars)==&quot;VI ⊥ VE&quot;, SetCoords(V,x(Vp),y(Vp)), 0)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<command name="Line">
+	<input a0="N&apos;" a1="lVE"/>
+	<output a0="lEParallel"/>
+</command>
+<element type="line" label="lEParallel">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="6" z="-13.535503487506622"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="P&apos;" a1="lVI"/>
+	<output a0="lIParallel"/>
+</command>
+<element type="line" label="lIParallel">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="0.16666666666666666" z="-2.410749418748896"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="I" a1="lVE"/>
+	<output a0="lIPerpendicular"/>
+</command>
+<element type="line" label="lIPerpendicular">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-6" y="4" z="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lEParallel" a1="lVP"/>
+	<output a0="P&apos;p"/>
+</command>
+<element type="point" label="P&apos;p">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="10.464496512493378" y="38.14201395002649" z="20"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="lIPerpendicular" a1="lVE"/>
+	<output a0="Vp"/>
+</command>
+<element type="point" label="Vp">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="102" y="140" z="52"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="lIParallel" a1="lVN"/>
+	<output a0="N&apos;p"/>
+</command>
+<element type="point" label="N&apos;p">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.7440827520822295" y="25.642997674995584" z="4.666666666666667"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="cE&apos;Center" exp="abs(N&apos; - E&apos;) ≟ abs(P&apos; - E&apos;)" />
+<element type="boolean" label="cE&apos;Center">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cE&apos;NearCenter" exp="abs(abs(N&apos; - E&apos;) - abs(P&apos; - E&apos;)) &lt; ε" />
+<element type="boolean" label="cE&apos;NearCenter">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cECenter" exp="abs(e - n) ≟ abs(e - p)" />
+<element type="boolean" label="cECenter">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cI&apos;Center" exp="abs(N&apos; - I&apos;) ≟ abs(P&apos; - I&apos;)" />
+<element type="boolean" label="cI&apos;Center">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cI&apos;NearCenter" exp="abs(abs(N&apos; - I&apos;) - abs(P&apos; - I&apos;)) &lt; ε" />
+<element type="boolean" label="cI&apos;NearCenter">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cICenter" exp="abs(d - n) ≟ abs(d - p)" />
+<element type="boolean" label="cICenter">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Segment">
+	<input a0="N&apos;" a1="E&apos;"/>
+	<output a0="seN&apos;E&apos;"/>
+</command>
+<element type="segment" label="seN&apos;E&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cE&apos;Center"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="-6.257467843427776" y="-9.386201765141664" z="21.174494454419303"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N&apos;" a1="I&apos;"/>
+	<output a0="seN&apos;I&apos;"/>
+</command>
+<element type="segment" label="seN&apos;I&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cI&apos;Center"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="0.29898561464266793" y="0.4484784219640019" z="-1.0117302074275358"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="E"/>
+	<output a0="seNE"/>
+</command>
+<element type="segment" label="seNE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cECenter"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="0" y="7" z="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="I"/>
+	<output a0="seNI"/>
+</command>
+<element type="segment" label="seNI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cICenter"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="0" y="1.1666666666666667" z="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P&apos;" a1="E&apos;"/>
+	<output a0="seP&apos;E&apos;"/>
+</command>
+<element type="segment" label="seP&apos;E&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cE&apos;Center"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="-6.257467843427776" y="-9.386201765141664" z="21.1744944544193"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P&apos;" a1="I&apos;"/>
+	<output a0="seP&apos;I&apos;"/>
+</command>
+<element type="segment" label="seP&apos;I&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cI&apos;Center"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="-0.29898561464266793" y="-0.4484784219640019" z="1.0117302074275356"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="E"/>
+	<output a0="sePE"/>
+</command>
+<element type="segment" label="sePE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cECenter"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="0" y="5" z="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="I"/>
+	<output a0="sePI"/>
+</command>
+<element type="segment" label="sePI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cICenter"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="2"/>
+	<coords x="0" y="-0.8333333333333334" z="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N&apos;" a1="E&apos;"/>
+	<output a0="ssN&apos;E&apos;"/>
+</command>
+<element type="segment" label="ssN&apos;E&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cE&apos;NearCenter"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="1"/>
+	<coords x="-6.257467843427776" y="-9.386201765141664" z="21.174494454419303"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="N&apos;" a1="I&apos;"/>
+	<output a0="ssN&apos;I&apos;"/>
+</command>
+<element type="segment" label="ssN&apos;I&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cI&apos;NearCenter"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="1"/>
+	<coords x="0.29898561464266793" y="0.4484784219640019" z="-1.0117302074275358"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P&apos;" a1="E&apos;"/>
+	<output a0="ssP&apos;E&apos;"/>
+</command>
+<element type="segment" label="ssP&apos;E&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cE&apos;NearCenter"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="1"/>
+	<coords x="-6.257467843427776" y="-9.386201765141664" z="21.1744944544193"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P&apos;" a1="I&apos;"/>
+	<output a0="ssP&apos;I&apos;"/>
+</command>
+<element type="segment" label="ssP&apos;I&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="cI&apos;NearCenter"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<decoration type="1"/>
+	<coords x="-0.29898561464266793" y="-0.4484784219640019" z="1.0117302074275356"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Circle">
+	<input a0="V" a1="N&apos;" a2="P&apos;"/>
+	<output a0="circ"/>
+</command>
+<element type="conic" label="circ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric ∧ χMetricCircle"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.375866826611972" A3="0" A4="-0.6353444311156697" A5="-3.0469833533264965"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Intersect">
+	<input a0="circ" a1="lVE" a2="1"/>
+	<output a0="Ec1"/>
+</command>
+<element type="point" label="Ec1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="4" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="circ" a1="lVE" a2="2"/>
+	<output a0="Ec2"/>
+</command>
+<element type="point" label="Ec2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.7594153477049308" y="2.8270564348633798" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="circ" a1="lVI" a2="1"/>
+	<output a0="Ic1"/>
+</command>
+<element type="point" label="Ic1">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="4" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="circ" a1="lVI" a2="2"/>
+	<output a0="Ic2"/>
+</command>
+<element type="point" label="Ic2">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.08148264801136829" y="2.044416447727161" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="Ic1 ≠ V" a1="Ic1" a2="Ic2"/>
+	<output a0="Ic"/>
+</command>
+<element type="point" label="Ic">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric ∧ χMetricCircle"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-11" y="28"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.08148264801136829" y="2.044416447727161" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+	<caption val="I_c(0)"/>
+</element>
+<command name="If">
+	<input a0="Ec1 ≠ V" a1="Ec1" a2="Ec2"/>
+	<output a0="Ec"/>
+</command>
+<element type="point" label="Ec">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric ∧ χMetricCircle"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.7594153477049308" y="2.8270564348633798" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+	<caption val="E_c(∞)"/>
+</element>
+<expression label="Nh" exp="(nh, 0)" type="point" />
+<element type="point" label="Nh">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="29"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1" y="0" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="10"/>
+	<caption val="N_h"/>
+</element>
+<expression label="Ph" exp="(ph, 0)" type="point" />
+<element type="point" label="Ph">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-1" y="28"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="1" y="0" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="10"/>
+	<caption val="P_h"/>
+</element>
+<expression label="Eh" exp="(eh, 0)" type="point" />
+<element type="point" label="Eh">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="29"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="6" y="0" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="10"/>
+	<caption val="E_h"/>
+</element>
+<expression label="Ih" exp="(dh, 0)" type="point" />
+<element type="point" label="Ih">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="30"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.16666666666666666" y="0" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="10"/>
+	<caption val="I_h"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="Nh"/>
+	<output a0="lVNh"/>
+</command>
+<element type="line" label="lVNh">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="-1" z="4"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="Ph"/>
+	<output a0="lVPh"/>
+</command>
+<element type="line" label="lVPh">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="1" z="-4"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="Eh"/>
+	<output a0="lVEh"/>
+</command>
+<element type="line" label="lVEh">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="191" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="6" z="-24"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="Ih"/>
+	<output a0="lVIh"/>
+</command>
+<element type="line" label="lVIh">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="191" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4" y="0.16666666666666666" z="-0.6666666666666666"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Sequence">
+	<input a0="1 / (n - e) - (k * dr)" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mixn" randomResult="{-0.08571428571428569, -0.028571428571428525, 0.028571428571428636, 0.0857142857142858, 0.14285714285714296, 0.20000000000000012, 0.2571428571428573, 0.31428571428571445, 0.3714285714285716, 0.42857142857142877}"/>
+</command>
+<element type="list" label="mixn">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="1 / (n - e) + (k * dr)" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mixp" randomResult="{-0.2, -0.2571428571428572, -0.31428571428571433, -0.3714285714285715, -0.42857142857142866, -0.4857142857142858, -0.5428571428571429, -0.6000000000000001, -0.6571428571428573, -0.7142857142857144}"/>
+</command>
+<element type="list" label="mixp">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, n + (k * (n - p)), 1 / mixn(k) + e]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mpxn" randomResult="{-5.66666666666667, -29.000000000000057, 40.99999999999992, 17.666666666666657, 12.999999999999995, 10.999999999999996, 9.888888888888886, 9.18181818181818, 8.692307692307692, 8.333333333333332}"/>
+</command>
+<element type="list" label="mpxn">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, n - (k * (n - p)), 1 / mixp(k) + e]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mpxp" randomResult="{1, 2.1111111111111116, 2.818181818181819, 3.3076923076923084, 3.666666666666667, 3.941176470588236, 4.157894736842105, 4.333333333333334, 4.478260869565218, 4.6000000000000005}"/>
+</command>
+<element type="list" label="mpxp">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="NMetricDefault">
+	<value val="10"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, n - (k * (p - n)), If[n ≠ n ∨ abs(n) ≟ Infinity, ω, If[p ≠ p ∨ abs(p) ≟ Infinity, e, e - ((e - n) * dl^((-k)))]]]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mexn" randomResult="{-3.799999999999999, -7.719999999999999, -13.207999999999998, -20.891199999999998, -31.647679999999994, -46.706751999999994, -67.78945279999999, -97.30523391999998, -138.62732748799996, -196.47825848319997}"/>
+</command>
+<element type="list" label="mexn">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, n + (k * (p - n)), If[n ≠ n ∨ abs(n) ≟ Infinity, e, If[p ≠ p ∨ abs(p) ≟ Infinity, ω, e - ((e - n) * dl^(k))]]]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mexp" randomResult="{1, 2.4285714285714284, 3.4489795918367343, 4.177842565597667, 4.698458975426906, 5.070327839590647, 5.335948456850462, 5.525677469178901, 5.661198192270644, 5.757998708764745}"/>
+</command>
+<element type="list" label="mexp">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, d - ((d - n) * cr^((-k))), If[d ≠ d ∨ abs(d) ≟ Infinity, e - (e - n) / cr^((-k)), If[n ≠ n ∨ abs(n) ≟ Infinity, e + (d - e) / (1 - cr^((-k))), If[p ≠ p ∨ abs(p) ≟ Infinity, d + (e - d) / (1 - 1 / cr^((-k))), e + (d - e) / (1 - ((d - n) / (e - n) * cr^((-k))))]]]]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mgxn" randomResult="{1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1}"/>
+</command>
+<element type="list" label="mgxn">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[e ≠ e ∨ abs(e) ≟ Infinity, d - ((d - n) * cr^(k)), If[d ≠ d ∨ abs(d) ≟ Infinity, e - (e - n) / cr^(k), If[n ≠ n ∨ abs(n) ≟ Infinity, e + (d - e) / (1 - cr^(k)), If[p ≠ p ∨ abs(p) ≟ Infinity, d + (e - d) / (1 - 1 / cr^(k)), e + (d - e) / (1 - ((d - n) / (e - n) * cr^(k)))]]]]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mgxp" randomResult="{1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1, 1.0000000000000009, -1}"/>
+</command>
+<element type="list" label="mgxp">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(If[SelectedElement[Metrics] ≟ &quot;Perspective&quot;, mpxn(k), If[SelectedElement[Metrics] ≟ &quot;Exponential&quot;, mexn(k), mgxn(k)]], 0)" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mN" randomResult="{(-5.66666666666667, 0), (-29.000000000000057, 0), (40.99999999999992, 0), (17.666666666666657, 0), (12.999999999999995, 0), (10.999999999999996, 0), (9.888888888888886, 0), (9.18181818181818, 0), (8.692307692307692, 0), (8.333333333333332, 0)}"/>
+</command>
+<element type="list" label="mN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(If[SelectedElement[Metrics] ≟ &quot;Perspective&quot;, mpxp(k), If[SelectedElement[Metrics] ≟ &quot;Exponential&quot;, mexp(k), mgxp(k)]], 0)" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mP" randomResult="{(1, 0), (2.1111111111111116, 0), (2.818181818181819, 0), (3.3076923076923084, 0), (3.666666666666667, 0), (3.941176470588236, 0), (4.157894736842105, 0), (4.333333333333334, 0), (4.478260869565218, 0), (4.6000000000000005, 0)}"/>
+</command>
+<element type="list" label="mP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="255" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="1"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Line[V, mN(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mVN" randomResult="{4x - 5.66666666666667y = -22.66666666666668, 4x - 29.000000000000057y = -116.00000000000023, 4x + 40.99999999999992y = 163.9999999999997, 4x + 17.666666666666657y = 70.66666666666663, 4x + 12.999999999999995y = 51.99999999999998, 4x + 10.999999999999996y = 43.999999999999986, 4x + 9.888888888888886y = 39.55555555555554, 4x + 9.18181818181818y = 36.72727272727272, 4x + 8.692307692307692y = 34.76923076923077, 4x + 8.333333333333332y = 33.33333333333333}"/>
+</command>
+<element type="list" label="mVN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Line[V, mP(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mVP" randomResult="{4x + y = 4, 4x + 2.1111111111111116y = 8.444444444444446, 4x + 2.818181818181819y = 11.272727272727275, 4x + 3.3076923076923084y = 13.230769230769234, 4x + 3.666666666666667y = 14.666666666666668, 4x + 3.941176470588236y = 15.764705882352944, 4x + 4.157894736842105y = 16.63157894736842, 4x + 4.333333333333334y = 17.333333333333336, 4x + 4.478260869565218y = 17.91304347826087, 4x + 4.6000000000000005y = 18.400000000000002}"/>
+</command>
+<element type="list" label="mVP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="255" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[l, mVP(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mP&apos;" randomResult="{(0.523224825624669, 1.9071006975013243), (1.4201816695526732, 1.309129468215988), (2.317138513480678, 0.7111582389306519), (3.2140953574086826, 0.1131870096453155), (4.111052201336686, -0.48478421964002), (5.008009045264691, -1.0827554489253566), (5.904965889192693, -1.6807266782106904), (6.8019227331206995, -2.278697907496029), (7.698879577048702, -2.8766691367813664), (8.595836420976713, -3.474640366066704)}"/>
+</command>
+<element type="list" label="mP&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="3"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[l, mVN(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mN&apos;" randomResult="{(-1.270688862231339, 3.103043156071996), (-2.1676457061593433, 3.7010143853573325), (-3.064602550087348, 4.298985614642668), (-3.961559394015351, 4.896956843928004), (-4.858516237943357, 5.494928073213341), (-5.75547308187136, 6.092899302498677), (-6.652429925799364, 6.690870531784014), (-7.549386769727369, 7.28884176106935), (-8.446343613655372, 7.886812990354685), (-9.343300457583377, 8.484784219640021)}"/>
+</command>
+<element type="list" label="mN&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="10"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="χMetricCircle">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<condition showObject="χMetric"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="95"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="cmdmNPc12" exp="{&quot;mNc1=Sequence(Intersect(circ,mVN(k),1),k,1,NMetric)&quot;, &quot;SetVisibleInView(mNc1,1,false)&quot;, &quot;mNc2=Sequence(Intersect(circ,mVN(k),2),k,1,NMetric)&quot;, &quot;SetVisibleInView(mNc2,1,false)&quot;, &quot;mPc1=Sequence(Intersect(circ,mVP(k),1),k,1,NMetric)&quot;, &quot;SetVisibleInView(mPc1,1,false)&quot;, &quot;mPc2=Sequence(Intersect(circ,mVP(k),2),k,1,NMetric)&quot;, &quot;SetVisibleInView(mPc2,1,false)&quot;}"/>
+<element type="list" label="cmdmNPc12">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="cmdmNPc" exp="{&quot;mNc=Sequence(If(mNc1(k)≠V,mNc1(k),mNc2(k)),k,1,NMetric)&quot;, &quot;SetColor(mNc,0,0,0)&quot;, &quot;SetPointSize(mNc,4)&quot;, &quot;mPc=Sequence(If(mPc1(k)≠V,mPc1(k),mPc2(k)),k,1,NMetric)&quot;, &quot;SetPointStyle(mPc,4)&quot;, &quot;SetColor(mPc,0,0,0)&quot;, &quot;SetPointSize(mPc,4)&quot;}"/>
+<element type="list" label="cmdmNPc">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="cmdmNPcClean" exp="{&quot;Delete(mNc1)&quot;, &quot;Delete(mNc2)&quot;, &quot;Delete(mPc1)&quot;, &quot;Delete(mPc2)&quot;}"/>
+<element type="list" label="cmdmNPcClean">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<condition showObject="χMetric ∧ χMetricCircle"/>
+	<objColor r="127" g="0" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelOffset x="154" y="98"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="Execute(cmdmNPc12)&#xa;Execute(cmdmNPc)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Markers on circle"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[circ, mVN(k), 1]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mNc1" randomResult="{(0, 4), (0.9889725450505301, 4.136410006213866), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4), (0, 4)}"/>
+</command>
+<element type="list" label="mNc1">
+	<show object="true" label="false" ev="1"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[circ, mVN(k), 2]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mNc2" randomResult="{(-0.049888477270051294, 3.9647846042799637), (0, 4), (1.442909509440066, 3.8592283405424324), (1.619235417736718, 3.6333806601350824), (1.6965413457899499, 3.477987278218477), (1.7344439214398568, 3.3692931194764153), (1.7545901214731747, 3.290278153111974), (1.7658984130556141, 3.230697721045079), (1.7724602671452847, 3.1843545673313733), (1.7763205811426388, 3.147366121051533)}"/>
+</command>
+<element type="list" label="mNc2">
+	<show object="true" label="false" ev="1"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[circ, mVP(k), 1]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mPc1" randomResult="{(0, 4), (-8.881784197001252E-16, 4.000000000000002), (-4.440892098500626E-16, 4.000000000000001), (0, 4), (0, 4), (8.881784197001252E-16, 3.999999999999999), (0, 4), (0, 4), (0, 4), (0, 4)}"/>
+</command>
+<element type="list" label="mPc1">
+	<show object="true" label="false" ev="1"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Intersect[circ, mVP(k), 2]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mPc2" randomResult="{(0.5232248256246685, 1.9071006975013256), (1.0636363620488034, 1.9846889982233202), (1.3189373174765746, 2.1279599364848623), (1.4520962332944551, 2.2439766481090313), (1.5296216869879133, 2.3313217960131856), (1.578844506424388, 2.3975906501961437), (1.6122320947358926, 2.448991908861673), (1.6360626564831613, 2.489788317092467), (1.6537676100859078, 2.5228483482727815), (1.6673516932831027, 2.5501289623625194)}"/>
+</command>
+<element type="list" label="mPc2">
+	<show object="true" label="false" ev="1"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[mNc1(k) ≠ V, mNc1(k), mNc2(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mNc" randomResult="{(-0.049888477270051294, 3.9647846042799637), (0.9889725450505301, 4.136410006213866), (1.442909509440066, 3.8592283405424324), (1.619235417736718, 3.6333806601350824), (1.6965413457899499, 3.477987278218477), (1.7344439214398568, 3.3692931194764153), (1.7545901214731747, 3.290278153111974), (1.7658984130556141, 3.230697721045079), (1.7724602671452847, 3.1843545673313733), (1.7763205811426388, 3.147366121051533)}"/>
+</command>
+<element type="list" label="mNc">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="If[mPc1(k) ≠ V, mPc1(k), mPc2(k)]" a1="k" a2="1" a3="NMetric"/>
+	<output a0="mPc" randomResult="{(0.5232248256246685, 1.9071006975013256), (1.0636363620488034, 1.9846889982233202), (1.3189373174765746, 2.1279599364848623), (1.4520962332944551, 2.2439766481090313), (1.5296216869879133, 2.3313217960131856), (1.578844506424388, 2.3975906501961437), (1.6122320947358926, 2.448991908861673), (1.6360626564831613, 2.489788317092467), (1.6537676100859078, 2.5228483482727815), (1.6673516932831027, 2.5501289623625194)}"/>
+</command>
+<element type="list" label="mPc">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="4"/>
+	<angleStyle val="0"/>
+</element>
+</construction>
+</geogebra>
