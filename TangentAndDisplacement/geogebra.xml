@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="CC38C941-72E4-4D8C-BBDF-600EFA86A0F4"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.07564469914040114" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="1,3" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1,1" size="178" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="132" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="557" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1605" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="503" height="755"/>
+	<coordSystem xZero="256.99999999999994" yZero="382.99999999999983" scale="49.999999999999986" yscale="49.999999999999986"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="131" height="775"/>
+	<coordSystem xZero="215.0000000000001" yZero="314.99999999999983" scale="50.00000000000003" yscale="49.999999999999986"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="-0.3730417447147526" yZero="0.05640643103689555" zZero="-1.2749864119050653" scale="62.639284554030176" xAngle="25" zAngle="-57"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="1"/>
+</euclidianView3D>
+<construction title="TangentAndDisplacement" author="" date="">
+<expression label="XY" exp="(-4, -3, 0)" type="point"/>
+<element type="point3d" label="XY">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4" y="-3" z="0" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="X1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-1.9446763095550939" y="-2.3532695453852597" z="0.6734487008200709" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="X2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="1.4209381761338258" y="-4.595860874447673" z="-0.5873371911570047" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="X3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="4.233021109714176" y="-2.8043385608837426" z="1.6098976138087657" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="Y1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3.323536618988766" y="-1.2428652448239674" z="1.8208784486535556" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="Y2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.2629753726390955" y="1.8468728809558002" z="-0.737359708155914" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="point3d" label="Y3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-4.032497052071961" y="4.1395240841717325" z="0.4091080931326587" w="1"/>
+	<pointSize val="5"/>
+</element>
+<command name="Spline">
+	<input a0="{XY, X1, X2, X3}" a1="3"/>
+	<output a0="Xcurve"/>
+</command>
+<element type="curvecartesian3d" label="Xcurve">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="Spline">
+	<input a0="{XY, Y1, Y2, Y3}" a1="3"/>
+	<output a0="Ycurve"/>
+</command>
+<element type="curvecartesian3d" label="Ycurve">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="191" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="Xcurve(u) + Ycurve(v) - XY" a1="u" a2="0" a3="1" a4="v" a5="0" a6="1"/>
+	<output a0="XYsurface"/>
+</command>
+<element type="surfacecartesian3d" label="XYsurface">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="255" b="153" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="XYsurface(u, u)" a1="u" a2="0" a3="1"/>
+	<output a0="XYpath"/>
+</command>
+<element type="curvecartesian3d" label="XYpath">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+</element>
+<element type="numeric" label="t">
+	<value val="2"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-23" y="20"/>
+	<labelMode val="1"/>
+	<slider min="0" max="tMax" absoluteScreenLocation="true" width="200" x="90" y="213" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="tMax">
+	<value val="12"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="o" exp="XYpath(t / tMax)" type="point" />
+<element type="point3d" label="o">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-21" y="4"/>
+	<labelMode val="0"/>
+	<coords x="-2.020070390762978" y="-1.2685418516738283" z="2.1110346281624386" w="1"/>
+	<pointSize val="5"/>
+</element>
+<element type="numeric" label="dt">
+	<value val="0.001"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Vector">
+	<input a0="o" a1="XYpath((t + dt) / tMax)"/>
+	<output a0="vdt"/>
+</command>
+<element type="vector3d" label="vdt">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.0010036663818349112" y="0.0006638735751458569" z="0.0006733173307997831" w="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<startPoint exp="o"/>
+</element>
+<element type="numeric" label="α">
+	<value val="2"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-55" y="24"/>
+	<labelMode val="1"/>
+	<slider min="(-tMax)" max="tMax" absoluteScreenLocation="true" width="200" x="27" y="215" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<command name="Vector">
+	<input a0="o" a1="o + (vdt / dt * α)"/>
+	<output a0="vTo"/>
+</command>
+<element type="vector3d" label="vTo">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="13" y="-17"/>
+	<labelMode val="3"/>
+	<coords x="2.0073327636698224" y="1.3277471502917138" z="1.3466346615995661" w="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<startPoint exp="o"/>
+	<caption val="$T_α$"/>
+</element>
+<expression label="o&apos;" exp="XYpath((t + α) / tMax)" type="point" />
+<element type="point3d" label="o&apos;">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.0422859126592563" y="-0.5960301055521597" z="2.082242456524158" w="1"/>
+	<pointSize val="5"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="XYpath(u)" a1="u" a2="t / tMax" a3="(t + α) / tMax"/>
+	<output a0="OO&apos;"/>
+</command>
+<element type="curvecartesian3d" label="OO&apos;">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-4" y="17"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<caption val="X_α"/>
+</element>
+<expression label="od" exp="XYpath((t + α / 2) / tMax)" type="point" />
+<element type="point3d" label="od">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-5" y="5"/>
+	<labelMode val="3"/>
+	<coords x="-1.0042181728535846" y="-0.7771216799120717" z="2.4534987294640587" w="1"/>
+	<pointSize val="1"/>
+	<caption val="$X_α$"/>
+</element>
+</construction>
+</geogebra>

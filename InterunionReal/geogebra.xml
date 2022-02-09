@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.0836676217765043" orientation="1" />
+	</panes>
+	<views>
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="3" size="622" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="263" tab="ALGEBRA" window="1409,594,458,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="146" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="329" window="346,23,1344,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1321" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="615" height="617"/>
+	<coordSystem xZero="156.448983555752" yZero="231.5019872486233" scale="91.19965223996347" yscale="91.19965223996367"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="10"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="145" height="775"/>
+	<coordSystem xZero="188.99999999999997" yZero="322" scale="49.999999999999986" yscale="50.00000000000002"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0" yZero="0" zZero="0.09875399663699125" scale="50" xAngle="90" zAngle="-90"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="InterunionReal" author="" date="">
+<element type="button" label="butAnimation">
+	<show object="false" label="true" ev="2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="13" y="10"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Play ▶&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Pause ⏸&quot;)&apos;);}"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<caption val="Play ▶"/>
+</element>
+<element type="button" label="butTop">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="94"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, 0, -1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="130" height="27" />
+	<caption val="Top View"/>
+</element>
+<element type="button" label="butFront">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="128"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, -1, 0)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="130" height="27" />
+	<caption val="Front View"/>
+</element>
+<element type="button" label="butSide">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="199"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((1, 0, 0)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="130" height="27" />
+	<caption val="Side View"/>
+</element>
+<element type="button" label="butDia">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="163"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, -1, 1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="130" height="27" />
+	<caption val="Diagonal View"/>
+</element>
+<element type="button" label="butSlant">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="7" y="236"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((-1, -1, -1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="130" height="27" />
+	<caption val="Slant View"/>
+</element>
+<expression label="funcs" exp="{&quot;Plimus&quot;, &quot;Interunion&quot;}"/>
+<element type="list" label="funcs">
+	<show object="true" label="true" ev="11"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="55"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<selectedIndex val="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+	<caption val="Func"/>
+</element>
+<command name="Surface">
+	<input a0="t + u" a1="t - u" a2="u - t" a3="t" a4="-6" a5="6" a6="u" a7="-6" a8="6"/>
+	<output a0="Plimus"/>
+</command>
+<element type="surfacecartesian3d" label="Plimus">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Plimus&quot;"/>
+	<objColor r="0" g="255" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-6, 6, -6)" a1="(6, -6, 6)"/>
+	<output a0="vPlimusY"/>
+</command>
+<element type="vector3d" label="vPlimusY">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Plimus&quot;"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="12" y="-12" z="12" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="-6" y="6" z="-6" w="1"/>
+</element>
+<command name="Vector">
+	<input a0="(-6, -6, 6)" a1="(6, 6, -6)"/>
+	<output a0="vPlimusX"/>
+</command>
+<element type="vector3d" label="vPlimusX">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Plimus&quot;"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="12" y="12" z="-12" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="-6" y="-6" z="6" w="1"/>
+</element>
+<command name="Surface">
+	<input a0="(t * u)" a1="t / u" a2="u / t" a3="t" a4="-6" a5="6" a6="u" a7="-6" a8="6"/>
+	<output a0="Interunion"/>
+</command>
+<element type="surfacecartesian3d" label="Interunion">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Interunion&quot;"/>
+	<objColor r="255" g="255" b="153" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Vector">
+	<input a0="(0, 6, 0)" a1="(0, 0, 0)"/>
+	<output a0="vInterunionXP"/>
+</command>
+<element type="vector3d" label="vInterunionXP">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Interunion&quot;"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-6" z="0" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="0" y="6" z="0" w="1"/>
+</element>
+<command name="Vector">
+	<input a0="(0, -6, 0)" a1="(0, 0, 0)"/>
+	<output a0="vInterunionXN"/>
+</command>
+<element type="vector3d" label="vInterunionXN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Interunion&quot;"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="6" z="0" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="0" y="-6" z="0" w="1"/>
+</element>
+<command name="Vector">
+	<input a0="(0, 0, -5)" a1="(0, 0, 0)"/>
+	<output a0="vInterunionYN"/>
+</command>
+<element type="vector3d" label="vInterunionYN">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Interunion&quot;"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0" z="5" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="0" y="0" z="-5" w="1"/>
+</element>
+<command name="Vector">
+	<input a0="(0, 0, 5)" a1="(0, 0, 0)"/>
+	<output a0="vInterunionYP"/>
+</command>
+<element type="vector3d" label="vInterunionYP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[funcs] ≟ &quot;Interunion&quot;"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0" z="-5" w="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<startPoint x="0" y="0" z="5" w="1"/>
+</element>
+</construction>
+</geogebra>

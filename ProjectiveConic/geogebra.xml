@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="33A6CE5B-BC6F-4259-B8E3-1955C156CEFD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="284" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1745" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="565" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="424.50000000000006" yZero="320.49999999999994" scale="49.99999999999994" yscale="49.99999999999998"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="ProjectiveConic" author="" date="">
+<element type="point" label="V_N">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-3" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="V_P">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3" y="4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="P"/>
+</command>
+<element type="point" label="P">
+	<show object="true" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="5" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="N"/>
+</command>
+<element type="point" label="N">
+	<show object="true" label="true"/>
+	<objColor r="125" g="125" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="yAxis"/>
+	<output a0="I"/>
+</command>
+<element type="point" label="I">
+	<show object="true" label="true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0" y="4.41" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="V_P" a1="N"/>
+	<output a0="lVpN"/>
+</command>
+<element type="line" label="lVpN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="4" y="-8" z="20"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V_N" a1="P"/>
+	<output a0="lVnP"/>
+</command>
+<element type="line" label="lVnP">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="4" y="8" z="-20"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="I" a1="N"/>
+	<output a0="lIN"/>
+</command>
+<element type="line" label="lIN">
+	<show object="true" label="false"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="4.41" y="-5" z="22.05"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="I" a1="P"/>
+	<output a0="lIP"/>
+</command>
+<element type="line" label="lIP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="4.41" y="5" z="-22.05"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lVpN" a1="lVnP"/>
+	<output a0="X"/>
+</command>
+<element type="point" label="X">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="160" z="64"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="lIP"/>
+	<output a0="X_P"/>
+</command>
+<element type="point" label="X_P">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="true"/>
+	<coords x="184.16274407618675" y="-158.02154027519674" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="X_P" a1="X"/>
+	<output a0="PascalLine"/>
+</command>
+<element type="line" label="PascalLine">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-160.52154027519674" y="-184.16274407618675" z="460.4068601904669"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lIN" a1="PascalLine"/>
+	<output a0="X_N"/>
+</command>
+<element type="point" label="X_N">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1758.7542059275838" y="5569.894216508047" z="1614.7654027519673"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="V_N" a1="X_N"/>
+	<output a0="lVnXn"/>
+</command>
+<element type="line" label="lVnXn">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5506480340639306" y="1.9108298933515522" z="-5.991375471214417"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V_P" a1="X_P"/>
+	<output a0="lVpXp"/>
+</command>
+<element type="line" label="lVpXp">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="162.02154027519674" y="181.16274407618675" z="-1210.7155971303373"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lVnXn" a1="lVpXp"/>
+	<output a0="E"/>
+</command>
+<element type="point" label="E">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1228.0575341876627" y="304.05371884283454" z="209.83869365352916"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Conic">
+	<input a0="N" a1="P" a2="I" a3="V_N" a4="V_P"/>
+	<output a0="con"/>
+</command>
+<element type="conic" label="con">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="-1735.7760000000017" A1="-7065.599999999993" A2="43394.40000000004" A3="-6.821210263296962e-13" A4="0" A5="10659.647999999983"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="txtMovables" exp="&quot;Movables: N, P, I, V_N, V_P, X_P(slider)&quot;"/>
+<element type="text" label="txtMovables">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="118" y="27"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="9" y="8"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Animation"/>
+</element>
+</construction>
+</geogebra>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="8708DFB8-8517-4AB1-AAD1-71710A690D67"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3,3" size="380" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1745" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="300" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="281.4999999999993" yZero="212.00000000000009" scale="49.99999999999991" yscale="49.999999999999986"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="TangentAndMicrodisplacement" author="" date="">
+<element type="point" label="A0">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-15" y="-6"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-5.64" y="-1.91" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="A1">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-2.56" y="0.09" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="A2">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.26" y="-2.25" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="A3">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.76" y="3.03" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Spline">
+	<input a0="{A0, A1, A2, A3}" a1="3"/>
+	<output a0="cur"/>
+</command>
+<element type="curvecartesian" label="cur">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="4" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Length">
+	<input a0="cur" a1="0" a2="1"/>
+	<output a0="lcur"/>
+</command>
+<element type="numeric" label="lcur">
+	<value val="16.75115348866414"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="numeric" label="t">
+	<value val="0.16"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" x="30" y="50" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<expression label="o" exp="cur(t)" type="point" />
+<element type="point" label="o">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-15" y="8"/>
+	<labelMode val="3"/>
+	<coords x="-3.50271316927332" y="-0.17562162903759893" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="$o$"/>
+</element>
+<command name="Tangent">
+	<input a0="o" a1="cur"/>
+	<output a0="lT"/>
+</command>
+<element type="line" label="lT">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-6.8432511942354415" y="13.956938517375905" z="-21.51880579989469"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="explicit"/>
+</element>
+<command name="Direction">
+	<input a0="lT"/>
+	<output a0="dT"/>
+</command>
+<element type="vector" label="dT">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="13.956938517375905" y="6.8432511942354415" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="o"/>
+</element>
+<command name="Point">
+	<input a0="lT"/>
+	<output a0="A"/>
+</command>
+<element type="point" label="A">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-43" y="14"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="3.9444457292713975" y="3.4758080138371863" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="$T_α$"/>
+</element>
+<command name="Vector">
+	<input a0="o" a1="A"/>
+	<output a0="vT"/>
+</command>
+<element type="vector" label="vT">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="7.447158898544718" y="3.651429642874785" z="0"/>
+	<lineStyle thickness="6" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="o"/>
+</element>
+<expression label="α" exp="((vT * dT)) / ((abs(dT) * lcur))" />
+<element type="numeric" label="α">
+	<value val="0.495139719894377"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="numeric" label="n">
+	<value val="10"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="30" y="90" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<command name="Sequence">
+	<input a0="cur(t + (k * α / n))" a1="k" a2="0" a3="n"/>
+	<output a0="Xs" randomResult="{(-3.50271316927332, -0.17562162903759893), (-2.7964647244396534, 0.06188092477928442), (-2.055307656781798, 0.06510244175237778), (-1.2847085838419066, -0.14572028987859253), (-0.49822641827034886, -0.5057465855510794), (0.2904535469396201, -0.9494391652822673), (1.0676460187947372, -1.411260749089347), (1.8196657043017384, -1.8256740569894894), (2.5328273104673675, -2.1271418089998995), (3.1934455442983616, -2.250126725137752), (3.79048801939828, -2.140688664744097)}"/>
+</command>
+<element type="list" label="Xs">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="o&apos;" exp="cur(t + α)" type="point" />
+<element type="point" label="o&apos;">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-72" y="1"/>
+	<labelMode val="3"/>
+	<coords x="3.79048801939828" y="-2.140688664744097" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="$X_α(o)=o&apos;$"/>
+</element>
+<command name="Sequence">
+	<input a0="Tangent[Xs(k), cur]" a1="k" a2="1" a3="n"/>
+	<output a0="lTs" randomResult="{y = 0.4903071416529991x + 1.5417836530450304, y = 0.17526173065359574x + 0.551994172136543, y = -0.15087178063709705x - 0.24498548418334212, y = -0.3795312729784984x - 0.6333073741053559, y = -0.522601999608141x - 0.7661207079892246, y = -0.5905119185225524x - 0.7779228840370914, y = -0.5855359417466934x - 0.7861156320253201, y = -0.501946028648606x - 0.9123000832788932, y = -0.3238006260090032x - 1.3070107403669509, y = -0.018901663051674678x - 2.18976529356579}"/>
+</command>
+<element type="list" label="lTs">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[Direction[lTs(k)]]" a1="k" a2="1" a3="n"/>
+	<output a0="dTs" randomResult="{(13.956947530087119, 6.843191049677901), (14.598990367478834, 2.558644317599514), (15.310744450218586, -2.3099592780840297), (15.769717823788282, -5.985101080174083), (15.952304885466496, -8.336706431503508), (15.858494590997832, -9.36463006580965), (15.488287155883189, -9.068948805863279), (14.841720652391109, -7.449742739779715), (13.918744778674501, -4.5068982725943485), (12.71936911473161, -0.24041722923653452)}"/>
+</command>
+<element type="list" label="dTs">
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="Xm" exp="cur(t + α / 2)" type="point" />
+<element type="point" label="Xm">
+	<show object="true" label="true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-41" y="21"/>
+	<labelMode val="3"/>
+	<coords x="0.2904535469396201" y="-0.9494391652822673" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+	<caption val="$X_{dα} = I + T_{dα}$"/>
+</element>
+<expression label="text1" exp="&quot;Movables: o, T_α&quot;"/>
+<element type="text" label="text1">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="257" y="34"/>
+</element>
+<expression label="Xmv" exp="cur(t + α / 2)" type="point" />
+<element type="point" label="Xmv">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="-4"/>
+	<labelMode val="3"/>
+	<coords x="0.2904535469396201" y="-0.9494391652822673" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+	<caption val="$T_{dα}/{dα}$"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[Xs(k), Xs(k + 1)]" a1="k" a2="0" a3="n"/>
+	<output a0="vXs" randomResult="{(NaN, NaN), (0.7062484448336668, 0.23750255381688334), (0.7411570676578556, 0.0032215169730933635), (0.7705990729398913, -0.21082273163097032), (0.7864821655715577, -0.3600262956724869), (0.788679965209969, -0.4436925797311879), (0.7771924718551171, -0.4618215838070796), (0.7520196855070012, -0.4144133079001424), (0.7131616061656292, -0.3014677520104101), (0.660618233830994, -0.12298491613785245), (0.5970424750999186, 0.10943806039365489)}"/>
+</command>
+<element type="list" label="vXs">
+	<show object="true" label="false"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[Xs(k), Xs(k) + (dTs(k) / abs(dTs(k)) * 2)]" a1="k" a2="1" a3="n"/>
+	<output a0="vTs" randomResult="{(1.7957626130668127, 0.8804752339001096), (1.969973321564345, 0.3452609336787796), (1.9776190701689365, -0.29836691053826764), (1.8698580320404958, -0.7096695991893993), (1.7725420422212181, -0.9263340156543065), (1.7221525553805876, -1.016951609466307), (1.7259009415461457, -1.0105770331697275), (1.787460837554443, -0.8972088687753637), (1.902737842294056, -0.6161077044658354), (1.9996428228383136, -0.037796574860989196)}"/>
+</command>
+<element type="list" label="vTs">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+</construction>
+</geogebra>
