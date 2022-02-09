@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="6e2105ce-3703-4f90-8f1d-5dbd886f7937"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.12893982808022922" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="3,3" size="210" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="380" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="225" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="362" window="1207,404,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1242" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="207" height="621"/>
+	<coordSystem xZero="-21.49999999999996" yZero="203.49999999999997" scale="49.99999999999982" yscale="49.99999999999998"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="10"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="224" height="775"/>
+	<coordSystem xMin="x(AnchorBottomLeft)" xMax="x(AnchorTopRight)" yMin="y(AnchorBottomLeft)" yMax="y(AnchorTopRight)"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0" yZero="0" zZero="1.0799999999999998" scale="50" xAngle="35.85747259731694" zAngle="-86.28940686250037"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="1"/>
+</euclidianView3D>
+<construction title="ConicSections" author="" date="">
+<element type="angle" label="αAperture">
+	<angleStyle val="3"/>
+	<value val="1.5707963267948966"/>
+	<slider min="0" max="3.141592653589793" absoluteScreenLocation="true" width="180" x="29" y="130" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="11"/>
+	<objColor r="204" g="102" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="-37" y="1"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="0.1°" speed="1" type="0" playing="false"/>
+	<caption val="Aperture angle"/>
+</element>
+<command name="Plane">
+	<input a0="(0, 0, -1)" a1="(1, 0, -1)" a2="(0, 1, -1)"/>
+	<output a0="projectivePlane"/>
+</command>
+<element type="plane3d" label="projectivePlane">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="175" g="238" b="238" alpha="0.61"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="11"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0" z="1" w="1"/>
+	<fading val="0.1"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+</element>
+<expression label="O" exp="(0, 0, 0)" type="point"/>
+<element type="point3d" label="O">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Circle">
+	<input a0="(1, 0, 0)" a1="(0, 0, 1)" a2="(-1, 0, 0)"/>
+	<output a0="gimbalRing"/>
+</command>
+<element type="conic3d" label="gimbalRing">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865476" A5="-0.7071067811865476"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Point">
+	<input a0="gimbalRing"/>
+	<output a0="P"/>
+</command>
+<element type="point3d" label="P">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="8"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="true"/>
+	<ggbscript onUpdate="SetValue(αLight,cos⁻¹(|z(P)|))"/>
+	<coords x="-0.9319635821675893" y="0" z="0.3625519018200779" w="1"/>
+	<pointSize val="3"/>
+	<caption val="Light direction"/>
+</element>
+<command name="Rotate">
+	<input a0="P" a1="(-(αAperture / 2))" a2="yAxis"/>
+	<output a0="Pn"/>
+</command>
+<element type="point3d" label="Pn">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.9153606770786651" y="0" z="-0.4026348604605521" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Intersect">
+	<input a0="Line[Pn, O]" a1="projectivePlane"/>
+	<output a0="VMn"/>
+</command>
+<element type="point3d" label="VMn">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-2.2734262900923032" y="0" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="AngularBisector">
+	<input a0="VMn + Vector[((x(VMn) * x(Pn)), 0, 0)]" a1="VMn" a2="Pn"/>
+	<output a0="bisectN"/>
+</command>
+<element type="line3d" label="bisectN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="-2.2734262900923032" oy="0" oz="-1" ow="1" vx="1.9153606770786649" vy="0" vz="0.40263486046055197" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="P"/>
+	<output a0="lightLine"/>
+</command>
+<element type="line3d" label="lightLine">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-0.9319635821675893" vy="0" vz="0.3625519018200779" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Intersect">
+	<input a0="bisectN" a1="lightLine"/>
+	<output a0="On"/>
+</command>
+<element type="point3d" label="On">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8712719271796137" y="0" z="-0.33894167137596365" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="Fn" exp="(x(On), 0, -1)" type="point" />
+<element type="point3d" label="Fn">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8712719271796137" y="0" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="rN" exp="z(Fn) - z(On)" />
+<element type="numeric" label="rN">
+	<value val="-0.6610583286240364"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<expression label="dN" exp="(sgn(rN) * sqrt((abs(On))^(2) - rN^(2)))" />
+<element type="numeric" label="dN">
+	<value val="-0.661058328624037"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<command name="Rotate">
+	<input a0="P" a1="αAperture / 2" a2="yAxis"/>
+	<output a0="Pp"/>
+</command>
+<element type="point3d" label="Pp">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<auxiliary val="true"/>
+	<coords x="-0.40263486046055225" y="0" z="0.9153606770786651" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Intersect">
+	<input a0="Line[Pp, O]" a1="projectivePlane"/>
+	<output a0="VMp"/>
+</command>
+<element type="point3d" label="VMp">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.4398647118483879" y="0" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="AngularBisector">
+	<input a0="VMp + Vector[((x(VMp) * x(Pp)), 0, 0)]" a1="VMp" a2="Pp"/>
+	<output a0="bisectP"/>
+</command>
+<element type="line3d" label="bisectP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="0.4398647118483879" oy="0" oz="-1" ow="1" vx="-1.402634860460552" vy="0" vz="0.9153606770786649" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Intersect">
+	<input a0="bisectP" a1="lightLine"/>
+	<output a0="Op"/>
+</command>
+<element type="point3d" label="Op">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.7048335054235286" y="0" z="1.052232673316655" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="Fp" exp="(x(Op), 0, -1)" type="point" />
+<element type="point3d" label="Fp">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2.7048335054235286" y="0" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="rP" exp="z(Op) - z(Fp)" />
+<element type="numeric" label="rP">
+	<value val="2.052232673316655"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<element type="angle" label="αLight">
+	<angleStyle val="3"/>
+	<value val="1.199791687698713"/>
+	<slider min="0" max="1.5707963267948966" absoluteScreenLocation="true" width="180" x="29" y="81" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="11"/>
+	<objColor r="204" g="102" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="-28" y="-2"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="1°" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(P,(sin(αLight),0,cos(αLight)))&#xa;"/>
+	<caption val="Projection angle"/>
+</element>
+<expression label="dP" exp="(sgn(rP) * sqrt((abs(Op))^(2) - rP^(2)))" />
+<element type="numeric" label="dP">
+	<value val="2.0522326733166545"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+</element>
+<command name="Intersect">
+	<input a0="lightLine" a1="projectivePlane"/>
+	<output a0="F_{0}"/>
+</command>
+<element type="point3d" label="F_{0}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="2.5705659727309635" y="0" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<element type="boolean" label="χCone">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="204" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="23" y="365"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Light cone"/>
+</element>
+<element type="boolean" label="χConicType">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="23" y="395"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Conic type"/>
+</element>
+<command name="InfiniteCone">
+	<input a0="O" a1="Vector[(0, 0, 1)]" a2="π / 2"/>
+	<output a0="f"/>
+</command>
+<element type="quadric" label="f">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χCone"/>
+	<objColor r="153" g="51" b="0" alpha="0.2"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="NaN" A1="NaN" A2="NaN" A3="NaN" A4="NaN" A5="NaN" A6="NaN" A7="NaN" A8="NaN" A9="NaN"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Sphere">
+	<input a0="O" a1="1"/>
+	<output a0="unitSphere"/>
+</command>
+<element type="quadric" label="unitSphere">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χSphere"/>
+	<objColor r="0" g="255" b="255" alpha="0.4"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="boolean" label="χSphere">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="24" y="425"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Unit sphere"/>
+</element>
+<command name="InfiniteCone">
+	<input a0="O" a1="Vector[P]" a2="αAperture / 2"/>
+	<output a0="lightCone"/>
+</command>
+<element type="quadric" label="lightCone">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χCone"/>
+	<objColor r="255" g="127" b="0" alpha="0.2"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="-1" z0="0" x1="0.36255190182007785" y1="0" z1="0.9319635821675891" x2="-0.9319635821675891" y2="0" z2="0.36255190182007785"/>
+	<matrix A0="-0.737112236973289" A1="1" A2="0.7371122369732892" A3="0" A4="0" A5="0.6757703382838235" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="IntersectPath">
+	<input a0="projectivePlane" a1="lightCone"/>
+	<output a0="conics"/>
+</command>
+<element type="conic3d" label="conics">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="-0.737112236973289" A1="1" A2="0.7371122369732892" A3="0" A4="-0.6757703382838235" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<expression label="α" exp="αLight + αAperture / 2" />
+<element type="angle" label="α">
+	<angleStyle val="3"/>
+	<value val="1.9851898510961612"/>
+</element>
+<command name="If">
+	<input a0="αLight ≟ 0" a1="&quot;Circle&quot;" a2="If[α &lt; 90°, &quot;Ellipse&quot;, If[α ≟ 90°, &quot;Parabola&quot;, If[αLight ≟ 90° ∧ αAperture ≟ 90°, &quot;Rectangular Hyperbola&quot;, &quot;Hyperbola&quot;]]]"/>
+	<output a0="txtConicType"/>
+</command>
+<element type="text" label="txtConicType">
+	<show object="true" label="false" ev="6"/>
+	<condition showObject="χConicType"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<font serif="true" sizeM="2" size="12" style="0"/>
+	<startPoint x="1.0023214285714286" y="0.7070947030497592" z="1"/>
+</element>
+<command name="Point">
+	<input a0="O" a1="Vector[(P * cos(αAperture / 2))]"/>
+	<output a0="Pcos"/>
+</command>
+<element type="point3d" label="Pcos">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.6589977687696087" y="0" z="0.2563629083090565" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="unitCircles" exp="{Circle[Pcos, (abs(P) * sin(αAperture / 2)), lightLine], Circle[(-Pcos), (abs(P) * sin(αAperture / 2)), lightLine]}" />
+<element type="list" label="unitCircles">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χSphere"/>
+	<objColor r="0" g="128" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sphere">
+	<input a0="Op" a1="Fp"/>
+	<output a0="FpSphere"/>
+</command>
+<element type="quadric" label="FpSphere">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0.3"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="4.211658945428424" A4="0" A5="0" A6="0" A7="2.7048335054235286" A8="0" A9="-1.052232673316655"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Point">
+	<input a0="O" a1="Vector[(Vector[Pp] * dP)]"/>
+	<output a0="FpTouch"/>
+</command>
+<element type="point3d" label="FpTouch">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8263004160534373" y="0" z="1.8785330893700918" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Circle">
+	<input a0="lightLine" a1="FpTouch"/>
+	<output a0="FpTouchCircle"/>
+</command>
+<element type="conic3d" label="FpTouchCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-20" y="9"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-2.1058294727142117" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Sphere">
+	<input a0="On" a1="Fn"/>
+	<output a0="FnSphere"/>
+</command>
+<element type="quadric" label="FnSphere">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0.26"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="0.4369981138432053" A4="0" A5="0" A6="0" A7="-0.8712719271796137" A8="0" A9="0.33894167137596365"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Point">
+	<input a0="O" a1="Vector[(Vector[Pn] * dN)]"/>
+	<output a0="FnTouch"/>
+</command>
+<element type="point3d" label="FnTouch">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.6051067992777892" y="0" z="0.26616512790182495" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Circle">
+	<input a0="lightLine" a1="FnTouch"/>
+	<output a0="FnTouchCircle"/>
+</command>
+<element type="conic3d" label="FnTouchCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFocalSpheres"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.2184990569216028" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<element type="boolean" label="χFocalSpheres">
+	<value val="false"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="24" y="456"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Focal spheres (of Dandelin)"/>
+</element>
+<element type="button" label="butCircle">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="199"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(αLight, 0°)"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To circle"/>
+</element>
+<element type="button" label="butParabola">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="231"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(αLight, 90° - αAperture/2)&#xa;"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To parabola"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="204" g="102" b="0" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="27" y="10"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="91" height="27" />
+	<caption val="Animation"/>
+</element>
+<element type="boolean" label="χAnimation">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="button" label="butSideView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="263"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, 1, 0)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To side view"/>
+</element>
+<element type="button" label="butTopView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="27" y="297"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0, 0, -1)))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To top view"/>
+</element>
+<element type="button" label="butSlantView">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<bgColor r="237" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="329"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection((0.1, -1, 1))"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
+	<dimensions width="140" height="27" />
+	<caption val="To slant view"/>
+</element>
+<element type="point" label="AnchorBottomLeft">
+	<show object="false" label="false" ev="11"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0.48" y="-8.36" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="AnchorTopRight" exp="(5.16, 3.92)" type="point"/>
+<element type="point" label="AnchorTopRight">
+	<show object="false" label="false" ev="11"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="5.16" y="3.92" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+</element>
+</construction>
+</geogebra>

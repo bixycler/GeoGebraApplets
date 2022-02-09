@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="984909A6-249F-454C-8770-927E2E07F7CD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.05730659025787966" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1475" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="358" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="204" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="731"/>
+	<coordSystem xMin="x(AnchorBottomLeft)" xMax="x(AnchorTopRight)" yMin="y(AnchorBottomLeft)" yMax="y(AnchorTopRight)"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3" lockedAxesRatio="1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="5" grid="0"/>
+	<axis id="0" show="true" label="Space" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<axis id="1" show="true" label="Time" unitLabel="" tickStyle="2" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="LightSpaceTimeCoords" author="" date="">
+<element type="boolean" label="χFolded">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="140"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="χObjective=If(χFolded,false,χObjective)&#xa;χSpatial=If(χFolded,false,χSpatial)&#xa;"/>
+</element>
+<element type="numeric" label="n">
+	<value val="4"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="2" max="10" absoluteScreenLocation="true" width="50" x="56" y="38" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="2" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="W">
+	<value val="10"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="1" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="t">
+	<value val="2.3"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="W" absoluteScreenLocation="true" width="500" x="54" y="537" fixed="false" horizontal="true" showAlgebra="true"/>
+	<pointSize val="2"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.02" speed="(1 * 2^(animSpeed))" type="1" playing="true"/>
+</element>
+<command name="Mod">
+	<input a0="t" a1="W / n"/>
+	<output a0="d"/>
+</command>
+<element type="numeric" label="d">
+	<value val="2.3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="boolean" label="χObjective">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="44"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="χPhotons = If(χObjective,true,χPhotons)&#xa;χFolded=If(!χObjective,χFolded,false)"/>
+</element>
+<element type="boolean" label="χSpatial">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="105"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="χFolded=If(!χSpatial,χFolded,false)"/>
+</element>
+<expression label="mod" exp="mod(x, y) = (y * (x / y - floor(x / y)))" type="function"/>
+<element type="functionnvar" label="mod">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="box" exp="{Polygon[((-(W / 2)), (-(W / 2))), ((-(W / 2)), W / 2), (W / 2, W / 2), (W / 2, (-(W / 2)))]}" />
+<element type="list" label="box">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="255" alpha="0.15"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="178"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="χPositiveLight">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="369"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χNegativeLight">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="398"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χPhotons">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="74"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="χPositiveLight=If(χPhotons,true,χPositiveLight)"/>
+</element>
+<element type="boolean" label="χMarkers">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="428"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="If">
+	<input a0="χObjective" a1="0" a2="d"/>
+	<output a0="dl"/>
+</command>
+<element type="numeric" label="dl">
+	<value val="2.3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[(k - dl + W / 2, (-(W / 2))), (k - dl - W / 2, W / 2)]" a1="k" a2="(-W)" a3="W" a4="W / n"/>
+	<output a0="lightNeg" randomResult="{14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951}"/>
+</command>
+<element type="list" label="lightNeg">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χNegativeLight ∧ (χPhotons ∨ (¬χFolded))"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[(k + dl - W / 2, (-(W / 2))), (k + dl + W / 2, W / 2)]" a1="k" a2="(-W)" a3="W" a4="W / n"/>
+	<output a0="lightPos" randomResult="{14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951, 14.142135623730951}"/>
+</command>
+<element type="list" label="lightPos">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPositiveLight ∧ (χPhotons ∨ (¬χFolded))"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="χObjective" a1="0" a2="If[χFolded, (((sin(((d * n / W) * π)) * cos(((d * n / W) * π)))) / 2 * W / n), d / 2]"/>
+	<output a0="tm"/>
+</command>
+<element type="numeric" label="tm">
+	<value val="1.15"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="eye" exp="{Ellipse[(0.04, 0.14), (-0.04, 0.14), 0.05], CircumcircleArc[(0.1, 0.1), (0, 0.15), (-0.1, 0.1)], Segment[(0, 0), (0.16, 0.16)], Segment[(0, 0), (-0.16, 0.16)]}" />
+<element type="list" label="eye">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="1"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="CurveCartesian[((1 - cos(φ)) / 2 * W / n) + k, (((sin(φ) * cos(φ))) / 2 * W / n), φ, (-π), 0]" a1="k" a2="(-(W / 2))" a3="W / 2 - W / ((2 * n))" a4="W / n"/>
+	<output a0="threadPos" randomResult="{(((1 - cos(φ)) / 2 * 10 / 4) - 5, (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4) - 2.5, (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4), (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4) + 2.5, (((sin(φ) * cos(φ))) / 2 * 10 / 4))}"/>
+</command>
+<element type="list" label="threadPos">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFolded ∧ χPositiveLight"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="CurveCartesian[((1 - cos(φ)) / 2 * W / n) + k, (((sin(φ) * cos(φ))) / 2 * W / n), φ, 0, π]" a1="k" a2="(-(W / 2))" a3="W / 2 - W / ((2 * n))" a4="W / n"/>
+	<output a0="threadNeg" randomResult="{(((1 - cos(φ)) / 2 * 10 / 4) - 5, (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4) - 2.5, (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4), (((sin(φ) * cos(φ))) / 2 * 10 / 4)), (((1 - cos(φ)) / 2 * 10 / 4) + 2.5, (((sin(φ) * cos(φ))) / 2 * 10 / 4))}"/>
+</command>
+<element type="list" label="threadNeg">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χFolded ∧ χNegativeLight"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Circle[(k, W / 2 - If[χObjective, W / 2, t]), 0.1]" a1="k" a2="(-(W / 2))" a3="W / 2" a4="W / n"/>
+	<output a0="markersS" randomResult="{(x + 5)² + (y - 2.7)² = 0.010000000000000002, (x + 2.5)² + (y - 2.7)² = 0.010000000000000002, x² + (y - 2.7)² = 0.010000000000000002, (x - 2.5)² + (y - 2.7)² = 0.010000000000000002, (x - 5)² + (y - 2.7)² = 0.010000000000000002}"/>
+</command>
+<element type="list" label="markersS">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMarkers ∧ χSpatial"/>
+	<objColor r="255" g="127" b="0" alpha="0.22"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="If">
+	<input a0="χObjective" a1="0" a2="If[χFolded, ((1 - cos(((d * n / W) * π))) / 2 * W / n), d / 2]"/>
+	<output a0="sm"/>
+</command>
+<element type="numeric" label="sm">
+	<value val="1.15"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Sequence">
+	<input a0="Circle[(k + sm, (-tm) - If[χFolded, 0, k]), 0.1]" a1="k" a2="((-W)) / 2" a3="W / 2" a4="W / ((n * If[χFolded, 1, 2]))"/>
+	<output a0="markersLPos" randomResult="{(x + 3.85)² + (y - 3.85)² = 0.010000000000000002, (x + 2.6)² + (y - 2.6)² = 0.010000000000000002, (x + 1.35)² + (y - 1.35)² = 0.010000000000000002, (x + 0.10000000000000009)² + (y - 0.10000000000000009)² = 0.010000000000000002, (x - 1.15)² + (y + 1.15)² = 0.010000000000000002, (x - 2.4)² + (y + 2.4)² = 0.010000000000000002, (x - 3.65)² + (y + 3.65)² = 0.010000000000000002, (x - 4.9)² + (y + 4.9)² = 0.010000000000000002, (x - 6.15)² + (y + 6.15)² = 0.010000000000000002}"/>
+</command>
+<element type="list" label="markersLPos">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMarkers ∧ (¬χSpatial) ∧ χPositiveLight"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Circle[((-k) - sm, (-tm) - If[χFolded, 0, k]), 0.1]" a1="k" a2="((-W)) / 2" a3="W / 2" a4="W / ((n * If[χFolded, 1, 2]))"/>
+	<output a0="markersLNeg" randomResult="{(x - 3.85)² + (y - 3.85)² = 0.010000000000000002, (x - 2.6)² + (y - 2.6)² = 0.010000000000000002, (x - 1.35)² + (y - 1.35)² = 0.010000000000000002, (x - 0.10000000000000009)² + (y - 0.10000000000000009)² = 0.010000000000000002, (x + 1.15)² + (y + 1.15)² = 0.010000000000000002, (x + 2.4)² + (y + 2.4)² = 0.010000000000000002, (x + 3.65)² + (y + 3.65)² = 0.010000000000000002, (x + 4.9)² + (y + 4.9)² = 0.010000000000000002, (x + 6.15)² + (y + 6.15)² = 0.010000000000000002}"/>
+</command>
+<element type="list" label="markersLNeg">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMarkers ∧ (¬χSpatial) ∧ χNegativeLight"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(mod(k + t, W) - W / 2, If[χObjective, t - W / 2, 0])" a1="k" a2="(-(W / 2))" a3="W / 2" a4="W / n"/>
+	<output a0="photonPos" randomResult="{(2.3, 0), (4.800000000000001, 0), (-2.7, 0), (-0.20000000000000018, 0), (2.3, 0)}"/>
+</command>
+<element type="list" label="photonPos">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPhotons ∧ χPositiveLight"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(mod(k - t, W) - W / 2, If[χObjective, t - W / 2, 0])" a1="k" a2="(-(W / 2))" a3="W / 2" a4="W / n"/>
+	<output a0="photonNeg" randomResult="{(-2.3, 0), (0.20000000000000018, 0), (2.7, 0), (-4.8, 0), (-2.3, 0)}"/>
+</command>
+<element type="list" label="photonNeg">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="χPhotons ∧ χNegativeLight"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="10"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="χEyes">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="460"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Sequence">
+	<input a0="Translate[eye, Vector[(k, If[χObjective, t - W / 2, 0])]]" a1="k" a2="(-(W / 2))" a3="W / 2" a4="W / n"/>
+	<output a0="eyes" randomResult="{{0.4608000000000001x² + 1.2800000000000002y² + 4.6080000000000005x - 0.3584000000000001y = -11.543936000000002, 0.23182380450040302, 0.22627416997969524, 0.22627416997969524}, {0.4608000000000001x² + 1.2800000000000002y² + 2.3040000000000003x - 0.3584000000000001y = -2.9039360000000003, 0.23182380450040302, 0.22627416997969524, 0.22627416997969524}, {0.4608000000000001x² + 1.2800000000000002y² - 0.3584000000000001y = -0.02393600000000001, 0.23182380450040302, 0.22627416997969524, 0.22627416997969524}, {0.4608000000000001x² + 1.2800000000000002y² - 2.3040000000000003x - 0.3584000000000001y = -2.9039360000000003, 0.23182380450040302, 0.22627416997969524, 0.22627416997969524}, {0.4608000000000001x² + 1.2800000000000002y² - 4.6080000000000005x - 0.3584000000000001y = -11.543936000000002, 0.23182380450040302, 0.22627416997969524, 0.22627416997969524}}"/>
+</command>
+<element type="list" label="eyes">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χEyes"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="AnchorBottomLeft" exp="(-6.15, -5.58)" type="point"/>
+<element type="point" label="AnchorBottomLeft">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-6.15" y="-5.58" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="AnchorTopRight" exp="(6.47, 5.82)" type="point"/>
+<element type="point" label="AnchorTopRight">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="6.47" y="5.82" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="234" g="234" b="234" alpha="255"/>
+	<layer val="1"/>
+	<labelOffset x="470" y="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="100" height="32" />
+	<caption val="Animation"/>
+</element>
+<element type="numeric" label="animSpeed">
+	<value val="0"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelOffset x="4" y="2"/>
+	<labelMode val="3"/>
+	<slider min="-3" max="3" absoluteScreenLocation="true" width="100" x="353" y="38" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<caption val="speed"/>
+</element>
+<command name="Segment">
+	<input a0="((-(W / 2)), W / 2 - If[χSpatial, If[χObjective, W / 2, t], W])" a1="(W / 2, W / 2 - If[χSpatial, If[χObjective, W / 2, t], 0])"/>
+	<output a0="threadExNeg"/>
+</command>
+<element type="segment" label="threadExNeg">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="(¬χFolded) ∧ χNegativeLight"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="-10" y="10" z="0"/>
+	<lineStyle thickness="3" type="30" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="((-(W / 2)), W / 2 - If[χSpatial, If[χObjective, W / 2, t], 0])" a1="(W / 2, W / 2 - If[χSpatial, If[χObjective, W / 2, t], W])"/>
+	<output a0="threadExPos"/>
+</command>
+<element type="segment" label="threadExPos">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="(¬χFolded) ∧ χPositiveLight"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<coords x="10" y="10" z="0"/>
+	<lineStyle thickness="3" type="30" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+</construction>
+</geogebra>
