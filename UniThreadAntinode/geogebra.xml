@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="5eaf05c8-c0eb-49c7-b5ab-8750bec0dcb2"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.2177650429799427" orientation="1" />
+		<pane location="1" divider="0.5025787965616045" orientation="1" />
+	</panes>
+	<views>
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="true" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="true" inframe="false" stylebar="true" location="1,1" size="472" window="530,157,760,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1,3" size="877" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="3" size="100" window="100,100,600,400" />
+		<view id="2" visible="true" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="725,103,506,459" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="341" window="520,269,924,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="104" height="567"/>
+	<coordSystem xZero="250.0000000000002" yZero="358.0000000000002" scale="50.00000000000002" yscale="50.00000000000002"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0" lockedAxesRatio="1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<auxiliary show="true"/>
+	<collapsed val="1,2,3,4,5,6,7,8"/>
+</algebraView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="-0.05146856676085665" yZero="0.12051221824489777" zZero="0" scale="248.34836236993362" xAngle="16" zAngle="-796.23273494933"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<axis id="2" show="true" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="UniThreadAntinode" author="" date="">
+<element type="angle" label="t">
+	<angleStyle val="3"/>
+	<value val="3.9269908169872414"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="30" y="50" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="2" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="0.08726646259971647" speed="1" type="1" playing="true"/>
+</element>
+<command name="Rotate">
+	<input a0="CurveCartesian[(cos(φ) * sqrt(1 + (sin(φ))^(2))), (sin(φ) * abs(sin(φ))), (sin(φ) * cos(φ)), φ, (-π), π]" a1="t" a2="Line[(0, 0, 0), (1, 0, 0)]"/>
+	<output a0="threadC"/>
+</command>
+<element type="curvecartesian3d" label="threadC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThreadC"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="u" a1="(-(1 - u^(2)))" a2="((-u) * sqrt(1 - u^(2)))" a3="u" a4="-1" a5="1"/>
+	<output a0="threadCutN"/>
+</command>
+<element type="curvecartesian3d" label="threadCutN">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="u" a1="1 - u^(2)" a2="(u * sqrt(1 - u^(2)))" a3="u" a4="-1" a5="1"/>
+	<output a0="threadCutP"/>
+</command>
+<element type="curvecartesian3d" label="threadCutP">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<expression label="norm" exp="norm(φ) = sqrt(1 + ((sin(φ))^(2) * (cos(φ))^(2)))" type="function"/>
+<element type="function" label="norm">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(cos(φ) * sqrt(1 + (sin(φ))^(2)) / norm(φ))" a1="(sin(φ) * abs(sin(φ)) / norm(φ))" a2="(sin(φ) * cos(φ) / norm(φ))" a3="φ" a4="(-π)" a5="π"/>
+	<output a0="threadCNorm"/>
+</command>
+<element type="curvecartesian3d" label="threadCNorm">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="Sphere">
+	<input a0="(0, 0, 0)" a1="1"/>
+	<output a0="ball"/>
+</command>
+<element type="quadric" label="ball">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="χBalls"/>
+	<objColor r="0" g="255" b="255" alpha="0.28"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="pipeP" exp="z^(2) + (y - 1 / 2)^(2) = (1 / 2)^(2)" type="quadric"/>
+<element type="quadric" label="pipeP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="0" x1="0" y1="0" z1="1" x2="1" y2="0" z2="0"/>
+	<matrix A0="0" A1="1" A2="1" A3="0" A4="0" A5="0" A6="0" A7="0" A8="-0.5" A9="0"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Rotate">
+	<input a0="CurveCartesian[cos(φ), (sin(φ) * abs(sin(φ))), (sin(φ) * cos(φ)), φ, (-π), π]" a1="t" a2="Line[(0, 0, 0), (1, 0, 0)]"/>
+	<output a0="thread"/>
+</command>
+<element type="curvecartesian3d" label="thread">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThread"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<expression label="pipeN" exp="z^(2) + (y + 1 / 2)^(2) = (1 / 2)^(2)" type="quadric"/>
+<element type="quadric" label="pipeN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="255" alpha="0.48"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="0" x1="0" y1="0" z1="1" x2="1" y2="0" z2="0"/>
+	<matrix A0="0" A1="1" A2="1" A3="0" A4="0" A5="0" A6="0" A7="0" A8="0.5" A9="0"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Mirror">
+	<input a0="thread" a1="(1, 0, 0)"/>
+	<output a0="thread1"/>
+</command>
+<element type="curvecartesian3d" label="thread1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThread"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="Mirror">
+	<input a0="thread" a1="(-1, 0, 0)"/>
+	<output a0="thread1n"/>
+</command>
+<element type="curvecartesian3d" label="thread1n">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThread"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="Mirror">
+	<input a0="threadC" a1="(1, 0, 0)"/>
+	<output a0="threadC1"/>
+</command>
+<element type="curvecartesian3d" label="threadC1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThreadC"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<command name="Mirror">
+	<input a0="threadC" a1="(-1, 0, 0)"/>
+	<output a0="threadC1n"/>
+</command>
+<element type="curvecartesian3d" label="threadC1n">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χThreadC"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="χThread">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χThreadC">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χBalls">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="5"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Sphere">
+	<input a0="(2, 0, 0)" a1="1"/>
+	<output a0="ball1"/>
+</command>
+<element type="quadric" label="ball1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χBalls"/>
+	<objColor r="0" g="255" b="255" alpha="0.28"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="3" A4="0" A5="0" A6="0" A7="-2" A8="0" A9="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Sphere">
+	<input a0="(-2, 0, 0)" a1="1"/>
+	<output a0="ball1n"/>
+</command>
+<element type="quadric" label="ball1n">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χBalls"/>
+	<objColor r="0" g="255" b="255" alpha="0.28"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="3" A4="0" A5="0" A6="0" A7="2" A8="0" A9="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="pipeZ" exp="x^(2) + y^(2) = 1" type="quadric"/>
+<element type="quadric" label="pipeZ">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="0" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="0" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="note" exp="&quot;Thread curve ≈ Viviani&apos;s curve&quot;"/>
+<element type="text" label="note">
+	<show object="false" label="true" ev="5"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<startPoint x="0.05146856676085676" y="-0.12051221824489788" z="1"/>
+</element>
+<expression label="coneP" exp="x^(2) = (y - 1)^(2) + z^(2)" type="quadric"/>
+<element type="quadric" label="coneP">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="102" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="0" x1="0" y1="0" z1="1" x2="1" y2="0" z2="0"/>
+	<matrix A0="1" A1="-1" A2="-1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="1" A9="0"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="coneN" exp="x^(2) = (y + 1)^(2) + z^(2)" type="quadric"/>
+<element type="quadric" label="coneN">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="255" b="102" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="0" x1="0" y1="0" z1="1" x2="1" y2="0" z2="0"/>
+	<matrix A0="1" A1="-1" A2="-1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="-1" A9="0"/>
+	<eqnStyle style="user"/>
+</element>
+</construction>
+</geogebra>

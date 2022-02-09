@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="5eaf05c8-c0eb-49c7-b5ab-8750bec0dcb2"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.18624641833810887" orientation="1" />
+		<pane location="1" divider="0.0836676217765043" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1" size="314" window="421,155,760,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1,3" size="146" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="true" location="1,3" size="300" window="100,100,600,400" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="true" location="1,1" size="988" window="77,175,600,400" />
+		<view id="2" visible="true" inframe="false" stylebar="true" location="3" size="325" tab="ALGEBRA" window="1006,180,586,495" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="341" window="559,149,924,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="145" height="775"/>
+	<coordSystem xZero="73" yZero="301.99999999999994" scale="49.99999999999994" yscale="49.999999999999936"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0" lockedAxesRatio="1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="false" selectionAllowed="false"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="false" selectionAllowed="false"/>
+</euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<auxiliary show="true"/>
+	<collapsed val="0,1,2,3,4,6,7,8,9,10,11,12"/>
+</algebraView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="3"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0" yZero="0" zZero="-1.5" scale="17.52469497406961" xAngle="30" zAngle="-681"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="2" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<plate show="false"/>
+	<bgColor r="0" g="0" b="0"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="CliffordDonut" author="" date="">
+<element type="numeric" label="sZW">
+	<value val="0.75"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="OW" exp="(-1, 3.5)" type="point"/>
+<element type="point" label="OW">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<coords x="-1" y="3.5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="360°" absoluteScreenLocation="true" width="360" x="110" y="441" fixed="true" horizontal="false" showAlgebra="true"/>
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<bgColor r="0" g="0" b="0" alpha="102"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="-19"/>
+	<labelMode val="2"/>
+	<lineStyle thickness="6" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<animation step="If[χRightAngle ≟ true, 45°, 1°]" speed="0.5" type="1" playing="true"/>
+</element>
+<expression label="R" exp="sqrt(2)"/>
+<element type="numeric" label="R">
+	<value val="1.4142135623730951"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="W" exp="W(u, v) = (sin(ϕ) * cos(u)) + (cos(ϕ) * cos(v))" />
+<element type="functionnvar" label="W">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="153" g="51" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="SPrj" exp="SPrj(x, w) = (((1 + R^(4)) * x)) / (R - w)" />
+<element type="functionnvar" label="SPrj">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="102" g="102" b="102" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="Z" exp="Z(u, v) = (cos(ϕ) * cos(u)) - (sin(ϕ) * cos(v))" />
+<element type="functionnvar" label="Z">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="SPrj(sin(u), W(u, v))" a1="SPrj(sin(v), W(u, v))" a2="SPrj(Z(u, v), W(u, v))" a3="u" a4="0" a5="(2 * π)" a6="v" a7="(-0.005 * π)" a8="(0.005 * π)"/>
+	<output a0="TorusU"/>
+</command>
+<element type="surfacecartesian3d" label="TorusU">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="85" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Surface">
+	<input a0="SPrj(sin(u), W(u, v))" a1="SPrj(sin(v), W(u, v))" a2="SPrj(Z(u, v), W(u, v))" a3="u" a4="(-0.005 * π)" a5="(0.005 * π)" a6="v" a7="0" a8="(2 * π)"/>
+	<output a0="TorusV"/>
+</command>
+<element type="surfacecartesian3d" label="TorusV">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin(u), W(u, π))" a1="SPrj(sin(π), W(u, π))" a2="SPrj(Z(u, π), W(u, π))" a3="u" a4="0" a5="(2 * π)"/>
+	<output a0="TorusUπ"/>
+</command>
+<element type="curvecartesian3d" label="TorusUπ">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin(π), W(π, v))" a1="SPrj(sin(v), W(π, v))" a2="SPrj(Z(π, v), W(π, v))" a3="v" a4="0" a5="(2 * π)"/>
+	<output a0="TorusVπ"/>
+</command>
+<element type="curvecartesian3d" label="TorusVπ">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="χRightAngle">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="393"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="χR0" exp="(-0.5, -1)" type="point"/>
+<element type="point" label="χR0">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="9" y="16"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<ggbscript val="SetPointStyle(χR0,0)&#xa;SetPointStyle(χR1,2)&#xa;SetPointStyle(χRsqrt2,2)&#xa;SetPointStyle(χR2,2)&#xa;R=0"/>
+	<coords x="-0.5" y="-1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="2"/>
+	<caption val="R=0"/>
+</element>
+<expression label="χR2" exp="(-0.5, 2)" type="point"/>
+<element type="point" label="χR2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="15"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<ggbscript val="SetPointStyle(χR0,2)&#xa;SetPointStyle(χR1,2)&#xa;SetPointStyle(χRsqrt2,2)&#xa;SetPointStyle(χR2,0)&#xa;R=2"/>
+	<coords x="-0.5" y="2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="2"/>
+	<caption val="R=2"/>
+</element>
+<expression label="χRsqrt2" exp="(-0.5, 1)" type="point"/>
+<element type="point" label="χRsqrt2">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="14"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<ggbscript val="SetPointStyle(χR0,2)&#xa;SetPointStyle(χR1,2)&#xa;SetPointStyle(χRsqrt2,0)&#xa;SetPointStyle(χR2,2)&#xa;R=√2 "/>
+	<coords x="-0.5" y="1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="R=√2"/>
+</element>
+<expression label="χR1" exp="(-0.5, 0)" type="point"/>
+<element type="point" label="χR1">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="96" g="96" b="96" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="14"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<ggbscript val="SetPointStyle(χR0,2)&#xa;SetPointStyle(χR1,0)&#xa;SetPointStyle(χRsqrt2,2)&#xa;SetPointStyle(χR2,2)&#xa;R=1"/>
+	<coords x="-0.5" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="2"/>
+	<caption val="R=1"/>
+</element>
+<element type="boolean" label="χPunctured">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="439"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="If">
+	<input a0="χPunctured ≟ true" a1="(R * π / 8)" a2="0"/>
+	<output a0="punc"/>
+</command>
+<element type="numeric" label="punc">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Text">
+	<input a0="&quot;x^2+z^2=y^2+w^2=1 ↔ x^2+w^2=y^2+z^2=1; Rotate: ϕ=arg(z,w); Stereo-projected from w=R&quot;" a1="(0, 0)" a2="false" a3="true"/>
+	<output a0="txtExplain"/>
+</command>
+<element type="text" label="txtExplain">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="0" y="0" z="1"/>
+</element>
+<element type="boolean" label="χParallelPrj">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="501"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χParallelPrj==true,{SetValue(χStereoPrj,false),SetValue(χNormPrj,false)})"/>
+</element>
+<element type="boolean" label="χNormPrj">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="532"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χNormPrj==true,{SetValue(χStereoPrj,false),SetValue(χParallelPrj,false)})"/>
+</element>
+<element type="boolean" label="χStereoPrj">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="470"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χStereoPrj==true,{SetValue(χParallelPrj,false),SetValue(χNormPrj,false)})"/>
+</element>
+<command name="Vector">
+	<input a0="OW - (1, 0)" a1="OW + (1.8, 0)"/>
+	<output a0="vW"/>
+</command>
+<element type="vector" label="vW">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="50" y="-4"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<coords x="2.8" y="0" z="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-2" y="3.5" z="1"/>
+	<caption val="w"/>
+</element>
+<command name="Polygon">
+	<input a0="OW + (sZW * (W(0, 0), Z(0, 0)))" a1="OW + (sZW * (W(0, π), Z(0, π)))" a2="4"/>
+	<output a0="TZW"/>
+</command>
+<element type="polygon" label="TZW">
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="255" b="255" alpha="0.52"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<command name="Vector">
+	<input a0="OW - (0, 1)" a1="OW + (0, 1.5)"/>
+	<output a0="vZ"/>
+</command>
+<element type="vector" label="vZ">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="9" y="-46"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<coords x="0" y="2.5" z="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1" y="2.5" z="1"/>
+	<caption val="z"/>
+</element>
+<expression label="PR" exp="OW + (sZW * (R, 0))" type="point" />
+<element type="point" label="PR">
+	<show object="true" label="true" ev="8"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="22"/>
+	<labelMode val="3"/>
+	<coords x="0.060660171779821415" y="3.5" z="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<caption val="R"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(6 * sin(π))" a1="(6 * sin(v))" a2="(6 * Z(π, v))" a3="v" a4="0" a5="(2 * π)"/>
+	<output a0="TorelVπ"/>
+</command>
+<element type="curvecartesian3d" label="TorelVπ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(6 * sin(u))" a1="(6 * sin(π))" a2="(6 * Z(u, π))" a3="u" a4="0" a5="(2 * π)"/>
+	<output a0="TorelUπ"/>
+</command>
+<element type="curvecartesian3d" label="TorelUπ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(6 * sin(u))" a1="(6 * sin(0))" a2="((6 * sgn(Z(u, 0))) * sqrt((Z(u, 0))^(2) + (W(u, 0))^(2)))" a3="u" a4="0" a5="(2 * π)"/>
+	<output a0="TormU"/>
+</command>
+<element type="curvecartesian3d" label="TormU">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="χNormPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(6 * sin(0))" a1="(6 * sin(v))" a2="((6 * sgn(Z(0, v))) * sqrt((Z(0, v))^(2) + (W(0, v))^(2)))" a3="v" a4="0" a5="(2 * π)"/>
+	<output a0="TormV"/>
+</command>
+<element type="curvecartesian3d" label="TormV">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="χNormPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="(6 * sin(u))" a1="(6 * sin(v))" a2="((6 * sgn(Z(u, v))) * sqrt((Z(u, v))^(2) + (W(u, v))^(2)))" a3="u" a4="0" a5="(2 * π)" a6="v" a7="0" a8="(2 * π)"/>
+	<output a0="Torm"/>
+</command>
+<element type="surfacecartesian3d" label="Torm">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="χNormPrj ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Angle">
+	<input a0="PR + (-1, 1)" a1="PR" a2="PR + (-1, -1)"/>
+	<output a0="αWR"/>
+</command>
+<element type="angle" label="αWR">
+	<angleStyle val="0"/>
+	<emphasizeRightAngle val="false"/>
+	<value val="1.5707963267948966"/>
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="160" g="160" b="160" alpha="0.34"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<decoration type="4"/>
+	<lineStyle thickness="1" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+</element>
+<command name="Sequence">
+	<input a0="Vector[PR + (0, z), PR + (-0.1, z)]" a1="z" a2="-1" a3="1" a4="0.1"/>
+	<output a0="ParallelPrjRays" randomResult="{(-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0), (-0.1, 0)}"/>
+</command>
+<element type="list" label="ParallelPrjRays">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="OW" a1="0.3"/>
+	<output a0="NormPrjCircle"/>
+</command>
+<element type="conic" label="NormPrjCircle">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="χNormPrj ≟ true"/>
+	<objColor r="160" g="160" b="160" alpha="0.43"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="13.16" A3="0" A4="1" A5="-3.5"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Surface">
+	<input a0="(6 * sin(u))" a1="(6 * sin(v))" a2="(6 * Z(u, v))" a3="u" a4="0" a5="(2 * π)" a6="v" a7="0" a8="(2 * π)"/>
+	<output a0="Torel"/>
+</command>
+<element type="surfacecartesian3d" label="Torel">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Vector">
+	<input a0="OW + (sZW * (W(0, 0), Z(0, 0)))" a1="OW + (sZW * (W(π, 0), Z(π, 0)))"/>
+	<output a0="vZWU"/>
+</command>
+<element type="vector" label="vZWU">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-5" y="-3"/>
+	<labelMode val="3"/>
+	<coords x="0" y="-1.5" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-0.25" y="4.25" z="1"/>
+	<caption val="u"/>
+</element>
+<command name="Vector">
+	<input a0="OW + (sZW * (W(0, π), Z(0, π)))" a1="OW + (sZW * (W(π, π), Z(π, π)))"/>
+	<output a0="vZWUπ"/>
+</command>
+<element type="vector" label="vZWUπ">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0" y="-1.5" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-1.75" y="4.25" z="1"/>
+	<caption val="uπ"/>
+</element>
+<command name="Vector">
+	<input a0="OW + (sZW * (W(0, 0), Z(0, 0)))" a1="OW + (sZW * (W(0, π), Z(0, π)))"/>
+	<output a0="vZWV"/>
+</command>
+<element type="vector" label="vZWV">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="-1"/>
+	<labelMode val="3"/>
+	<coords x="-1.5" y="0" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-0.25" y="4.25" z="1"/>
+	<caption val="v"/>
+</element>
+<command name="Vector">
+	<input a0="OW + (sZW * (W(π, 0), Z(π, 0)))" a1="OW + (sZW * (W(π, π), Z(π, π)))"/>
+	<output a0="vZWVπ"/>
+</command>
+<element type="vector" label="vZWVπ">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-4" y="3"/>
+	<labelMode val="3"/>
+	<coords x="-1.5" y="0" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="-0.25" y="2.75" z="1"/>
+	<caption val="vπ"/>
+</element>
+<command name="Surface">
+	<input a0="(6 * sin(u))" a1="(6 * sin(v))" a2="(6 * Z(u, v))" a3="u" a4="0" a5="(2 * π)" a6="v" a7="(-0.02 * π)" a8="(0.02 * π)"/>
+	<output a0="TorelU"/>
+</command>
+<element type="surfacecartesian3d" label="TorelU">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="255" g="85" b="0" alpha="0.74"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="(6 * sin(u))" a1="(6 * sin(v))" a2="(6 * Z(u, v))" a3="u" a4="(-0.02 * π)" a5="(0.02 * π)" a6="v" a7="0" a8="(2 * π)"/>
+	<output a0="TorelV"/>
+</command>
+<element type="surfacecartesian3d" label="TorelV">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χParallelPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+</element>
+<command name="Angle">
+	<input a0="OW + (sZW * (W(0, π), Z(0, π)))" a1="OW + (sZW * (W(0, 0), Z(0, 0)))" a2="OW + (sZW * (W(π, 0), Z(π, 0)))"/>
+	<output a0="αPuncture"/>
+</command>
+<element type="angle" label="αPuncture">
+	<angleStyle val="0"/>
+	<value val="1.5707963267948966"/>
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="255" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="0" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin(u), W(u, punc))" a1="SPrj(sin(punc), W(u, punc))" a2="SPrj(Z(u, punc), W(u, punc))" a3="u" a4="(-punc)" a5="punc"/>
+	<output a0="TorusPuncU"/>
+</command>
+<element type="curvecartesian3d" label="TorusPuncU">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="63" b="63" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin(u), W(u, (-punc)))" a1="SPrj(sin((-punc)), W(u, (-punc)))" a2="SPrj(Z(u, (-punc)), W(u, (-punc)))" a3="u" a4="(-punc)" a5="punc"/>
+	<output a0="TorusPuncUn"/>
+</command>
+<element type="curvecartesian3d" label="TorusPuncUn">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="63" b="63" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin(punc), W(punc, v))" a1="SPrj(sin(v), W(punc, v))" a2="SPrj(Z(punc, v), W(punc, v))" a3="v" a4="(-punc)" a5="punc"/>
+	<output a0="TorusPuncV"/>
+</command>
+<element type="curvecartesian3d" label="TorusPuncV">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="63" b="63" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="SPrj(sin(u), W(u, v))" a1="SPrj(sin(v), W(u, v))" a2="SPrj(Z(u, v), W(u, v))" a3="u" a4="punc" a5="(2 * π) - punc" a6="v" a7="punc" a8="(2 * π) - punc"/>
+	<output a0="Torus"/>
+</command>
+<element type="surfacecartesian3d" label="Torus">
+	<show object="false" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Surface">
+	<input a0="SPrj(sin(u), W(u, v))" a1="SPrj(sin(v), W(u, v))" a2="SPrj(Z(u, v), W(u, v))" a3="u" a4="(-punc)" a5="punc" a6="v" a7="punc" a8="(2 * π) - punc"/>
+	<output a0="TorusPatchV"/>
+</command>
+<element type="surfacecartesian3d" label="TorusPatchV">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.82"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Surface">
+	<input a0="SPrj(sin(u), W(u, v))" a1="SPrj(sin(v), W(u, v))" a2="SPrj(Z(u, v), W(u, v))" a3="u" a4="punc" a5="(2 * π) - punc" a6="v" a7="(-punc)" a8="punc"/>
+	<output a0="TorusPatchU"/>
+</command>
+<element type="surfacecartesian3d" label="TorusPatchU">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.83"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="SPrj(sin((-punc)), W((-punc), v))" a1="SPrj(sin(v), W((-punc), v))" a2="SPrj(Z((-punc), v), W((-punc), v))" a3="v" a4="(-punc)" a5="punc"/>
+	<output a0="TorusPuncVn"/>
+</command>
+<element type="curvecartesian3d" label="TorusPuncVn">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χStereoPrj ≟ true ∧ χPunctured ≟ true"/>
+	<objColor r="0" g="63" b="63" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-28" y="50"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<element type="numeric" label="v">
+	<value val="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="PUVπ0" exp="(SPrj(sin(π), W(π, 0)), SPrj(sin(0), W(π, 0)), SPrj(Z(π, 0), W(π, 0)))" type="point" />
+<element type="point3d" label="PUVπ0">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.4782794558091699e-15" y="0" z="-12.071067811865474" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="PUVππ" exp="(SPrj(sin(π), W(π, π)), SPrj(sin(π), W(π, π)), SPrj(Z(π, π), W(π, π)))" type="point" />
+<element type="point3d" label="PUVππ">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-80" y="4"/>
+	<labelMode val="0"/>
+	<coords x="2.5363265666181676e-16" y="2.5363265666181676e-16" z="-2.0710678118654755" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="PUV00" exp="(SPrj(sin(0), W(0, 0)), SPrj(sin(0), W(0, 0)), SPrj(Z(0, 0), W(0, 0)))" type="point" />
+<element type="point3d" label="PUV00">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0" z="12.071067811865474" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="PUV0π" exp="(SPrj(sin(0), W(0, π)), SPrj(sin(π), W(0, π)), SPrj(Z(0, π), W(0, π)))" type="point" />
+<element type="point3d" label="PUV0π">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2.5363265666181676e-16" z="2.0710678118654755" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Vector">
+	<input a0="PUV00" a1="PUV00 + (0, 2, 0)"/>
+	<output a0="vV00"/>
+</command>
+<element type="vector3d" label="vV00">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUV00"/>
+</element>
+<command name="Vector">
+	<input a0="PUV0π" a1="PUV0π + (0, -2, 0)"/>
+	<output a0="vV0π"/>
+</command>
+<element type="vector3d" label="vV0π">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-2" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUV0π"/>
+</element>
+<command name="Vector">
+	<input a0="PUVπ0" a1="PUVπ0 + (0, 2, 0)"/>
+	<output a0="vVπ0"/>
+</command>
+<element type="vector3d" label="vVπ0">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUVπ0"/>
+</element>
+<command name="Vector">
+	<input a0="PUVππ" a1="PUVππ + (0, -2, 0)"/>
+	<output a0="vVππ"/>
+</command>
+<element type="vector3d" label="vVππ">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-2" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUVππ"/>
+</element>
+<expression label="PUV" exp="(SPrj(sin(0.3), W(0.3, 0.3)), SPrj(sin(0.3), W(0.3, 0.3)), SPrj(Z(0.3, 0.3), W(0.3, 0.3)))" type="point" />
+<element type="point3d" label="PUV">
+	<show object="true" label="true" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="3.2200367363086233" y="3.2200367363086233" z="10.409503381424749" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="Vector">
+	<input a0="PUV0π" a1="PUV0π + (2, 0, 0)"/>
+	<output a0="vU0π"/>
+</command>
+<element type="vector3d" label="vU0π">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2" y="0" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUV0π"/>
+</element>
+<command name="Vector">
+	<input a0="PUVπ0" a1="PUVπ0 + (-2, 0, 0)"/>
+	<output a0="vUπ0"/>
+</command>
+<element type="vector3d" label="vUπ0">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2" y="0" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUVπ0"/>
+</element>
+<command name="Vector">
+	<input a0="PUV00" a1="PUV00 + (2, 0, 0)"/>
+	<output a0="vU00"/>
+</command>
+<element type="vector3d" label="vU00">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2" y="0" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUV00"/>
+</element>
+<command name="Vector">
+	<input a0="PUVππ" a1="PUVππ + (-2, 0, 0)"/>
+	<output a0="vUππ"/>
+</command>
+<element type="vector3d" label="vUππ">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="χStereoPrj ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-2" y="0" z="0" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="PUVππ"/>
+</element>
+</construction>
+</geogebra>
