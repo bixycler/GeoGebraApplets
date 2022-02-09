@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="bd93f4f3-c559-44ae-bd3b-f0cc68a78a66"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.12378223495702005" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="794,588,1254,550" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="1,3" size="238" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="216" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1745" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="20"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="237" height="497"/>
+	<coordSystem xZero="215.0000000000001" yZero="315.00000000000006" scale="50.00000000000003" yscale="50.00000000000003"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0.017448775986105627" yZero="-0.022375419424513848" zZero="-0.5289277560007954" scale="28.069354211598984" xAngle="26" zAngle="-910.5956265184725"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="1"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="" author="" date="">
+<element type="numeric" label="n">
+	<value val="3"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="2" max="20" absoluteScreenLocation="true" width="150" x="30" y="170" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="p">
+	<value val="2.67"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="5" absoluteScreenLocation="true" width="150" x="30" y="130" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="r">
+	<value val="2.53"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="10" absoluteScreenLocation="true" width="150" x="30" y="90" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="R">
+	<value val="3.47"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="10" absoluteScreenLocation="true" width="150" x="30" y="50" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="40" y="243"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="R = Slider(0, 10, 0.01, 1, 150, false, true, false, false)&#xa;r = Slider(0, 10, 0.01, 1, 150, false, true, false, false)&#xa;p = Slider(0, 5, 0.01, 1, 150, false, true, false, false)&#xa;n = Slider(2, 20, 1, 1, 150, false, true, false, false)&#xa;SetValue(R, 3.47)&#xa;SetValue(r, 2.53)&#xa;SetValue(p, 2.67)&#xa;SetValue(n, 3)&#xa;&#xa;t = Slider(0, 2 pi , 0.01, 1, 150, false, true, false, false)&#xa;&#xa;cx(x, y) = (R - r cos(x)) * cos(p * x + y)&#xa;cy(x, y) = (R - r cos(x)) * sin(p * x + y)&#xa;cz(x, y) = r * sin(x)&#xa;SetVisibleInView(cx, -1, false)&#xa;SetVisibleInView(cy, -1, false)&#xa;SetVisibleInView(cz, -1, false)&#xa;&#xa;Lm = Sequence(k, k, 0, 2 pi, 2pi/n)&#xa;&#xa;L_1 = Zip(Surface(cx(u, v), cy(u,v), cz(u,v), u, 0, 2π, v, m + π / n, m + 2π / n), m, Lm)&#xa;SetVisibleInView(L_1, -1, false)&#xa;&#xa;R_1 = Rotate(L_1, -t, zAxis)&#xa;SetFilling(R_1, 1)&#xa;&#xa;StartAnimation(t, true)"/>
+	<font serif="false" sizeM="2" size="20" style="0"/>
+	<caption val="Setup"/>
+</element>
+<element type="numeric" label="t">
+	<value val="3.27"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="150" x="30" y="210" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="1" playing="true"/>
+</element>
+<expression label="cx" exp="cx(x, y) = ((R - (r * cos(x))) * cos((p * x) + y))" />
+<element type="functionnvar" label="cx">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="153" g="51" b="255" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="cy" exp="cy(x, y) = ((R - (r * cos(x))) * sin((p * x) + y))" />
+<element type="functionnvar" label="cy">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="102" g="102" b="102" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="cz" exp="cz(x, y) = (r * sin(x))" />
+<element type="functionnvar" label="cz">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="153" g="51" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Sequence">
+	<input a0="k" a1="k" a2="0" a3="(2 * π)" a4="(2 * π / n)"/>
+	<output a0="Lm" randomResult="{0, 2.0943951023931953, 4.1887902047863905, 6.283185307179586}"/>
+</command>
+<element type="list" label="Lm">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Zip">
+	<input a0="Surface[cx(u, v), cy(u, v), cz(u, v), u, 0, (2 * π), v, m + π / n, m + (2 * π / n)]" a1="m" a2="Lm"/>
+	<output a0="L_1"/>
+</command>
+<element type="list" label="L_1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="100" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="L_1" a1="(-t)" a2="zAxis"/>
+	<output a0="R_1"/>
+</command>
+<element type="list" label="R_1">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="153" g="204" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+</construction>
+</geogebra>
