@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="737F8244-5D96-4086-9D0C-C9378D6B72AC"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.20859598853868194" orientation="1" />
+		<pane location="1" divider="0.3656160458452722" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1,3" size="638" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="true" inframe="false" stylebar="true" location="1,1" size="727" window="100,100,700,550" />
+		<view id="2" visible="true" inframe="false" stylebar="false" location="3" size="364" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="637" height="775"/>
+	<coordSystem xZero="442.0000000000007" yZero="370.99999999999994" scale="49.99999999999998" yscale="49.99999999999998"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<auxiliary show="true"/>
+	<collapsed val="0,1,3,4,5,6,7"/>
+</algebraView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="SpacetimeCircles" author="" date="">
+<element type="numeric" label="c">
+	<value val="1.01"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="2"/>
+	<labelMode val="1"/>
+	<slider min="0" max="2.5" absoluteScreenLocation="true" width="200" x="138" y="31" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="v">
+	<value val="0.187"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="4"/>
+	<labelMode val="1"/>
+	<slider min="(-c)" max="c" absoluteScreenLocation="true" width="200" x="342" y="71" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.001" speed="1" type="0" playing="false"/>
+</element>
+<expression label="vP" exp="c - v" />
+<element type="numeric" label="vP">
+	<value val="0.823"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="OSpaceP" exp="(0, 1 + vP)" type="point" />
+<element type="point" label="OSpaceP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="1.823" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="vN" exp="c + v" />
+<element type="numeric" label="vN">
+	<value val="1.197"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="numeric" label="t">
+	<value val="0.38"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-2" y="1"/>
+	<labelMode val="1"/>
+	<slider min="0" max="tMax" absoluteScreenLocation="true" width="200" x="442" y="34" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="0.75" type="1" playing="true"/>
+</element>
+<expression label="tN" exp="(t * c / vN)" />
+<element type="numeric" label="tN">
+	<value val="0.3206349206349206"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="OSpaceN" exp="(0, -1 - vN)" type="point" />
+<element type="point" label="OSpaceN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="2"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-2.197" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="tP" exp="(t * c / vP)" />
+<element type="numeric" label="tP">
+	<value val="0.46634264884568655"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Circle">
+	<input a0="(0, 0)" a1="1"/>
+	<output a0="CClock"/>
+</command>
+<element type="conic" label="CClock">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0" dynamicr="0" dynamicg="If[χτClock, 153 / 255, 0]" dynamicb="If[χtClock, 1, 0]" dynamica="0" colorSpace="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="(0, -1 - vN)" a1="vN"/>
+	<output a0="CSpaceN"/>
+</command>
+<element type="conic" label="CSpaceN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.3939999999999997" A3="0" A4="0" A5="2.197"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="(0, 1 + vP)" a1="vP"/>
+	<output a0="CSpaceP"/>
+</command>
+<element type="conic" label="CSpaceP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="2.646" A3="0" A4="0" A5="-1.823"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, -1)" a1="(((-tN) * 2) * π)" a2="OSpaceN"/>
+	<output a0="PSpaceN"/>
+</command>
+<element type="point" label="PSpaceN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.0810361786288176" y="-2.7109744940126923" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, 1)" a1="(((-tP) * 2) * π)" a2="OSpaceP"/>
+	<output a0="PSpaceP"/>
+</command>
+<element type="point" label="PSpaceP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.17274986784035215" y="2.6276654479727215" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="OSpaceP" a1="PSpaceP"/>
+	<output a0="VSpaceP"/>
+</command>
+<element type="vector" label="VSpaceP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.17274986784035215" y="0.8046654479727215" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OSpaceP"/>
+</element>
+<command name="Vector">
+	<input a0="OSpaceN" a1="PSpaceN"/>
+	<output a0="VSpaceN"/>
+</command>
+<element type="vector" label="VSpaceN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.0810361786288176" y="-0.5139744940126922" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OSpaceN"/>
+</element>
+<expression label="FPWave" exp="FPWave(x) = ((1 - cos(((((2 * π) * c) * t) + x) / vP)) * vP) + 1" />
+<element type="function" label="FPWave">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWave"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="FNWave" exp="FNWave(x) = ((cos(((((-2 * π) * c) * t) + x) / vN) - 1) * vN) - 1" />
+<element type="function" label="FNWave">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWave"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="tMax" exp="(floor((5 * c / vP)) * vP / c)" />
+<element type="numeric" label="tMax">
+	<value val="4.889108910891089"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, 1)" a1="(((-tN) * 2) * π)"/>
+	<output a0="PPTimeN"/>
+</command>
+<element type="point" label="PPTimeN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χτClock"/>
+	<objColor r="153" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.9031212854041918" y="-0.42938554219940883" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, -1)" a1="(((-tP) * 2) * π)"/>
+	<output a0="PPTimeP"/>
+</command>
+<element type="point" label="PPTimeP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χτClock"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.2099026340709018" y="0.9777222940130276" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PPTime" exp="(PPTimeP + PPTimeN) / 2" type="point" />
+<element type="point" label="PPTime">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χτClock"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.346609325666645" y="0.27416837590680937" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Segment[(0, 0), (1, 0)]" a1="((2 * π) * ((-(tN + tP))) / 2)"/>
+	<output a0="SPTime"/>
+</command>
+<element type="segment" label="SPTime">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χτClock"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6203820272044496" y="-0.7842997770761493" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<element type="boolean" label="χWave">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="5"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χtClock">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="65"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χτClock">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="35"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="FPTimeWave" exp="FPTimeWave(x) = ((FPWave(x) - 1) / vP + (FNWave(x) + 1) / vN) / 2" />
+<element type="function" label="FPTimeWave">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWave ∧ χτClock"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, -1)" a1="(((c * t) * 2) * π)"/>
+	<output a0="PTimeN"/>
+</command>
+<element type="point" label="PTimeN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χtClock"/>
+	<objColor r="0" g="0" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6669487186147103" y="0.7451036214770372" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, 1)" a1="(((c * t) * 2) * π)"/>
+	<output a0="PTimeP"/>
+</command>
+<element type="point" label="PTimeP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χtClock"/>
+	<objColor r="51" g="51" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.6669487186147103" y="-0.7451036214770372" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Segment">
+	<input a0="PTimeP" a1="PTimeN"/>
+	<output a0="STime"/>
+</command>
+<element type="segment" label="STime">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χtClock"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-1.4902072429540745" y="1.3338974372294206" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="FTimePWave" exp="FTimePWave(x) = cos((((-2 * π) * c) * t) + x)" />
+<element type="function" label="FTimePWave">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWave ∧ χtClock"/>
+	<objColor r="51" g="51" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="FTimeNWave" exp="FTimeNWave(x) = (-cos((((2 * π) * c) * t) + x))" />
+<element type="function" label="FTimeNWave">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWave ∧ χtClock"/>
+	<objColor r="0" g="0" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+</construction>
+</geogebra>

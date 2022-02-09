@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="87287361-4296-4107-b65e-9db1fd2c7420"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.18968481375358165" orientation="1" />
+		<pane location="1" divider="0.10257879656160458" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="271,22,1303,1021" />
+		<view id="1" visible="true" inframe="false" stylebar="true" location="1,3" size="179" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1,1" size="1219" window="197,299,500,500" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1" size="291" window="964,400,1832,688" />
+		<view id="2" visible="true" inframe="false" stylebar="true" location="3" size="331" tab="ALGEBRA" window="628,219,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="20"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="178" height="775"/>
+	<coordSystem xZero="487.5" yZero="247.49999999999997" scale="49.44999999999998" yscale="49.449999999999996"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="10"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true" tickDistance="1" tickExpression="1"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true" tickDistance="1" tickExpression="1"/>
+</euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<collapsed val="5"/>
+</algebraView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0.2952670995677171" yZero="0.09201797151432056" zZero="0.2349529811101004" scale="69.1007238743628" xAngle="23" zAngle="970.4755062353148"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="true" show="false" size="2"/>
+	<projection type="1"/>
+</euclidianView3D>
+<construction title="StereographicProjection" author="" date="">
+	<worksheetText above="Drag the sliders to rotate the sphere.&#xa;&#xa;Stereographic projection maps a point on a sphere to a point on a plane. The mapping preserves angles." below=""/>
+<element type="numeric" label="d">
+	<value val="0.5773502691896258"/>
+	<show object="false" label="false"/>
+	<objColor r="204" g="0" b="0" alpha="0.25"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="30" y="170" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="a">
+	<value val="0"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="22" y="-30"/>
+	<labelMode val="1"/>
+	<slider min="0" max="(2 * π)" absoluteScreenLocation="true" width="200" x="92" y="247" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="b">
+	<value val="0"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelOffset x="11" y="-67"/>
+	<labelMode val="1"/>
+	<slider min="0" max="(2 * π)" absoluteScreenLocation="true" width="200" x="42" y="247" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="c">
+	<value val="0"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="(2 * π)" absoluteScreenLocation="true" width="200" x="141" y="247" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="A2" exp="((-d), d, d)" type="point" />
+<element type="point3d" label="A2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B2" exp="(x(A2), (y(A2) * cos(a)) - (z(A2) * sin(a)), (sin(a) * y(A2)) + (z(A2) * cos(a)))" type="point" />
+<element type="point3d" label="B2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C2" exp="((x(B2) * cos(b)) + (z(B2) * sin(b)), y(B2), ((-sin(b)) * x(B2)) + (z(B2) * cos(b)))" type="point" />
+<element type="point3d" label="C2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="D2" exp="((x(C2) * cos(c)) - (y(C2) * sin(c)), (x(C2) * sin(c)) + (y(C2) * cos(c)), z(C2))" type="point" />
+<element type="point3d" label="D2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E2" exp="((2 * x(D2) / (1 - z(D2))), (2 * y(D2) / (1 - z(D2))), -1)" type="point" />
+<element type="point3d" label="E2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-2.732050807568878" y="2.732050807568878" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="A1" exp="(d, d, d)" type="point" />
+<element type="point3d" label="A1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B1" exp="(x(A1), (y(A1) * cos(a)) - (z(A1) * sin(a)), (sin(a) * y(A1)) + (z(A1) * cos(a)))" type="point" />
+<element type="point3d" label="B1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C1" exp="((x(B1) * cos(b)) + (z(B1) * sin(b)), y(B1), ((-sin(b)) * x(B1)) + (z(B1) * cos(b)))" type="point" />
+<element type="point3d" label="C1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="D1" exp="((x(C1) * cos(c)) - (y(C1) * sin(c)), (x(C1) * sin(c)) + (y(C1) * cos(c)), z(C1))" type="point" />
+<element type="point3d" label="D1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E1" exp="((2 * x(D1) / (1 - z(D1))), (2 * y(D1) / (1 - z(D1))), -1)" type="point" />
+<element type="point3d" label="E1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="2.732050807568878" y="2.732050807568878" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="A3" exp="(d, (-d), d)" type="point" />
+<element type="point3d" label="A3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="A4" exp="(d, d, (-d))" type="point" />
+<element type="point3d" label="A4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="A5" exp="(d, (-d), (-d))" type="point" />
+<element type="point3d" label="A5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="A6" exp="((-d), d, (-d))" type="point" />
+<element type="point3d" label="A6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="A7" exp="((-d), (-d), d)" type="point" />
+<element type="point3d" label="A7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="A8" exp="((-d), (-d), (-d))" type="point" />
+<element type="point3d" label="A8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B3" exp="(x(A3), (y(A3) * cos(a)) - (z(A3) * sin(a)), (sin(a) * y(A3)) + (z(A3) * cos(a)))" type="point" />
+<element type="point3d" label="B3">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B4" exp="(x(A4), (y(A4) * cos(a)) - (z(A4) * sin(a)), (sin(a) * y(A4)) + (z(A4) * cos(a)))" type="point" />
+<element type="point3d" label="B4">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B5" exp="(x(A5), (y(A5) * cos(a)) - (z(A5) * sin(a)), (sin(a) * y(A5)) + (z(A5) * cos(a)))" type="point" />
+<element type="point3d" label="B5">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B6" exp="(x(A6), (y(A6) * cos(a)) - (z(A6) * sin(a)), (sin(a) * y(A6)) + (z(A6) * cos(a)))" type="point" />
+<element type="point3d" label="B6">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B7" exp="(x(A7), (y(A7) * cos(a)) - (z(A7) * sin(a)), (sin(a) * y(A7)) + (z(A7) * cos(a)))" type="point" />
+<element type="point3d" label="B7">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="B8" exp="(x(A8), (y(A8) * cos(a)) - (z(A8) * sin(a)), (sin(a) * y(A8)) + (z(A8) * cos(a)))" type="point" />
+<element type="point3d" label="B8">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C3" exp="((x(B3) * cos(b)) + (z(B3) * sin(b)), y(B3), ((-sin(b)) * x(B3)) + (z(B3) * cos(b)))" type="point" />
+<element type="point3d" label="C3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C4" exp="((x(B4) * cos(b)) + (z(B4) * sin(b)), y(B4), ((-sin(b)) * x(B4)) + (z(B4) * cos(b)))" type="point" />
+<element type="point3d" label="C4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C5" exp="((x(B5) * cos(b)) + (z(B5) * sin(b)), y(B5), ((-sin(b)) * x(B5)) + (z(B5) * cos(b)))" type="point" />
+<element type="point3d" label="C5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C6" exp="((x(B6) * cos(b)) + (z(B6) * sin(b)), y(B6), ((-sin(b)) * x(B6)) + (z(B6) * cos(b)))" type="point" />
+<element type="point3d" label="C6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C7" exp="((x(B7) * cos(b)) + (z(B7) * sin(b)), y(B7), ((-sin(b)) * x(B7)) + (z(B7) * cos(b)))" type="point" />
+<element type="point3d" label="C7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="C8" exp="((x(B8) * cos(b)) + (z(B8) * sin(b)), y(B8), ((-sin(b)) * x(B8)) + (z(B8) * cos(b)))" type="point" />
+<element type="point3d" label="C8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="9"/>
+</element>
+<expression label="D3" exp="((x(C3) * cos(c)) - (y(C3) * sin(c)), (x(C3) * sin(c)) + (y(C3) * cos(c)), z(C3))" type="point" />
+<element type="point3d" label="D3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="D4" exp="((x(C4) * cos(c)) - (y(C4) * sin(c)), (x(C4) * sin(c)) + (y(C4) * cos(c)), z(C4))" type="point" />
+<element type="point3d" label="D4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="D5" exp="((x(C5) * cos(c)) - (y(C5) * sin(c)), (x(C5) * sin(c)) + (y(C5) * cos(c)), z(C5))" type="point" />
+<element type="point3d" label="D5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="D6" exp="((x(C6) * cos(c)) - (y(C6) * sin(c)), (x(C6) * sin(c)) + (y(C6) * cos(c)), z(C6))" type="point" />
+<element type="point3d" label="D6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="D7" exp="((x(C7) * cos(c)) - (y(C7) * sin(c)), (x(C7) * sin(c)) + (y(C7) * cos(c)), z(C7))" type="point" />
+<element type="point3d" label="D7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="D8" exp="((x(C8) * cos(c)) - (y(C8) * sin(c)), (x(C8) * sin(c)) + (y(C8) * cos(c)), z(C8))" type="point" />
+<element type="point3d" label="D8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.5773502691896258" y="-0.5773502691896258" z="-0.5773502691896258" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E3" exp="((2 * x(D3) / (1 - z(D3))), (2 * y(D3) / (1 - z(D3))), -1)" type="point" />
+<element type="point3d" label="E3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="2.732050807568878" y="-2.732050807568878" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E4" exp="((2 * x(D4) / (1 - z(D4))), (2 * y(D4) / (1 - z(D4))), -1)" type="point" />
+<element type="point3d" label="E4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7320508075688774" y="0.7320508075688774" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E5" exp="((2 * x(D5) / (1 - z(D5))), (2 * y(D5) / (1 - z(D5))), -1)" type="point" />
+<element type="point3d" label="E5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7320508075688774" y="-0.7320508075688774" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E6" exp="((2 * x(D6) / (1 - z(D6))), (2 * y(D6) / (1 - z(D6))), -1)" type="point" />
+<element type="point3d" label="E6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7320508075688774" y="0.7320508075688774" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E7" exp="((2 * x(D7) / (1 - z(D7))), (2 * y(D7) / (1 - z(D7))), -1)" type="point" />
+<element type="point3d" label="E7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-2.732050807568878" y="-2.732050807568878" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="E8" exp="((2 * x(D8) / (1 - z(D8))), (2 * y(D8) / (1 - z(D8))), -1)" type="point" />
+<element type="point3d" label="E8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7320508075688774" y="-0.7320508075688774" z="-1" w="1"/>
+	<pointSize val="3"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D1, D2, (0, 0, 0)]"/>
+	<output a0="F1"/>
+</command>
+<element type="line3d" label="F1">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="-0.6666666666666669" vz="0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D2, D7, (0, 0, 0)]"/>
+	<output a0="F2"/>
+</command>
+<element type="line3d" label="F2">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0.6666666666666669" vy="0" vz="0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D7, D8, (0, 0, 0)]"/>
+	<output a0="F5"/>
+</command>
+<element type="line3d" label="F5">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0.6666666666666669" vy="-0.6666666666666669" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F1]" a1="D1" a2="D2"/>
+	<output a0="G1"/>
+</command>
+<element type="conicpart" label="G1">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F2]" a1="D2" a2="D7"/>
+	<output a0="G2"/>
+</command>
+<element type="conicpart" label="G2">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D3, D1, (0, 0, 0)]"/>
+	<output a0="F3"/>
+</command>
+<element type="line3d" label="F3">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-0.6666666666666669" vy="0" vz="0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F3]" a1="D3" a2="D1"/>
+	<output a0="G3"/>
+</command>
+<element type="conicpart" label="G3">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D7, D3, (0, 0, 0)]"/>
+	<output a0="F4"/>
+</command>
+<element type="line3d" label="F4">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0.6666666666666669" vz="0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F4]" a1="D7" a2="D3"/>
+	<output a0="G4"/>
+</command>
+<element type="conicpart" label="G4">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D1] + Vector[D2]]]"/>
+	<output a0="H1"/>
+</command>
+<element type="point3d" label="H1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0.7071067811865476" z="0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I1" exp="((2 * x(H1) / (1 - z(H1))), (2 * y(H1) / (1 - z(H1))), -1)" type="point" />
+<element type="point3d" label="I1">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="4.828427124746192" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D2] + Vector[D7]]]"/>
+	<output a0="H2"/>
+</command>
+<element type="point3d" label="H2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7071067811865476" y="0" z="0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I2" exp="((2 * x(H2) / (1 - z(H2))), (2 * y(H2) / (1 - z(H2))), -1)" type="point" />
+<element type="point3d" label="I2">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-4.828427124746192" y="0" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E1, E2, I1]" a1="E2" a2="E1"/>
+	<output a0="J1"/>
+</command>
+<element type="conicpart" label="J1">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E2, E7, I2]" a1="E7" a2="E2"/>
+	<output a0="J2"/>
+</command>
+<element type="conicpart" label="J2">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D3] + Vector[D1]]]"/>
+	<output a0="H3"/>
+</command>
+<element type="point3d" label="H3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7071067811865476" y="0" z="0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I3" exp="((2 * x(H3) / (1 - z(H3))), (2 * y(H3) / (1 - z(H3))), -1)" type="point" />
+<element type="point3d" label="I3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="4.828427124746192" y="0" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E3, E1, I3]" a1="E1" a2="E3"/>
+	<output a0="J3"/>
+</command>
+<element type="conicpart" label="J3">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D7] + Vector[D3]]]"/>
+	<output a0="H4"/>
+</command>
+<element type="point3d" label="H4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="-0.7071067811865476" z="0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I4" exp="((2 * x(H4) / (1 - z(H4))), (2 * y(H4) / (1 - z(H4))), -1)" type="point" />
+<element type="point3d" label="I4">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="-4.828427124746192" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E7, E3, I4]" a1="E3" a2="E7"/>
+	<output a0="J4"/>
+</command>
+<element type="conicpart" label="J4">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F5]" a1="D7" a2="D8"/>
+	<output a0="G5"/>
+</command>
+<element type="conicpart" label="G5">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D8] + Vector[D7]]]"/>
+	<output a0="H5"/>
+</command>
+<element type="point3d" label="H5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7071067811865476" y="-0.7071067811865476" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I5" exp="((2 * x(H5) / (1 - z(H5))), (2 * y(H5) / (1 - z(H5))), -1)" type="point" />
+<element type="point3d" label="I5">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.4142135623730951" y="-1.4142135623730951" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E8, E7, I5]" a1="E7" a2="E8"/>
+	<output a0="J5"/>
+</command>
+<element type="conicpart" label="J5">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="-1" y0="0" z0="1.0" x1="0" y1="-1" z1="1.0"/>
+	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="-0.5"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D8, D6, (0, 0, 0)]"/>
+	<output a0="F6"/>
+</command>
+<element type="line3d" label="F6">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0.6666666666666669" vy="0" vz="-0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F6]" a1="D8" a2="D6"/>
+	<output a0="G6"/>
+</command>
+<element type="conicpart" label="G6">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D6] + Vector[D8]]]"/>
+	<output a0="H6"/>
+</command>
+<element type="point3d" label="H6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7071067811865476" y="0" z="-0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I6" exp="((2 * x(H6) / (1 - z(H6))), (2 * y(H6) / (1 - z(H6))), -1)" type="point" />
+<element type="point3d" label="I6">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.8284271247461902" y="0" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E6, E8, I6]" a1="E8" a2="E6"/>
+	<output a0="J6"/>
+</command>
+<element type="conicpart" label="J6">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.881784197001252e-16" A3="0" A4="-0.7320508075688773" A5="2.732050807568879"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D2, D6, (0, 0, 0)]"/>
+	<output a0="F7"/>
+</command>
+<element type="line3d" label="F7">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-0.6666666666666669" vy="-0.6666666666666669" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F7]" a1="D2" a2="D6"/>
+	<output a0="G7"/>
+</command>
+<element type="conicpart" label="G7">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D2] + Vector[D6]]]"/>
+	<output a0="H7"/>
+</command>
+<element type="point3d" label="H7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-0.7071067811865476" y="0.7071067811865476" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I7" exp="((2 * x(H7) / (1 - z(H7))), (2 * y(H7) / (1 - z(H7))), -1)" type="point" />
+<element type="point3d" label="I7">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.4142135623730951" y="1.4142135623730951" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E2, E6, I7]" a1="E6" a2="E2"/>
+	<output a0="J7"/>
+</command>
+<element type="conicpart" label="J7">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="-1" y0="0" z0="1.0" x1="0" y1="-1" z1="1.0"/>
+	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="-0.5"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D3, D5, (0, 0, 0)]"/>
+	<output a0="F8"/>
+</command>
+<element type="line3d" label="F8">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0.6666666666666669" vy="0.6666666666666669" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F8]" a1="D3" a2="D5"/>
+	<output a0="G8"/>
+</command>
+<element type="conicpart" label="G8">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D3] + Vector[D5]]]"/>
+	<output a0="H8"/>
+</command>
+<element type="point3d" label="H8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7071067811865476" y="-0.7071067811865476" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I8" exp="((2 * x(H8) / (1 - z(H8))), (2 * y(H8) / (1 - z(H8))), -1)" type="point" />
+<element type="point3d" label="I8">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.4142135623730951" y="-1.4142135623730951" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E3, E5, I8]" a1="E5" a2="E3"/>
+	<output a0="J8"/>
+</command>
+<element type="conicpart" label="J8">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="-1" y0="0" z0="1.0" x1="0" y1="-1" z1="1.0"/>
+	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="-0.5"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D4, D1, (0, 0, 0)]"/>
+	<output a0="F9"/>
+</command>
+<element type="line3d" label="F9">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0.6666666666666669" vy="-0.6666666666666669" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F9]" a1="D4" a2="D1"/>
+	<output a0="G9"/>
+</command>
+<element type="conicpart" label="G9">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D4] + Vector[D1]]]"/>
+	<output a0="H9"/>
+</command>
+<element type="point3d" label="H9">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7071067811865476" y="0.7071067811865476" z="0" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I9" exp="((2 * x(H9) / (1 - z(H9))), (2 * y(H9) / (1 - z(H9))), -1)" type="point" />
+<element type="point3d" label="I9">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.4142135623730951" y="1.4142135623730951" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E4, E1, I9]" a1="E1" a2="E4"/>
+	<output a0="J9"/>
+</command>
+<element type="conicpart" label="J9">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="-1" y0="0" z0="1.0" x1="0" y1="-1" z1="1.0"/>
+	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="-0.5"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D6, D4, (0, 0, 0)]"/>
+	<output a0="F10"/>
+</command>
+<element type="line3d" label="F10">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="-0.6666666666666669" vz="-0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F10]" a1="D6" a2="D4"/>
+	<output a0="G10"/>
+</command>
+<element type="conicpart" label="G10">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D6] + Vector[D4]]]"/>
+	<output a0="H10"/>
+</command>
+<element type="point3d" label="H10">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0.7071067811865476" z="-0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I10" exp="((2 * x(H10) / (1 - z(H10))), (2 * y(H10) / (1 - z(H10))), -1)" type="point" />
+<element type="point3d" label="I10">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0.8284271247461902" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E6, E4, I10]" a1="E4" a2="E6"/>
+	<output a0="J10"/>
+</command>
+<element type="conicpart" label="J10">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.881784197001252e-16" A3="0" A4="-0.7320508075688773" A5="2.732050807568879"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D4, D5, (0, 0, 0)]"/>
+	<output a0="F11"/>
+</command>
+<element type="line3d" label="F11">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-0.6666666666666669" vy="0" vz="-0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F11]" a1="D4" a2="D5"/>
+	<output a0="G11"/>
+</command>
+<element type="conicpart" label="G11">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D4] + Vector[D5]]]"/>
+	<output a0="H11"/>
+</command>
+<element type="point3d" label="H11">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.7071067811865476" y="0" z="-0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I11" exp="((2 * x(H11) / (1 - z(H11))), (2 * y(H11) / (1 - z(H11))), -1)" type="point" />
+<element type="point3d" label="I11">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0.8284271247461902" y="0" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E4, E5, I11]" a1="E5" a2="E4"/>
+	<output a0="J11"/>
+</command>
+<element type="conicpart" label="J11">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.881784197001252e-16" A3="0" A4="-0.7320508075688773" A5="2.732050807568879"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="OrthogonalLine">
+	<input a0="(0, 0, 0)" a1="Plane[D5, D8, (0, 0, 0)]"/>
+	<output a0="F12"/>
+</command>
+<element type="line3d" label="F12">
+	<show object="false" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0.6666666666666669" vz="-0.6666666666666669" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[(0, 0, 0), 1, F12]" a1="D5" a2="D8"/>
+	<output a0="G12"/>
+</command>
+<element type="conicpart" label="G12">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="h"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Point">
+	<input a0="(0, 0, 0)" a1="Vector[UnitVector[Vector[D5] + Vector[D8]]]"/>
+	<output a0="H12"/>
+</command>
+<element type="point3d" label="H12">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="-0.7071067811865476" z="-0.7071067811865476" w="1"/>
+	<pointSize val="3"/>
+</element>
+<expression label="I12" exp="((2 * x(H12) / (1 - z(H12))), (2 * y(H12) / (1 - z(H12))), -1)" type="point" />
+<element type="point3d" label="I12">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="-0.8284271247461902" z="-1" w="1"/>
+	<pointSize val="9"/>
+</element>
+<command name="Arc">
+	<input a0="Circle[E5, E8, I12]" a1="E8" a2="E5"/>
+	<output a0="J12"/>
+</command>
+<element type="conicpart" label="J12">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.881784197001252e-16" A3="0" A4="-0.7320508075688773" A5="2.732050807568879"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Translate">
+	<input a0="J1" a1="Vector[(0, 0, -1)]"/>
+	<output a0="K1"/>
+</command>
+<element type="conicpart" label="K1">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Translate">
+	<input a0="J2" a1="Vector[(0, 0, -1)]"/>
+	<output a0="K2"/>
+</command>
+<element type="conicpart" label="K2">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Translate">
+	<input a0="J3" a1="Vector[(0, 0, -1)]"/>
+	<output a0="K3"/>
+</command>
+<element type="conicpart" label="K3">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-2.7320508075688776" A5="0.7320508075688772"/>
+	<eqnStyle style="parametric"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Sphere">
+	<input a0="(0, 0, 0)" a1="1"/>
+	<output a0="e"/>
+</command>
+<element type="quadric" label="e">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="h"/>
+	<objColor r="255" g="153" b="0" alpha="0.5"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="f" exp="z = -1" type="plane"/>
+<element type="plane3d" label="f">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="102" b="153" alpha="0.15"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="0" z="1" w="1"/>
+	<fading val="0.1"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="g">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="37" y="439"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<caption val="Projection"/>
+</element>
+<element type="boolean" label="h">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="37" y="390"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+	<caption val="Sphere"/>
+</element>
+<command name="If">
+	<input a0="¬Defined[J5]" a1="Segment[E7, E8]"/>
+	<output a0="K14"/>
+</command>
+<element type="segment3d" label="K14">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="If">
+	<input a0="¬Defined[J7]" a1="Segment[E2, E6]"/>
+	<output a0="K15"/>
+</command>
+<element type="segment3d" label="K15">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="If">
+	<input a0="¬Defined[J8]" a1="Segment[E3, E5]"/>
+	<output a0="K16"/>
+</command>
+<element type="segment3d" label="K16">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="If">
+	<input a0="¬Defined[J9]" a1="Segment[E4, E1]"/>
+	<output a0="K17"/>
+</command>
+<element type="segment3d" label="K17">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="0" g="102" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="0"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E1"/>
+	<output a0="L1"/>
+</command>
+<element type="segment3d" label="L1">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E2"/>
+	<output a0="L2"/>
+</command>
+<element type="segment3d" label="L2">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E3"/>
+	<output a0="L3"/>
+</command>
+<element type="segment3d" label="L3">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E4"/>
+	<output a0="L4"/>
+</command>
+<element type="segment3d" label="L4">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E5"/>
+	<output a0="L5"/>
+</command>
+<element type="segment3d" label="L5">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E6"/>
+	<output a0="L6"/>
+</command>
+<element type="segment3d" label="L6">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E7"/>
+	<output a0="L7"/>
+</command>
+<element type="segment3d" label="L7">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="(0, 0, 1)" a1="E8"/>
+	<output a0="L8"/>
+</command>
+<element type="segment3d" label="L8">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="g"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+</construction>
+</geogebra>
