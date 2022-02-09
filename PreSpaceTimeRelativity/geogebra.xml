@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="4B619E39-5A7B-437A-853A-4DC60C2DD597"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="114" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1475" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="379" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="255" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="178.44913006712684" yZero="348.9867999264483" scale="61.66563741919261" yscale="61.66563741919315"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="x" unitLabel="" tickStyle="1" showNumbers="false" selectionAllowed="false"/>
+	<axis id="1" show="true" label="τ" unitLabel="" tickStyle="1" showNumbers="false" selectionAllowed="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="PreSpaceTimeRelativity" author="" date="">
+<element type="numeric" label="t">
+	<value val="-9.28"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="((-tMax) * 2.5)" max="(tMax * 2.5)" absoluteScreenLocation="true" width="200" x="19" y="161" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="0.5" type="1" playing="true"/>
+	<ggbscript onUpdate="SetCoords(PlView,0,t)"/>
+</element>
+<element type="numeric" label="vView">
+	<value val="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-45" y="9"/>
+	<labelMode val="3"/>
+	<slider min="0" max="200%" absoluteScreenLocation="true" width="200" x="19" y="36" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="10%" speed="1" type="0" playing="false"/>
+	<caption val="$ view=%v c $"/>
+</element>
+<expression label="rS" exp="2"/>
+<element type="numeric" label="rS">
+	<value val="2"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="c" exp="1 / 5"/>
+<element type="numeric" label="c">
+	<value val="0.2"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="rTC" exp="(c * rS)" />
+<element type="numeric" label="rTC">
+	<value val="0.4"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="LaView" exp="x = ((((vView * rTC) * 2) * π) * y)" type="line" />
+<element type="line" label="LaView">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="1" y="-2.5132741228718345" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<element type="angle" label="αView">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="-90°" max="1.5707963267948966" absoluteScreenLocation="true" width="180" x="239" y="35" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-41" y="3"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="10°" speed="1" type="0" playing="false"/>
+</element>
+<command name="Intersect">
+	<input a0="y = t" a1="LaView"/>
+	<output a0="PaView"/>
+</command>
+<element type="point" label="PaView">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-23.323183860250623" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="y = t" a1="(-αView)" a2="PaView"/>
+	<output a0="LaViewS"/>
+</command>
+<element type="line" label="LaViewS">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="1" z="9.28"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<eqnStyle style="explicit"/>
+	<caption val="Abs.Now*"/>
+</element>
+<expression label="LaC" exp="x = (((rTC * 2) * π) * y)" type="line" />
+<element type="line" label="LaC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="1" y="-2.5132741228718345" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Intersect">
+	<input a0="LaViewS" a1="LaC"/>
+	<output a0="PaC"/>
+</command>
+<element type="point" label="PaC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-23.323183860250623" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PlC" exp="(x(PaC) - x(PaView), y(PaC))" type="point" />
+<element type="point" label="PlC">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="21"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="$c$"/>
+</element>
+<element type="numeric" label="v">
+	<value val="0.2"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-16" y="12"/>
+	<labelMode val="3"/>
+	<slider min="0" max="100%" absoluteScreenLocation="true" width="100" x="21" y="78" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="10%" speed="1" type="0" playing="false"/>
+	<caption val="$ v = %v c$"/>
+</element>
+<expression label="OS" exp="(0, (-rS))" type="point" />
+<element type="point" label="OS">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="-2" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="O" exp="(0, 0)" type="point"/>
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="O" a1="((((c * vView) * 2) * π) * t)" a2="OS"/>
+	<output a0="PcS"/>
+</command>
+<element type="point" label="PcS">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-18" y="4"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="-1.572576864273239" y="-0.7642807738193329" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="O"/>
+</element>
+<expression label="OlTC" exp="(x(PlC), rTC)" type="point" />
+<element type="point" label="OlTC">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="0.4" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(OlTC), 0)" a1="(((-y(PlC)) * 2) * π)" a2="OlTC"/>
+	<output a0="PlTC"/>
+</command>
+<element type="point" label="PlTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<coords x="0.39291490029147585" y="0.4749525258342879" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="OlTC" a1="PlTC"/>
+	<output a0="VlTC"/>
+</command>
+<element type="vector" label="VlTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.39291490029147585" y="0.07495252583428785" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OlTC"/>
+</element>
+<command name="Vector">
+	<input a0="OS" a1="PcS"/>
+	<output a0="VS"/>
+</command>
+<element type="vector" label="VS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.572576864273239" y="1.235719226180667" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OS"/>
+</element>
+<expression label="mod" exp="mod(x, y) = (y * (x / y - floor(x / y)))" type="function"/>
+<element type="functionnvar" label="mod">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="trunc" exp="trunc(x, y) = If[x &lt; y, x, y]" type="function"/>
+<element type="functionnvar" label="trunc">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="101" g="87" b="210" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<element type="boolean" label="χFlat">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="235" y="50"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Circle">
+	<input a0="OS" a1="rS"/>
+	<output a0="CS"/>
+</command>
+<element type="conic" label="CS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0" A3="0" A4="0" A5="2"/>
+	<eqnStyle style="specific"/>
+	<caption val="Sun"/>
+</element>
+<command name="Circle">
+	<input a0="OlTC" a1="rTC"/>
+	<output a0="ClTC"/>
+</command>
+<element type="conic" label="ClTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0" A3="0" A4="0" A5="-0.4"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="xAxis"/>
+	<output a0="LS"/>
+</command>
+<element type="line" label="LS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="1" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="rTN" exp="((1 - v) * rTC)" />
+<element type="numeric" label="rTN">
+	<value val="0.32000000000000006"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="rTP" exp="((1 + v) * rTC)" />
+<element type="numeric" label="rTP">
+	<value val="0.48"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Point">
+	<input a0="yAxis"/>
+	<output a0="PlView"/>
+</command>
+<element type="point" label="PlView">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-58" y="8"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(t, mod(y(PlView),tMax))&#xa;SetCoords(PlView,0,t)"/>
+	<coords x="0" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="ViewP"/>
+</element>
+<expression label="tMax" exp="1 / c" />
+<element type="numeric" label="tMax">
+	<value val="5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="boolean" label="χAbsolute">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="333" y="50"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="LaN" exp="x = (((rTN * 2) * π) * y)" type="line" />
+<element type="line" label="LaN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="1" y="-2.0106192982974678" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="LaP" exp="x = (((rTP * 2) * π) * y)" type="line" />
+<element type="line" label="LaP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="1" y="-3.015928947446201" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Intersect">
+	<input a0="LaViewS" a1="LaN"/>
+	<output a0="PaN"/>
+</command>
+<element type="point" label="PaN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-18.6585470882005" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="LaViewS" a1="LaP"/>
+	<output a0="PaP"/>
+</command>
+<element type="point" label="PaP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χAbsolute"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-27.987820632300746" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="y = t" a1="(-αView)" a2="PlView"/>
+	<output a0="LViewS"/>
+</command>
+<element type="line" label="LViewS">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="-21"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="1" z="9.28"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<eqnStyle style="explicit"/>
+	<caption val="Now*"/>
+</element>
+<expression label="PlN" exp="(x(PaN) - x(PaView), y(PaN))" type="point" />
+<element type="point" label="PlN">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-58" y="24"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.664636772050123" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="$c-v$"/>
+</element>
+<expression label="PlP" exp="(x(PaP) - x(PaView), y(PaP))" type="point" />
+<element type="point" label="PlP">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="23"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="-4.664636772050123" y="-9.28" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="$c+v$"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="PlN"/>
+	<output a0="LN"/>
+</command>
+<element type="line" label="LN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="9.28" y="4.664636772050123" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="PlC"/>
+	<output a0="LC"/>
+</command>
+<element type="line" label="LC">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="9.28" y="0" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="PlP"/>
+	<output a0="LP"/>
+</command>
+<element type="line" label="LP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<selectionAllowed val="false"/>
+	<coords x="9.28" y="-4.664636772050123" z="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Angle">
+	<input a0="PlN" a1="O" a2="PlC"/>
+	<output a0="αNOC"/>
+</command>
+<element type="angle" label="αNOC">
+	<angleStyle val="1"/>
+	<value val="5.817416094699949"/>
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<command name="Angle">
+	<input a0="PlP" a1="O" a2="PlC"/>
+	<output a0="αPOC"/>
+</command>
+<element type="angle" label="αPOC">
+	<angleStyle val="0"/>
+	<value val="0.4657692124796375"/>
+	<show object="false" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+</element>
+<expression label="OlTP" exp="(x(PlP), rTP)" type="point" />
+<element type="point" label="OlTP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-4.664636772050123" y="0.48" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="OlTN" exp="(x(PlN), rTN)" type="point" />
+<element type="point" label="OlTN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.664636772050123" y="0.32000000000000006" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="OlTP" a1="rTP"/>
+	<output a0="ClTP"/>
+</command>
+<element type="conic" label="ClTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="21.758836215162194" A3="0" A4="4.664636772050123" A5="-0.48"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="OlTN" a1="rTN"/>
+	<output a0="ClTN"/>
+</command>
+<element type="conic" label="ClTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="21.758836215162194" A3="0" A4="-4.664636772050123" A5="-0.32000000000000006"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(OlTN), 0)" a1="(((-y(PlN)) * 2) * π)" a2="OlTN"/>
+	<output a0="PlTN"/>
+</command>
+<element type="point" label="PlTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.978968692283304" y="0.37996202066743034" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(OlTP), 0)" a1="(((-y(PlP)) * 2) * π)" a2="OlTP"/>
+	<output a0="PlTP"/>
+</command>
+<element type="point" label="PlTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-4.193138891700352" y="0.5699430310011454" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="PlS" exp="((-x(PaView)), 0)" type="point" />
+<element type="point" label="PlS">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-16" y="26"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="23.323183860250623" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="O"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, rTC)" a1="((-x(PlC))) / rS" a2="OS"/>
+	<output a0="OcTC"/>
+</command>
+<element type="point" label="OcTC">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0" y="0.3999999999999999" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, rTN)" a1="((-x(PlN))) / rS" a2="OS"/>
+	<output a0="OcTN"/>
+</command>
+<element type="point" label="OcTN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.6791848941376035" y="-3.6008554248588744" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(0, rTP)" a1="((-x(PlP))) / rS" a2="OS"/>
+	<output a0="OcTP"/>
+</command>
+<element type="point" label="OcTP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.794990748905714" y="-3.7112592472629347" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="OcTC" a1="rTC"/>
+	<output a0="CcTC"/>
+</command>
+<element type="conic" label="CcTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1.1102230246251565e-16" A3="0" A4="0" A5="-0.3999999999999999"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="OcTN" a1="rTN"/>
+	<output a0="CcTN"/>
+</command>
+<element type="conic" label="CcTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="15.683421699435499" A3="0" A4="-1.6791848941376035" A5="3.6008554248588744"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Circle">
+	<input a0="OcTP" a1="rTP"/>
+	<output a0="CcTP"/>
+</command>
+<element type="conic" label="CcTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="16.76503698905174" A3="0" A4="1.794990748905714" A5="3.7112592472629347"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Rotate">
+	<input a0="Intersect[CS, Segment[OS, OcTC]]" a1="(((-y(PlC)) * 2) * π)" a2="OcTC"/>
+	<output a0="PcTC"/>
+</command>
+<element type="point" label="PcTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.39291490029147574" y="0.4749525258342877" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Intersect[CS, Segment[OS, OcTN]]" a1="(((-y(PlN)) * 2) * π)" a2="OcTN"/>
+	<output a0="PcTN"/>
+</command>
+<element type="point" label="PcTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.5056880663855008" y="-3.8697398810105033" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Intersect[CS, Segment[OS, OcTP]]" a1="(((-y(PlP)) * 2) * π)" a2="OcTP"/>
+	<output a0="PcTP"/>
+</command>
+<element type="point" label="PcTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-2.1854351103528975" y="-3.4320582432996583" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="OlTN" a1="PlTN"/>
+	<output a0="VlTN"/>
+</command>
+<element type="vector" label="VlTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.31433192023318046" y="0.05996202066743028" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OlTN"/>
+</element>
+<command name="Vector">
+	<input a0="OlTP" a1="PlTP"/>
+	<output a0="VlTP"/>
+</command>
+<element type="vector" label="VlTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.47149788034977114" y="0.08994303100114542" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OlTP"/>
+</element>
+<command name="Vector">
+	<input a0="OcTC" a1="PcTC"/>
+	<output a0="VcTC"/>
+</command>
+<element type="vector" label="VcTC">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.39291490029147574" y="0.0749525258342878" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OcTC"/>
+</element>
+<command name="Vector">
+	<input a0="OcTN" a1="PcTN"/>
+	<output a0="VcTN"/>
+</command>
+<element type="vector" label="VcTN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.17349682775210273" y="-0.2688844561516288" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OcTN"/>
+</element>
+<command name="Vector">
+	<input a0="OcTP" a1="PcTP"/>
+	<output a0="VcTP"/>
+</command>
+<element type="vector" label="VcTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="¬χFlat"/>
+	<objColor r="51" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.39044436144718353" y="0.2792010039632764" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="OcTP"/>
+</element>
+</construction>
+</geogebra>

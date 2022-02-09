@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="6811CAAA-2A71-42F9-B3B4-FE0EBE81FA43"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="739" height="517" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.503382949932341" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="739" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="372" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="297" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="738" height="420"/>
+	<coordSystem xZero="254.85468749999973" yZero="464.52906250000035" scale="55.09375000000001" yscale="55.093750000000014"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="255" g="127" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="Polar(h)" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="HarmonicConjugatesPole" author="" date="">
+<element type="point" label="V">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="0.12969370391378826" y="4.166154282473063" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="I"/>
+</command>
+<element type="point" label="I">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetCoords(E,c*c/x(I),0)"/>
+	<coords x="1.000000000000001" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="I(d)"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="I"/>
+	<output a0="lVI"/>
+</command>
+<element type="line" label="lVI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.166154282473063" y="0.8703062960862129" z="-4.166154282473068"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="N"/>
+</command>
+<element type="point" label="N">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(c,-x(N))&#xa;SetCoords(P,c,0)&#xa;If(χMoveE,SetCoords(E,c*c/d,0),SetCoords(I,c*c/e,0))"/>
+	<coords x="-2" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="N(-c)"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="N"/>
+	<output a0="lVN"/>
+</command>
+<element type="line" label="lVN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.166154282473063" y="-2.129693703913788" z="8.332308564946127"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Point">
+	<input a0="lVN"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="-0.5019813414015908" y="2.9304574823483422" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="I"/>
+	<output a0="lTI"/>
+</command>
+<element type="line" label="lTI">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="2.9304574823483422" y="1.501981341401592" z="-2.9304574823483454"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="E"/>
+</command>
+<element type="point" label="E">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetCoords(I,c*c/x(E),0)&#xa;"/>
+	<coords x="3.9999999999999956" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="E(e)"/>
+</element>
+<command name="Point">
+	<input a0="xAxis"/>
+	<output a0="P"/>
+</command>
+<element type="point" label="P">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(c,x(P))&#xa;SetCoords(N,-c,0)&#xa;If(χMoveE,SetCoords(E,c*c/d,0),SetCoords(I,c*c/e,0))&#xa;&#xa;&#xa;"/>
+	<coords x="2" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="P(+c)"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="P"/>
+	<output a0="lTP"/>
+</command>
+<element type="line" label="lTP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="2.9304574823483422" y="2.501981341401591" z="-5.8609149646966845"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lTP" a1="lVI"/>
+	<output a0="R"/>
+</command>
+<element type="point" label="R">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="5.32284908554652" y="12.208737989690762" z="7.873244682847224"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="E" a1="R"/>
+	<output a0="lER"/>
+</command>
+<element type="line" label="lER">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.5506615736570353" y="-3.323931961984746" z="6.202646294628134"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="P"/>
+	<output a0="lVP"/>
+</command>
+<element type="line" label="lVP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.166154282473063" y="1.8703062960862118" z="-8.332308564946127"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="V" a1="E"/>
+	<output a0="lVE"/>
+</command>
+<element type="line" label="lVE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="4.166154282473063" y="3.8703062960862074" z="-16.664617129892235"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="E"/>
+	<output a0="lTE"/>
+</command>
+<element type="line" label="lTE">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="2.9304574823483422" y="4.501981341401587" z="-11.721829929393357"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lVP" a1="lTE"/>
+	<output a0="S"/>
+</command>
+<element type="point" label="S">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="15.588485371591904" y="24.417475979381503" z="13.275095765444993"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="I" a1="S"/>
+	<output a0="lIS"/>
+</command>
+<element type="line" label="lIS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.8393446202429717" y="0.17426537985274937" z="1.8393446202429737"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="d" exp="x(I)" />
+<element type="numeric" label="d">
+	<value val="1.000000000000001"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="numeric" label="c">
+	<value val="2"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="51" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-10" max="10" absoluteScreenLocation="true" width="200" x="7" y="32" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetCoords(P,c,0)&#xa;SetCoords(N,-c,0)&#xa;If(χMoveE,SetCoords(E,c*c/d,0),SetCoords(I,c*c/e,0))"/>
+</element>
+<expression label="r" exp="(d + c) / (d - c)" />
+<element type="numeric" label="r">
+	<value val="-3.0000000000000044"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="e" exp="x(E)" />
+<element type="numeric" label="e">
+	<value val="3.9999999999999956"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="point" label="O">
+	<show object="false" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="lVI" a1="lTE"/>
+	<output a0="Px"/>
+</command>
+<element type="point" label="Px">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-16" y="-1"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="8.554366455891222" y="36.62621396907227" z="16.205553247793333"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<caption val="Pole"/>
+</element>
+<command name="Line">
+	<input a0="N" a1="Px"/>
+	<output a0="lNPx"/>
+</command>
+<element type="line" label="lNPx">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-2.2601026579613728" y="2.5278663631589406" z="-4.5202053159227455"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lVE" a1="lIS"/>
+	<output a0="U"/>
+</command>
+<element type="point" label="U">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="10.02289289863998" y="22.9889803997071" z="7.844843522958994"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Conic">
+	<input a0="V" a1="T" a2="R" a3="S" a4="U"/>
+	<output a0="conU"/>
+</command>
+<element type="conic" label="conU">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="-0.34479180489984174" y0="0.9386791844255999" z0="1.0" x1="-0.9386791844255999" y1="-0.34479180489984174" z1="1.0"/>
+	<matrix A0="-111.85254445151915" A1="-56.82265057269271" A2="-447.41017780607626" A3="-23.365907037805368" A4="111.85254445151938" A5="171.83599186892187"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="quad" exp="{Polygon[V, T, R, S]}" />
+<element type="list" label="quad">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χQuad"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="χExtras">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="107"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Line">
+	<input a0="P" a1="U"/>
+	<output a0="tPU"/>
+</command>
+<element type="line" label="tPU">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-2.9304574823483405" y="-0.722359105148926" z="5.860914964696681"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lTI" a1="lER"/>
+	<output a0="U&apos;"/>
+</command>
+<element type="point" label="U&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-26" y="15"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<coords x="0.42438228696983593" y="13.632443433339915" z="7.411576538353707"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="P" a1="U&apos;"/>
+	<output a0="tPU&apos;"/>
+</command>
+<element type="line" label="tPU&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.8393446202429715" y="-1.94274061870997" z="3.678689240485943"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="P" a1="Px"/>
+	<output a0="lPPx"/>
+</command>
+<element type="line" label="lPPx">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-2.2601026579613728" y="-1.4721336368410596" z="4.5202053159227455"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<element type="boolean" label="χQuad">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="75"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="s" exp="(e + c) / (e - c)" />
+<element type="numeric" label="s">
+	<value val="3.0000000000000044"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<selectionAllowed val="false"/>
+</element>
+<expression label="eq0" exp="&quot;&quot; + (LaTeX[r]) + &quot;+&quot; + (LaTeX[s]) + &quot;=0&quot;" />
+<element type="text" label="eq0">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="468" y="131"/>
+</element>
+<expression label="eq1" exp="&quot;&quot; + (LaTeX[d]) + &quot;×&quot; + (LaTeX[e]) + &quot;=&quot; + (LaTeX[c]) + &quot;&quot; + (LaTeX[&quot;^2&quot;]) + &quot;=&quot; + (LaTeX[(d * e)]) + &quot;&quot;" />
+<element type="text" label="eq1">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="579" y="114"/>
+</element>
+<element type="boolean" label="χMoveE">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="138"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<expression label="desc" exp="&quot;\frac{NI}{PI}+\frac{NE}{PE}=\frac{d+c}{d-c}+\frac{e+c}{e-c}=0 \Leftrightarrow d \cdot e =c^2&quot;"/>
+<element type="text" label="desc">
+	<show object="false" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="266" y="79"/>
+</element>
+<command name="Text">
+	<input a0="&quot;d=&quot; + d + &quot;; e=&quot; + e" a1="(0, 8)" a2="true" a3="true"/>
+	<output a0="descvars"/>
+</command>
+<element type="text" label="descvars">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="266" y="24"/>
+</element>
+<command name="Angle">
+	<input a0="N" a1="V" a2="P"/>
+	<output a0="View"/>
+</command>
+<element type="angle" label="View">
+	<angleStyle val="0"/>
+	<value val="0.8945216570234216"/>
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.4"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<caption val="."/>
+</element>
+<element type="boolean" label="χProj">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="44"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Text">
+	<input a0="desc" a1="(0, 7)" a2="true" a3="true"/>
+	<output a0="descl"/>
+</command>
+<element type="text" label="descl">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="266" y="79"/>
+</element>
+<command name="Text">
+	<input a0="eq0" a1="(4.6, 5.6)" a2="true" a3="true" a4="-1"/>
+	<output a0="eq0r"/>
+</command>
+<element type="text" label="eq0r">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="519" y="156"/>
+</element>
+<command name="Text">
+	<input a0="eq1" a1="(4.8, 5.6)" a2="true" a3="true" a4="1"/>
+	<output a0="eq1l"/>
+</command>
+<element type="text" label="eq1l">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="530" y="156"/>
+</element>
+<command name="Line">
+	<input a0="R" a1="S"/>
+	<output a0="lRS"/>
+</command>
+<element type="line" label="lRS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-0.28868304658593646" y="0.49819734183750075" z="-0.5773660931718718"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lVE" a1="lTI"/>
+	<output a0="Q"/>
+</command>
+<element type="point" label="Q">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-13.68817594635375" y="36.62621396907227" z="5.084282046670848"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Intersect">
+	<input a0="lER" a1="lIS"/>
+	<output a0="Q&apos;"/>
+</command>
+<element type="point" label="Q&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="7.194762884955935" y="8.55660306997069" z="6.384083000486714"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="N" a1="Q"/>
+	<output a0="tNQ"/>
+</command>
+<element type="line" label="tNQ">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-7.203812383511425" y="-0.69225346286929" z="-14.40762476702285"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="N" a1="Q&apos;"/>
+	<output a0="tNQ&apos;"/>
+</command>
+<element type="line" label="tNQ&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.3403026040416997" y="3.1269845464740067" z="-2.6806052080833993"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Conic">
+	<input a0="V" a1="T" a2="R" a3="S" a4="Q"/>
+	<output a0="conQ"/>
+</command>
+<element type="conic" label="conQ">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="-0.5226309583520776" y0="0.8525590192895672" z0="1.0" x1="-0.8525590192895672" y1="-0.5226309583520776" z1="1.0"/>
+	<matrix A0="-260.9892703868781" A1="-104.68451884991771" A2="-1043.957081547512" A3="-153.5005063089569" A4="484.6943592899166" A5="348.70240521568405"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="crVI" exp="((Vector[R, Px] * Vector[V, I])) / ((Vector[V, Px] * Vector[R, I]))" />
+<element type="numeric" label="crVI">
+	<value val="-1.0000000000000009"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="crTE" exp="((Vector[S, Px] * Vector[T, E])) / ((Vector[T, Px] * Vector[S, E]))" />
+<element type="numeric" label="crTE">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="crU" exp="((Vector[U&apos;, Px] * Vector[U, N])) / ((Vector[U, Px] * Vector[U&apos;, N]))" />
+<element type="numeric" label="crU">
+	<value val="-1.0000000000000002"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="crQ" exp="((Vector[Q&apos;, Px] * Vector[Q, P])) / ((Vector[Q, Px] * Vector[Q&apos;, P]))" />
+<element type="numeric" label="crQ">
+	<value val="-1.0000000000000007"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Intersect">
+	<input a0="lNPx" a1="lVP"/>
+	<output a0="Ux"/>
+</command>
+<element type="point" label="Ux">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="12.60879408681578" y="37.6637454691781" z="14.758565505380565"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="R" a1="Ux"/>
+	<output a0="lRUx"/>
+</command>
+<element type="line" label="lRUx">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="-1.0013307223047196" y="0.17826933523548816" z="0.40053228892188897"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Line">
+	<input a0="T" a1="U"/>
+	<output a0="lTU"/>
+</command>
+<element type="line" label="lTU">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.7763568394002505e-15" y="1.7796222362526648" z="-5.21510729798011"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<command name="Intersect">
+	<input a0="lTU" a1="lRUx"/>
+	<output a0="Uc"/>
+</command>
+<element type="point" label="Uc">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χProj ∧ χExtras"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<coords x="1.6424898788952276" y="5.222047157583037" z="1.7819904192564215"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Conic">
+	<input a0="V" a1="T" a2="R" a3="S" a4="Uc"/>
+	<output a0="conO"/>
+</command>
+<element type="conic" label="conO">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χProj ∧ χQuad"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="-0.49351807498401445" y0="0.8697355400718502" z0="1.0" x1="-0.8697355400718502" y1="-0.49351807498401445" z1="1.0"/>
+	<matrix A0="-67105.30283557712" A1="-29068.594462556997" A2="-268421.2113423084" A3="-31833.001977584332" A4="107368.48453692341" A5="93688.222146029"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="txtPoints" exp="&quot;Movables: N, P, I, E, V, T&quot;"/>
+<element type="text" label="txtPoints">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="112" y="164"/>
+</element>
+</construction>
+</geogebra>
