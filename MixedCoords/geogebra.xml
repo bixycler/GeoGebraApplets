@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="DDEF380A-93DD-44FD-97C0-7C5959CC25BB"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.18968481375358165" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="1,3" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="387" window="100,100,700,550" />
+		<view id="2" visible="true" inframe="false" stylebar="false" location="3" size="331" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="500" window="100,100,600,600" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1406" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="823" height="603"/>
+	<coordSystem xZero="348" yZero="261.00000000000006" scale="45.45454545454542" yscale="45.45454545454542"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3" lockedAxesRatio="1"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="3" grid="0"/>
+	<axis id="0" show="true" label="Common space" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="1" show="true" label="Private time" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<algebraView>
+	<mode val="0"/>
+	<collapsed val="1,2"/>
+</algebraView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="-0.49892689008802277" yZero="-0.9099284762829069" zZero="-1.7360897368201114" scale="73.32341977345718" xAngle="37" zAngle="762.8055918067827"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="true" label="Common space" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="1" show="true" label="Private time" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<axis id="2" show="true" label="Common (Light) time" unitLabel="" tickStyle="1" showNumbers="false"/>
+	<plate show="true"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="MixedCoords" author="" date="">
+<element type="numeric" label="itm">
+	<value val="3.605551275463989"/>
+	<symbolic val="true" />
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<slider min="0.1" max="5" absoluteScreenLocation="true" width="250" x="349" y="299" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(itemp,itm/tm)&#xa;SetValue(s,s*itemp)&#xa;SetValue(τ,τ*itemp)"/>
+	<caption val="c·dt"/>
+</element>
+<element type="numeric" label="s">
+	<value val="2"/>
+	<symbolic val="true" />
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="249" y="370" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(χFixDt, {SetValue(itemp,If(tm^2-s^2&lt;=0, 0, sqrt(tm^2-s^2))), SetValue(s,If(tm^2-s^2&lt;=0, sign(s)*tm, s)), SetValue(τ,If(τ&gt;=0,itemp,-itemp))})&#xa;"/>
+	<caption val="ds"/>
+</element>
+<element type="numeric" label="τ">
+	<value val="3"/>
+	<symbolic val="true" />
+	<show object="true" label="true"/>
+	<objColor r="102" g="153" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="145" y="331" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(χFixDt, {SetValue(itemp,If(tm^2-τ^2&lt;=0, 0, sqrt(tm^2-τ^2))), SetValue(τ,If(tm^2-τ^2&lt;=0, sign(τ)*tm, τ)), SetValue(s,If(s&gt;=0,itemp,-itemp))})&#xa;"/>
+	<caption val="dτ"/>
+</element>
+<expression label="tm" exp="sqrt(τ^(2) + s^(2))" />
+<element type="numeric" label="tm">
+	<value val="3.605551275463989"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<ggbscript onUpdate="SetValue(itm,tm)"/>
+</element>
+<expression label="γ" exp="tm / τ" />
+<element type="numeric" label="γ">
+	<value val="1.2018504251546631"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<ggbscript onUpdate="SetValue(iγ,γ)"/>
+</element>
+<expression label="Ps" exp="(s, 0, 0)" type="point" />
+<element type="point3d" label="Ps">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-25" y="-2"/>
+	<labelMode val="3"/>
+	<coords x="2" y="0" z="0" w="1"/>
+	<pointSize val="4"/>
+	<caption val="ds"/>
+</element>
+<expression label="Pt" exp="(0, 0, itm)" type="point" />
+<element type="point3d" label="Pt">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0" y="0" z="3.605551275463989" w="1"/>
+	<pointSize val="1"/>
+	<caption val="c·dt"/>
+</element>
+<expression label="Pτ" exp="(0, τ, 0)" type="point" />
+<element type="point3d" label="Pτ">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-3" y="-7"/>
+	<labelMode val="3"/>
+	<coords x="0" y="3" z="0" w="1"/>
+	<pointSize val="4"/>
+	<caption val="c·dτ"/>
+</element>
+<expression label="Pτs" exp="(s, τ, 0)" type="point" />
+<element type="point3d" label="Pτs">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2" y="3" z="0" w="1"/>
+	<pointSize val="4"/>
+</element>
+<expression label="Pst" exp="(s, 0, tm)" type="point" />
+<element type="point3d" label="Pst">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="31" y="12"/>
+	<labelMode val="0"/>
+	<coords x="2" y="0" z="3.605551275463989" w="1"/>
+	<pointSize val="4"/>
+</element>
+<expression label="Ptτ" exp="(0, τ, tm)" type="point" />
+<element type="point3d" label="Ptτ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="3" z="3.605551275463989" w="1"/>
+	<pointSize val="4"/>
+</element>
+<expression label="Pτst" exp="(s, τ, tm)" type="point" />
+<element type="point3d" label="Pτst">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvConeVector ≟ true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2" y="3" z="3.605551275463989" w="1"/>
+	<pointSize val="4"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="Pτst"/>
+	<output a0="vτst"/>
+</command>
+<element type="vector3d" label="vτst">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χvConeVector ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="8"/>
+	<labelMode val="3"/>
+	<coords x="2" y="3" z="3.605551275463989" w="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<startPoint exp="O"/>
+	<caption val="√2c·dt"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="Pt"/>
+	<output a0="vt"/>
+</command>
+<element type="vector3d" label="vt">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="-18"/>
+	<labelMode val="3"/>
+	<coords x="0" y="0" z="3.605551275463989" w="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<startPoint exp="O"/>
+	<caption val="c·dt"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="Pτs"/>
+	<output a0="vτs"/>
+</command>
+<element type="vector3d" label="vτs">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="15"/>
+	<labelMode val="3"/>
+	<coords x="2" y="3" z="0" w="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<startPoint exp="O"/>
+	<caption val="c·dt"/>
+</element>
+<command name="Angle">
+	<input a0="vt" a1="vτst"/>
+	<output a0="a45"/>
+</command>
+<element type="angle3d" label="a45">
+	<angleStyle val="1"/>
+	<value val="0.7853981633974484"/>
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χvConeVector ≟ true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-4" y="0"/>
+	<labelMode val="2"/>
+	<decoration type="1"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<arcSize val="65"/>
+</element>
+<command name="InfiniteCone">
+	<input a0="O" a1="vt" a2="a45"/>
+	<output a0="plLightCone"/>
+</command>
+<element type="quadric" label="plLightCone">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvLightCone ≟ true"/>
+	<objColor r="0" g="255" b="255" alpha="0.2"/>
+	<layer val="0"/>
+	<labelOffset x="-78" y="-17"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
+	<matrix A0="1" A1="1" A2="-1.0000000000000004" A3="0" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
+	<eqnStyle style="implicit"/>
+	<caption val="Light Cone"/>
+</element>
+<command name="Segment">
+	<input a0="Pτst" a1="Pτs"/>
+	<output a0="sPτs"/>
+</command>
+<element type="segment3d" label="sPτs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pτst" a1="Pst"/>
+	<output a0="sPst"/>
+</command>
+<element type="segment3d" label="sPst">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pτst" a1="Ptτ"/>
+	<output a0="sPtτ"/>
+</command>
+<element type="segment3d" label="sPtτ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pτst" a1="Pt"/>
+	<output a0="sPt"/>
+</command>
+<element type="segment3d" label="sPt">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pτs" a1="Pτ"/>
+	<output a0="sτsτ"/>
+</command>
+<element type="segment3d" label="sτsτ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pτs" a1="Ps"/>
+	<output a0="sτss"/>
+</command>
+<element type="segment3d" label="sτss">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true ∨ χvProperSpace ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pst" a1="Pt"/>
+	<output a0="sstt"/>
+</command>
+<element type="segment3d" label="sstt">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Pst" a1="Ps"/>
+	<output a0="ssts"/>
+</command>
+<element type="segment3d" label="ssts">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Ptτ" a1="Pt"/>
+	<output a0="stτt"/>
+</command>
+<element type="segment3d" label="stτt">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="Ptτ" a1="Pτ"/>
+	<output a0="stττ"/>
+</command>
+<element type="segment3d" label="stττ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvCoordBox ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="zOxPlane" exp="y = 0" type="plane"/>
+<element type="plane3d" label="zOxPlane">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="153" b="204" alpha="0.25"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="1" z="0" w="0"/>
+	<fading val="0.10000000149011612"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="Pst"/>
+	<output a0="vst"/>
+</command>
+<element type="vector3d" label="vst">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="2" y="0" z="3.605551275463989" w="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<startPoint exp="O"/>
+	<caption val="v"/>
+</element>
+<command name="Angle">
+	<input a0="vst" a1="Vector[Pt]"/>
+	<output a0="θ"/>
+</command>
+<element type="angle3d" label="θ">
+	<angleStyle val="1"/>
+	<value val="0.5064446434135006"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="244" g="0" b="153" alpha="0.27"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="-8"/>
+	<labelMode val="3"/>
+	<decoration type="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<arcSize val="65"/>
+	<ggbscript onUpdate="SetValue(iθ,sign(s)*θ)"/>
+</element>
+<command name="Angle">
+	<input a0="vτs" a1="Vector[(0, 1, 0)]"/>
+	<output a0="ϕ"/>
+</command>
+<element type="angle3d" label="ϕ">
+	<angleStyle val="1"/>
+	<value val="0.5880026035475675"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.15"/>
+	<layer val="0"/>
+	<labelOffset x="4" y="-1"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<arcSize val="65"/>
+	<ggbscript onUpdate="SetValue(iϕ,sign(s)*ϕ)"/>
+</element>
+<command name="Circle">
+	<input a0="O" a1="tm"/>
+	<output a0="cir"/>
+</command>
+<element type="conic" label="cir">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvLoci ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-12.999999999999998" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="hyp" exp="X = ((τ * sinh(t)), 0, (τ * cosh(t)))" type="conic" />
+<element type="conic3d" label="hyp">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvLoci ≟ true"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="1.0" x1="-1" y1="0" z1="1.0"/>
+	<matrix A0="-9" A1="9" A2="-81" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<expression label="sechyp" exp="X = ((τ * sinh(t)), τ, (τ * cosh(t)))" type="conic" />
+<element type="conic3d" label="sechyp">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvConeVector ≟ true ∧ χvLoci ≟ true"/>
+	<objColor r="0" g="255" b="225" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="0" y0="1" z0="1.0" x1="-1" y1="0" z1="1.0"/>
+	<matrix A0="-9" A1="9" A2="-81" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<command name="Circle">
+	<input a0="Pt" a1="tm" a2="xOyPlane"/>
+	<output a0="seccir"/>
+</command>
+<element type="conic3d" label="seccir">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvConeVector ≟ true ∧ χvLoci ≟ true"/>
+	<objColor r="0" g="225" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-12.999999999999998" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="parametric"/>
+</element>
+<expression label="lprj" exp="X = (t, tm)" type="line" />
+<element type="line" label="lprj">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="0" y="1" z="-3.605551275463989"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric" parameter="t"/>
+</element>
+<expression label="Pτi" exp="(0, 0, τ)" type="point" />
+<element type="point3d" label="Pτi">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-38" y="26"/>
+	<labelMode val="3"/>
+	<coords x="0" y="0" z="3" w="1"/>
+	<pointSize val="4"/>
+	<caption val="c·dτ"/>
+</element>
+<expression label="Pti" exp="(0, itm, 0)" type="point" />
+<element type="point3d" label="Pti">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="150" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-36" y="30"/>
+	<labelMode val="3"/>
+	<coords x="0" y="3.605551275463989" z="0" w="1"/>
+	<pointSize val="4"/>
+	<caption val="c·dt"/>
+</element>
+<expression label="Psγt" exp="((s * γ), tm, 0)" type="point" />
+<element type="point3d" label="Psγt">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="255" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.4037008503093262" y="3.605551275463989" z="0" w="1"/>
+	<pointSize val="4"/>
+</element>
+<command name="Vector">
+	<input a0="Pti" a1="Psγt"/>
+	<output a0="vsγ"/>
+</command>
+<element type="vector3d" label="vsγ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="3" y="12"/>
+	<labelMode val="3"/>
+	<coords x="2.4037008503093262" y="0" z="0" w="0"/>
+	<lineStyle thickness="3" type="15" typeHidden="1"/>
+	<startPoint exp="Pti"/>
+</element>
+<command name="Segment">
+	<input a0="O" a1="Psγt"/>
+	<output a0="sPsγt"/>
+</command>
+<element type="segment3d" label="sPsγt">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="14" y="60"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Tangent">
+	<input a0="Pτs" a1="cir"/>
+	<output a0="lsγ" a1=""/>
+</command>
+<element type="line3d" label="lsγ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<coords ox="6.499999999999999" oy="0" oz="0" ow="1" vx="-3" vy="2" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+</element>
+<expression label="Ptγ" exp="(0, (tm * γ), 0)" type="point" />
+<element type="point3d" label="Ptγ">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="75" g="0" b="130" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0" y="4.333333333333333" z="0" w="1"/>
+	<pointSize val="4"/>
+	<caption val="γc·dt"/>
+</element>
+<command name="Vector">
+	<input a0="Ptγ" a1="Pτs"/>
+	<output a0="vsγτ"/>
+</command>
+<element type="vector3d" label="vsγτ">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-3" y="14"/>
+	<labelMode val="3"/>
+	<coords x="2" y="-1.333333333333333" z="0" w="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<startPoint exp="Ptγ"/>
+	<caption val="γ·ds"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="lsγ"/>
+	<output a0="lsγAxis"/>
+</command>
+<element type="line3d" label="lsγAxis">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="32" y="15"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="30" typeHidden="1"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-0.8320502943378437" vy="0.5547001962252291" vz="0" vw="0"/>
+	<eqnStyle style="parametric" parameter="λ"/>
+	<caption val="Proper space"/>
+</element>
+<expression label="Psγ" exp="(s, τ - (γ * tm), 0)" type="point" />
+<element type="point3d" label="Psγ">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="244" g="0" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2" y="-1.333333333333333" z="0" w="1"/>
+	<pointSize val="4"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="Psγ"/>
+	<output a0="vPsγ"/>
+</command>
+<element type="vector3d" label="vPsγ">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="1" y="-5"/>
+	<labelMode val="3"/>
+	<coords x="2" y="-1.333333333333333" z="0" w="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<startPoint exp="O"/>
+	<caption val="γ·ds"/>
+</element>
+<command name="Segment">
+	<input a0="Ps" a1="Psγ"/>
+	<output a0="sPsγ"/>
+</command>
+<element type="segment3d" label="sPsγ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Angle">
+	<input a0="vPsγ" a1="Vector[(1, 0, 0)]"/>
+	<output a0="ϕi"/>
+</command>
+<element type="angle3d" label="ϕi">
+	<angleStyle val="1"/>
+	<value val="0.5880026035475673"/>
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="s &gt; 0 ∧ τ &gt; 0 ∧ χvProperSpace ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<arcSize val="65"/>
+	<caption val="ϕ"/>
+</element>
+<command name="Angle">
+	<input a0="vPsγ" a1="vτs"/>
+	<output a0="ar1"/>
+</command>
+<element type="angle3d" label="ar1">
+	<angleStyle val="1"/>
+	<value val="1.5707963267948966"/>
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χvProperSpace ≟ true"/>
+	<objColor r="0" g="0" b="0" alpha="0.09"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="2" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+</element>
+<element type="numeric" label="iγ">
+	<value val="1.2018504251546631"/>
+	<symbolic val="true" />
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<slider min="1" max="5" absoluteScreenLocation="true" width="200" x="149" y="299" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(itemp,tm)&#xa;SetValue(τ,itemp/iγ)&#xa;#SetValue(s,sign(s)*sqrt(itemp^2-τ^2))&#xa;SetValue(s,If(sign(s)&gt;=0, sqrt(itemp^2-τ^2), -sqrt(itemp^2-τ^2)))&#xa;RunUpdateScript(ϕ)&#xa;RunUpdateScript(θ)"/>
+	<caption val="γ"/>
+</element>
+<element type="angle" label="iϕ">
+	<angleStyle val="3"/>
+	<value val="0.5880026035475675"/>
+	<slider min="-180°" max="180°" absoluteScreenLocation="true" width="300" x="198" y="420" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(itemp,tm)&#xa;SetValue(τ,itemp*cos(iϕ))&#xa;SetValue(s,itemp*sin(iϕ))&#xa;RunUpdateScript(γ)&#xa;RunUpdateScript(θ)"/>
+	<caption val="ϕ"/>
+</element>
+<element type="angle" label="iθ">
+	<angleStyle val="3"/>
+	<value val="0.5064446434135006"/>
+	<slider min="-45°" max="45°" absoluteScreenLocation="true" width="180" x="258" y="461" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="244" g="0" b="153" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="9"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(itemp,tm)&#xa;SetValue(s,itemp*tan(iθ))&#xa;SetValue(τ,If(τ&gt;=0, itemp*sqrt(1-tan(iθ)^2), -itemp*sqrt(1-tan(iθ)^2)))&#xa;RunUpdateScript(γ)&#xa;RunUpdateScript(ϕ)"/>
+	<caption val="θ"/>
+</element>
+<element type="numeric" label="itemp">
+	<value val="1.002728566345535"/>
+	<symbolic val="true" />
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0.1" max="5" absoluteScreenLocation="true" width="250" x="347" y="331" fixed="true" horizontal="true" showAlgebra="false"/>
+	<pointSize val="1"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+</element>
+<element type="boolean" label="χvLightCone">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="9" y="486"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χvCoordBox">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="365" y="486"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χvConeVector">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="403"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χvProperSpace">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="18" y="488"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χvLoci">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="199" y="485"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Text">
+	<input a0="&quot;Natural (Angular) Space-time&quot;" a1="(4.5, 2.5)"/>
+	<output a0="txtNat"/>
+</command>
+<element type="text" label="txtNat">
+	<show object="true" label="true" ev="5"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="4.5" y="2.5" z="1"/>
+</element>
+<command name="Text">
+	<input a0="RotateText[&quot;Common Space-time&quot;, 20°]" a1="(5, 0, 7)" a2="true" a3="true"/>
+	<output a0="txtCom"/>
+</command>
+<element type="text" label="txtCom">
+	<show object="true" label="true" ev="5"/>
+	<objColor r="244" g="0" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="3"/>
+	<startPoint x="5" y="0" z="7" w="1"/>
+</element>
+<element type="boolean" label="χFixDt">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="17" y="426"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Angle">
+	<input a0="Vector[Pτs, O]" a1="Vector[Pτs, Ps]"/>
+	<output a0="ϕa"/>
+</command>
+<element type="angle3d" label="ϕa">
+	<angleStyle val="1"/>
+	<value val="0.5880026035475675"/>
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="τ &gt; 0 ∧ χvProperSpace ≟ true"/>
+	<objColor r="255" g="0" b="0" alpha="0.18"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="-3"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<arcSize val="65"/>
+	<caption val="ϕ"/>
+</element>
+</construction>
+</geogebra>

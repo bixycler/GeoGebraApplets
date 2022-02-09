@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="37A63B30-375C-470B-BCCF-70B2B767F5E9"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.2177650429799427" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="919" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1745" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="289.01000000000033" yZero="192.65500000000125" scale="90.74999999999895" yscale="90.74999999999895"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="2"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Lemniscate-Infinity" author="" date="">
+<element type="numeric" label="a">
+	<value val="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="3"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="6" y="37" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(shapes,Length(shapes))&#xa;SetValue(χDevil,a&lt;0)"/>
+</element>
+<element type="numeric" label="b">
+	<value val="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="5" y="72" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(shapes,Length(shapes))"/>
+</element>
+<element type="numeric" label="c">
+	<value val="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="2"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="347" y="34" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(shapes,Length(shapes))"/>
+</element>
+<element type="numeric" label="d">
+	<value val="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="3"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="348" y="73" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(shapes,Length(shapes))"/>
+</element>
+<element type="boolean" label="χBaseCon">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="51" g="255" b="204" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="344" y="81"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Show base conic"/>
+</element>
+<element type="boolean" label="χDevil">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="2" y="108"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="SetValue(a,If(χDevil,-abs(a),abs(a)))"/>
+	<caption val="Devil (diabolo)"/>
+</element>
+<expression label="shapes" exp="{&quot;Leminscate of Bernoulli&quot;, &quot;Lemniscate of Booth&quot;, &quot;Lemniscate of Gerono&quot;, &quot;Alain&apos;s Curve﻿&quot;, &quot;Double Ellipse&quot;, &quot;Hyperbola&quot;, &quot;Double Hyperbola&quot;, &quot;Hyperbola with Asymptotes&quot;, &quot;Ellipse&quot;, &quot;Circle&quot;, &quot;Devil&apos;s Curve&quot;, &quot;...&quot;}"/>
+<element type="list" label="shapes">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="85"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+	<caption val="Shape"/>
+</element>
+<command name="SelectedElement">
+	<input a0="shapes"/>
+	<output a0="shape"/>
+</command>
+<element type="text" label="shape">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="If(shape==&quot;Devil&apos;s Curve&quot;,{SetValue(χDevil,true),SetValue(a,If(a==0,-1,-abs(a)))})&#xa;If(shape!=&quot;Devil&apos;s Curve&quot; &amp;&amp; shape!=&quot;...&quot;,SetValue(χDevil,false))&#xa;If(shape==&quot;Leminscate of Bernoulli&quot;,{SetValue(a,1),SetValue(b,1),SetValue(d,c)}, If(shape==&quot;Lemniscate of Booth&quot;,{SetValue(a,1),SetValue(b,1),SetValue(d,If(c==0,-1,sgn(c))*abs(d))}, If(shape==&quot;Lemniscate of Gerono&quot;,{SetValue(a,0),SetValue(b,0),SetValue(c,If(c==0,1,abs(c))),SetValue(d,If(d==0,1,abs(d)))}, If(shape==&quot;Alain&apos;s Curve﻿&quot;, {SetValue(a,1),SetValue(b,-1),SetValue(c,If(d==0,1,c)),SetValue(d,If(c&lt;0,c/2,c*2))}, If(shape==&quot;Double Ellipse&quot;,{SetValue(a,If(a==0,1,abs(a))),SetValue(b,sqrt(a)),SetValue(c,If(c==d,1,abs(c-d))),SetValue(d,0)}, If(shape==&quot;Circle&quot;,{SetValue(a,1),SetValue(b,1),SetValue(d,-c)}, If(shape==&quot;Ellipse&quot;,{SetValue(a,0),SetValue(d,0),SetValue(c,abs(c)),SetValue(b,If(b==0,1,abs(b)))}, If(shape==&quot;Hyperbola&quot;,{SetValue(a,0),SetValue(d,0),SetValue(c,abs(c)),SetValue(b,If(b==0,-1,-abs(b)))}, If(shape==&quot;Hyperbola with Asymptotes&quot;, {SetValue(a,If(a==0,1,abs(a))),SetValue(b,-sqrt(a)),SetValue(c,If(c==0,1,c)),SetValue(d,-c*b)}, If(shape==&quot;Double Hyperbola&quot;, {SetValue(a,If(a==0,1,abs(a))),SetValue(b,-sqrt(a)),SetValue(c,If(c==0,1,c)),SetValue(d,0)}))))))))))&#xa;"/>
+</element>
+<expression label="con" exp="x^(2) + (a * y^(2)) + (((2 * b) * x) * y) = (2 * ((c * x) - (d * y)))" type="conic" />
+<element type="conic" label="con">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χBaseCon"/>
+	<objColor r="51" g="255" b="204" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="0.7071067811865475" y0="-0.7071067811865475" z0="1.0" x1="0.7071067811865475" y1="0.7071067811865475" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0" A3="1" A4="-1" A5="1"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="lemniscate" exp="lemniscate: x^(4) + (a * y^(4)) + (((2 * b) * x^(2)) * y^(2)) = (2 * ((c * x^(2)) - (d * y^(2))))" type="implicitpoly" />
+<element type="implicitpoly" label="lemniscate">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coefficients rep="array" data="[[0,0,2,0,1],[0,0,0,0,0],[-2,0,2,0,0],[0,0,0,0,0],[1,0,0,0,0]]" />
+	<userinput show="true"/></element>
+</construction>
+</geogebra>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="2749C900-0729-4BC0-B79F-30C9D7ED9002"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="572" height="180" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.4195804195804196" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1,1,1" size="400" window="100,100,700,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="572" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="200" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="571" height="82"/>
+	<coordSystem xZero="138.01899628737763" yZero="157.97369527385408" scale="86.56491250000006" yscale="86.56491250000005"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="9" grid="0"/>
+	<axis id="0" show="true" label="Common space (s)" unitLabel="m" tickStyle="2" showNumbers="false"/>
+	<axis id="1" show="true" label="Proper time (τ)" unitLabel="s" tickStyle="2" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="MotionAngle" author="" date="">
+<element type="point" label="O">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="O" a1="1"/>
+	<output a0="C"/>
+</command>
+<element type="conic" label="C">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="10" typeHidden="1"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="0.5235987755982988"/>
+	<slider min="-3.141592653589793" max="3.141592653589793" width="3" x="-1.501982645536408" y="1.2126587117367449" fixed="true" horizontal="true" showAlgebra="true"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.3"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+</element>
+<expression label="P" exp="(1; 90° - ϕ)" type="point" />
+<element type="point" label="P">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.4999999999999999" y="0.8660254037844387" z="1"/>
+	<coordStyle style="polar"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="P"/>
+	<output a0="σ"/>
+</command>
+<element type="vector" label="σ">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.4999999999999999" y="0.8660254037844387" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O"/>
+	<caption val="c"/>
+</element>
+<expression label="pτ" exp="(0, y(P))" type="point" />
+<element type="point" label="pτ">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0" y="0.8660254037844387" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+	<caption val="τ"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="pτ"/>
+	<output a0="vτ"/>
+</command>
+<element type="vector" label="vτ">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="0.8660254037844387" z="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O"/>
+</element>
+<expression label="ps" exp="(x(P), 0)" type="point" />
+<element type="point" label="ps">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="0.4999999999999999" y="0" z="1"/>
+	<pointSize val="1"/>
+	<pointStyle val="0"/>
+	<caption val="s"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="ps"/>
+	<output a0="vs"/>
+</command>
+<element type="vector" label="vs">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.4999999999999999" y="0" z="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="ps"/>
+	<output a0="ss"/>
+</command>
+<element type="segment" label="ss">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.8660254037844387" y="0" z="-0.43301270189221924"/>
+	<lineStyle thickness="2" type="20" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="P" a1="pτ"/>
+	<output a0="sτ"/>
+</command>
+<element type="segment" label="sτ">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-0.4999999999999999" z="0.43301270189221924"/>
+	<lineStyle thickness="2" type="20" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Angle">
+	<input a0="σ" a1="Vector[O, (0, 1)]"/>
+	<output a0="aϕ"/>
+</command>
+<element type="angle" label="aϕ">
+	<angleStyle val="1"/>
+	<value val="0.5235987755982987"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="204" g="0" b="0" alpha="0.23"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<caption val="ϕ"/>
+</element>
+<expression label="Oa" exp="(2, 0)" type="point"/>
+<element type="point" label="Oa">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<coords x="2" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="lc" exp="y = x - x(Oa)" type="line" />
+<element type="line" label="lc">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="-1" y="1" z="2"/>
+	<lineStyle thickness="1" type="10" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<command name="Segment">
+	<input a0="Oa + (-1, 1)" a1="Oa + (1, 1)"/>
+	<output a0="svj"/>
+</command>
+<element type="segment" label="svj">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2" z="-2"/>
+	<lineStyle thickness="1" type="10" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="lcc" exp="y = x(Oa) - x" type="line" />
+<element type="line" label="lcc">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="1" y="1" z="-2"/>
+	<lineStyle thickness="1" type="10" typeHidden="1" opacity="178"/>
+	<eqnStyle style="user"/>
+</element>
+<expression label="Pa" exp="Oa + (x(P), 1)" type="point" />
+<element type="point" label="Pa">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.5" y="1" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Vector">
+	<input a0="Oa" a1="Pa"/>
+	<output a0="v"/>
+</command>
+<element type="vector" label="v">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5" y="1" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Oa"/>
+</element>
+<command name="Angle">
+	<input a0="v" a1="Vector[Oa, Oa + (0, 1)]"/>
+	<output a0="aθ"/>
+</command>
+<element type="angle" label="aθ">
+	<angleStyle val="1"/>
+	<value val="0.4636476090008061"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="244" g="0" b="153" alpha="0.15"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<caption val="θ"/>
+</element>
+<command name="Text">
+	<input a0="RotateText[&quot;s = c{\cdot}t&quot;, 45°]" a1="Oa + (0.25, 1)" a2="true" a3="true"/>
+	<output a0="txtct"/>
+</command>
+<element type="text" label="txtct">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="2.25" y="1" z="1"/>
+</element>
+<command name="Text">
+	<input a0="RotateText[&quot;s = -c{\cdot}t&quot;, -45°]" a1="Oa + (-1, 1)" a2="true" a3="true"/>
+	<output a0="txtctc"/>
+</command>
+<element type="text" label="txtctc">
+	<show object="true" label="false" ev="5"/>
+	<objColor r="204" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isLaTeX val="true"/>
+	<font serif="false" sizeM="1" size="0" style="0"/>
+	<startPoint x="1" y="1" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="(x(Oa), -3)" a1="(x(Oa), 1.8)"/>
+	<output a0="ti"/>
+</command>
+<element type="vector" label="ti">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="9" y="-80"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<coords x="0" y="4.8" z="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="2" y="-3" z="1"/>
+	<caption val="Common time (t)"/>
+</element>
+<command name="Text">
+	<input a0="&quot;Common time (t)&quot;" a1="Oa + (0.1, 1.6)"/>
+	<output a0="txttil"/>
+</command>
+<element type="text" label="txttil">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<startPoint x="2.1" y="1.6" z="1"/>
+</element>
+</construction>
+</geogebra>

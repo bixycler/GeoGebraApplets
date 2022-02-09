@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="EA08A88C-395B-423E-A59B-189D1DFA34BD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1745" height="829" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.2177650429799427" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="150" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1745" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="344" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="422" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1744" height="775"/>
+	<coordSystem xZero="190.5000000000002" yZero="440.5000000000002" scale="49.99999999999994" yscale="50.00000000000004"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Interunion-wheel" author="" date="">
+<element type="boolean" label="χSpatial">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="11" y="165"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Spatial"/>
+</element>
+<command name="If">
+	<input a0="χSpatial" a1="π" a2="0"/>
+	<output a0="dir"/>
+</command>
+<element type="numeric" label="dir">
+	<value val="3.141592653589793"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="numeric" label="a">
+	<value val="12"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="7"/>
+	<labelMode val="1"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="29" y="66" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+</element>
+<element type="numeric" label="b">
+	<value val="4"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="5"/>
+	<labelMode val="1"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="29" y="106" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+</element>
+<element type="numeric" label="n">
+	<value val="10.3"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="1"/>
+	<labelMode val="9"/>
+	<slider min="0" max="N" absoluteScreenLocation="true" width="200" x="30" y="145" fixed="true" horizontal="true" showAlgebra="true"/>
+	<pointSize val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation step="0.1" speed="10 / N" type="1" playing="true"/>
+	<caption val="i"/>
+</element>
+<element type="boolean" label="χRunning">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="117" y="164"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(!χRunning,ZoomIn(1))"/>
+	<caption val="Running"/>
+</element>
+<expression label="eyeAnchor" exp="(6, 5)" type="point"/>
+<element type="point" label="eyeAnchor">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="160" g="160" b="160" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<coords x="6" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="numeric" label="s">
+	<value val="3"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="mod_{1}" exp="mod_{1}(x) = x - floor(x)" type="function"/>
+<element type="function" label="mod_{1}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="153" g="51" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="waϕ" exp="(360° * n / a)" />
+<element type="angle" label="waϕ">
+	<angleStyle val="3"/>
+	<value val="5.3930673886624785"/>
+</element>
+<expression label="sa" exp="(s * a / (a + b))" />
+<element type="numeric" label="sa">
+	<value val="2.25"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Vector">
+	<input a0="Rotate[(sa, 0), (-waϕ)]"/>
+	<output a0="wavector"/>
+</command>
+<element type="vector" label="wavector">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.4159708798621344" y="1.7485784132781843" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+</element>
+<expression label="dirsgn" exp="cos(dir)" />
+<element type="numeric" label="dirsgn">
+	<value val="-1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="sb" exp="((s * b / (a + b)) * dirsgn)" />
+<element type="numeric" label="sb">
+	<value val="-0.75"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="wbϕ" exp="((360° * n / b) * dirsgn)" />
+<element type="angle" label="wbϕ">
+	<angleStyle val="3"/>
+	<value val="-16.179202165987437"/>
+</element>
+<command name="Vector">
+	<input a0="Rotate[(sb, 0), (-wbϕ)]"/>
+	<output a0="wbvector"/>
+</command>
+<element type="vector" label="wbvector">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6682548931412752" y="0.3404928748046615" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+</element>
+<expression label="eyeVector" exp="wavector + wbvector" type="vector" />
+<element type="vector" label="eyeVector">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="eyeϕ / (360°)" dynamicg="abs(eyeVector) / s" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="2.0842257730034097" y="2.0890712880828457" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+</element>
+<element type="boolean" label="χVectors">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="11" y="194"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Vectors"/>
+</element>
+<element type="image" label="wapic">
+	<file name="94e6a43be039ff9b5602ede8c5eabef7/color-ring-1024-20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="wapinN"/>
+	<startPoint number="1" exp="wapinP"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<expression label="eyeO" exp="(x(eyeAnchor), y(eyeAnchor) - If[χRunning, (((2 * π) * n) * s / (a + b)), 0])" type="point" />
+<element type="point" label="eyeO">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="128" g="0" b="0" alpha="0" dynamicr="eyeϕ / (360°)" dynamicg="abs(eyeVector) / s" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelOffset x="-27" y="0"/>
+	<labelMode val="3"/>
+	<trace val="true"/>
+	<coords x="6" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="thread"/>
+</element>
+<expression label="waO" exp="(x(eyeO) - sa, y(eyeO))" type="point" />
+<element type="point" label="waO">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0" dynamicr="mod_{1}(((-waϕ)) / (360°))" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<coords x="3.75" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="a"/>
+</element>
+<expression label="wbO" exp="(x(eyeO) - sb, y(eyeO))" type="point" />
+<element type="point" label="wbO">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0" dynamicr="mod_{1}(((-wbϕ) - dir) / (360°))" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelOffset x="-15" y="0"/>
+	<labelMode val="3"/>
+	<coords x="6.75" y="5" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<caption val="b"/>
+</element>
+<command name="LCM">
+	<input a0="a" a1="b"/>
+	<output a0="N"/>
+</command>
+<element type="numeric" label="N">
+	<value val="12"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="GCD">
+	<input a0="a" a1="b"/>
+	<output a0="u"/>
+</command>
+<element type="numeric" label="u">
+	<value val="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Vector">
+	<input a0="waO" a1="Rotate[eyeO, waϕ, waO]"/>
+	<output a0="wamarker"/>
+</command>
+<element type="vector" label="wamarker">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.4159708798621349" y="-1.7485784132781843" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="waO"/>
+</element>
+<command name="Segment">
+	<input a0="waO" a1="eyeO"/>
+	<output a0="wahandle"/>
+</command>
+<element type="segment" label="wahandle">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="mod_{1}(((-waϕ)) / (360°))" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="2.25" z="-11.25"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<command name="Segment">
+	<input a0="wbO" a1="eyeO"/>
+	<output a0="wbhandle"/>
+</command>
+<element type="segment" label="wbhandle">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="mod_{1}(((-wbϕ) - dir) / (360°))" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0" y="-0.75" z="3.75"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+</element>
+<expression label="eyeϕ" exp="(mod_{1}(arg(eyeVector) / ((2 * π))) * 360°)" />
+<element type="angle" label="eyeϕ">
+	<angleStyle val="3"/>
+	<value val="0.7865592388807179"/>
+</element>
+<expression label="O" exp="(0, 0)" type="point"/>
+<element type="point" label="O">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="3"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Point">
+	<input a0="O" a1="eyeVector"/>
+	<output a0="eyeP"/>
+</command>
+<element type="point" label="eyeP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="eyeϕ / (360°)" dynamicg="abs(eyeVector) / s" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<trace val="true"/>
+	<coords x="2.0842257730034097" y="2.0890712880828457" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="A1" exp="floor(n) - 10" />
+<element type="numeric" label="A1">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A2" exp="A1 + 1" />
+<element type="numeric" label="A2">
+	<value val="1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A3" exp="A2 + 1" />
+<element type="numeric" label="A3">
+	<value val="2"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A4" exp="A3 + 1" />
+<element type="numeric" label="A4">
+	<value val="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A5" exp="A4 + 1" />
+<element type="numeric" label="A5">
+	<value val="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A6" exp="A5 + 1" />
+<element type="numeric" label="A6">
+	<value val="5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A7" exp="A6 + 1" />
+<element type="numeric" label="A7">
+	<value val="6"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A8" exp="A7 + 1" />
+<element type="numeric" label="A8">
+	<value val="7"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A9" exp="A8 + 1" />
+<element type="numeric" label="A9">
+	<value val="8"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A10" exp="A9 + 1" />
+<element type="numeric" label="A10">
+	<value val="9"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A11" exp="A10 + 1" />
+<element type="numeric" label="A11">
+	<value val="10"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A12" exp="A11 + 1" />
+<element type="numeric" label="A12">
+	<value val="11"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A13" exp="A12 + 1" />
+<element type="numeric" label="A13">
+	<value val="12"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A14" exp="A13 + 1" />
+<element type="numeric" label="A14">
+	<value val="13"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A15" exp="A14 + 1" />
+<element type="numeric" label="A15">
+	<value val="14"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A16" exp="A15 + 1" />
+<element type="numeric" label="A16">
+	<value val="15"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A17" exp="A16 + 1" />
+<element type="numeric" label="A17">
+	<value val="16"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A18" exp="A17 + 1" />
+<element type="numeric" label="A18">
+	<value val="17"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A19" exp="A18 + 1" />
+<element type="numeric" label="A19">
+	<value val="18"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A20" exp="A19 + 1" />
+<element type="numeric" label="A20">
+	<value val="19"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="A21" exp="A20 + 1" />
+<element type="numeric" label="A21">
+	<value val="20"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<element type="image" label="wbpic">
+	<file name="94e6a43be039ff9b5602ede8c5eabef7/color-ring-1024-20.png"/>
+	<inBackground val="false"/>
+	<startPoint number="0" exp="wbpinN"/>
+	<startPoint number="1" exp="wbpinP"/>
+	<auxiliary val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="false"/>
+</element>
+<command name="Vector">
+	<input a0="wbO" a1="Rotate[eyeO, wbϕ, wbO]"/>
+	<output a0="wbmarker"/>
+</command>
+<element type="vector" label="wbmarker">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6682548931412748" y="-0.34049287480466184" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="wbO"/>
+</element>
+<command name="Sequence">
+	<input a0="(x(waO) + ((0.98 * sa) * cos(waϕ + ((2 * π) * k / a))), y(waO) + ((0.98 * sa) * sin(waϕ + ((2 * π) * k / a))))" a1="k" a2="1" a3="a"/>
+	<output a0="wamarkers" randomResult="{(5.808544840426331, 4.209798671252614), (5.927852791012279, 5.344937995413709), (5.463606845012621, 6.387651462264891), (4.540201328747388, 7.058544840426329), (3.4050620045862896, 7.1778527910122785), (2.3623485377351088, 6.713606845012621), (1.6914551595736693, 5.790201328747385), (1.5721472089877215, 4.65506200458629), (2.036393154987379, 3.6123485377351088), (2.9597986712526114, 2.9414551595736707), (4.094937995413706, 2.822147208987721), (5.137651462264891, 3.286393154987379)}"/>
+</command>
+<element type="list" label="wamarkers">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="2"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="(x(wbO) + ((0.98 * sb) * cos(wbϕ + ((2 * π) * k / b))), y(wbO) + ((0.98 * sb) * sin(wbϕ + ((2 * π) * k / b))))" a1="k" a2="1" a3="b"/>
+	<output a0="wbmarkers" randomResult="{(7.0836830173085685, 5.65488979527845), (6.09511020472155, 5.3336830173085685), (6.4163169826914315, 4.34511020472155), (7.40488979527845, 4.6663169826914315)}"/>
+</command>
+<element type="list" label="wbmarkers">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="128" g="128" b="128" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="2"/>
+	<angleStyle val="0"/>
+</element>
+<element type="button" label="butAnim">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="8" y="9"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Animation"/>
+</element>
+<element type="button" label="butClear">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="17" y="232"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="ZoomIn(1)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Clear traces"/>
+</element>
+<command name="Text">
+	<input a0="&quot;LCM=&quot; + N + &quot; / GCD=&quot; + u"/>
+	<output a0="txtProd"/>
+</command>
+<element type="text" label="txtProd">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="104" y="28"/>
+</element>
+<expression label="fz" exp="fz(x) = (sa * ℯ^((((-2 * π) * ί) * x / a))) + (sb * ℯ^(((((-2 * π) * ί) * x / b) * dirsgn)))" type="surfacecartesian" />
+<element type="surfacecartesian" label="fz">
+	<show object="false" label="true"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="real(fz(k))" a1="imaginary(fz(k))" a2="k" a3="0" a4="n"/>
+	<output a0="thread"/>
+</command>
+<element type="curvecartesian" label="thread">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="127"/>
+</element>
+<expression label="B1" exp="fz(A1)" type="point" />
+<element type="point" label="B1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C1" dynamicg="D1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.5" y="0" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B2" exp="fz(A2)" type="point" />
+<element type="point" label="B2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C2" dynamicg="D2" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.948557158514987" y="-1.8749999999999998" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B3" exp="fz(A3)" type="point" />
+<element type="point" label="B3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C3" dynamicg="D3" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.8750000000000002" y="-1.9485571585149868" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B4" exp="fz(A4)" type="point" />
+<element type="point" label="B4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C4" dynamicg="D4" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="2.755455298081545e-16" y="-1.5" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B5" exp="fz(A5)" type="point" />
+<element type="point" label="B5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C5" dynamicg="D5" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.8749999999999996" y="-1.9485571585149868" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B6" exp="fz(A6)" type="point" />
+<element type="point" label="B6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C6" dynamicg="D6" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.9485571585149872" y="-1.8749999999999998" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B7" exp="fz(A7)" type="point" />
+<element type="point" label="B7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C7" dynamicg="D7" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.5" y="-5.51091059616309e-16" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B8" exp="fz(A8)" type="point" />
+<element type="point" label="B8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C8" dynamicg="D8" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.9485571585149866" y="1.8750000000000002" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B9" exp="fz(A9)" type="point" />
+<element type="point" label="B9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C9" dynamicg="D9" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.8750000000000009" y="1.948557158514987" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B10" exp="fz(A10)" type="point" />
+<element type="point" label="B10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C10" dynamicg="D10" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-8.266365894244634e-16" y="1.5" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B11" exp="fz(A11)" type="point" />
+<element type="point" label="B11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C11" dynamicg="D11" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.8750000000000002" y="1.9485571585149863" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B12" exp="fz(A12)" type="point" />
+<element type="point" label="B12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C12" dynamicg="D12" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.9485571585149881" y="1.8750000000000009" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B13" exp="fz(A13)" type="point" />
+<element type="point" label="B13">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C13" dynamicg="D13" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.5" y="1.102182119232618e-15" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B14" exp="fz(A14)" type="point" />
+<element type="point" label="B14">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C14" dynamicg="D14" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.9485571585149886" y="-1.8749999999999984" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B15" exp="fz(A15)" type="point" />
+<element type="point" label="B15">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C15" dynamicg="D15" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="1.8749999999999993" y="-1.9485571585149881" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B16" exp="fz(A16)" type="point" />
+<element type="point" label="B16">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C16" dynamicg="D16" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="2.70999527859096e-15" y="-1.5" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B17" exp="fz(A17)" type="point" />
+<element type="point" label="B17">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C17" dynamicg="D17" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.8749999999999982" y="-1.9485571585149875" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B18" exp="fz(A18)" type="point" />
+<element type="point" label="B18">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C18" dynamicg="D18" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.948557158514987" y="-1.8749999999999996" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B19" exp="fz(A19)" type="point" />
+<element type="point" label="B19">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C19" dynamicg="D19" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.5" y="-1.6532731788489269e-15" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B20" exp="fz(A20)" type="point" />
+<element type="point" label="B20">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C20" dynamicg="D20" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.948557158514986" y="1.8749999999999982" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="B21" exp="fz(A21)" type="point" />
+<element type="point" label="B21">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C21" dynamicg="D21" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="-1.8749999999999996" y="1.948557158514988" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="C1" exp="mod_{1}(arg(B1) / ((2 * π)))" />
+<element type="numeric" label="C1">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C2" exp="mod_{1}(arg(B2) / ((2 * π)))" />
+<element type="numeric" label="C2">
+	<value val="0.87806142708885"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C3" exp="mod_{1}(arg(B3) / ((2 * π)))" />
+<element type="numeric" label="C3">
+	<value val="0.87193857291115"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C4" exp="mod_{1}(arg(B4) / ((2 * π)))" />
+<element type="numeric" label="C4">
+	<value val="0.75"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C5" exp="mod_{1}(arg(B5) / ((2 * π)))" />
+<element type="numeric" label="C5">
+	<value val="0.62806142708885"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C6" exp="mod_{1}(arg(B6) / ((2 * π)))" />
+<element type="numeric" label="C6">
+	<value val="0.62193857291115"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C7" exp="mod_{1}(arg(B7) / ((2 * π)))" />
+<element type="numeric" label="C7">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C8" exp="mod_{1}(arg(B8) / ((2 * π)))" />
+<element type="numeric" label="C8">
+	<value val="0.37806142708885004"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C9" exp="mod_{1}(arg(B9) / ((2 * π)))" />
+<element type="numeric" label="C9">
+	<value val="0.37193857291115"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C10" exp="mod_{1}(arg(B10) / ((2 * π)))" />
+<element type="numeric" label="C10">
+	<value val="0.2500000000000001"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C11" exp="mod_{1}(arg(B11) / ((2 * π)))" />
+<element type="numeric" label="C11">
+	<value val="0.12806142708885002"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C12" exp="mod_{1}(arg(B12) / ((2 * π)))" />
+<element type="numeric" label="C12">
+	<value val="0.12193857291114996"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C13" exp="mod_{1}(arg(B13) / ((2 * π)))" />
+<element type="numeric" label="C13">
+	<value val="1.1694515497558127e-16"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C14" exp="mod_{1}(arg(B14) / ((2 * π)))" />
+<element type="numeric" label="C14">
+	<value val="0.8780614270888502"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C15" exp="mod_{1}(arg(B15) / ((2 * π)))" />
+<element type="numeric" label="C15">
+	<value val="0.8719385729111498"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C16" exp="mod_{1}(arg(B16) / ((2 * π)))" />
+<element type="numeric" label="C16">
+	<value val="0.7500000000000002"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C17" exp="mod_{1}(arg(B17) / ((2 * π)))" />
+<element type="numeric" label="C17">
+	<value val="0.62806142708885"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C18" exp="mod_{1}(arg(B18) / ((2 * π)))" />
+<element type="numeric" label="C18">
+	<value val="0.62193857291115"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C19" exp="mod_{1}(arg(B19) / ((2 * π)))" />
+<element type="numeric" label="C19">
+	<value val="0.5000000000000002"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C20" exp="mod_{1}(arg(B20) / ((2 * π)))" />
+<element type="numeric" label="C20">
+	<value val="0.3780614270888501"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="C21" exp="mod_{1}(arg(B21) / ((2 * π)))" />
+<element type="numeric" label="C21">
+	<value val="0.3719385729111499"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D1" exp="abs(B1) / s" />
+<element type="numeric" label="D1">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D2" exp="abs(B2) / s" />
+<element type="numeric" label="D2">
+	<value val="0.9013878188659973"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D3" exp="abs(B3) / s" />
+<element type="numeric" label="D3">
+	<value val="0.9013878188659973"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D4" exp="abs(B4) / s" />
+<element type="numeric" label="D4">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D5" exp="abs(B5) / s" />
+<element type="numeric" label="D5">
+	<value val="0.9013878188659971"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D6" exp="abs(B6) / s" />
+<element type="numeric" label="D6">
+	<value val="0.9013878188659974"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D7" exp="abs(B7) / s" />
+<element type="numeric" label="D7">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D8" exp="abs(B8) / s" />
+<element type="numeric" label="D8">
+	<value val="0.9013878188659974"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D9" exp="abs(B9) / s" />
+<element type="numeric" label="D9">
+	<value val="0.9013878188659975"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D10" exp="abs(B10) / s" />
+<element type="numeric" label="D10">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D11" exp="abs(B11) / s" />
+<element type="numeric" label="D11">
+	<value val="0.9013878188659973"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D12" exp="abs(B12) / s" />
+<element type="numeric" label="D12">
+	<value val="0.9013878188659978"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D13" exp="abs(B13) / s" />
+<element type="numeric" label="D13">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D14" exp="abs(B14) / s" />
+<element type="numeric" label="D14">
+	<value val="0.9013878188659974"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D15" exp="abs(B15) / s" />
+<element type="numeric" label="D15">
+	<value val="0.9013878188659975"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D16" exp="abs(B16) / s" />
+<element type="numeric" label="D16">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D17" exp="abs(B17) / s" />
+<element type="numeric" label="D17">
+	<value val="0.9013878188659971"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D18" exp="abs(B18) / s" />
+<element type="numeric" label="D18">
+	<value val="0.9013878188659973"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D19" exp="abs(B19) / s" />
+<element type="numeric" label="D19">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D20" exp="abs(B20) / s" />
+<element type="numeric" label="D20">
+	<value val="0.9013878188659966"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="D21" exp="abs(B21) / s" />
+<element type="numeric" label="D21">
+	<value val="0.9013878188659975"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="E2" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A2 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E2">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C2" dynamicg="D2" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="15.956304379394403" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E3" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A3 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E3">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C3" dynamicg="D3" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="14.778207134298231" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E4" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A4 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E4">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C4" dynamicg="D4" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="13.60010988920206" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E5" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A5 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E5">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C5" dynamicg="D5" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="12.422012644105887" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E6" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A6 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E6">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C6" dynamicg="D6" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="11.243915399009715" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E7" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A7 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E7">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C7" dynamicg="D7" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="10.065818153913542" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E8" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A8 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E8">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C8" dynamicg="D8" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="8.88772090881737" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E9" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A9 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E9">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C9" dynamicg="D9" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="7.709623663721198" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E10" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A10 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E10">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C10" dynamicg="D10" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="6.531526418625026" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E11" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A11 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E11">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C11" dynamicg="D11" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="5.353429173528853" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E12" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A12 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E12">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C12" dynamicg="D12" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="4.17533192843268" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E13" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A13 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E13">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C13" dynamicg="D13" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="2.997234683336508" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E14" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A14 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E14">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C14" dynamicg="D14" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="1.8191374382403351" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E15" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A15 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E15">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C15" dynamicg="D15" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="0.6410401931441623" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E16" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A16 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E16">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C16" dynamicg="D16" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-0.5370570519520097" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E17" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A17 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E17">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C17" dynamicg="D17" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-1.7151542970481817" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E18" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A18 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E18">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C18" dynamicg="D18" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-2.8932515421443545" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E19" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A19 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E19">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C19" dynamicg="D19" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-4.071348787240527" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E20" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A20 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E20">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C20" dynamicg="D20" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-5.249446032336699" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="E21" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A21 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E21">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C21" dynamicg="D21" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="-6.427543277432871" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(waO) + sa, y(waO) - sa)" a1="waϕ" a2="waO"/>
+	<output a0="wapinP"/>
+</command>
+<element type="point" label="wapinP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="3.41739246658395" y="1.8354507068596813" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(waO) - sa, y(waO) - sa)" a1="waϕ" a2="waO"/>
+	<output a0="wapinN"/>
+</command>
+<element type="point" label="wapinN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5854507068596813" y="5.33260753341605" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(wbO) - sb, y(wbO) - sb)" a1="wbϕ + dir" a2="wbO"/>
+	<output a0="wbpinN"/>
+</command>
+<element type="point" label="wbpinN">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="7.758747767945937" y="5.327762018336614" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="(x(wbO) + sb, y(wbO) - sb)" a1="wbϕ + dir" a2="wbO"/>
+	<output a0="wbpinP"/>
+</command>
+<element type="point" label="wbpinP">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="6.422237981663386" y="6.008747767945937" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="Point[O, wavector]" a1="abs(sb)"/>
+	<output a0="wbring"/>
+</command>
+<element type="conic" label="wbring">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRings"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.5" A3="0" A4="-1.4159708798621344" A5="-1.7485784132781843"/>
+	<eqnStyle style="specific"/>
+</element>
+<command name="Vector">
+	<input a0="Point[O, wavector]" a1="eyeP"/>
+	<output a0="wbringHandle"/>
+</command>
+<element type="vector" label="wbringHandle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRings"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="mod_{1}(((-wbϕ) - dir) / (360°))" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6682548931412753" y="0.3404928748046614" z="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="1.4159708798621344" y="1.7485784132781843" z="1"/>
+</element>
+<element type="boolean" label="χRings">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="117" y="193"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Rings"/>
+</element>
+<command name="Circle">
+	<input a0="O" a1="abs(sa - sb)"/>
+	<output a0="waring"/>
+</command>
+<element type="conic" label="waring">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRings"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-9" A3="0" A4="0" A5="0"/>
+	<eqnStyle style="specific"/>
+</element>
+<expression label="E1" exp="(x(eyeO), y(eyeO) - (((2 * π) * (A1 - n)) * s / (a + b)))" type="point" />
+<element type="point" label="E1">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0" dynamicr="C1" dynamicg="D1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="true"/>
+	<coords x="6" y="17.13440162449058" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="F1" exp="(N * mod_{1}(A1 / N))" />
+<element type="numeric" label="F1">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F2" exp="(N * mod_{1}(A2 / N))" />
+<element type="numeric" label="F2">
+	<value val="1"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F3" exp="(N * mod_{1}(A3 / N))" />
+<element type="numeric" label="F3">
+	<value val="2"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F4" exp="(N * mod_{1}(A4 / N))" />
+<element type="numeric" label="F4">
+	<value val="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F5" exp="(N * mod_{1}(A5 / N))" />
+<element type="numeric" label="F5">
+	<value val="4"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F6" exp="(N * mod_{1}(A6 / N))" />
+<element type="numeric" label="F6">
+	<value val="5"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F7" exp="(N * mod_{1}(A7 / N))" />
+<element type="numeric" label="F7">
+	<value val="6"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F8" exp="(N * mod_{1}(A8 / N))" />
+<element type="numeric" label="F8">
+	<value val="7"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F9" exp="(N * mod_{1}(A9 / N))" />
+<element type="numeric" label="F9">
+	<value val="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F10" exp="(N * mod_{1}(A10 / N))" />
+<element type="numeric" label="F10">
+	<value val="9"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F11" exp="(N * mod_{1}(A11 / N))" />
+<element type="numeric" label="F11">
+	<value val="10"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F12" exp="(N * mod_{1}(A12 / N))" />
+<element type="numeric" label="F12">
+	<value val="11"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F13" exp="(N * mod_{1}(A13 / N))" />
+<element type="numeric" label="F13">
+	<value val="0"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F14" exp="(N * mod_{1}(A14 / N))" />
+<element type="numeric" label="F14">
+	<value val="0.9999999999999991"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F15" exp="(N * mod_{1}(A15 / N))" />
+<element type="numeric" label="F15">
+	<value val="2.000000000000001"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F16" exp="(N * mod_{1}(A16 / N))" />
+<element type="numeric" label="F16">
+	<value val="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F17" exp="(N * mod_{1}(A17 / N))" />
+<element type="numeric" label="F17">
+	<value val="3.999999999999999"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F18" exp="(N * mod_{1}(A18 / N))" />
+<element type="numeric" label="F18">
+	<value val="5.000000000000001"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F19" exp="(N * mod_{1}(A19 / N))" />
+<element type="numeric" label="F19">
+	<value val="6"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F20" exp="(N * mod_{1}(A20 / N))" />
+<element type="numeric" label="F20">
+	<value val="6.999999999999999"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<expression label="F21" exp="(N * mod_{1}(A21 / N))" />
+<element type="numeric" label="F21">
+	<value val="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<labelOffset x="-30" y="4"/>
+	<auxiliary val="true"/>
+</element>
+<command name="Text">
+	<input a0="F9"/>
+	<output a0="G9"/>
+</command>
+<element type="text" label="G9">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C9" dynamicg="D9" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E9"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F10"/>
+	<output a0="G10"/>
+</command>
+<element type="text" label="G10">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C10" dynamicg="D10" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E10"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F11"/>
+	<output a0="G11"/>
+</command>
+<element type="text" label="G11">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C11" dynamicg="D11" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E11"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F12"/>
+	<output a0="G12"/>
+</command>
+<element type="text" label="G12">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C12" dynamicg="D12" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E12"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F13"/>
+	<output a0="G13"/>
+</command>
+<element type="text" label="G13">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C13" dynamicg="D13" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E13"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F14"/>
+	<output a0="G14"/>
+</command>
+<element type="text" label="G14">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C14" dynamicg="D14" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E14"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F15"/>
+	<output a0="G15"/>
+</command>
+<element type="text" label="G15">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C15" dynamicg="D15" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E15"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F16"/>
+	<output a0="G16"/>
+</command>
+<element type="text" label="G16">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C16" dynamicg="D16" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E16"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F17"/>
+	<output a0="G17"/>
+</command>
+<element type="text" label="G17">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C17" dynamicg="D17" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E17"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F18"/>
+	<output a0="G18"/>
+</command>
+<element type="text" label="G18">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C18" dynamicg="D18" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E18"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F19"/>
+	<output a0="G19"/>
+</command>
+<element type="text" label="G19">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C19" dynamicg="D19" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E19"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F20"/>
+	<output a0="G20"/>
+</command>
+<element type="text" label="G20">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C20" dynamicg="D20" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E20"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F21"/>
+	<output a0="G21"/>
+</command>
+<element type="text" label="G21">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C21" dynamicg="D21" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E21"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F4"/>
+	<output a0="G4"/>
+</command>
+<element type="text" label="G4">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C4" dynamicg="D4" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E4"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F5"/>
+	<output a0="G5"/>
+</command>
+<element type="text" label="G5">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C5" dynamicg="D5" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E5"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F6"/>
+	<output a0="G6"/>
+</command>
+<element type="text" label="G6">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C6" dynamicg="D6" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E6"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F7"/>
+	<output a0="G7"/>
+</command>
+<element type="text" label="G7">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C7" dynamicg="D7" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E7"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F8"/>
+	<output a0="G8"/>
+</command>
+<element type="text" label="G8">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C8" dynamicg="D8" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E8"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F1"/>
+	<output a0="G1"/>
+</command>
+<element type="text" label="G1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C1" dynamicg="D1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E1"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F2"/>
+	<output a0="G2"/>
+</command>
+<element type="text" label="G2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C2" dynamicg="D2" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E2"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Text">
+	<input a0="F3"/>
+	<output a0="G3"/>
+</command>
+<element type="text" label="G3">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0" dynamicr="C3" dynamicg="D3" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<auxiliary val="true"/>
+	<startPoint exp="E3"/>
+	<labelOffset x="-30" y="4"/>
+</element>
+<command name="Point">
+	<input a0="O" a1="wavector"/>
+	<output a0="wbringO"/>
+</command>
+<element type="point" label="wbringO">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χRings"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1.4159708798621344" y="1.7485784132781843" z="1"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="fa" exp="fa(x) = arg(fz(x))" />
+<element type="function" label="fa">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="216" g="27" b="96" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<element type="numeric" label="ε">
+	<value val="0.0001"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<fixed val="true"/>
+</element>
+<expression label="fc" exp="fc(x) = (fa(x + ε) - fa(x)) / ((-ε))" />
+<element type="function" label="fc">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="153" g="51" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(fc(k) * cos(fa(k)))" a1="(fc(k) * sin(fa(k)))" a2="k" a3="0" a4="n"/>
+	<output a0="threadc"/>
+</command>
+<element type="curvecartesian" label="threadc">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+</construction>
+</geogebra>

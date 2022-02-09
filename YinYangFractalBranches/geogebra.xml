@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="4A3DC239-6CCB-488E-AB70-78706871A4EB"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="762" height="624" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.4094488188976378" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1,1" size="269" window="100,100,700,550" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="762" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="312" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="761" height="527"/>
+	<coordSystem xZero="318.89999999999964" yZero="275.7500000000001" scale="379.6875" yscale="379.68749999999466"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="YinYangFractalBranches" author="" date="">
+<element type="numeric" label="l32">
+	<value val="1.8"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="t32">
+	<value val="5"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<fixed val="true"/>
+</element>
+<element type="numeric" label="t21">
+	<value val="0.95"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<fixed val="true"/>
+</element>
+<element type="numeric" label="a">
+	<value val="0.24"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" x="24" y="497" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<expression label="A" exp="ί - a" type="point" />
+<element type="point" label="A">
+	<show object="true" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.24" y="1" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s" exp="s(t) = ℯ^((A * t))" type="surfacecartesian" />
+<element type="surfacecartesian" label="s">
+	<show object="false" label="false"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="z0" exp="s(0)" type="point" />
+<element type="point" label="z0">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="1" y="0" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="t1" exp="π"/>
+<element type="numeric" label="t1">
+	<value val="3.141592653589793"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="z1" exp="s(t1)" type="point" />
+<element type="point" label="z1">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.47048921771981794" y="5.761831145139172e-17" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="O_{P}" exp="z0 + z1" type="point" />
+<element type="point" label="O_{P}">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.5295107822801821" y="5.761831145139172e-17" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{P}" exp="s_{P}(t) = O_{P} - s(t)" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{P}">
+	<show object="false" label="false"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<element type="numeric" label="b">
+	<value val="0.97"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" x="24" y="549" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="k">
+	<value val="0.74"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="0" max="1" absoluteScreenLocation="true" width="200" x="27" y="603" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+</element>
+<expression label="t2" exp="t1 + (k * π)" />
+<element type="numeric" label="t2">
+	<value val="5.46637121724624"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="z2" exp="s(t2)" type="point" />
+<element type="point" label="z2">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.18434857010447359" y="-0.1963112880797968" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="λ_{2P}" exp="((b * abs(z2) / abs(z1)) * ℯ^((ί * (arg((A * z2)) - arg((A * z1))))))" type="point" />
+<element type="point" label="λ_{2P}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.3800684612241799" y="0.4047318031224287" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{2P}&apos;" exp="s_{2P}&apos;(t) = (((-A) * λ_{2P}) * s(t))" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{2P}&apos;">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="s_{2P}" exp="s_{2P}(t) = ((s_{P}(t) - z1) * λ_{2P}) + z2" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{2P}">
+	<show object="false" label="false"/>
+	<objColor r="216" g="27" b="96" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="z21" exp="s_{2P}(t21)" type="point" />
+<element type="point" label="z21">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.24238292684323556" y="0.2671171116064578" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="O_{2P}" exp="(((O_{P} - z1) * z2 / z1) * b) + z2" type="point" />
+<element type="point" label="O_{2P}">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.1957198911197064" y="0.20842051504263193" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="t3" exp="t2 + ((k * π) * 1.2)" />
+<element type="numeric" label="t3">
+	<value val="8.256105493633976"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="z3" exp="s(t3)" type="point" />
+<element type="point" label="z3">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.05395754074661866" y="0.1268696685749025" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="O_{3P}" exp="(((O_{P} - z1) * z3 / z1) * b) + z3" type="point" />
+<element type="point" label="O_{3P}">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.05728584709949456" y="-0.13469547230988027" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="λ_{3P}" exp="((b * abs(z3) / abs(z1)) * ℯ^((ί * (arg((A * z3)) - arg((A * z1))))))" type="point" />
+<element type="point" label="λ_{3P}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.1112433878461132" y="-0.2615651408847829" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{3P}&apos;" exp="s_{3P}&apos;(t) = (((-A) * λ_{3P}) * s(t))" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{3P}&apos;">
+	<show object="false" label="false"/>
+	<objColor r="0" g="168" b="213" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="s_{3P}" exp="s_{3P}(t) = ((s_{P}(t) - z1) * λ_{3P}) + z3" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{3P}">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="219" g="97" b="20" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="z32" exp="s_{3P}(t32)" type="point" />
+<element type="point" label="z32">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.1233273828610166" y="-0.08021843770090059" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="t4" exp="t3 + (k * π)" />
+<element type="numeric" label="t4">
+	<value val="10.580884057290422"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="z4" exp="s(t4)" type="point" />
+<element type="point" label="z4">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.031794464165831905" y="-0.0722242190409441" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="λ_{2PN}" exp="(((b * 2 / 3) * abs(z21 - O_{2P}) / abs(z0)) * ℯ^((ί * (arg(s_{2P}&apos;(t21)) - (π - arg((A * z0)))))))" type="point" />
+<element type="point" label="λ_{2PN}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.23521994290135576" y="0.16240347608878145" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="t5" exp="t4 + ((k * π) * 0.5)" />
+<element type="numeric" label="t5">
+	<value val="11.743273339118646"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="z5" exp="s(t5)" type="point" />
+<element type="point" label="z5">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.040594745365192246" y="-0.043776992657201586" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="λ_{5P}" exp="(abs(z5) / abs(z1) * ℯ^((ί * (arg((A * z5)) - arg((A * z1))))))" type="point" />
+<element type="point" label="λ_{5P}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.08628198869663982" y="0.09304568735785847" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{5P}" exp="s_{5P}(t) = ((s_{P}(t) - z1) * λ_{5P}) + z5" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{5P}">
+	<show object="false" label="false"/>
+	<objColor r="219" g="97" b="20" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sN"/>
+</command>
+<element type="curvecartesian" label="sN">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{P}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sP"/>
+</command>
+<element type="curvecartesian" label="sP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<coords x="0" y="0" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{2P}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNP"/>
+</command>
+<element type="curvecartesian" label="sNP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Line">
+	<input a0="O" a1="z2"/>
+	<output a0="h"/>
+</command>
+<element type="line" label="h">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.1963112880797968" y="0.18434857010447359" z="0"/>
+	<lineStyle thickness="1" type="30" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="tk" exp="atan(abs(z1) / ((2 * abs(z2))))" />
+<element type="numeric" label="tk">
+	<value val="0.7180030099365062"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="zk" exp="s(tk)" type="point" />
+<element type="point" label="zk">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.6339088671378945" y="0.5537453234785098" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="31" y="415"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(a,a_0)&#xa;SetValue(k,0.5)&#xa;SetValue(b,0.93)&#xa;SetValue(t21,1.35)&#xa;SetValue(t31,1.1)&#xa;SetValue(t32,4.8)&#xa;SetValue(l32,2.2)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Golden"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{3P}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNNP"/>
+</command>
+<element type="curvecartesian" label="sNNP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="boolean" label="χLines">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="20" y="296"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<element type="boolean" label="χPoints">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="20" y="325"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{5P}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNNNNP"/>
+</command>
+<element type="curvecartesian" label="sNNNNP">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="φ" exp="(1 + sqrt(5)) / 2"/>
+<element type="numeric" label="φ">
+	<value val="1.618033988749895"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="a_{0}" exp="ln(φ) / (π / 2)" />
+<element type="numeric" label="a_{0}">
+	<value val="0.30634896253003313"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<fixed val="true"/>
+</element>
+<expression label="s_{2PN}" exp="s_{2PN}(t) = ((z0 - conjugate(s(t))) * λ_{2PN}) + z21" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{2PN}">
+	<show object="false" label="false"/>
+	<objColor r="213" g="0" b="249" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="C" exp="O_{P} / 2" type="point" />
+<element type="point" label="C">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.26475539114009106" y="2.880915572569586e-17" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="sNP" a1="π" a2="C"/>
+	<output a0="sPN"/>
+</command>
+<element type="curvecartesian" label="sPN">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{2PN}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNPN"/>
+</command>
+<element type="curvecartesian" label="sNPN">
+	<show object="true" label="false"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="z_{21}&apos;" exp="z21 + s_{2P}&apos;(t21)" type="point" />
+<element type="point" label="z_{21}&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.07854165396830362" y="0.6911327463940815" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Line">
+	<input a0="z21" a1="z_{21}&apos;"/>
+	<output a0="f"/>
+</command>
+<element type="line" label="f">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLines"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.4240156347876237" y="-0.16384127287493194" z="0.146538958159394"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+</element>
+<expression label="λ_{4P}" exp="((b * abs(z4) / abs(z1)) * ℯ^((ί * (arg((A * z4)) - arg((A * z1))))))" type="point" />
+<element type="point" label="λ_{4P}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.06555013181879739" y="0.14890350263337143" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{4P}" exp="s_{4P}(t) = ((s_{P}(t) - z1) * λ_{4P}) + z4" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{4P}">
+	<show object="false" label="false"/>
+	<objColor r="213" g="0" b="249" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{4P}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNNNP"/>
+</command>
+<element type="curvecartesian" label="sNNNP">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="C_{2P}" exp="O_{2P} / 2" type="point" />
+<element type="point" label="C_{2P}">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.0978599455598532" y="0.10421025752131596" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<element type="button" label="button2">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="31" y="374"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(a,0.24)&#xa;SetValue(k,0.74)&#xa;SetValue(b,0.97)&#xa;SetValue(t21,0.95)&#xa;SetValue(t31,0.7)&#xa;SetValue(t32,5)&#xa;SetValue(l32,1.8)"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<caption val="Round"/>
+</element>
+<element type="numeric" label="t31">
+	<value val="0.7"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<fixed val="true"/>
+</element>
+<element type="numeric" label="c">
+	<value val="0.95"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="z31" exp="s_{3P}(t31)" type="point" />
+<element type="point" label="z31">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χPoints"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.15708618595904866" y="-0.02615956660088939" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="λ_{3PN}" exp="((1.15 * abs(z31 - O_{3P}) / abs(z21 - O_{2P})) * ℯ^((ί * (arg(s_{3P}&apos;(t31)) - arg(s_{2P}&apos;(t21))))))" type="point" />
+<element type="point" label="λ_{3PN}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="-0.515296211981221" y="0.3539407168204645" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<expression label="s_{3PN}" exp="s_{3PN}(t) = ((s_{2PN}(t) - z21) * λ_{3PN}) + z31" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{3PN}">
+	<show object="false" label="false"/>
+	<objColor r="213" g="0" b="249" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="λ_{3P2N}" exp="((l32 * abs(z32 - O_{3P}) / abs(z21 - O_{2P})) * ℯ^((ί * (arg(s_{3P}&apos;(t32)) - arg(s_{2P}&apos;(t21))))))" type="point" />
+<element type="point" label="λ_{3P2N}">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<coords x="0.29601425742923254" y="0.18416597552569092" z="1"/>
+	<coordStyle style="complex"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{3PN}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNNPN"/>
+</command>
+<element type="curvecartesian" label="sNNPN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="s_{3P2N}" exp="s_{3P2N}(t) = ((s_{2PN}(t) - z21) * λ_{3P2N}) + z32" type="surfacecartesian" />
+<element type="surfacecartesian" label="s_{3P2N}">
+	<show object="false" label="false"/>
+	<objColor r="216" g="27" b="96" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="s_{3P2N}(t)" a1="t" a2="0" a3="30"/>
+	<output a0="sNNPPN"/>
+</command>
+<element type="curvecartesian" label="sNNPPN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Rotate">
+	<input a0="sNPN" a1="π" a2="C"/>
+	<output a0="sPNP"/>
+</command>
+<element type="curvecartesian" label="sPNP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Rotate">
+	<input a0="sNNP" a1="π" a2="C"/>
+	<output a0="sPPN"/>
+</command>
+<element type="curvecartesian" label="sPPN">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Rotate">
+	<input a0="sNNPN" a1="π" a2="C"/>
+	<output a0="sPPNP"/>
+</command>
+<element type="curvecartesian" label="sPPNP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Rotate">
+	<input a0="sNNPPN" a1="π" a2="C"/>
+	<output a0="sPPNNP"/>
+</command>
+<element type="curvecartesian" label="sPPNNP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Rotate">
+	<input a0="sNNNNP" a1="π" a2="C"/>
+	<output a0="sPPPPN"/>
+</command>
+<element type="curvecartesian" label="sPPPPN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+</construction>
+</geogebra>
