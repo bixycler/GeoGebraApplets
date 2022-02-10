@@ -12,6 +12,7 @@ Published applets about UniThread:
 - [MixedCoords](MixedCoords/), [MotionAngle](MotionAngle/): Natural Space-time in Mixed Coordinate System: https://www.geogebra.org/m/ju3kxkrr
 - [LightSpaceTimeCoords](LightSpaceTimeCoords/): The (1+1)D spacetime woven by two threads of light in various different views: https://www.geogebra.org/m/g7nuhfr6
 - [Interunion-wheel](Interunion-wheel/): UniThread Chromatics by interunion between 2 color wheels: https://www.geogebra.org/m/mykynm4e
+- [Interunion-thread](Interunion-thread/): Spinning threads with interunion (generalized epicycloid & hypocycloid): https://www.geogebra.org/m/bwygxbzp
 - [DistributionMatrixFlowView](DistributionMatrixFlowView/): 3 views in 3D: distribution view, matrix view, and flow view: https://www.geogebra.org/m/kzrgfzcy
 - [CircularCurrent](CircularCurrent/): The UniThread harmonic current and its circular projection: https://www.geogebra.org/m/tcrqpb3y
 - [HarmonicWaves](HarmonicWaves/), [HarmonicWaves3D](HarmonicWaves3D/): Various views of the harmonic wave: tranverse wave, longitudinal wave, trochoidal wave: https://www.geogebra.org/m/sfusfsmq
