@@ -2,7 +2,7 @@
 
 Each applet is stored in a directory, e.g. `app`, which can be zipped into a <a href="https://wiki.geogebra.org/en/Reference:File_Format">GeoGebra worksheet file</a>, e.g. `app.ggb`. 
 - To extract source code, open the applet in <a href="https://www.geogebra.org/classic/">GeoGebra "classic" app</a>, download as `.ggb` file, unzip the downloaded file.
-- To update GeoGebra worksheet from source, zip the source files in dir  `app` (without dir name "`app`") into file `app.ggb`, open the target applet in "activity editor" (https://www.geogebra.org/material/edit/id/[activity_id]), then replace the applet inside that activity by the local `app.ggb`.
+- To update GeoGebra worksheet from source, zip the source files in dir  `app` (without dir name "`app`") into file `app.ggb`, open the target applet in "activity editor" (https://www.geogebra.org/material/edit/id/[activity_id]), then replace the applet inside that activity with the local `app.ggb`.
 
 
 ## List of applets with descriptions and links
@@ -25,6 +25,7 @@ Published applets about UniThread:
 - [UniThreadSymbol](UniThreadSymbol/): The symbol of UniThread Theory: https://www.geogebra.org/m/wgyhssmv
 - [Lemniscate-Infinity](Lemniscate-Infinity/): Lemniscate curves of the infinity symbol "∞": https://www.geogebra.org/m/yha2pryd
 - [UniThreadBall](UniThreadBall/), [UniThreadAntinode](UniThreadAntinode/): The ball with curves representing UniThread antinode: https://www.geogebra.org/m/qa7fmrak
+- [UniTorus](UniTorus/), [Split Torus](Split%20Torus/): From Karel Vreeburg's stone sculpture ["Hidden Split Torus 2"](https://www.karelvreeburg.com/kunstwerk/13285086_Hidden+Split+Torus+2.html) (left-handed), Thijs wrote a (right-handed) model [Split Torus](https://www.geogebra.org/m/n8MCvefK), then I forked it to add a "glass cover" covering the split and a Möbius strip inside the split. That modified model is used as a new version of the [UniTorus](https://www.geogebra.org/m/kgqctbes), the symbol of Unïnfo: https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html
 
 Published applets about Geometry:
 

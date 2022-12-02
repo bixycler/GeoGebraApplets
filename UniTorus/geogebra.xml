@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="40b87a09-df10-4bc7-a14e-74eae91aee32"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="763" height="678" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.2516382699868938" orientation="1" />
+	</panes>
+	<views>
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="true" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="192" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="1" size="95" tab="ALGEBRA" window="557,230,486,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="357" window="139,100,815,604" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="371" window="243,155,1114,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="563" window="100,100,700,550" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="12"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="192" height="624"/>
+	<coordSystem xZero="420.1600000000064" yZero="261.1080305927341" scale="184.00000000000296" yscale="50.57361376673033"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="234" g="234" b="234"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="2" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="0" max="0" step="0"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="0" yZero="0" zZero="0.00997399778260033" scale="50" xAngle="-50" zAngle="-90"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="UniTorus" author="" date="">
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="143" y="292" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="6" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="153" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-23" y="17"/>
+	<labelMode val="1"/>
+	<animation step="1°" speed="0.2" type="1" playing="false"/>
+</element>
+<element type="numeric" label="Rv">
+	<value val="1"/>
+	<symbolic val="true" />
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" x="65" y="265" fixed="true" horizontal="false" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<condition showObject="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-33" y="-22"/>
+	<labelMode val="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="Ru">
+	<value val="3"/>
+	<symbolic val="true" />
+	<slider min="1" max="3" absoluteScreenLocation="true" width="200" x="15" y="265" fixed="true" horizontal="false" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<condition showObject="false"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="7" y="6"/>
+	<labelMode val="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="o">
+	<angleStyle val="3"/>
+	<value val="0.7853981633974483"/>
+	<slider min="0" max="180°" absoluteScreenLocation="true" width="300" x="46" y="306" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<show object="false" label="true" ev="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-34" y="16"/>
+	<labelMode val="9"/>
+	<animation step="5°" speed="1" type="0" playing="false"/>
+	<caption val="Split α"/>
+</element>
+<element type="button" label="butCreate">
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="8"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="R1=Slider[1, 3, 0.1, 1, 200, false, false]&#xd;&#xa;R2=Slider[1, 3, 0.1, 1, 200, false, false]&#xd;&#xa;SetValue[R1,2]&#xd;&#xa;SetValue[R2,1]&#xd;&#xa;SetConditionToShowObject[R1,false]&#xd;&#xa;SetConditionToShowObject[R2,false]&#xd;&#xa;&#xd;&#xa;f =Slider[0.98,2.98, 0.25, 1, 400, false, false]&#xd;&#xa;SetValue[f,2.23]&#xd;&#xa;ShowLabel[f,false]&#xd;&#xa;&#xd;&#xa;Tx(u,v)=(R2 cos(v) + R1)*cos(u/3+2/3*v)&#xd;&#xa;Ty(u,v)= R2 sin(v)&#xd;&#xa;Tz(u,v)=(R2 cos(v) + R1)*sin(u/3+2/3*v)&#xd;&#xa;Sx(u,v)=u*Tx(f,v)+(1-u)*Tx(-f,v+f)&#xd;&#xa;Sy(u,v)=u*Ty(f,v)+(1-u)*Ty(-f,v+f)&#xd;&#xa;Sz(u,v)=u*Tz(f,v)+(1-u)*Tz(-f,v+f)&#xd;&#xa;SetConditionToShowObject[Tx,false]&#xd;&#xa;SetConditionToShowObject[Ty,false]&#xd;&#xa;SetConditionToShowObject[Tz,false]&#xd;&#xa;SetConditionToShowObject[Sx,false]&#xd;&#xa;SetConditionToShowObject[Sy,false]&#xd;&#xa;SetConditionToShowObject[Sz,false]&#xd;&#xa;&#xd;&#xa;Curvp=  CurveCartesian[Tx( f,v), Ty( f,v), Tz( f,v), v,-3*pi,3*pi]&#xd;&#xa;Curvn=  CurveCartesian[Tx(-f,v), Ty(-f,v), Tz(-f,v), v,-3*pi,3*pi]&#xd;&#xa;Torus=Surface[Tx( u,v), Ty( u,v), Tz( u,v), v,-3*pi,3*pi, u,-f,f]&#xd;&#xa;Split=Surface[Sx( u,v), Sy( u,v), Sz( u,v), v,-3*pi,3*pi, u, 0,1]&#xd;&#xa;&#xd;&#xa;SetColor[Torus,&quot;Red&quot;]&#xd;&#xa;SetFilling[Torus,1]&#xd;&#xa;ShowLabel[Torus,false]&#xd;&#xa;&#xd;&#xa;SetColor[Split,&quot;Yellow&quot;]&#xd;&#xa;SetFilling[Split,1]&#xd;&#xa;ShowLabel[Split,false]&#xd;&#xa;&#xd;&#xa;ShowLabel[Curvp,false]&#xd;&#xa;ShowLabel[Curvn,false]&#xd;&#xa;&#xd;&#xa;SetPerspective[&quot;GT&quot;]&#xd;&#xa;SetActiveView[&quot;T&quot;]&#xd;&#xa;SetBackgroundColor[&quot;Silver&quot;]&#xd;&#xa;ShowAxes[false]&#xd;&#xa;ShowGrid[false]&#xd;&#xa;CenterView[(0,0,0)]&#xd;&#xa;&#xd;&#xa;SetActiveView[&quot;G&quot;]&#xd;&#xa;ShowAxes[false]&#xd;&#xa;ShowGrid[false]&#xd;&#xa;&#xd;&#xa;# Some extra settings not done by this scripting&#xd;&#xa;#===============================================&#xd;&#xa;# Curvp, Curvn, Torus and Split: Selection Allowed: off&#xd;&#xa;# Hide xOy plane&#xd;&#xa;#&#xd;&#xa;# Preferences: Clipping box size: Large&#xd;&#xa;# Preferences: Input, Tool, View and Sidebar: off&#xd;&#xa;#&#xd;&#xa;# Sizing of Graphics and 3D Graphics &#xd;&#xa;# Positioning of Slider f&#xd;&#xa;# Hide the Create button&#xd;&#xa;"/>
+	<caption val="Create"/>
+	<font serif="false" sizeM="2" size="12" style="0"/>
+</element>
+<expression label="f" exp="pi - o" />
+<element type="numeric" label="f">
+	<value val="2.356194490192345"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<labelOffset x="1" y="-80"/>
+</element>
+<expression label="Tx" exp="Tx(u, v) = (((Rv * cos(v + ϕ)) + Ru) * cos(u / 3 + (2 / 3 * v)))" />
+<element type="functionnvar" label="Tx">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="false"/>
+	<objColor r="153" g="51" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="Ty" exp="Ty(u, v) = (Rv * sin(v + ϕ))" />
+<element type="functionnvar" label="Ty">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="false"/>
+	<objColor r="204" g="0" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<expression label="Tz" exp="Tz(u, v) = (((Rv * cos(v + ϕ)) + Ru) * sin(u / 3 + (2 / 3 * v)))" />
+<element type="functionnvar" label="Tz">
+	<show object="false" label="true" ev="4"/>
+	<condition showObject="false"/>
+	<objColor r="0" g="100" b="0" alpha="0.75"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Surface">
+	<input a0="Tx(u, v)" a1="Ty(u, v)" a2="Tz(u, v)" a3="v" a4="(-3 * pi)" a5="(3 * pi)" a6="u" a7="(-f)" a8="f"/>
+	<output a0="Torus"/>
+</command>
+<element type="surfacecartesian3d" label="Torus">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xTorus"/>
+	<objColor r="0" g="255" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+</element>
+<command name="Surface">
+	<input a0="Tx(u, v)" a1="Ty(u, v)" a2="Tz(u, v)" a3="v" a4="(-3 * pi)" a5="(3 * pi)" a6="u" a7="f" a8="(2 * pi) - f"/>
+	<output a0="SplitCover"/>
+</command>
+<element type="surfacecartesian3d" label="SplitCover">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="xCover"/>
+	<objColor r="0" g="0" b="0" alpha="0.52"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<element type="boolean" label="xCover">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="350"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Glass cover"/>
+</element>
+<element type="boolean" label="xTorus">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="386"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Torus"/>
+</element>
+<element type="boolean" label="xMobius">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="0" y="315"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Möbius strip"/>
+</element>
+<command name="Surface">
+	<input a0="((1 - u) * Tx(pi, v)) + (u * Tx(pi, v + (3 * pi)))" a1="((1 - u) * Ty(pi, v)) + (u * Ty(pi, v + (3 * pi)))" a2="((1 - u) * Tz(pi, v)) + (u * Tz(pi, v + (3 * pi)))" a3="v" a4="(-3 * pi)" a5="(3 * pi)" a6="u" a7="0" a8="1"/>
+	<output a0="Section"/>
+</command>
+<element type="surfacecartesian3d" label="Section">
+	<show object="false" label="false" ev="4"/>
+	<condition showObject="xMobius"/>
+	<objColor r="125" g="125" b="255" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="Surface">
+	<input a0="((1 - u) * Tx(f, v)) + (u * Tx((-f), v + f))" a1="((1 - u) * Ty(f, v)) + (u * Ty((-f), v + f))" a2="((1 - u) * Tz(f, v)) + (u * Tz((-f), v + f))" a3="v" a4="(-3 * pi)" a5="(3 * pi)" a6="u" a7="0" a8="1"/>
+	<output a0="SplitSection"/>
+</command>
+<element type="surfacecartesian3d" label="SplitSection">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xTorus"/>
+	<objColor r="0" g="255" b="0" alpha="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="0" type="0" typeHidden="1" opacity="0"/>
+</element>
+<command name="Vector">
+	<input a0="(-1, 2, 3)" a1="(1, 2, 3)"/>
+	<output a0="ArrowP"/>
+</command>
+<element type="vector3d" label="ArrowP">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xPN"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2"/>
+	<startPoint x="-1" y="2" z="3" w="1"/>
+	<coords x="2" y="0" z="0" w="0"/>
+</element>
+<command name="Vector">
+	<input a0="(1, -2, -3)" a1="(-1, -2, -3)"/>
+	<output a0="ArrowN"/>
+</command>
+<element type="vector3d" label="ArrowN">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xPN"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2"/>
+	<startPoint x="1" y="-2" z="-3" w="1"/>
+	<coords x="-2" y="0" z="0" w="0"/>
+</element>
+<command name="Vector">
+	<input a0="(-6, 0, -1)" a1="(-6, 0, 1)"/>
+	<output a0="ArrowUp"/>
+</command>
+<element type="vector3d" label="ArrowUp">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xUD"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2"/>
+	<startPoint x="-6" y="0" z="-1" w="1"/>
+	<coords x="0" y="0" z="2" w="0"/>
+</element>
+<command name="Vector">
+	<input a0="(6, 0, 1)" a1="(6, 0, -1)"/>
+	<output a0="ArrowDown"/>
+</command>
+<element type="vector3d" label="ArrowDown">
+	<show object="true" label="false" ev="5"/>
+	<condition showObject="xUD"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="2"/>
+	<startPoint x="6" y="0" z="1" w="1"/>
+	<coords x="0" y="0" z="-2" w="0"/>
+</element>
+<element type="angle" label="vz">
+	<angleStyle val="3"/>
+	<value val="0"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="89" y="292" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-27" y="16"/>
+	<labelMode val="1"/>
+	<animation step="1°" speed="1" type="1" playing="false"/>
+</element>
+<element type="angle" label="vx">
+	<angleStyle val="3"/>
+	<value val="0.8726646259971648"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="33" y="293" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-27" y="14"/>
+	<labelMode val="1"/>
+	<animation step="1°" speed="1" type="1" playing="false"/>
+</element>
+<element type="boolean" label="xPN">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="46" y="3"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="P-N"/>
+</element>
+<element type="boolean" label="xUD">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="110" y="3"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="U-D"/>
+</element>
+<command name="Vector">
+	<input a0="(sin(vz), (cos(vz) * cos(vx)), sin(vx))"/>
+	<output a0="ViewDir"/>
+</command>
+<element type="vector3d" label="ViewDir">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<ggbscript onUpdate="SetViewDirection(ViewDir)"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="0" y="0.6427876096865394" z="0.766044443118978" w="0"/>
+</element>
+<expression label="tvx" exp="&quot;&quot; + vx + &quot;&quot;" />
+<element type="text" label="tvx">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<absoluteScreenLocation x="23" y="106"/>
+	<ggbscript onUpdate="SetValue(tvx,If(vx&lt;10°,&quot;00&quot;+vx,If(vx&lt;100°,&quot;0&quot;+vx,&quot;&quot;+vx)))"/>
+</element>
+<expression label="tvz" exp="&quot;&quot; + vz" />
+<element type="text" label="tvz">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<absoluteScreenLocation x="78" y="105"/>
+	<ggbscript onUpdate="SetValue(tvz,If(vz&lt;10°,&quot;00&quot;+vz,If(vz&lt;100°,&quot;0&quot;+vz,&quot;&quot;+vz)))"/>
+</element>
+<expression label="tϕ" exp="&quot;&quot; + ϕ" />
+<element type="text" label="tϕ">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="153" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<absoluteScreenLocation x="130" y="105"/>
+	<ggbscript onUpdate="SetValue(tϕ,If(ϕ&lt;10°,&quot;00&quot;+ϕ,If(ϕ&lt;100°,&quot;0&quot;+ϕ,&quot;&quot;+ϕ)))"/>
+</element>
+<element type="button" label="butSnapshot">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="52" y="37"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="ExportImage(&quot;filename&quot;, &quot;UniTorus-&quot;+tvx+tvz+tϕ+&quot;.png&quot;, &quot;view&quot;, -1, &quot;transparent&quot;, true)"/>
+	<caption val="Snapshot"/>
+</element>
+<element type="button" label="butIncϕ">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="142" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(ϕ, ϕ+1°)"/>
+	<caption val="&gt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<element type="button" label="butDecϕ">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="116" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(ϕ, ϕ-1°)"/>
+	<caption val="&lt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<element type="button" label="butIncVz">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="87" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(vz, vz+1°)"/>
+	<caption val="&gt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<element type="button" label="butDecVz">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="61" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(vz, vz-1°)"/>
+	<caption val="&lt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<element type="button" label="butIncVx">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="32" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(vx, vx+1°)"/>
+	<caption val="&gt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<element type="button" label="butDecVx">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="6" y="65"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetValue(vx, vx-1°)"/>
+	<caption val="&lt;"/>
+	<font serif="false" sizeM="1" size="0" style="1"/>
+</element>
+<expression label="background" exp="{&quot;White&quot;, &quot;Light Gray&quot;, &quot;Red&quot;}"/>
+<element type="list" label="background">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="420"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetActiveView(-1)&#xa;SetBackgroundColor(SelectedElement(background))"/>
+	<caption val="Background"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="tArrows" exp="&quot;Arrows:&quot;"/>
+<element type="text" label="tArrows">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<startPoint x="-2.2617391304347816" y="4.681257088846879" z="1"/>
+</element>
+</construction>
+</geogebra>
