@@ -26,10 +26,12 @@ Published applets about UniThread:
 - [Lemniscate-Infinity](Lemniscate-Infinity/): Lemniscate curves of the infinity symbol "∞": https://www.geogebra.org/m/yha2pryd
 - [UniThreadBall](UniThreadBall/), [UniThreadAntinode](UniThreadAntinode/): The ball with curves representing UniThread antinode: https://www.geogebra.org/m/qa7fmrak
 - [UniTorus](UniTorus/), [Split Torus](Split%20Torus/): From Karel Vreeburg's stone sculpture ["Hidden Split Torus 2"](https://www.karelvreeburg.com/kunstwerk/13285086_Hidden+Split+Torus+2.html) (left-handed), Thijs wrote a (right-handed) model [Split Torus](https://www.geogebra.org/m/n8MCvefK), then I forked it to add a "glass cover" covering the split and a Möbius strip inside the split. That modified model is used as a new version of the [UniTorus](https://www.geogebra.org/m/kgqctbes), the symbol of Unïnfo: https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html
+- [TopoMorph](TopoMorph/): function morphing with [homotopy](https://en.wikipedia.org/wiki/Homotopy): https://www.geogebra.org/m/mekmjqcg
+- [Helicoid](Helicoid/), [ArchimedeanSpiral](ArchimedeanSpiral/), [LogarithmicSpiral](LogarithmicSpiral/): The relativity between rotational and translational & scaling transformations.
 
 Published applets about Geometry:
 
-- [PerspectiveProjection](PerspectiveProjection/), [CrossRatio](CrossRatio/), [PappusTheorem](PappusTheorem/), [CrossRatioMetric](CrossRatioMetric/), [HarmonicConjugatesPole](HarmonicConjugatesPole/): Projective Geometry: Homography, Cross-ratio, Harmonic Conjugates, Polarity: https://www.geogebra.org/m/bf7sgf7b
+- [PerspectiveProjection](PerspectiveProjection/), [CrossRatio](CrossRatio/), [PappusTheorem](PappusTheorem/), [CrossRatioMetricCompare](CrossRatioMetricCompare/), [HarmonicConjugatesPole](HarmonicConjugatesPole/), [CrossRatioMetric](CrossRatioMetric/): Projective Geometry: Homography, Cross-ratio, Harmonic Conjugates, Polarity: https://www.geogebra.org/m/bf7sgf7b
 - [ConicSections](ConicSections/), [Quadrilateral2Square](Quadrilateral2Square/): Shine a light on Conic sections: https://www.geogebra.org/m/nknaryzz
 - [ProjectiveConic](ProjectiveConic/): Using Pascal Theorem to construct a conic from 5 points (N, P, I, V_N, V_P): The 6th point E traces out the conic: https://www.geogebra.org/m/b3zwgzep
 - [YinYangFractalBranches](YinYangFractalBranches/), [YinYangGoldenSpirals](YinYangGoldenSpirals/): The Yin-yang Taijitu drawn with Logarithmic spirals: https://www.geogebra.org/m/dgkm2zcd)

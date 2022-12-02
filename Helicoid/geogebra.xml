@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="CC38C941-72E4-4D8C-BBDF-600EFA86A0F4"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="763" height="632" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.1965923984272608" orientation="1" />
+	</panes>
+	<views>
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="false" inframe="false" stylebar="false" location="1,3" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1,1" size="367" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="405" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="605" window="100,100,600,400" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="492" height="744"/>
+	<coordSystem xZero="256.99999999999994" yZero="382.9999999999998" scale="49.999999999999986" yscale="49.99999999999998"/>
+	<evSettings axes="true" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<euclidianView>
+	<viewNumber viewNo="2"/>
+	<size  width="149" height="578"/>
+	<coordSystem xZero="229.00000000000006" yZero="315.1999999999999" scale="55.00000000000002" yscale="54.999999999999986"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<uses3D val="true"/>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<euclidianView3D>
+	<coordSystem xZero="-0.10326789521065267" yZero="-0.05386533188961268" zZero="-1.2664052794955105" scale="125.91917045320685" xAngle="0" zAngle="-90"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" gridType="3"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="2" show="true" label="" unitLabel="" tickStyle="2" showNumbers="false"/>
+	<plate show="false"/>
+	<bgColor r="255" g="255" b="255"/>
+	<clipping use="false" show="false" size="2"/>
+	<projection type="0"/>
+</euclidianView3D>
+<construction title="Helicoid" author="" date="">
+<element type="button" label="butTop">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="17" y="217"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0,0,-1)))&#xa;SetValue(xSlant,false)&#xa;"/>
+	<caption val="Top View"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="110" height="27" />
+</element>
+<element type="button" label="butFront">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="17" y="251"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0,1,0)))&#xa;SetValue(xSlant,false)"/>
+	<caption val="Front View"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="110" height="27" />
+</element>
+<element type="button" label="butSlant">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="17" y="287"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetViewDirection(Vector((0,1,-1)))&#xa;SetValue(xSlant,true)"/>
+	<caption val="Slant View"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+	<dimensions width="110" height="27" />
+</element>
+<element type="numeric" label="A">
+	<value val="1"/>
+	<slider min="0" max="3" absoluteScreenLocation="true" width="100" x="22" y="31" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="7"/>
+	<labelMode val="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="f">
+	<value val="3"/>
+	<slider min="0.1" max="10" absoluteScreenLocation="true" width="100" x="21" y="63" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="9"/>
+	<labelMode val="1"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+</element>
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="0.4014257279586958"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="100" x="20" y="183" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="7"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="7" y="1"/>
+	<labelMode val="0"/>
+	<animation step="0.017453292519943295" speed="1" type="1" playing="true"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="18" y="323"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸️ Pause&quot;)&apos;);}"/>
+	<caption val="⏸️ Pause"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<element type="numeric" label="T">
+	<value val="5"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Surface">
+	<input a0="((A * u) * cos((f * t)))" a1="((A * u) * sin((f * t)))" a2="t" a3="t" a4="(-T)" a5="T" a6="u" a7="-1" a8="1"/>
+	<output a0="Helicoid"/>
+</command>
+<element type="surfacecartesian3d" label="Helicoid">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="0" g="255" b="255" alpha="0.56"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<levelOfDetailQuality val="true"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="(A * cos((f * t) - ϕ))" a1="(A * sin((f * t) - ϕ))" a2="t" a3="t" a4="(-T)" a5="T"/>
+	<output a0="HelixP"/>
+</command>
+<element type="curvecartesian3d" label="HelixP">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="((-A) * cos((f * t) - ϕ))" a1="((-A) * sin((f * t) - ϕ))" a2="t" a3="t" a4="(-T)" a5="T"/>
+	<output a0="HelixN"/>
+</command>
+<element type="curvecartesian3d" label="HelixN">
+	<show object="false" label="false" ev="5"/>
+	<objColor r="0" g="255" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<element type="numeric" label="Nosc">
+	<value val="10"/>
+	<slider min="0" max="30" absoluteScreenLocation="true" width="100" x="20" y="143" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true" ev="3"/>
+	<condition showObject="xOsculating"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-37" y="13"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<caption val="$N_{osc}=%v$"/>
+</element>
+<element type="boolean" label="xOsculating">
+	<value val="true"/>
+	<show object="true" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="15" y="82"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Osculating"/>
+</element>
+<element type="boolean" label="xSlant">
+	<value val="false"/>
+	<show object="false" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="Sequence">
+	<input a0="Rotate[((A * cos((f * t) - ϕ)), (A * sin((f * t) - ϕ)), t), (-((f * t) - ϕ)), (0, 0, t), Vector[(cos((f * t) - ϕ - pi / 2), sin((f * t) - ϕ - pi / 2), (A * f))]]" a1="t" a2="(-T)" a3="T" a4="1 / Nosc"/>
+	<output a0="po"/>
+</command>
+<element type="list" label="po">
+	<show object="false" label="true" ev="5"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="numeric" label="W">
+	<value val="0.1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true" ev="3"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[(A + W, 0, z(po(to))), (A + (3 * W), 0, z(po(to)))]" a1="to" a2="((-T) * Nosc)" a3="(T * Nosc)"/>
+	<output a0="lo"/>
+</command>
+<element type="list" label="lo">
+	<show object="true" label="true" ev="5"/>
+	<condition showObject="xOsculating"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="Helicoid" a1="(-ϕ)"/>
+	<output a0="Helicoid_{ϕ}"/>
+</command>
+<element type="surfacecartesian3d" label="Helicoid_{ϕ}">
+	<show object="true" label="false" ev="7"/>
+	<condition showObject="(¬xOsculating) ∨ xSlant"/>
+	<objColor r="0" g="255" b="255" alpha="0.56"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+</element>
+<command name="Sequence">
+	<input a0="Circle[(0, 0, t), A, Vector[(cos((f * t) - pi / 2), sin((f * t) - pi / 2), (A * f))]]" a1="t" a2="(-T)" a3="T" a4="1 / Nosc"/>
+	<output a0="co"/>
+</command>
+<element type="list" label="co">
+	<show object="false" label="true" ev="5"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Rotate">
+	<input a0="co" a1="(-ϕ)"/>
+	<output a0="co_{ϕ}"/>
+</command>
+<element type="list" label="co_{ϕ}">
+	<show object="true" label="true" ev="5"/>
+	<condition showObject="xOsculating"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+</construction>
+</geogebra>

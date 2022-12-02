@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="EA08A88C-395B-423E-A59B-189D1DFA34BD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="EA08A88C-395B-423E-A59B-189D1DFA34BD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1745" height="881" />
+	<window width="763" height="632" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.05730659025787966" orientation="1" />
+		<pane location="" divider="1" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="1745" window="100,100,600,400" />
-		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1" size="84" window="100,100,600,400" />
-		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="763" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1" size="68" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="92" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="330" window="100,100,700,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="368" window="100,100,700,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
-	<input show="true" cmd="true" top="false" />
+	<input show="true" cmd="true" top="algebra" />
 	<dockBar show="false" east="false" />
 </perspective>
 	</perspectives>
 	<labelingStyle  val="0"/>
 	<font  size="16"/>
-	<consProtColumns  col0="true" col1="true" col2="false" col3="true" col4="false" col5="true" col6="true" col7="false"/>
-	<consProtocol useColors="false" addIcons="false" showOnlyBreakpoints="false"/>
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="1744" height="783"/>
-	<coordSystem xZero="275.99999999999994" yZero="392.50000000000017" scale="49.999999999999964" yscale="50.00000000000002"/>
+	<size  width="762" height="578"/>
+	<coordSystem xZero="289" yZero="428.50000000000034" scale="49.99999999999998" yscale="50.00000000000003"/>
 	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -52,57 +50,27 @@
 </kernel>
 <tableview min="-2" max="2" step="1"/>
 <scripting blocked="false" disabled="false"/>
-<construction title="Interunion-thread" author="" date="">
+<construction title="Interunion-Euclidean" author="" date="">
 <element type="numeric" label="a">
 	<value val="12"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="28" y="28" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-8" y="7"/>
 	<labelMode val="1"/>
-	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="28" y="28" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
-</element>
-<element type="numeric" label="b">
-	<value val="5"/>
-	<show object="true" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelOffset x="-7" y="5"/>
-	<labelMode val="1"/>
-	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="30" y="67" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
-</element>
-<expression label="q" exp="a / b" />
-<element type="numeric" label="q">
-	<value val="2.4"/>
-	<symbolic val="true" />
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <element type="numeric" label="s">
 	<value val="10"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
-</element>
-<expression label="thrO" exp="(3, 5)" type="point"/>
-<element type="point" label="thrO">
-	<show object="true" label="true" ev="4"/>
-	<objColor r="128" g="0" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelOffset x="-27" y="0"/>
-	<labelMode val="3"/>
-	<animation step="0.1" speed="1" type="1" playing="false"/>
-	<coords x="3" y="5" z="1"/>
-	<pointSize val="5"/>
-	<pointStyle val="0"/>
-	<caption val="thread"/>
 </element>
 <element type="boolean" label="χQuad">
 	<value val="false"/>
@@ -114,6 +82,46 @@
 	<checkbox fixed="true"/>
 	<caption val="Quadratic"/>
 </element>
+<element type="numeric" label="b">
+	<value val="5"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="30" y="67" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="5"/>
+	<labelMode val="1"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+</element>
+<expression label="remList" exp="A1:A10" />
+<element type="list" label="remList">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<command name="If">
+	<input a0="χQuad" a1="2" a2="CountIf[x ≠ 0, remList]"/>
+	<output a0="depth"/>
+</command>
+<element type="numeric" label="depth">
+	<value val="4"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="First">
+	<input a0="remList" a1="depth"/>
+	<output a0="rs"/>
+</command>
+<element type="list" label="rs">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
 <element type="boolean" label="χSpatial">
 	<value val="false"/>
 	<show object="true" label="true"/>
@@ -123,6 +131,29 @@
 	<labelMode val="3"/>
 	<checkbox fixed="true"/>
 	<caption val="Spatial (interleaving)"/>
+</element>
+<expression label="bs" exp="(b * If[χSpatial, -1, 1])" />
+<element type="numeric" label="bs">
+	<value val="5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="q" exp="a / b" />
+<element type="numeric" label="q">
+	<value val="2.4"/>
+	<symbolic val="true" />
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="point" label="thrO">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="128" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-27" y="0"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<caption val="thread"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="3.8" y="4.93" z="1"/>
 </element>
 <element type="boolean" label="χSines">
 	<value val="false"/>
@@ -168,21 +199,17 @@
 <element type="numeric" label="A1">
 	<value val="12"/>
 	<symbolic val="true" />
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<auxiliary val="true"/>
 </element>
-<expression label="B1" exp="b" />
+<expression label="B1" exp="bs" />
 <element type="numeric" label="B1">
 	<value val="5"/>
-	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelMode val="1"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<auxiliary val="true"/>
 </element>
 <command name="If">
@@ -197,7 +224,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B2" exp="C1(2)" />
+<expression label="B2" exp="C1(2) - If[A1 &lt; 0, B1, 0]" />
 <element type="numeric" label="B2">
 	<value val="2"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -214,11 +241,7 @@
 <element type="numeric" label="A2">
 	<value val="5"/>
 	<symbolic val="true" />
-	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelMode val="1"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<auxiliary val="true"/>
 </element>
 <command name="If">
@@ -233,7 +256,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B3" exp="C2(2)" />
+<expression label="B3" exp="C2(2) - If[A2 &lt; 0, B2, 0]" />
 <element type="numeric" label="B3">
 	<value val="1"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -251,7 +274,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B4" exp="C3(2)" />
+<expression label="B4" exp="C3(2) - If[A3 &lt; 0, B3, 0]" />
 <element type="numeric" label="B4">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -283,7 +306,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B5" exp="C4(2)" />
+<expression label="B5" exp="C4(2) - If[A4 &lt; 0, B4, 0]" />
 <element type="numeric" label="B5">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -301,7 +324,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B6" exp="C5(2)" />
+<expression label="B6" exp="C5(2) - If[A5 &lt; 0, B5, 0]" />
 <element type="numeric" label="B6">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -333,7 +356,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B7" exp="C6(2)" />
+<expression label="B7" exp="C6(2) - If[A6 &lt; 0, B6, 0]" />
 <element type="numeric" label="B7">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -351,7 +374,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B8" exp="C7(2)" />
+<expression label="B8" exp="C7(2) - If[A7 &lt; 0, B7, 0]" />
 <element type="numeric" label="B8">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -383,7 +406,7 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="B9" exp="C8(2)" />
+<expression label="B9" exp="C8(2) - If[A8 &lt; 0, B8, 0]" />
 <element type="numeric" label="B9">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -476,7 +499,7 @@
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
-<expression label="B10" exp="C9(2)" />
+<expression label="B10" exp="C9(2) - If[A9 &lt; 0, B9, 0]" />
 <element type="numeric" label="B10">
 	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
@@ -494,80 +517,20 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="remList" exp="A1:A10" />
-<element type="list" label="remList">
-	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
-	<selectionAllowed val="false"/>
-	<lineStyle thickness="5" type="0" typeHidden="1"/>
-	<pointSize val="5"/>
-	<pointStyle val="0"/>
-	<angleStyle val="0"/>
-	<symbolic val="true" />
-</element>
-<command name="If">
-	<input a0="χQuad" a1="2" a2="CountIf[x &gt; 0, remList]"/>
-	<output a0="depth"/>
-</command>
-<element type="numeric" label="depth">
-	<value val="4"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-</element>
-<command name="First">
-	<input a0="remList" a1="depth"/>
-	<output a0="rs"/>
-</command>
-<element type="list" label="rs">
-	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
-	<lineStyle thickness="5" type="0" typeHidden="1"/>
-	<pointSize val="5"/>
-	<pointStyle val="0"/>
-	<angleStyle val="0"/>
-</element>
-<command name="Sequence">
-	<input a0="If[χSpatial, (-1)^(k + 1), 1]" a1="k" a2="1" a3="depth"/>
-	<output a0="ss" randomResult="{1, 1, 1, 1}"/>
-</command>
-<element type="list" label="ss">
-	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
-	<lineStyle thickness="5" type="0" typeHidden="1"/>
-	<pointSize val="5"/>
-	<pointStyle val="0"/>
-	<angleStyle val="0"/>
-</element>
-<command name="Text">
-	<input a0="&quot;Remainders:&quot; + rs"/>
-	<output a0="rsText"/>
-</command>
-<element type="text" label="rsText">
-	<show object="true" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<fixed val="true"/>
-	<absoluteScreenLocation x="17" y="98"/>
-</element>
-<command name="LCM">
-	<input a0="rs"/>
-	<output a0="N"/>
-</command>
-<element type="numeric" label="N">
-	<value val="60"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-</element>
 <element type="numeric" label="n">
-	<value val="60"/>
+	<value val="12"/>
+	<slider min="1" max="LCM[rs]" absoluteScreenLocation="true" width="200" x="32" y="138" fixed="true" horizontal="true" showAlgebra="true"/>
+	<pointSize val="3"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-8" y="1"/>
 	<labelMode val="9"/>
-	<slider min="1" max="N" absoluteScreenLocation="true" width="200" x="32" y="138" fixed="true" horizontal="true" showAlgebra="true"/>
-	<pointSize val="3"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
 	<caption val="i"/>
 </element>
-<expression label="box" exp="{Polygon[(0, s / ((2 * π))), (s, s / ((2 * π))), (s, s / (q) + s / ((2 * π))), (0, s / (q) + s / ((2 * π)))]}" />
+<expression label="box" exp="{Polygon[(0, s / ((2 * pi))), (s, s / ((2 * pi))), (s, s / (q) + s / ((2 * pi))), (0, s / (q) + s / ((2 * pi)))]}" />
 <element type="list" label="box">
 	<show object="true" label="true" ev="4"/>
 	<condition showObject="χBox"/>
@@ -580,13 +543,13 @@
 	<angleStyle val="0"/>
 </element>
 <command name="Sequence">
-	<input a0="(((s * rs(k))) / (((2 * π) * a)) * cos((((((2 * π)) / s * x) * a / rs(k)) * ss(k))))" a1="k" a2="1" a3="depth"/>
-	<output a0="fxs" randomResult="{(((10 * 12)) / (((2 * π) * 12)) * cos((((((2 * π)) / 10 * x) * 12 / 12) * 1))), (((10 * 5)) / (((2 * π) * 12)) * cos((((((2 * π)) / 10 * x) * 12 / 5) * 1))), (((10 * 2)) / (((2 * π) * 12)) * cos((((((2 * π)) / 10 * x) * 12 / 2) * 1))), (((10 * 1)) / (((2 * π) * 12)) * cos((((((2 * π)) / 10 * x) * 12 / 1) * 1)))}"/>
+	<input a0="Segment[(Mod[k, s], Mod[k, s / (q)] + s / ((2 * pi))), (Mod[k, s] + s / a, Mod[k, s / (q)] + s / a + s / ((2 * pi)))]" a1="k" a2="0" a3="((n - 1) * s / a)" a4="s / a"/>
+	<output a0="rays"/>
 </command>
-<element type="list" label="fxs">
-	<show object="true" label="false" ev="4"/>
-	<condition showObject="χCosines"/>
-	<objColor r="0" g="0" b="255" alpha="0"/>
+<element type="list" label="rays">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χBox"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
@@ -595,13 +558,13 @@
 	<angleStyle val="0"/>
 </element>
 <command name="Sequence">
-	<input a0="Segment[(Mod[k, s], Mod[k, s / (q)] + s / ((2 * π))), (Mod[k, s] + s / a, Mod[k, s / (q)] + s / a + s / ((2 * π)))]" a1="k" a2="0" a3="((n - 1) * s / a)" a4="s / a"/>
-	<output a0="rays" randomResult="{1.1785113019775793, 1.1785113019775793, 1.178511301977579, 1.178511301977579, 1.1785113019775797, 1.178511301977579, 1.178511301977579, 1.1785113019775788, 1.1785113019775795, 1.1785113019775788, 1.1785113019775795, 1.1785113019775797, 1.178511301977579, 1.178511301977579, 1.178511301977579, 1.1785113019775795, 1.178511301977579, 1.1785113019775795, 1.1785113019775795, 1.1785113019775788, 1.178511301977579, 1.1785113019775797, 1.1785113019775795, 1.1785113019775795, 1.178511301977579, 1.178511301977579, 1.1785113019775795, 1.1785113019775797, 1.1785113019775795, 1.1785113019775788, 1.1785113019775788, 1.178511301977579, 1.1785113019775788, 1.1785113019775795, 1.1785113019775795, 1.1785113019775795, 1.1785113019775793, 1.1785113019775797, 1.1785113019775797, 1.178511301977579, 1.178511301977579, 1.178511301977579, 1.1785113019775788, 1.1785113019775788, 1.1785113019775788, 1.1785113019775797, 1.1785113019775797, 1.1785113019775801, 1.1785113019775795, 1.178511301977579, 1.1785113019775795, 1.1785113019775795, 1.1785113019775788, 1.1785113019775788, 1.1785113019775788, 1.1785113019775788, 1.178511301977579, 1.1785113019775801, 1.1785113019775801, 1.1785113019775795}"/>
+	<input a0="(((s * rs(k))) / (((2 * pi) * a)) * cos(((((2 * pi)) / s * x) * a / rs(k))))" a1="k" a2="1" a3="depth"/>
+	<output a0="fxs"/>
 </command>
-<element type="list" label="rays">
-	<show object="true" label="true" ev="4"/>
-	<condition showObject="χBox"/>
-	<objColor r="255" g="0" b="0" alpha="0"/>
+<element type="list" label="fxs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χCosines"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
@@ -623,8 +586,8 @@
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 </element>
 <command name="Sequence">
-	<input a0="(((s * rs(k))) / (((2 * π) * a)) * sin((((((2 * π)) / s * x) * a / rs(k)) * ss(k))))" a1="k" a2="1" a3="depth"/>
-	<output a0="fys" randomResult="{(((10 * 12)) / (((2 * π) * 12)) * sin((((((2 * π)) / 10 * x) * 12 / 12) * 1))), (((10 * 5)) / (((2 * π) * 12)) * sin((((((2 * π)) / 10 * x) * 12 / 5) * 1))), (((10 * 2)) / (((2 * π) * 12)) * sin((((((2 * π)) / 10 * x) * 12 / 2) * 1))), (((10 * 1)) / (((2 * π) * 12)) * sin((((((2 * π)) / 10 * x) * 12 / 1) * 1)))}"/>
+	<input a0="(((s * rs(k))) / (((2 * pi) * a)) * sin(((((2 * pi)) / s * x) * a / rs(k))))" a1="k" a2="1" a3="depth"/>
+	<output a0="fys"/>
 </command>
 <element type="list" label="fys">
 	<show object="true" label="false" ev="4"/>
@@ -656,6 +619,7 @@
 	<objColor r="0" g="168" b="213" alpha="0.75"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
 </element>
 <command name="CurveCartesian">
 	<input a0="fx(t) + x(thrO)" a1="fy(t) + y(thrO)" a2="t" a3="0" a4="(n * s / a)"/>
@@ -667,21 +631,6 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
-</element>
-<command name="Vector">
-	<input a0="thrO" a1="(fx((n * s / a)) + x(thrO), fy((n * s / a)) + y(thrO))"/>
-	<output a0="thrPhase"/>
-</command>
-<element type="vector" label="thrPhase">
-	<show object="true" label="false" ev="4"/>
-	<condition showObject="χVectors"/>
-	<objColor r="128" g="0" b="0" alpha="0" dynamicr="phaseA / (360°)" dynamicg="1" dynamicb="1" colorSpace="1"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<coords x="2.652582384864923" y="-1.509903313490213e-14" z="0"/>
-	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-	<coordStyle style="cartesian"/>
-	<startPoint exp="thrO"/>
 </element>
 <expression label="fxa" exp="fxa(x) = fxs(1, x)" />
 <element type="function" label="fxa">
@@ -719,36 +668,6 @@
 	<fixed val="true"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 </element>
-<command name="Vector">
-	<input a0="thrO" a1="(fxa((n * s / a)) + x(thrO), fya((n * s / a)) + y(thrO))"/>
-	<output a0="thrA"/>
-</command>
-<element type="vector" label="thrA">
-	<show object="true" label="false" ev="4"/>
-	<condition showObject="χVectors ∧ χQuad"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<coords x="1.5915494309189535" y="-1.7763568394002505e-15" z="0"/>
-	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-	<coordStyle style="cartesian"/>
-	<startPoint exp="thrO"/>
-</element>
-<command name="Vector">
-	<input a0="thrO" a1="(fxb((n * s / a)) + x(thrO), fyb((n * s / a)) + y(thrO))"/>
-	<output a0="thrB"/>
-</command>
-<element type="vector" label="thrB">
-	<show object="true" label="false" ev="4"/>
-	<condition showObject="χVectors ∧ χQuad"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<coords x="0.6631455962162307" y="-1.7763568394002505e-15" z="0"/>
-	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-	<coordStyle style="cartesian"/>
-	<startPoint exp="thrO"/>
-</element>
 <command name="Text">
 	<input a0="n + &quot;(&quot; + a + &quot;/&quot; + b + &quot;)&quot;"/>
 	<output a0="qText"/>
@@ -764,7 +683,8 @@
 <expression label="phase" exp="arg(fz((n * s / a)))" />
 <element type="angle" label="phase">
 	<angleStyle val="3"/>
-	<value val="-5.7813232609940484e-15"/>
+	<value val="0.2621030418254634"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="If">
 	<input a0="phase &lt; 0" a1="phase + 360°" a2="phase"/>
@@ -772,7 +692,61 @@
 </command>
 <element type="angle" label="phaseA">
 	<angleStyle val="3"/>
-	<value val="-5.7813232609940484e-15"/>
+	<value val="0.2621030418254634"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Vector">
+	<input a0="thrO" a1="thrO + (fxa((n * s / a)), fya((n * s / a)))"/>
+	<output a0="thrA"/>
+</command>
+<element type="vector" label="thrA">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors ∧ χQuad"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="thrO"/>
+	<coords x="1.5915494309189535" y="0" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="thrO" a1="thrO + (fxb((n * s / a)), fyb((n * s / a)))"/>
+	<output a0="thrB"/>
+</command>
+<element type="vector" label="thrB">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors ∧ χQuad"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="thrO"/>
+	<coords x="-0.5364960570838373" y="0.38978720157860014" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="thrO" a1="thrO + (fx((n * s / a)), fy((n * s / a)))"/>
+	<output a0="thrPhase"/>
+</command>
+<element type="vector" label="thrPhase">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χVectors"/>
+	<objColor r="128" g="0" b="0" alpha="0" dynamicr="phaseA / (360°)" dynamicg="1" dynamicb="1" colorSpace="1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="thrO"/>
+	<coords x="1.452940731564854" y="0.38978720157859836" z="0"/>
+</element>
+<expression label="rssText" exp="&quot;Remainders:&quot; + rs + &quot;&quot;" />
+<element type="text" label="rssText">
+	<show object="true" label="true" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<absoluteScreenLocation x="7" y="100"/>
 </element>
 </construction>
 </geogebra>

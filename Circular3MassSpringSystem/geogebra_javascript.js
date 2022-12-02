@@ -61,7 +61,7 @@ function play(){
   console.log('play() while running = '+gg.isAnimationRunning());
   ggbApplet.startAnimation();
   gg.setValue("animating",true);
-  gg.setCaption("butAnimation","Pause ⏸");
+  gg.setCaption("butAnimation","⏸ Pause");
   gg.setCaption("T","T");
   solveODE();
 }
@@ -69,7 +69,7 @@ function pause(){
   console.log('pause() while running = '+gg.isAnimationRunning());
   gg.stopAnimation();
   gg.setValue("animating",false);
-  gg.setCaption("butAnimation","Play ▶");
+  gg.setCaption("butAnimation","▶️ Play");
   gg.setCaption("T","🤏T");
 }
 

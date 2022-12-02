@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1745" height="829" />
+	<window width="763" height="632" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
@@ -11,13 +11,13 @@
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="3,1" size="383" window="346,23,1344,550" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1745" window="100,100,600,400" />
-		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="0" tab="ALGEBRA" window="1409,594,458,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="763" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="81" tab="ALGEBRA" window="1409,594,458,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="279" window="346,23,1344,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="1744" height="775"/>
-	<coordSystem xZero="83.8442133482619" yZero="222.68240035308506" scale="95.81663463461138" yscale="95.81663463461189"/>
+	<size  width="762" height="578"/>
+	<coordSystem xZero="98.84421334826189" yZero="222.68240035308506" scale="95.81663463461133" yscale="95.81663463461189"/>
 	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -52,59 +52,124 @@
 <tableview min="-2" max="2" step="1"/>
 <scripting blocked="false" disabled="false"/>
 <construction title="HarmonicWaves" author="" date="">
-<element type="numeric" label="LWh">
-	<value val="0.5"/>
+<element type="numeric" label="N">
+	<value val="24"/>
+	<slider min="-5" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="30" y="210" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
-<element type="angle" label="ϕ">
-	<angleStyle val="3"/>
-	<value val="2.8448866807507573"/>
-	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="200" x="231" y="78" fixed="true" horizontal="true" showAlgebra="true"/>
-	<show object="true" label="true" ev="4"/>
-	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
-	<bgColor r="0" g="0" b="255" alpha="153"/>
-	<layer val="0"/>
-	<labelOffset x="-15" y="1"/>
-	<labelMode val="9"/>
-	<lineStyle thickness="6" type="0" typeHidden="2" opacity="178"/>
-	<arcSize val="30"/>
-	<animation step="0.017453292519943295" speed="1" type="1" playing="true"/>
-	<ggbscript onUpdate="If(ϕo&gt;ϕ,SetValue(ncycles,ncycles+1))&#xa;If(ϕo&gt;ϕ&amp;&amp;ncycles==1,SetValue(χParticles,true))&#xa;SetValue(ϕo,ϕ)&#xa;"/>
-	<caption val="Phase ϕ"/>
-</element>
-<element type="numeric" label="k">
-	<value val="0.25"/>
-	<show object="true" label="true"/>
+<element type="numeric" label="xMax">
+	<value val="10"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
-	<labelOffset x="0" y="-3"/>
-	<labelMode val="9"/>
-	<slider min="0.1" max="1" absoluteScreenLocation="true" width="200" x="520" y="36" fixed="true" horizontal="true" showAlgebra="false"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="LSh">
+	<value val="0.2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="numeric" label="LWh">
+	<value val="0.5"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" x="30" y="210" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="λ" exp="pi"/>
+<element type="numeric" label="λ">
+	<value val="3.141592653589793"/>
+	<slider min="0.1" max="10" absoluteScreenLocation="true" width="200" x="453" y="37" fixed="true" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="153" g="102" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-57" y="2"/>
+	<labelMode val="9"/>
 	<animation step="0.01" speed="1" type="0" playing="false"/>
-	<ggbscript onUpdate="SetValue(λ, 1/k)"/>
-	<caption val="Wavenumber k"/>
+	<ggbscript onUpdate="SetValue(k, 1/λ)&#xa;If(χCycloid, {SetValue(A,λ/(2 π))})"/>
+	<caption val="Wavelength λ"/>
 </element>
 <expression label="A" exp="0.5"/>
 <element type="numeric" label="A">
 	<value val="0.5"/>
-	<show object="true" label="true"/>
-	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelOffset x="-14" y="-2"/>
-	<labelMode val="9"/>
 	<slider min="0.1" max="1" absoluteScreenLocation="true" width="200" x="231" y="37" fixed="true" horizontal="true" showAlgebra="false"/>
 	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-49" y="2"/>
+	<labelMode val="9"/>
 	<animation step="0.01" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(χCycloid, {SetValue(λ,2 π A),SetValue(k,1/(2 π A))})"/>
 	<caption val="Amplitude A"/>
 </element>
-<expression label="v" exp="v(x) = (A * sin((((2 * π) * k) * x) - ϕ))" />
+<expression label="LWy" exp="(-A) - 0.1" />
+<element type="numeric" label="LWy">
+	<value val="-0.6"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="LSy" exp="LWy - LWh - 0.4" />
+<element type="numeric" label="LSy">
+	<value val="-1.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<element type="angle" label="ϕ">
+	<angleStyle val="3"/>
+	<value val="3.001966313430247"/>
+	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="200" x="231" y="78" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="6" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<bgColor r="0" g="0" b="255" alpha="153"/>
+	<layer val="0"/>
+	<labelOffset x="-29" y="2"/>
+	<labelMode val="9"/>
+	<animation step="0.017453292519943295" speed="0.5" type="1" playing="true"/>
+	<ggbscript onUpdate="If(ϕo&gt;ϕ,SetValue(ncycles,ncycles+1))&#xa;If(ϕo&gt;ϕ&amp;&amp;ncycles==1,SetValue(χParticles,true))&#xa;SetValue(ϕo,ϕ)&#xa;"/>
+	<caption val="Phase ϕ"/>
+</element>
+<element type="numeric" label="k">
+	<value val="0.3183098861837907"/>
+	<slider min="0.1" max="1" absoluteScreenLocation="true" width="200" x="453" y="78" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="153" g="102" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-66" y="2"/>
+	<labelMode val="9"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(λ, 1/k)&#xa;If(χCycloid, {SetValue(A,1/(2 π k))})"/>
+	<caption val="Wavenumber k"/>
+</element>
+<expression label="xWL" exp="(ϕ + pi / 2) / (((2 * pi) * k))" />
+<element type="numeric" label="xWL">
+	<value val="2.2863813201125716"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="WWy" exp="LSy - λ / ((2 * pi))" />
+<element type="numeric" label="WWy">
+	<value val="-2"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="v" exp="v(x) = (A * sin((((2 * pi) * k) * x) - ϕ))" />
 <element type="function" label="v">
 	<show object="false" label="true" ev="4"/>
 	<objColor r="255" g="127" b="0" alpha="0"/>
@@ -112,27 +177,22 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<selectionAllowed val="false"/>
-	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<caption val="Velocity wave"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
 </element>
-<expression label="ψ" exp="ψ(x) = (A * cos((((2 * π) * k) * x) - ϕ))" />
+<expression label="ψ" exp="ψ(x) = (A * cos((((2 * pi) * k) * x) - ϕ))" />
 <element type="function" label="ψ">
 	<show object="false" label="true" ev="4"/>
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="3"/>
 	<selectionAllowed val="false"/>
-	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<caption val="Displacement wave"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
 </element>
-<expression label="LWy" exp="(-A) - 0.1" />
-<element type="numeric" label="LWy">
-	<value val="-0.6"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-</element>
-<expression label="WWy" exp="LWy - LWh - 0.3 - A" />
-<element type="numeric" label="WWy">
-	<value val="-1.9000000000000001"/>
+<expression label="xMin" exp="(-λ)" />
+<element type="numeric" label="xMin">
+	<value val="-3.141592653589793"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <element type="button" label="butAnimation">
@@ -143,9 +203,9 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Play ▶&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Pause ⏸&quot;)&apos;);}"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸ Pause&quot;)&apos;);}"/>
+	<caption val="⏸ Pause"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
-	<caption val="Pause ⏸"/>
 </element>
 <expression label="txtVW" exp="&quot;Velocity Wave (Transverse Wave)&quot;"/>
 <element type="text" label="txtVW">
@@ -154,6 +214,7 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
+	<selectionAllowed val="false"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<startPoint exp="(2, A + 0.2)"/>
 </element>
@@ -164,21 +225,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
+	<selectionAllowed val="false"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<startPoint exp="(2, LWy - LWh - 0.2)"/>
-</element>
-<expression label="λ" exp="4"/>
-<element type="numeric" label="λ">
-	<value val="4"/>
-	<show object="true" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelMode val="9"/>
-	<slider min="0.1" max="10" absoluteScreenLocation="true" width="200" x="520" y="80" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
-	<animation step="0.01" speed="1" type="0" playing="false"/>
-	<ggbscript onUpdate="SetValue(k, 1/λ)"/>
-	<caption val="Wavelength λ"/>
 </element>
 <command name="Circle">
 	<input a0="(0, 0)" a1="A"/>
@@ -190,9 +239,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="1" A1="1" A2="-0.25" A3="0" A4="0" A5="0"/>
-	<eqnStyle style="specific"/>
 </element>
 <element type="point" label="O">
 	<show object="true" label="false"/>
@@ -201,9 +250,9 @@
 	<labelMode val="0"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<coords x="0" y="0" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
 </element>
 <command name="Rotate">
 	<input a0="(A, 0)" a1="(-ϕ)"/>
@@ -214,9 +263,9 @@
 	<objColor r="0" g="255" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4781523779815178" y="-0.1461858523613683" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="-0.4951340343707852" y="-0.06958655048003266" z="1"/>
 </element>
 <command name="Vector">
 	<input a0="O" a1="P"/>
@@ -227,10 +276,10 @@
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4781523779815178" y="-0.1461858523613683" z="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="O"/>
+	<coords x="-0.4951340343707852" y="-0.06958655048003266" z="0"/>
 </element>
 <expression label="Pv" exp="(0, v(0))" type="point" />
 <element type="point" label="Pv">
@@ -238,9 +287,9 @@
 	<objColor r="255" g="127" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="0" y="-0.1461858523613683" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="0" y="-0.06958655048003266" z="1"/>
 </element>
 <expression label="Pψ" exp="(ψ(0), 0)" type="point" />
 <element type="point" label="Pψ">
@@ -248,9 +297,9 @@
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4781523779815178" y="0" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="-0.4951340343707852" y="0" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pψ"/>
@@ -261,10 +310,12 @@
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.1461858523613683" y="0" z="-0.06989911293384334"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-0.06958655048003266" y="0" z="-0.03445466947712487"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pv"/>
@@ -275,27 +326,30 @@
 	<objColor r="255" g="127" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="0" y="0.4781523779815178" z="0.06989911293384334"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0" y="0.4951340343707852" z="0.03445466947712487"/>
 </element>
 <command name="VerticalText">
 	<input a0="&quot;Displacement Wave&quot;"/>
 	<output a0="txtDW"/>
 </command>
 <element type="text" label="txtDW">
-	<show object="true" label="true"/>
+	<show object="true" label="true" ev="4"/>
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
+	<selectionAllowed val="false"/>
 	<isLaTeX val="true"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<startPoint exp="((-A) - 0.3, 2)"/>
 </element>
 <command name="Vector">
-	<input a0="((ϕ + π / 2) / (((2 * π) * k)), A)" a1="((ϕ + (2 * π) + π / 2) / (((2 * π) * k)), A)"/>
+	<input a0="(xWL, A)" a1="(xWL + λ, A)"/>
 	<output a0="vWL"/>
 </command>
 <element type="vector" label="vWL">
@@ -304,25 +358,12 @@
 	<layer val="0"/>
 	<labelOffset x="-32" y="17"/>
 	<labelMode val="3"/>
-	<coords x="4" y="0" z="0"/>
+	<selectionAllowed val="false"/>
+	<caption val="Wavelength λ"/>
 	<lineStyle thickness="3" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
-	<startPoint x="2.8111111111111113" y="0.5" z="1"/>
-	<caption val="Wavelength λ"/>
-</element>
-<command name="Vector">
-	<input a0="((ϕ + (2 * π) + π / 2) / (((2 * π) * k)), A)" a1="((ϕ + π / 2) / (((2 * π) * k)), A)"/>
-	<output a0="vWLl"/>
-</command>
-<element type="vector" label="vWLl">
-	<show object="true" label="false"/>
-	<objColor r="255" g="127" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<coords x="-4" y="0" z="0"/>
-	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
-	<coordStyle style="cartesian"/>
-	<startPoint x="6.811111111111112" y="0.5" z="1"/>
+	<startPoint x="2.2863813201125716" y="0.5" z="1"/>
+	<coords x="3.141592653589793" y="0" z="0"/>
 </element>
 <command name="Segment">
 	<input a0="(ψ(0), LWy)" a1="(ψ(0), LWy - LWh)"/>
@@ -333,20 +374,22 @@
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="0.5000000000000001" y="0" z="0.2390761889907589"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0.5000000000000001" y="0" z="0.24756701718539265"/>
 </element>
 <expression label="WWP0" exp="(ψ(0), WWy + v(0))" type="point" />
 <element type="point" label="WWP0">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="0" g="255" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4781523779815178" y="-2.0461858523613685" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="-0.4951340343707852" y="-2.069586550480033" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="WWP0"/>
@@ -357,17 +400,20 @@
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="1.9000000000000001" y="0" z="0.9084895181648839"/>
 	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="2" y="0" z="0.9902680687415706"/>
 </element>
 <expression label="txtWW" exp="&quot;Water Wave (Transverse + Longitudinal = Trochoidal Wave)&quot;"/>
 <element type="text" label="txtWW">
-	<show object="true" label="true"/>
+	<show object="true" label="true" ev="4"/>
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<startPoint exp="(2, WWy - A - 0.2)"/>
 </element>
@@ -377,13 +423,13 @@
 	<objColor r="0" g="255" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4781523779815178" y="-0.6" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="-0.4951340343707852" y="-0.6" z="1"/>
 </element>
 <command name="Sequence">
-	<input a0="(xi + ψ(xi), WWy + v(xi))" a1="xi" a2="-1" a3="10" a4="0.1"/>
-	<output a0="WWPs" randomResult="{(-1.1461858523613682, -1.4218476220184824), (-1.1191855733945388, -1.4506029768504167), (-1.0867882181755228, -1.490423977855504), (-1.0473291852294988, -1.5403300998306746), (-0.9993177550236465, -1.5990924884239759), (-0.9414737964294635, -1.6652642186070545), (-0.8727592877996584, -1.7372159227714215), (-0.7924038765061041, -1.8131759111665346), (-0.6999238475781958, -1.891273796781358), (-0.5951340343707854, -1.9695865504800325), (-0.4781523779815178, -2.0461858523613685), (-0.34939702314958354, -2.119185573394539), (-0.20957602214449594, -2.186788218175523), (-0.05966990016932561, -2.2473291852294985), (0.09909248842397583, -2.2993177550236465), (0.2652642186070545, -2.3414737964294634), (0.4372159227714216, -2.3727592877996586), (0.6131759111665347, -2.392403876506104), (0.7912737967813581, -2.399923847578196), (0.9695865504800324, -2.3951340343707854), (1.1461858523613682, -2.378152377981518), (1.3191855733945388, -2.3493970231495838), (1.4867882181755232, -2.309576022144496), (1.647329185229499, -2.2596699001693255), (1.7993177550236468, -2.200907511576024), (1.941473796429464, -2.134735781392945), (2.0727592877996592, -2.062784077228578), (2.1924038765061047, -1.986824088833465), (2.2999238475781962, -1.9087262032186414), (2.395134034370786, -1.8304134495199669), (2.4781523779815178, -1.753814147638632), (2.5493970231495835, -1.6808144266054614), (2.609576022144496, -1.6132117818244769), (2.659669900169326, -1.5526708147705015), (2.7009075115760246, -1.5006822449763537), (2.7347357813929456, -1.4585262035705364), (2.7627840772285785, -1.4272407122003417), (2.7868240888334657, -1.407596123493896), (2.808726203218642, -1.4000761524218044), (2.830413449519968, -1.404865965629215), (2.853814147638632, -1.4218476220184824), (2.8808144266054616, -1.4506029768504165), (2.913211781824477, -1.4904239778555042), (2.9526708147705016, -1.5403300998306744), (3.0006822449763537, -1.599092488423976), (3.058526203570537, -1.665264218607055), (3.127240712200342, -1.7372159227714221), (3.2075961234938966, -1.8131759111665353), (3.300076152421805, -1.8912737967813587), (3.4048659656292157, -1.9695865504800332), (3.5218476220184822, -2.0461858523613685), (3.650602976850416, -2.1191855733945384), (3.790423977855503, -2.1867882181755225), (3.9403300998306725, -2.247329185229498), (4.099092488423973, -2.2993177550236457), (4.265264218607051, -2.341473796429463), (4.437215922771418, -2.3727592877996577), (4.613175911166531, -2.392403876506104), (4.791273796781353, -2.399923847578196), (4.9695865504800265, -2.395134034370786), (5.146185852361368, -2.378152377981518), (5.319185573394537, -2.349397023149584), (5.486788218175521, -2.3095760221444968), (5.647329185229497, -2.2596699001693263), (5.799317755023644, -2.2009075115760255), (5.941473796429461, -2.1347357813929473), (6.072759287799656, -2.0627840772285806), (6.192403876506101, -1.986824088833468), (6.299923847578193, -1.908726203218645), (6.395134034370782, -1.83041344951997), (6.478152377981518, -1.7538141476386322), (6.5493970231495835, -1.6808144266054623), (6.609576022144496, -1.6132117818244782), (6.659669900169325, -1.5526708147705022), (6.700907511576024, -1.5006822449763546), (6.734735781392946, -1.4585262035705375), (6.762784077228578, -1.4272407122003425), (6.786824088833465, -1.4075961234938965), (6.808726203218642, -1.4000761524218046), (6.830413449519967, -1.4048659656292146), (6.853814147638632, -1.4218476220184821), (6.880814426605462, -1.4506029768504163), (6.913211781824478, -1.4904239778555035), (6.952670814770501, -1.540330099830674), (7.000682244976353, -1.5990924884239748), (7.058526203570535, -1.6652642186070532), (7.12724071220034, -1.7372159227714197), (7.207596123493894, -1.8131759111665322), (7.300076152421801, -1.891273796781355), (7.404865965629211, -1.96958655048003), (7.521847622018482, -2.046185852361368), (7.650602976850416, -2.119185573394538), (7.790423977855503, -2.186788218175522), (7.940330099830673, -2.247329185229498), (8.099092488423974, -2.2993177550236457), (8.26526421860705, -2.3414737964294625), (8.437215922771417, -2.3727592877996577), (8.613175911166529, -2.3924038765061035), (8.791273796781352, -2.399923847578196), (8.969586550480027, -2.395134034370786), (9.146185852361368, -2.378152377981518), (9.319185573394538, -2.349397023149584), (9.486788218175521, -2.3095760221444968), (9.647329185229497, -2.2596699001693263), (9.799317755023644, -2.2009075115760255), (9.941473796429461, -2.1347357813929473), (10.072759287799656, -2.0627840772285806), (10.1924038765061, -1.986824088833468), (10.299923847578192, -1.9087262032186452), (10.395134034370782, -1.8304134495199702), (10.478152377981518, -1.7538141476386324)}"/>
+	<input a0="(xi + ψ(xi), WWy + v(xi))" a1="xi" a2="xMin" a3="10" a4="λ / N"/>
+	<output a0="WWPs"/>
 </command>
 <element type="list" label="WWPs">
 	<show object="true" label="true" ev="4"/>
@@ -391,6 +437,7 @@
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<pointSize val="3"/>
 	<pointStyle val="0"/>
@@ -412,18 +459,18 @@
 	<output a0="WWCircle"/>
 </command>
 <element type="conic" label="WWCircle">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="3.3600000000000003" A3="0" A4="0" A5="1.9000000000000001"/>
 	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.75" A3="0" A4="0" A5="2"/>
 </element>
 <command name="Derivative">
 <casMap>
-	<entry key="Derivative[x + A cos(2π k x - ϕ),x,1]" val="((((-2 * A) * k) * π) * sin((((2 * k) * π) * x) - ϕ)) + 1"/>
+	<entry key="Derivative[x + A cos(2π k x - ϕ),x,1]" val="((((-2 * A) * k) * pi) * sin((((2 * k) * pi) * x) - ϕ)) + 1"/>
 </casMap>
 	<input a0="x + ψ(x)"/>
 	<output a0="d"/>
@@ -442,14 +489,14 @@
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
-	<labelOffset x="514" y="90"/>
+	<labelOffset x="102" y="86"/>
 	<labelMode val="3"/>
 	<checkbox fixed="true"/>
 	<caption val="Specific Length Wave"/>
 </element>
-<expression label="roll" exp="(((2 * π) * k) * A) - 1" />
+<expression label="roll" exp="(((2 * pi) * k) * A) - 1" />
 <element type="numeric" label="roll">
-	<value val="-0.21460183660255172"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="txtRoll" exp="&quot;Rolling Wave!!!&quot;"/>
@@ -461,11 +508,11 @@
 	<labelMode val="0"/>
 	<fixed val="true"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
-	<absoluteScreenLocation x="681" y="113"/>
+	<absoluteScreenLocation x="451" y="110"/>
 </element>
-<expression label="xπ" exp="1 / (((2 * π) * k)) + A" />
+<expression label="xπ" exp="1 / (((2 * pi) * k)) + A" />
 <element type="numeric" label="xπ">
-	<value val="1.1366197723675815"/>
+	<value val="1"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="Circle">
@@ -473,117 +520,110 @@
 	<output a0="WWCircleπ"/>
 </command>
 <element type="conic" label="WWCircleπ">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMore"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="4.651904506936933" A3="0" A4="-1.1366197723675815" A5="1.9000000000000001"/>
 	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.75" A3="0" A4="-1" A5="2"/>
 </element>
 <expression label="WWPπ" exp="(xπ + ψ(xπ), WWy + v(xπ))" type="point" />
 <element type="point" label="WWPπ">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMore"/>
 	<objColor r="0" g="255" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="1.381278878659595" y="-2.3360526593295736" z="1"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="1.2693233333633955" y="-2.42126588053868" z="1"/>
 </element>
-<expression label="ϕr" exp="(-asin(1 / ((((2 * π) * k) * A))))" />
+<expression label="ϕr" exp="(-asin(1 / ((((2 * pi) * k) * A))))" />
 <element type="numeric" label="ϕr">
-	<value val="NaN"/>
+	<value val="-1.5707963267948966"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="Arc">
-	<input a0="WCircle" a1="(-ϕr)" a2="ϕr - π"/>
+	<input a0="WCircle" a1="(-ϕr)" a2="ϕr - pi"/>
 	<output a0="RWArc"/>
 </command>
 <element type="conicpart" label="RWArc">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.25" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="specific"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.25" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Arc">
-	<input a0="WWCircle" a1="(-ϕr)" a2="ϕr - π"/>
+	<input a0="WWCircle" a1="(-ϕr)" a2="ϕr - pi"/>
 	<output a0="RWWArc"/>
 </command>
 <element type="conicpart" label="RWWArc">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="4" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="3.3600000000000003" A3="0" A4="0" A5="1.9000000000000001"/>
 	<eqnStyle style="specific"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.75" A3="0" A4="0" A5="2"/>
 </element>
 <command name="Arc">
-	<input a0="WWCircleπ" a1="(-ϕr)" a2="ϕr - π"/>
+	<input a0="WWCircleπ" a1="(-ϕr)" a2="ϕr - pi"/>
 	<output a0="RWWArcπ"/>
 </command>
 <element type="conicpart" label="RWWArcπ">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMore"/>
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="4.651904506936933" A3="0" A4="-1.1366197723675815" A5="1.9000000000000001"/>
 	<eqnStyle style="specific"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.75" A3="0" A4="-1" A5="2"/>
 </element>
 <command name="If">
-	<input a0="ϕr ≟ ϕr" a1="(ϕ - ϕr) / (((2 * π) * k))" a2="ϕ / (((2 * π) * k))"/>
+	<input a0="ϕr ≟ ϕr" a1="(ϕ - ϕr) / (((2 * pi) * k))" a2="ϕ / (((2 * pi) * k))"/>
 	<output a0="xr"/>
 </command>
 <element type="numeric" label="xr">
-	<value val="1.8111111111111113"/>
+	<value val="2.2863813201125716"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="If">
-	<input a0="ϕr ≟ ϕr" a1="(ϕ + π + ϕr) / (((2 * π) * k))" a2="ϕ / (((2 * π) * k))"/>
+	<input a0="ϕr ≟ ϕr" a1="(ϕ + pi + ϕr) / (((2 * pi) * k))" a2="ϕ / (((2 * pi) * k))"/>
 	<output a0="xrπ"/>
 </command>
 <element type="numeric" label="xrπ">
-	<value val="1.8111111111111113"/>
+	<value val="2.2863813201125716"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="χParticles" exp="false"/>
 <element type="boolean" label="χParticles">
 	<value val="false"/>
 	<show object="true" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
-	<labelOffset x="733" y="61"/>
+	<labelOffset x="101" y="46"/>
 	<labelMode val="3"/>
 	<checkbox fixed="true"/>
 	<caption val="Particles"/>
 </element>
-<element type="numeric" label="xMax">
-	<value val="10"/>
-	<show object="false" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelMode val="1"/>
-	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<animation speed="1" type="0" playing="false"/>
-</element>
 <command name="CurveCartesian">
-	<input a0="(xi, d(xi) / ((2 * π)))" a1="xi" a2="0" a3="xMax"/>
+	<input a0="(xi, d(xi) / ((2 * pi)))" a1="xi" a2="0" a3="xMax"/>
 	<output a0="cd"/>
 </command>
 <element type="curvecartesian" label="cd">
@@ -592,6 +632,7 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
 </element>
 <command name="CurveCartesian">
@@ -599,10 +640,11 @@
 	<output a0="cv"/>
 </command>
 <element type="curvecartesian" label="cv">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="255" g="127" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 </element>
 <command name="CurveCartesian">
@@ -614,47 +656,24 @@
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-</element>
-<element type="numeric" label="xMin">
-	<value val="-1"/>
-	<show object="false" label="true"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<layer val="0"/>
-	<labelMode val="1"/>
-	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<animation speed="1" type="0" playing="false"/>
 </element>
 <command name="CurveCartesian">
 	<input a0="(xi + ψ(xi), WWy + v(xi))" a1="xi" a2="xMin" a3="xMax"/>
 	<output a0="cw"/>
 </command>
 <element type="curvecartesian" label="cw">
-	<show object="true" label="false"/>
+	<show object="true" label="false" ev="4"/>
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 </element>
 <command name="Sequence">
-	<input a0="Segment[(xi + ψ(xi), LWy), (xi + ψ(xi), LWy - LWh)]" a1="xi" a2="xMin" a3="xMax" a4="0.1"/>
-	<output a0="LW" randomResult="{0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001, 0.5000000000000001}"/>
-</command>
-<element type="list" label="LW">
-	<show object="true" label="true" ev="4"/>
-	<objColor r="255" g="127" b="0" alpha="0"/>
-	<layer val="0"/>
-	<labelMode val="0"/>
-	<selectionAllowed val="false"/>
-	<lineStyle thickness="3" type="0" typeHidden="1"/>
-	<pointSize val="3"/>
-	<pointStyle val="0"/>
-	<angleStyle val="0"/>
-</element>
-<command name="Sequence">
 	<input a0="CurveCartesian[(xi + ψ(xi), WWy + v(xi)), xi, (k * λ) + xr, (k * λ) + xrπ]" a1="k" a2="floor((xMin - xr) / λ)" a3="ceil((xMax - xrπ) / λ)"/>
-	<output a0="cwr" randomResult="{(xi + (0.5 * cos((((2 * π) * 0.25) * xi) - 163*°)), -1.9000000000000001 + (0.5 * sin((((2 * π) * 0.25) * xi) - 163*°))), (xi + (0.5 * cos((((2 * π) * 0.25) * xi) - 163*°)), -1.9000000000000001 + (0.5 * sin((((2 * π) * 0.25) * xi) - 163*°))), (xi + (0.5 * cos((((2 * π) * 0.25) * xi) - 163*°)), -1.9000000000000001 + (0.5 * sin((((2 * π) * 0.25) * xi) - 163*°))), (xi + (0.5 * cos((((2 * π) * 0.25) * xi) - 163*°)), -1.9000000000000001 + (0.5 * sin((((2 * π) * 0.25) * xi) - 163*°))), (xi + (0.5 * cos((((2 * π) * 0.25) * xi) - 163*°)), -1.9000000000000001 + (0.5 * sin((((2 * π) * 0.25) * xi) - 163*°)))}"/>
+	<output a0="cwr"/>
 </command>
 <element type="list" label="cwr">
 	<show object="true" label="true"/>
@@ -667,8 +686,8 @@
 	<angleStyle val="0"/>
 </element>
 <command name="Sequence">
-	<input a0="CurveCartesian[(xi, d(xi) / ((2 * π))), xi, (k * λ) + xr, (k * λ) + xrπ]" a1="k" a2="floor((0 - xr) / λ)" a3="ceil((xMax - xrπ) / λ)"/>
-	<output a0="cdr" randomResult="{(xi, (((((-2 * 0.5) * 0.25) * π) * sin((((2 * 0.25) * π) * xi) - 163*°)) + 1) / ((2 * π))), (xi, (((((-2 * 0.5) * 0.25) * π) * sin((((2 * 0.25) * π) * xi) - 163*°)) + 1) / ((2 * π))), (xi, (((((-2 * 0.5) * 0.25) * π) * sin((((2 * 0.25) * π) * xi) - 163*°)) + 1) / ((2 * π))), (xi, (((((-2 * 0.5) * 0.25) * π) * sin((((2 * 0.25) * π) * xi) - 163*°)) + 1) / ((2 * π))), (xi, (((((-2 * 0.5) * 0.25) * π) * sin((((2 * 0.25) * π) * xi) - 163*°)) + 1) / ((2 * π)))}"/>
+	<input a0="CurveCartesian[(xi, d(xi) / ((2 * pi))), xi, (k * λ) + xr, (k * λ) + xrπ]" a1="k" a2="floor((0 - xr) / λ)" a3="ceil((xMax - xrπ) / λ)"/>
+	<output a0="cdr"/>
 </command>
 <element type="list" label="cdr">
 	<show object="true" label="true" ev="4"/>
@@ -676,14 +695,15 @@
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 </element>
-<expression label="rolld" exp="(-d((ϕ + π / 2) / (((2 * π) * k))))" />
+<expression label="rolld" exp="(-d((ϕ + pi / 2) / (((2 * pi) * k))))" />
 <element type="numeric" label="rolld">
-	<value val="-0.21460183660255172"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="ncycles" exp="0"/>
@@ -697,14 +717,14 @@
 </element>
 <element type="angle" label="ϕo">
 	<angleStyle val="3"/>
-	<value val="2.8448866807507573"/>
+	<value val="3.001966313430247"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
-	<arcSize val="30"/>
 	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
 </element>
 <element type="button" label="butReset">
@@ -716,12 +736,12 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="Execute(cmdReset)"/>
-	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<caption val="Reset"/>
+	<font serif="false" sizeM="1.4" size="5" style="0"/>
 </element>
-<expression label="cmdReset" exp="{&quot;ncycles=0&quot;, &quot;ϕo=0&quot;, &quot;ϕ=0&quot;, &quot;A=0.5&quot;, &quot;λ=4&quot;, &quot;χSpecificLength=false&quot;, &quot;χParticles=false&quot;}"/>
+<expression label="cmdReset" exp="{&quot;ncycles=0&quot;, &quot;ϕo=0&quot;, &quot;ϕ=0&quot;, &quot;ϕw=90°&quot;, &quot;A=0.5&quot;, &quot;λ=π&quot;, &quot;χSpecificLength=false&quot;, &quot;χParticles=false&quot;, &quot;χCycloid=false&quot;, &quot;χLS=false&quot;, &quot;χWroller=false&quot;, &quot;χMore=false&quot;}"/>
 <element type="list" label="cmdReset">
-	<show object="false" label="true"/>
+	<show object="false" label="true" ev="4"/>
 	<objColor r="0" g="100" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
@@ -731,6 +751,323 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 	<symbolic val="true" />
+</element>
+<expression label="χCycloid" exp="false"/>
+<element type="boolean" label="χCycloid">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="268" y="85"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="If(χCycloid, {SetValue(λ,2 π A),SetValue(k,1/(2 π A))})"/>
+	<caption val="Cycloid (λ = 1/k := 2πA)"/>
+</element>
+<command name="Circle">
+	<input a0="(0, WWy)" a1="λ / ((2 * pi))"/>
+	<output a0="LCircle"/>
+</command>
+<element type="conic" label="LCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.75" A3="0" A4="0" A5="2"/>
+</element>
+<command name="Line">
+	<input a0="(0, LSy)" a1="xAxis"/>
+	<output a0="lLS"/>
+</command>
+<element type="line" label="lLS">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<coords x="0" y="1" z="1.5"/>
+</element>
+<expression label="WWO" exp="(0, WWy)" type="point" />
+<element type="point" label="WWO">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="-2" z="1"/>
+</element>
+<command name="Max">
+	<input a0="A" a1="λ / ((2 * pi))"/>
+	<output a0="LSr"/>
+</command>
+<element type="numeric" label="LSr">
+	<value val="0.5"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Segment">
+	<input a0="WWO" a1="WWO + (vPhase / A * LSr)"/>
+	<output a0="vPhaseW"/>
+</command>
+<element type="segment" label="vPhaseW">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0.06958655048003282" y="-0.4951340343707852" z="-0.9902680687415704"/>
+</element>
+<expression label="χLS" exp="false"/>
+<element type="boolean" label="χLS">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="574" y="87"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Wavelength Roller"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[((k * λ) + xr, LSy), ((k * λ) + xrπ, LSy)]" a1="k" a2="floor((0 - xr) / λ)" a3="ceil((xMax - xrπ) / λ)"/>
+	<output a0="clr"/>
+</command>
+<element type="list" label="clr">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Arc">
+	<input a0="LCircle" a1="(-ϕr)" a2="ϕr - pi"/>
+	<output a0="RLWArc"/>
+</command>
+<element type="conicpart" label="RLWArc">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="3.75" A3="0" A4="0" A5="2"/>
+</element>
+<command name="Vector">
+	<input a0="(xWL + λ, A)" a1="(xWL, A)"/>
+	<output a0="vWLl"/>
+</command>
+<element type="vector" label="vWLl">
+	<show object="true" label="false"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint x="5.427973973702365" y="0.5" z="1"/>
+	<coords x="-3.141592653589793" y="0" z="0"/>
+</element>
+<command name="Polygon">
+	<input a0="{(xWL, A), (xWL + λ, A), (xWL + λ, WWy - A), (xWL, WWy - A)}"/>
+	<output a0="rWL"/>
+</command>
+<element type="polygon" label="rWL">
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="255" g="127" b="0" alpha="0.08"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+</element>
+<expression label="χWroller" exp="false"/>
+<element type="boolean" label="χWroller">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="663" y="62"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Compression Roller"/>
+</element>
+<expression label="ϕw" exp="90°"/>
+<element type="angle" label="ϕw">
+	<angleStyle val="3"/>
+	<value val="1.5707963267948966"/>
+	<slider min="-3.141592653589793" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="670" y="52" fixed="false" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χWroller"/>
+	<objColor r="186" g="74" b="74" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-10" y="3"/>
+	<labelMode val="9"/>
+	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
+	<caption val="ϕ+"/>
+</element>
+<expression label="xWWPi" exp="xWL + ϕw / (((2 * pi) * k))" />
+<element type="numeric" label="xWWPi">
+	<value val="3.07177948351002"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[(xi + ((ϕ + pi / 2) / ((2 * pi)) * λ), LSy + LSh / 2), (xi + ((ϕ + pi / 2) / ((2 * pi)) * λ), LSy - LSh / 2)]" a1="xi" a2="(-9 * λ / 4)" a3="xMax" a4="λ / N"/>
+	<output a0="LS"/>
+</command>
+<element type="list" label="LS">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="WWPi" exp="(xWWPi + ψ(xWWPi), WWy + v(xWWPi))" type="point" />
+<element type="point" label="WWPi">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWroller"/>
+	<objColor r="255" g="127" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="3"/>
+	<coords x="2.57177948351002" y="-1.9999999999999998" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="WWP0" a1="abs(LSy - y(WWP0))"/>
+	<output a0="LWCircle"/>
+</command>
+<element type="conic" label="LWCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWroller ∧ χMore"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="4.203917363432389" A3="0" A4="0.4951340343707852" A5="2.069586550480033"/>
+</element>
+<expression label="WWPix" exp="(x(WWPi), LSy)" type="point" />
+<element type="point" label="WWPix">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWroller"/>
+	<objColor r="255" g="127" b="127" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.57177948351002" y="-1.5" z="1"/>
+</element>
+<command name="Circle">
+	<input a0="WWPix" a1="WWPi"/>
+	<output a0="WWPiCircle"/>
+</command>
+<element type="conic" label="WWPiCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χWroller"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="8.614049711803064" A3="0" A4="-2.57177948351002" A5="1.5"/>
+</element>
+<command name="Sequence">
+	<input a0="((λ / ((2 * pi)) * cos((-(ϕ - pi / 2)) + ϕi)), WWy + (λ / ((2 * pi)) * sin((-(ϕ - pi / 2)) + ϕi)))" a1="ϕi" a2="0" a3="(2 * pi)" a4="((2 * pi)) / N"/>
+	<output a0="LScPs"/>
+</command>
+<element type="list" label="LScPs">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χLS"/>
+	<objColor r="153" g="102" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Segment[(xi + ψ(xi), LWy), (xi + ψ(xi), LWy - LWh)]" a1="xi" a2="xMin" a3="xMax" a4="λ / N"/>
+	<output a0="LW"/>
+</command>
+<element type="list" label="LW">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<selectionAllowed val="false"/>
+	<lineStyle thickness="3" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="WWPix + ((Distance[WWPix, WWPi] * cos(ϕi - ((((2 * pi) * k) * xWWPi) + pi / 2))), (Distance[WWPix, WWPi] * sin(ϕi - ((((2 * pi) * k) * xWWPi) + pi / 2))))" a1="ϕi" a2="0" a3="(2 * pi)" a4="((2 * pi)) / N"/>
+	<output a0="WWPiPs"/>
+</command>
+<element type="list" label="WWPiPs">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χWroller"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="WWP0 + ((abs(LSy - y(WWP0)) * cos(ϕi - (ϕ - pi / 2))), (abs(LSy - y(WWP0)) * sin(ϕi - (ϕ - pi / 2))))" a1="ϕi" a2="0" a3="(2 * pi)" a4="((2 * pi)) / N"/>
+	<output a0="WLcPs"/>
+</command>
+<element type="list" label="WLcPs">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χWroller ∧ χMore"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="χMore" exp="false"/>
+<element type="boolean" label="χMore">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="820" y="62"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="More..."/>
 </element>
 </construction>
 </geogebra>

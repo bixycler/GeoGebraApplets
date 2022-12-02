@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggt.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggt.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <defaults>
 <element type="point" label="Point (free)" default="10">
 	<show object="true" label="true"/>
@@ -8,9 +8,9 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="0.1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="point" label="Point (dependent)" default="11">
 	<show object="true" label="true"/>
@@ -18,10 +18,10 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="point" label="Point (dependent)" default="16">
 	<show object="true" label="true"/>
@@ -30,9 +30,9 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<pointSize val="4"/>
 	<pointStyle val="10"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="point" label="PointOn" default="12">
 	<show object="true" label="true"/>
@@ -40,10 +40,10 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="point" label="PointInRegion" default="13">
 	<show object="true" label="true"/>
@@ -52,9 +52,9 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="point" label="PointOn" default="14">
 	<show object="true" label="true"/>
@@ -63,10 +63,10 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="1" speed="1" type="1" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<coordStyle style="complex"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="line" label="Line" default="20">
 	<show object="true" label="true"/>
@@ -75,9 +75,9 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<eqnStyle style="implicit"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="function" label="Curve" default="3400">
 	<show object="true" label="true"/>
@@ -95,10 +95,12 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="ray" label="Segment" default="25">
 	<show object="true" label="true"/>
@@ -107,10 +109,10 @@
 	<autocolor val="false"/>
 	<labelMode val="4"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="functionnvar" label="" default="23">
 	<show object="true" label="true"/>
@@ -143,10 +145,10 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
-	<coords x="NaN" y="NaN" z="NaN"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
+	<coords x="NaN" y="NaN" z="NaN"/>
 </element>
 <element type="polygon" label="Polygon" default="70">
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
@@ -172,11 +174,11 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="0"/>
-	<eqnStyle style="implicit"/>
 </element>
 <element type="conicpart" label="Sector" default="41">
 	<show object="true" label="true"/>
@@ -186,28 +188,28 @@
 	<labelMode val="4"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="implicit"/>
 	<outlyingIntersections val="false"/>
 	<keepTypeOnTransform val="true"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="0" A1="0" A2="0" A3="0" A4="0" A5="0"/>
 </element>
 <element type="numeric" label="Numeric" default="50">
 	<value val="0"/>
-	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
-	<autocolor val="false"/>
 	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<autocolor val="false"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
 <element type="angle" label="Angle" default="52">
 	<angleStyle val="0"/>
 	<value val="0"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="true"/>
-	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
-	<autocolor val="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<autocolor val="false"/>
 	<animation step="0.017453292519943295" speed="1" type="0" playing="false"/>
 </element>
 <element type="function" label="Function" default="60">
@@ -261,7 +263,7 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>

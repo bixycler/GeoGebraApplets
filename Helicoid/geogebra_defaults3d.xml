@@ -4,7 +4,7 @@
 <element type="conic3d" label="Intersection curve" default="3150">
 	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0" vz="0" wx="0" wy="0" wz="0"/>
 	<show object="true" label="true"/>
-	<objColor r="255" g="127" b="0" alpha="0.10000000149011612"/>
+	<objColor r="21" g="101" b="192" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
@@ -20,7 +20,7 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<eqnStyle style="parametric" parameter="λ"/>
 </element>
@@ -30,7 +30,7 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 </element>
 <element type="plane3d" label="Plane3D" default="3200">
@@ -39,7 +39,7 @@
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
-	<fading val="0.1"/>
+	<fading val="0.10000000149011612"/>
 	<lineStyle thickness="0" type="0" typeHidden="1"/>
 	<coords x="0" y="0" z="0" w="0"/>
 </element>
@@ -90,7 +90,7 @@
 </element>
 <element type="quadric" label="Quadric" default="3301">
 	<show object="true" label="true"/>
-	<objColor r="204" g="0" b="0" alpha="0.75"/>
+	<objColor r="211" g="47" b="47" alpha="0.6499999761581421"/>
 	<layer val="0"/>
 	<autocolor val="false"/>
 	<labelMode val="4"/>
@@ -105,7 +105,7 @@
 	<layer val="0"/>
 	<autocolor val="true"/>
 	<labelMode val="4"/>
-	<animation step="1" speed="1" type="0" playing="false"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
 </element>
 </defaults>

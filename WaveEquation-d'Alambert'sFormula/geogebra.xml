@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1745" height="829" />
+	<window width="763" height="632" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.2388419782870929" orientation="0" />
+		<pane location="" divider="0.31329113924050633" orientation="0" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="0" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="2" size="570" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="2" size="373" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="370" tab="ALGEBRA" window="1409,594,458,400" />
 		<view id="16" visible="true" inframe="false" stylebar="false" location="0" size="198" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="305" window="346,23,1344,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="297" window="346,23,1344,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="1744" height="569"/>
-	<coordSystem xZero="341.268549264643" yZero="231.53219118119628" scale="83.07808638238258" yscale="83.07808638238275"/>
+	<size  width="762" height="372"/>
+	<coordSystem xZero="341.268549264643" yZero="231.53219118119625" scale="83.07808638238258" yscale="83.07808638238274"/>
 	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -42,7 +42,7 @@
 </euclidianView>
 <euclidianView>
 	<viewNumber viewNo="2"/>
-	<size  width="1744" height="197"/>
+	<size  width="762" height="197"/>
 	<coordSystem xZero="256.99999999999994" yZero="364.00000000000017" scale="50.00000000000003" yscale="50.00000000000003"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
 	<bgColor r="240" g="240" b="255"/>
@@ -73,9 +73,9 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Play ▶&quot;)&apos;); }else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;Pause ⏸&quot;)&apos;);}&#xa;"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;); }else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸ Pause&quot;)&apos;);}&#xa;"/>
+	<caption val="⏸ Pause"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
-	<caption val="Pause ⏸"/>
 </element>
 <element type="point" label="O">
 	<show object="false" label="false" ev="4"/>
@@ -85,9 +85,9 @@
 	<fixed val="true"/>
 	<selectionAllowed val="false"/>
 	<auxiliary val="true"/>
-	<coords x="0" y="0" z="1"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
 </element>
 <expression label="u0" exp="{&quot;flat_w(x)&quot;, &quot;square_{wn}(x)&quot;, &quot;cup_{wn}(x)&quot;, &quot;cosine_{wn}(x)&quot;, &quot;bell_{wn}(x)&quot;, &quot;tent_{wn}(x)&quot;, &quot;sawtooth_{wn}(x)&quot;, &quot;zigzag_{wn}(x)&quot;, &quot;sine_{wn}(x)&quot;, &quot;q_0(x)&quot;}"/>
 <element type="list" label="u0">
@@ -99,6 +99,7 @@
 	<labelMode val="3"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<ggbscript onUpdate="Execute({&quot;q(x)=&quot;+SelectedElement(u0)}) "/>
+	<caption val="u(0,x):"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<selectedIndex val="5"/>
 	<comboBox val="true"/>
@@ -106,7 +107,6 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 	<symbolic val="true" />
-	<caption val="u(0,x):"/>
 </element>
 <expression label="ut0" exp="{&quot;flatt_w(x)&quot;, &quot;sinet_w(x)&quot;, &quot;p_0(x)&quot;}"/>
 <element type="list" label="ut0">
@@ -117,6 +117,7 @@
 	<labelMode val="3"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 	<ggbscript onUpdate="Execute({&quot;p(x)=&quot;+SelectedElement(ut0)}) "/>
+	<caption val="u_t(0,x):"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<selectedIndex val="1"/>
 	<comboBox val="true"/>
@@ -124,44 +125,43 @@
 	<pointStyle val="0"/>
 	<angleStyle val="0"/>
 	<symbolic val="true" />
-	<caption val="u_t(0,x):"/>
 </element>
 <element type="numeric" label="u0w">
 	<value val="1.5"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="40" x="186" y="63" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<condition showObject="SelectedElement[u0] ≠ &quot;q_0(x)&quot;"/>
 	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-3" y="6"/>
 	<labelMode val="9"/>
-	<slider min="0" max="2" absoluteScreenLocation="true" width="40" x="186" y="63" fixed="true" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="0.01" speed="1" type="0" playing="false"/>
 	<caption val="w"/>
 </element>
 <element type="numeric" label="ut0w">
 	<value val="1"/>
+	<slider min="0" max="2" absoluteScreenLocation="true" width="40" x="186" y="109" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<condition showObject="SelectedElement[ut0] ≠ &quot;p_0(x)&quot;"/>
 	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-3" y="6"/>
 	<labelMode val="9"/>
-	<slider min="0" max="2" absoluteScreenLocation="true" width="40" x="186" y="109" fixed="true" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="0.01" speed="1" type="0" playing="false"/>
 	<caption val="w"/>
 </element>
 <element type="numeric" label="u0n">
 	<value val="1"/>
+	<slider min="1" max="9" absoluteScreenLocation="true" width="40" x="275" y="63" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<condition showObject="¬(SelectedElement[u0] ∈ {&quot;flat_w(x)&quot;, &quot;q_0(x)&quot;})"/>
 	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-3" y="5"/>
 	<labelMode val="9"/>
-	<slider min="1" max="9" absoluteScreenLocation="true" width="40" x="275" y="63" fixed="true" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="2" speed="1" type="0" playing="false"/>
 	<caption val="n"/>
 </element>
@@ -187,10 +187,10 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
+	<caption val="q_0(x)="/>
 	<symbolic val="true" />
 	<contentSerif val="true" />
 	<length val="15"/>
-	<caption val="q_0(x)="/>
 </element>
 <expression label="p_{0}" exp="p_{0}(x) = 1 - ℯ^((-(x / 4)^(8)))" type="function"/>
 <element type="function" label="p_{0}">
@@ -214,12 +214,12 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
+	<caption val="p_0(x)="/>
 	<symbolic val="true" />
 	<contentSerif val="true" />
 	<length val="15"/>
-	<caption val="p_0(x)="/>
 </element>
-<expression label="sinet_{w}" exp="sinet_{w}(x) = sin((((2 * π)) / ut0w * x))" />
+<expression label="sinet_{w}" exp="sinet_{w}(x) = sin((((2 * pi)) / ut0w * x))" />
 <element type="function" label="sinet_{w}">
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
@@ -251,12 +251,12 @@
 </element>
 <element type="numeric" label="H">
 	<value val="2"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelMode val="1"/>
-	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation speed="1" type="0" playing="false"/>
 </element>
 <expression label="square_{w}" exp="square_{w}(x) = If[x &lt; u0w / 4, 0, If[x &lt; ((3 * u0w)) / 4, H, 0]]" />
@@ -351,7 +351,7 @@
 	<auxiliary val="true"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 </element>
-<expression label="sine_{w}" exp="sine_{w}(x) = If[x &lt; 0, 0, If[x &lt; u0w, (H * sin((((2 * π)) / u0w * x))), 0]]" />
+<expression label="sine_{w}" exp="sine_{w}(x) = If[x &lt; 0, 0, If[x &lt; u0w, (H * sin((((2 * pi)) / u0w * x))), 0]]" />
 <element type="function" label="sine_{w}">
 	<show object="false" label="true" ev="4"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
@@ -374,7 +374,7 @@
 	<auxiliary val="true"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 </element>
-<expression label="cosine_{w}" exp="cosine_{w}(x) = If[x &lt; 0, 0, If[x &lt; u0w, (H / 2 * (1 + cos((((2 * π)) / u0w * x) - π))), 0]]" />
+<expression label="cosine_{w}" exp="cosine_{w}(x) = If[x &lt; 0, 0, If[x &lt; u0w, (H / 2 * (1 + cos((((2 * pi)) / u0w * x) - pi))), 0]]" />
 <element type="function" label="cosine_{w}">
 	<show object="false" label="true" ev="4"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
@@ -404,9 +404,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
-	<coords x="1" y="0" z="-1.5"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<eqnStyle style="user"/>
+	<coords x="1" y="0" z="-1.5"/>
 </element>
 <expression label="bell_{w}" exp="bell_{w}(x) = (H * ℯ^((-(((x - u0w / 2) * 4 / u0w))^(2))))" />
 <element type="function" label="bell_{w}">
@@ -465,13 +465,13 @@
 </element>
 <element type="numeric" label="c">
 	<value val="1"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="100" x="117" y="25" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-3" y="4"/>
 	<labelMode val="1"/>
-	<slider min="-5" max="5" absoluteScreenLocation="true" width="100" x="117" y="25" fixed="true" horizontal="true" showAlgebra="false"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="0.1" speed="1" type="0" playing="false"/>
 </element>
 <expression label="p" exp="sinet_{w}(x)" />
@@ -483,7 +483,7 @@
 	<fixed val="true"/>
 	<lineStyle thickness="3" type="15" typeHidden="1" opacity="178"/>
 <casMap>
-	<entry key="Integral[sin((2π) / ut0w x),x]" val="((-1 / 2 * ut0w) * cos(((2 * π) * x / ut0w)) / π) + c_{1}"/>
+	<entry key="Integral[sin((2π) / ut0w x),x]" val="((-1 / 2 * ut0w) * cos(((2 * pi) * x / ut0w)) / pi) + c_{1}"/>
 </casMap>
 </element>
 <command name="Integral">
@@ -528,14 +528,14 @@
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
 </element>
 <element type="numeric" label="tm">
-	<value val="3.88"/>
+	<value val="7.09"/>
+	<slider min="-10" max="10" absoluteScreenLocation="true" width="200" x="239" y="26" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="2" y="5"/>
 	<labelMode val="9"/>
-	<slider min="-10" max="10" absoluteScreenLocation="true" width="200" x="239" y="26" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="0.01" speed="speed" type="0" playing="true"/>
 	<caption val="t"/>
 </element>
@@ -547,8 +547,8 @@
 	<layer val="0"/>
 	<labelMode val="3"/>
 	<fixed val="true"/>
-	<lineStyle thickness="6" type="0" typeHidden="1"/>
 	<caption val="u_+(t,x)"/>
+	<lineStyle thickness="6" type="0" typeHidden="1"/>
 </element>
 <expression label="un" exp="un(t, x) = (1 / 2 * (q(x + (c * t)) + (1 / c * U(x + (c * t)))))" />
 <element type="functionnvar" label="un">
@@ -566,8 +566,8 @@
 	<layer val="0"/>
 	<labelMode val="3"/>
 	<fixed val="true"/>
-	<lineStyle thickness="6" type="0" typeHidden="1"/>
 	<caption val="u_-(t,x)"/>
+	<lineStyle thickness="6" type="0" typeHidden="1"/>
 </element>
 <element type="boolean" label="xSplitWave">
 	<value val="false"/>
@@ -587,8 +587,8 @@
 	<layer val="0"/>
 	<labelMode val="3"/>
 	<fixed val="true"/>
-	<lineStyle thickness="6" type="0" typeHidden="1"/>
 	<caption val="u(t,x)"/>
+	<lineStyle thickness="6" type="0" typeHidden="1"/>
 </element>
 <element type="boolean" label="xBaseWave">
 	<value val="false"/>
@@ -602,13 +602,13 @@
 </element>
 <element type="numeric" label="speed">
 	<value val="1"/>
+	<slider min="0.1" max="1" absoluteScreenLocation="true" width="40" x="452" y="27" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
 	<labelOffset x="-15" y="4"/>
 	<labelMode val="1"/>
-	<slider min="0.1" max="1" absoluteScreenLocation="true" width="40" x="452" y="27" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<animation step="0.01" speed="1" type="0" playing="false"/>
 </element>
 </construction>

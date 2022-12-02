@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.687.0" app="classic" platform="w" id="6e2105ce-3703-4f90-8f1d-5dbd886f7937"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="6e2105ce-3703-4f90-8f1d-5dbd886f7937"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="1745" height="829" />
+	<window width="763" height="632" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.13581661891117477" orientation="1" />
+		<pane location="" divider="0.30799475753604194" orientation="1" />
 	</panes>
 	<views>
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3,3" size="300" window="100,100,600,400" />
 		<view id="1" visible="false" inframe="false" stylebar="false" location="3,3" size="222" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="379" tab="ALGEBRA" window="100,100,250,400" />
-		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="237" window="50,50,500,500" />
+		<view id="16" visible="true" inframe="false" stylebar="false" location="3" size="235" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="552" window="1207,404,700,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="544" window="1207,404,700,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
-		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="1230" window="100,100,600,400" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="true" inframe="false" stylebar="false" location="1" size="520" window="100,100,600,400" />
 	</views>
 	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
 	<input show="true" cmd="true" top="algebra" />
@@ -30,7 +30,7 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="220" height="622"/>
+	<size  width="220" height="621"/>
 	<coordSystem xZero="-735.2500000000007" yZero="170" scale="75.00000000000009" yscale="74.99999999999997"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
 	<bgColor r="255" g="255" b="255"/>
@@ -42,7 +42,7 @@
 </euclidianView>
 <euclidianView>
 	<viewNumber viewNo="2"/>
-	<size  width="236" height="775"/>
+	<size  width="234" height="578"/>
 	<coordSystem xMin="x(AnchorBottomLeft)" xMax="x(AnchorTopRight)" yMin="y(AnchorBottomLeft)" yMax="y(AnchorTopRight)"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
 	<bgColor r="255" g="255" b="255"/>
@@ -78,39 +78,39 @@
 <construction title="SatelliteTrace" author="" date="">
 <element type="angle" label="α">
 	<angleStyle val="3"/>
-	<value val="0.7127386834260945"/>
+	<value val="0.7127386834260943"/>
 	<slider min="-1.5707963267948966" max="1.5707963267948966" absoluteScreenLocation="true" width="200" x="28" y="69" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
 	<show object="true" label="true" ev="11"/>
 	<objColor r="204" g="102" b="0" alpha="0.1"/>
 	<layer val="0"/>
 	<labelOffset x="6" y="2"/>
 	<labelMode val="9"/>
-	<lineStyle thickness="10" type="0" typeHidden="2"/>
-	<arcSize val="30"/>
 	<animation step="0.1°" speed="1" type="0" playing="false"/>
 	<ggbscript onUpdate="SetValue(P_i,(x(G)*cos(α),y(G),sin(α)))"/>
 	<caption val="Inclination"/>
 </element>
 <element type="numeric" label="b">
 	<value val="3"/>
+	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="27" y="207" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.1"/>
 	<layer val="0"/>
 	<labelOffset x="0" y="5"/>
 	<labelMode val="1"/>
-	<slider min="1" max="50" absoluteScreenLocation="true" width="200" x="27" y="207" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
 </element>
 <element type="numeric" label="a">
 	<value val="4"/>
+	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" x="27" y="175" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<show object="true" label="true" ev="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.1"/>
 	<layer val="0"/>
 	<labelOffset x="0" y="5"/>
 	<labelMode val="1"/>
-	<slider min="-50" max="50" absoluteScreenLocation="true" width="200" x="27" y="175" fixed="true" horizontal="true" showAlgebra="true"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
 </element>
 <expression label="f" exp="a / b" />
@@ -122,28 +122,28 @@
 </element>
 <element type="angle" label="ϕ">
 	<angleStyle val="3"/>
-	<value val="12.845623294678266"/>
-	<slider min="0°" max="((2 * π) * b)" absoluteScreenLocation="true" width="200" x="27" y="144" fixed="true" horizontal="true" showAlgebra="true"/>
+	<value val="6.632251157578453"/>
+	<slider min="0°" max="((2 * pi) * b)" absoluteScreenLocation="true" width="200" x="27" y="144" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
 	<show object="true" label="true" ev="7"/>
 	<objColor r="0" g="0" b="255" alpha="0.1"/>
 	<layer val="0"/>
 	<labelOffset x="-2" y="4"/>
 	<labelMode val="1"/>
-	<lineStyle thickness="2" type="0" typeHidden="2"/>
-	<arcSize val="30"/>
 	<animation step="1°" speed="1" type="1" playing="true"/>
 </element>
 <element type="angle" label="β">
 	<angleStyle val="3"/>
 	<value val="-0.7853981633974483"/>
 	<slider min="-1.5707963267948966" max="1.5707963267948966" absoluteScreenLocation="true" width="200" x="28" y="105" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="2"/>
+	<arcSize val="30"/>
 	<show object="true" label="true" ev="7"/>
 	<objColor r="127" g="0" b="255" alpha="0.1"/>
 	<layer val="0"/>
 	<labelOffset x="-3" y="4"/>
 	<labelMode val="9"/>
-	<lineStyle thickness="10" type="0" typeHidden="2"/>
-	<arcSize val="30"/>
 	<animation step="1°" speed="1" type="0" playing="false"/>
 	<caption val="Latitude"/>
 </element>
@@ -156,12 +156,12 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.010985367932918766" y="-0.08536016000778592" z="-0.06967450395295612" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="0.08374426449142446" y="0.019847755287859432" z="-0.3863153178222839" w="0"/>
 </element>
 <expression label="h2" exp="sqrt((x(handle2))^(2) + (y(handle2))^(2))" />
 <element type="numeric" label="h2">
-	<value val="0.08606413437185326"/>
+	<value val="0.08606413437185322"/>
 	<objColor r="0" g="0" b="0" alpha="0.1"/>
 </element>
 <expression label="O" exp="(0, 0, 0)" type="point"/>
@@ -172,8 +172,8 @@
 	<labelMode val="0"/>
 	<animation step="1" speed="1" type="0" playing="false"/>
 	<auxiliary val="true"/>
-	<coords x="0" y="0" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="0" y="0" z="0" w="1"/>
 </element>
 <element type="boolean" label="χEarthView">
 	<value val="true"/>
@@ -195,8 +195,8 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<auxiliary val="true"/>
-	<coords x="1" y="0" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="1" y="0" z="0" w="1"/>
 </element>
 <command name="Rotate">
 	<input a0="NullIsland" a1="(-ϕ)"/>
@@ -208,11 +208,11 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<auxiliary val="true"/>
-	<coords x="0.9612616959383189" y="-0.2756373558169991" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="0.9396926207859083" y="-0.34202014332566893" z="0" w="1"/>
 </element>
 <command name="Rotate">
-	<input a0="G" a1="(-(π / 2))"/>
+	<input a0="G" a1="(-(pi / 2))"/>
 	<output a0="Gn"/>
 </command>
 <element type="point3d" label="Gn">
@@ -221,11 +221,11 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<auxiliary val="true"/>
-	<coords x="-0.27563735581699905" y="-0.9612616959383189" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.3420201433256689" y="-0.9396926207859083" z="0" w="1"/>
 </element>
 <command name="Rotate">
-	<input a0="G" a1="π / 2"/>
+	<input a0="G" a1="pi / 2"/>
 	<output a0="Gp"/>
 </command>
 <element type="point3d" label="Gp">
@@ -234,8 +234,8 @@
 	<layer val="0"/>
 	<labelMode val="3"/>
 	<auxiliary val="true"/>
-	<coords x="0.27563735581699916" y="0.9612616959383189" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="0.342020143325669" y="0.9396926207859083" z="0" w="1"/>
 </element>
 <command name="Circle">
 	<input a0="G" a1="(0, 0, 1)" a2="(0, 0, -1)"/>
@@ -248,9 +248,9 @@
 	<labelMode val="0"/>
 	<auxiliary val="true"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865476" A5="-0.7071067811865476"/>
-	<eqnStyle style="parametric"/>
 </element>
 <command name="Point">
 	<input a0="GimbalRing"/>
@@ -265,8 +265,8 @@
 	<labelMode val="3"/>
 	<animation step="1" speed="1" type="1" playing="false"/>
 	<ggbscript onUpdate="SetValue(α,sin⁻¹(|z(P_i)|))"/>
-	<coords x="0.7272654793359915" y="-0.20854002042126318" z="0.653908237024806" w="1"/>
 	<pointSize val="3"/>
+	<coords x="0.7109468807214491" y="-0.25876350272701176" z="0.6539082370248059" w="1"/>
 </element>
 <command name="Circle">
 	<input a0="P_{i}" a1="Gp" a2="Gn"/>
@@ -279,9 +279,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-3.3306690738754696e-16" A3="0" A4="-0.7071067811865477" A5="-0.7071067811865475"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865475" A5="-0.7071067811865475"/>
 </element>
 <command name="OrthogonalLine">
 	<input a0="O" a1="Plane[OrbitalEquator]"/>
@@ -293,13 +293,14 @@
 	<layer val="0"/>
 	<labelMode val="1"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<coords ox="0" oy="0" oz="0" ow="1" vx="-1.2571538818210026" vy="0.3604830748009461" vz="1.5131477357496987" vw="0"/>
 	<eqnStyle style="parametric" parameter="λ"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="-1.2289454900066656" vy="0.4472995778981192" vz="1.5131477357496992" vw="0"/>
 </element>
 <expression label="θ" exp="(f * ϕ)" />
 <element type="angle" label="θ">
 	<angleStyle val="3"/>
-	<value val="17.127497726237685"/>
+	<value val="8.843001543437936"/>
+	<objColor r="0" g="100" b="0" alpha="0.1"/>
 </element>
 <command name="Rotate">
 	<input a0="P_{i}" a1="θ" a2="OrbitalAxis"/>
@@ -312,11 +313,11 @@
 	<layer val="0"/>
 	<labelOffset x="0" y="-8"/>
 	<labelMode val="0"/>
-	<coords x="-0.38207856791941336" y="-0.9188617387477125" z="-0.0985346284418885" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.40604431396629775" y="0.7325632843156791" z="-0.5463323618167465" w="1"/>
 </element>
 <command name="Rotate">
-	<input a0="P_{j}" a1="π / 2" a2="OrbitalAxis"/>
+	<input a0="P_{j}" a1="pi / 2" a2="OrbitalAxis"/>
 	<output a0="Pp"/>
 </command>
 <element type="point3d" label="Pp">
@@ -326,8 +327,8 @@
 	<labelOffset x="-3" y="-8"/>
 	<labelMode val="3"/>
 	<auxiliary val="true"/>
-	<coords x="0.6774267468090159" y="-0.35100725528262916" z="0.6464417293513074" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.676425354894173" y="-0.642908863195762" z="-0.35932844707958417" w="1"/>
 </element>
 <command name="Rotate">
 	<input a0="P_{j}" a1="β" a2="Line[O, Pp]"/>
@@ -339,9 +340,9 @@
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="3"/>
-	<coords x="-0.7146413637371734" y="-0.5222833530940063" z="0.4653040084898849" w="1"/>
-	<pointSize val="3"/>
 	<caption val="Satellite"/>
+	<pointSize val="3"/>
+	<coords x="-0.7216145327139778" y="0.6761447483647257" z="0.14866319462055722" w="1"/>
 </element>
 <command name="Sphere">
 	<input a0="O" a1="1"/>
@@ -354,9 +355,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<eqnStyle style="specific"/>
 	<eigenvectors x0="1" y0="0" z0="0" x1="0" y1="1" z1="0" x2="0" y2="0" z2="1"/>
 	<matrix A0="1" A1="1" A2="1" A3="-1" A4="0" A5="0" A6="0" A7="0" A8="0" A9="0"/>
-	<eqnStyle style="specific"/>
 </element>
 <element type="boolean" label="χGlobe">
 	<value val="true"/>
@@ -378,9 +379,9 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="SetValue(χEarthView, !χEarthView)&#xa;"/>
+	<caption val="To Universe view"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<dimensions width="140" height="27" />
-	<caption val="To Universe view"/>
 </element>
 <element type="button" label="butAnimation">
 	<show object="true" label="true" ev="3"/>
@@ -392,9 +393,8 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<caption val="⏯️ Animation"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
-	<dimensions width="91" height="27" />
-	<caption val="Animation"/>
 </element>
 <element type="button" label="butSideView">
 	<show object="true" label="true" ev="3"/>
@@ -406,9 +406,9 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="SetValue(χFrontView, If(χInButSideView,!χFrontView,χFrontView))&#xa;χInButSideView = true&#xa;"/>
+	<caption val="To front view"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<dimensions width="140" height="27" />
-	<caption val="To front view"/>
 </element>
 <element type="button" label="butTopView">
 	<show object="true" label="true" ev="3"/>
@@ -420,9 +420,9 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="SetViewDirection(If(χFrontView,Vector((-0.001, 0, -1)),Vector((0, 0, -1))))&#xa;χInButSideView = false"/>
+	<caption val="To top view"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<dimensions width="140" height="27" />
-	<caption val="To top view"/>
 </element>
 <element type="button" label="butSlantView">
 	<show object="true" label="true" ev="3"/>
@@ -434,9 +434,9 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="SetViewDirection((0.5, -1, 0.5))&#xa;χInButSideView = false"/>
+	<caption val="To slant view"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 	<dimensions width="140" height="27" />
-	<caption val="To slant view"/>
 </element>
 <command name="Circle">
 	<input a0="NullIsland" a1="(0, 0, 1)" a2="(0, 0, -1)"/>
@@ -448,11 +448,11 @@
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="3"/>
+	<caption val="Meridian"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865476" A5="-0.7071067811865476"/>
-	<eqnStyle style="parametric"/>
-	<caption val="Meridian"/>
 </element>
 <command name="Line">
 	<input a0="O" a1="(0, 0, 1)"/>
@@ -464,11 +464,11 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0" vz="1" vw="0"/>
 	<eqnStyle style="parametric" parameter="λ"/>
+	<coords ox="0" oy="0" oz="0" ow="1" vx="0" vy="0" vz="1" vw="0"/>
 </element>
 <command name="CurveCartesian">
-	<input a0="((cos(α) * cos((f * t))) * cos((-t))) - (sin((f * t)) * sin((-t)))" a1="((cos(α) * cos((f * t))) * sin((-t))) + (sin((f * t)) * cos((-t)))" a2="(sin(α) * cos((f * t)))" a3="t" a4="0" a5="((2 * π) * b)"/>
+	<input a0="((cos(α) * cos((f * t))) * cos((-t))) - (sin((f * t)) * sin((-t)))" a1="((cos(α) * cos((f * t))) * sin((-t))) + (sin((f * t)) * cos((-t)))" a2="(sin(α) * cos((f * t)))" a3="t" a4="0" a5="((2 * pi) * b)"/>
 	<output a0="ETraceFull"/>
 </command>
 <element type="curvecartesian3d" label="ETraceFull">
@@ -502,9 +502,9 @@
 	<labelOffset x="3" y="-55"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="1" A1="1" A2="-1" A3="0" A4="0" A5="0"/>
-	<eqnStyle style="parametric"/>
 </element>
 <command name="Circle">
 	<input a0="OrbitalAxis" a1="P"/>
@@ -518,9 +518,9 @@
 	<labelOffset x="-71" y="18"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.5000000000000003" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.5000000000000002" A3="0" A4="0" A5="0"/>
 </element>
 <command name="CurveCartesian">
 	<input a0="(((cos(α) * cos((-β))) * cos((f * t))) * cos((-t))) - ((sin(α) * sin((-β))) * cos((-t))) - ((cos((-β)) * sin((f * t))) * sin((-t)))" a1="(((cos(α) * cos((-β))) * cos((f * t))) * sin((-t))) - ((sin(α) * sin((-β))) * sin((-t))) + ((cos((-β)) * sin((f * t))) * cos((-t)))" a2="((sin(α) * cos((-β))) * cos((f * t))) + (cos(α) * sin((-β)))" a3="t" a4="0" a5="ϕ"/>
@@ -555,8 +555,8 @@
 	<objColor r="0" g="0" b="255" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.25918497838894233" y="-0.5643732064335838" z="0" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="-0.37086095235923355" y="0.49815271070004574" z="0" w="0"/>
 </element>
 <command name="Vector">
 	<input a0="((((-sin(α)) * sin((-β))) * cos((-ϕ))), (((-sin(α)) * sin((-β))) * sin((-ϕ))), (cos(α) * sin((-β))))"/>
@@ -568,8 +568,8 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.4444710174153112" y="0.12745001334736322" z="0.534978512442841" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="-0.4344978448461688" y="0.1581442823768202" z="0.5349785124428411" w="0"/>
 </element>
 <element type="boolean" label="χOrbitalEquator">
 	<value val="false"/>
@@ -602,11 +602,11 @@
 	<layer val="0"/>
 	<labelOffset x="1" y="0"/>
 	<labelMode val="3"/>
-	<lineStyle thickness="2" type="0" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-2.220446049250313e-16" A3="0" A4="-0.7071067811865476" A5="-0.7071067811865476"/>
-	<eqnStyle style="parametric"/>
 	<caption val="Equator"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="0" A3="0" A4="-0.7071067811865477" A5="-0.7071067811865477"/>
 </element>
 <element type="button" label="button1">
 	<show object="true" label="true" ev="3"/>
@@ -618,9 +618,9 @@
 	<fixed val="true"/>
 	<auxiliary val="true"/>
 	<ggbscript val="SetValue(a,b)&#xa;"/>
+	<caption val="To geosync orbit"/>
 	<font serif="false" sizeM="2" size="12" style="0"/>
 	<dimensions width="140" height="27" />
-	<caption val="To geosync orbit"/>
 </element>
 <element type="boolean" label="χFrontView">
 	<value val="true"/>
@@ -647,8 +647,8 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.36654291160101976" y="-0.7981442427783646" z="0" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="-0.5244765885810303" y="0.7044943196049255" z="0" w="0"/>
 </element>
 <expression label="handleE2" exp="handle2 / cos((-β))" type="vector" />
 <element type="vector3d" label="handleE2">
@@ -656,8 +656,8 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.01553565631839221" y="-0.12071749596934832" z="-0.09853462844188836" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<coords x="0.11843227461473206" y="0.02806896471075312" z="-0.5463323618167465" w="0"/>
 </element>
 <expression label="rE2" exp="(abs(handleE1) * (f - 1) / (f + 1))" />
 <element type="numeric" label="rE2">
@@ -675,9 +675,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="30" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-1.0075271031186313" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-1.0075271031186317" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Point">
 	<input a0="O" a1="handleE1"/>
@@ -689,8 +689,8 @@
 	<objColor r="68" g="68" b="68" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.36654291160101976" y="-0.7981442427783646" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.5244765885810303" y="0.7044943196049255" z="0" w="1"/>
 </element>
 <command name="Vector">
 	<input a0="centerE2" a1="Point[centerE2, handleE2]"/>
@@ -702,9 +702,9 @@
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.01553565631839221" y="-0.12071749596934833" z="-0.09853462844188836" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<startPoint exp="centerE2"/>
+	<coords x="0.11843227461473205" y="0.028068964710753153" z="-0.5463323618167465" w="0"/>
 </element>
 <command name="Circle">
 	<input a0="centerE2" a1="abs(rE2)" a2="xOyPlane"/>
@@ -717,9 +717,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<eqnStyle style="parametric"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
 	<matrix A0="1" A1="1" A2="-0.015742610986228613" A3="0" A4="0" A5="0"/>
-	<eqnStyle style="parametric"/>
 </element>
 <command name="Point">
 	<input a0="O" a1="handle1"/>
@@ -731,12 +731,12 @@
 	<objColor r="68" g="68" b="68" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.25918497838894233" y="-0.5643732064335838" z="0" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.37086095235923355" y="0.49815271070004574" z="0" w="1"/>
 </element>
 <expression label="r2" exp="(abs(handle1) * (f - 1) / (f + 1))" />
 <element type="numeric" label="r2">
-	<value val="0.08872037811638489"/>
+	<value val="0.0887203781163849"/>
 	<objColor r="0" g="0" b="0" alpha="0.1"/>
 </element>
 <command name="Circle">
@@ -750,9 +750,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="30" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.5037635515593156" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.5037635515593158" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Circle">
 	<input a0="center2" a1="abs(r2)" a2="xOyPlane"/>
@@ -765,9 +765,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.007871305493114307" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.00787130549311431" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Vector">
 	<input a0="center2" a1="Point[center2, handle2]"/>
@@ -779,13 +779,13 @@
 	<objColor r="0" g="153" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.010985367932918766" y="-0.0853601600077859" z="-0.06967450395295612" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<startPoint exp="center2"/>
+	<coords x="0.08374426449142447" y="0.019847755287859425" z="-0.3863153178222839" w="0"/>
 </element>
 <expression label="r3" exp="(h2 * (f + 1) / 1)" />
 <element type="numeric" label="r3">
-	<value val="0.20081631353432425"/>
+	<value val="0.20081631353432414"/>
 	<objColor r="0" g="0" b="0" alpha="0.1"/>
 </element>
 <command name="Point">
@@ -798,8 +798,8 @@
 	<objColor r="68" g="68" b="68" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.2701703463218611" y="-0.6497333664413697" z="-0.06967450395295612" w="1"/>
 	<pointSize val="3"/>
+	<coords x="-0.2871166878678091" y="0.5180004659879052" z="-0.3863153178222839" w="1"/>
 </element>
 <command name="Circle">
 	<input a0="center3" a1="abs(r3)" a2="xOyPlane"/>
@@ -812,9 +812,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="0" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.04032719178151602" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.040327191781515975" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Circle">
 	<input a0="center2" a1="abs(abs(h2) + r3)" a2="xOyPlane"/>
@@ -827,9 +827,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="1" type="30" typeHidden="1"/>
-	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="-0.08230039139084902" A3="0" A4="0" A5="0"/>
 	<eqnStyle style="parametric"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="-0.08230039139084892" A3="0" A4="0" A5="0"/>
 </element>
 <command name="Vector">
 	<input a0="center3" a1="Point[center3, handle3]"/>
@@ -841,9 +841,9 @@
 	<objColor r="255" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
 	<labelMode val="0"/>
-	<coords x="-0.44447101741531114" y="0.12745001334736317" z="0.534978512442841" w="0"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
 	<startPoint exp="center3"/>
+	<coords x="-0.4344978448461688" y="0.1581442823768202" z="0.5349785124428411" w="0"/>
 </element>
 <element type="boolean" label="χEqCranksOnly">
 	<value val="false"/>
@@ -874,9 +874,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
-	<coords x="9.79" y="-6.05" z="1"/>
 	<pointSize val="3"/>
 	<pointStyle val="0"/>
+	<coords x="9.79" y="-6.05" z="1"/>
 </element>
 <expression label="AnchorTopRight" exp="(12.76, 2.28)" type="point"/>
 <element type="point" label="AnchorTopRight">
@@ -885,9 +885,9 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<fixed val="true"/>
-	<coords x="12.76" y="2.28" z="1"/>
 	<pointSize val="3"/>
 	<pointStyle val="0"/>
+	<coords x="12.76" y="2.28" z="1"/>
 </element>
 </construction>
 </geogebra>
