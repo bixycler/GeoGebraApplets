@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="cb43c094-5760-4b5d-9b3b-b0e989bac3c1"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="844" height="707" />
+	<window width="786" height="688" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.49881516587677727" orientation="1" />
+		<pane location="" divider="0.5368956743002544" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1,3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="844" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="786" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="0" size="236" window="100,100,600,400" />
-		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
@@ -30,7 +30,7 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="844" height="653"/>
+	<size  width="785" height="634"/>
 	<coordSystem xZero="437.07110058819836" yZero="321.4134297893784" scale="25.044883076039067" yscale="25.044883076039184"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
 	<bgColor r="255" g="255" b="255"/>
@@ -40,7 +40,12 @@
 	<axis id="0" show="false" label="t" unitLabel="" tickStyle="1" showNumbers="true"/>
 	<axis id="1" show="false" label="y (space)" unitLabel="" tickStyle="1" showNumbers="false" positiveAxis="true"/>
 </euclidianView>
+<algebraView>
+	<mode val="1"/>
+	<collapsed val="0"/>
+</algebraView>
 <kernel>
+	<uses3D val="true"/>
 	<continuous val="false"/>
 	<usePathAndRegionParameters val="true"/>
 	<decimals val="2"/>
@@ -107,7 +112,7 @@
 </element>
 <element type="angle" label="ϕ">
 	<angleStyle val="3"/>
-	<value val="4.084070449666731"/>
+	<value val="3.0892327760299634"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" x="137" y="17" fixed="true" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="10" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
@@ -260,6 +265,20 @@
 	<layer val="0"/>
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
+</element>
+<command name="Sequence">
+	<input a0="C + ((r(t) * k) * (cos(((2 * pi) * t) + pi / 2), sin(((2 * pi) * t) + pi / 2), 0)) + (0, 0, r(t))" a1="t" a2="0" a3="T" a4="1 / Nosc"/>
+	<output a0="coc"/>
+</command>
+<element type="list" label="coc">
+	<show object="false" label="true"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
 </element>
 </construction>
 </geogebra>
