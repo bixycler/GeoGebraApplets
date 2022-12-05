@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="763" height="632" />
+	<window width="933" height="593" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
@@ -11,13 +11,13 @@
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="763" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="933" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="81" tab="ALGEBRA" window="1409,594,458,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="279" window="346,23,1344,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="271" window="346,23,1344,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="762" height="578"/>
-	<coordSystem xZero="98.84421334826189" yZero="222.68240035308506" scale="95.81663463461133" yscale="95.81663463461189"/>
+	<size  width="932" height="540"/>
+	<coordSystem xZero="98.8442133482619" yZero="222.6824003530851" scale="95.81663463461135" yscale="95.8166346346119"/>
 	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -132,7 +132,7 @@
 </element>
 <element type="angle" label="ϕ">
 	<angleStyle val="3"/>
-	<value val="3.001966313430247"/>
+	<value val="5.288347633542818"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="200" x="231" y="78" fixed="true" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="6" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
@@ -161,7 +161,7 @@
 </element>
 <expression label="xWL" exp="(ϕ + pi / 2) / (((2 * pi) * k))" />
 <element type="numeric" label="xWL">
-	<value val="2.2863813201125716"/>
+	<value val="3.4295719801688573"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="WWy" exp="LSy - λ / ((2 * pi))" />
@@ -203,8 +203,8 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸ Pause&quot;)&apos;);}"/>
-	<caption val="⏸ Pause"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸️ Pause&quot;)&apos;);}"/>
+	<caption val="⏸️ Pause"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 </element>
 <expression label="txtVW" exp="&quot;Velocity Wave (Transverse Wave)&quot;"/>
@@ -265,7 +265,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.4951340343707852" y="-0.06958655048003266" z="1"/>
+	<coords x="0.2723195175075133" y="0.41933528397271214" z="1"/>
 </element>
 <command name="Vector">
 	<input a0="O" a1="P"/>
@@ -279,7 +279,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="O"/>
-	<coords x="-0.4951340343707852" y="-0.06958655048003266" z="0"/>
+	<coords x="0.2723195175075133" y="0.41933528397271214" z="0"/>
 </element>
 <expression label="Pv" exp="(0, v(0))" type="point" />
 <element type="point" label="Pv">
@@ -289,7 +289,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0" y="-0.06958655048003266" z="1"/>
+	<coords x="0" y="0.41933528397271214" z="1"/>
 </element>
 <expression label="Pψ" exp="(ψ(0), 0)" type="point" />
 <element type="point" label="Pψ">
@@ -299,7 +299,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.4951340343707852" y="0" z="1"/>
+	<coords x="0.2723195175075133" y="0" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pψ"/>
@@ -315,7 +315,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="-0.06958655048003266" y="0" z="-0.03445466947712487"/>
+	<coords x="0.41933528397271214" y="0" z="-0.11419318220532505"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pv"/>
@@ -331,7 +331,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="0" y="0.4951340343707852" z="0.03445466947712487"/>
+	<coords x="0" y="-0.2723195175075133" z="0.11419318220532505"/>
 </element>
 <command name="VerticalText">
 	<input a0="&quot;Displacement Wave&quot;"/>
@@ -362,7 +362,7 @@
 	<caption val="Wavelength λ"/>
 	<lineStyle thickness="3" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
-	<startPoint x="2.2863813201125716" y="0.5" z="1"/>
+	<startPoint x="3.4295719801688573" y="0.5" z="1"/>
 	<coords x="3.141592653589793" y="0" z="0"/>
 </element>
 <command name="Segment">
@@ -379,7 +379,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="0.5000000000000001" y="0" z="0.24756701718539265"/>
+	<coords x="0.5000000000000001" y="0" z="-0.13615975875375672"/>
 </element>
 <expression label="WWP0" exp="(ψ(0), WWy + v(0))" type="point" />
 <element type="point" label="WWP0">
@@ -389,7 +389,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.4951340343707852" y="-2.069586550480033" z="1"/>
+	<coords x="0.2723195175075133" y="-1.5806647160272878" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="WWP0"/>
@@ -405,7 +405,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="2" y="0" z="0.9902680687415706"/>
+	<coords x="2" y="0" z="-0.5446390350150266"/>
 </element>
 <expression label="txtWW" exp="&quot;Water Wave (Transverse + Longitudinal = Trochoidal Wave)&quot;"/>
 <element type="text" label="txtWW">
@@ -425,7 +425,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.4951340343707852" y="-0.6" z="1"/>
+	<coords x="0.2723195175075133" y="-0.6" z="1"/>
 </element>
 <command name="Sequence">
 	<input a0="(xi + ψ(xi), WWy + v(xi))" a1="xi" a2="xMin" a3="10" a4="λ / N"/>
@@ -539,7 +539,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.2693233333633955" y="-2.42126588053868" z="1"/>
+	<coords x="0.5053745995656005" y="-1.9268856153338487" z="1"/>
 </element>
 <expression label="ϕr" exp="(-asin(1 / ((((2 * pi) * k) * A))))" />
 <element type="numeric" label="ϕr">
@@ -600,7 +600,7 @@
 	<output a0="xr"/>
 </command>
 <element type="numeric" label="xr">
-	<value val="2.2863813201125716"/>
+	<value val="3.4295719801688573"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="If">
@@ -608,7 +608,7 @@
 	<output a0="xrπ"/>
 </command>
 <element type="numeric" label="xrπ">
-	<value val="2.2863813201125716"/>
+	<value val="3.4295719801688573"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="χParticles" exp="false"/>
@@ -717,7 +717,7 @@
 </element>
 <element type="angle" label="ϕo">
 	<angleStyle val="3"/>
-	<value val="3.001966313430247"/>
+	<value val="5.288347633542818"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
@@ -826,7 +826,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="0.06958655048003282" y="-0.4951340343707852" z="-0.9902680687415704"/>
+	<coords x="-0.41933528397271225" y="0.2723195175075133" z="0.5446390350150266"/>
 </element>
 <expression label="χLS" exp="false"/>
 <element type="boolean" label="χLS">
@@ -883,7 +883,7 @@
 	<labelMode val="0"/>
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
-	<startPoint x="5.427973973702365" y="0.5" z="1"/>
+	<startPoint x="6.5711646337586505" y="0.5" z="1"/>
 	<coords x="-3.141592653589793" y="0" z="0"/>
 </element>
 <command name="Polygon">
@@ -927,7 +927,7 @@
 </element>
 <expression label="xWWPi" exp="xWL + ϕw / (((2 * pi) * k))" />
 <element type="numeric" label="xWWPi">
-	<value val="3.07177948351002"/>
+	<value val="4.214970143566306"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="Sequence">
@@ -955,7 +955,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="3"/>
-	<coords x="2.57177948351002" y="-1.9999999999999998" z="1"/>
+	<coords x="3.7149701435663056" y="-2" z="1"/>
 </element>
 <command name="Circle">
 	<input a0="WWP0" a1="abs(LSy - y(WWP0))"/>
@@ -970,7 +970,7 @@
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
 	<eqnStyle style="specific"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="4.203917363432389" A3="0" A4="0.4951340343707852" A5="2.069586550480033"/>
+	<matrix A0="1" A1="1" A2="2.5661520676973884" A3="0" A4="-0.2723195175075133" A5="1.5806647160272878"/>
 </element>
 <expression label="WWPix" exp="(x(WWPi), LSy)" type="point" />
 <element type="point" label="WWPix">
@@ -981,7 +981,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="2.57177948351002" y="-1.5" z="1"/>
+	<coords x="3.7149701435663056" y="-1.5" z="1"/>
 </element>
 <command name="Circle">
 	<input a0="WWPix" a1="WWPi"/>
@@ -996,7 +996,7 @@
 	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
 	<eqnStyle style="specific"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="8.614049711803064" A3="0" A4="-2.57177948351002" A5="1.5"/>
+	<matrix A0="1" A1="1" A2="15.801003167589057" A3="0" A4="-3.7149701435663056" A5="1.5"/>
 </element>
 <command name="Sequence">
 	<input a0="((λ / ((2 * pi)) * cos((-(ϕ - pi / 2)) + ϕi)), WWy + (λ / ((2 * pi)) * sin((-(ϕ - pi / 2)) + ϕi)))" a1="ϕi" a2="0" a3="(2 * pi)" a4="((2 * pi)) / N"/>

@@ -61,7 +61,7 @@ function play(){
   console.log('play() while running = '+gg.isAnimationRunning());
   ggbApplet.startAnimation();
   gg.setValue("animating",true);
-  gg.setCaption("butAnimation","⏸ Pause");
+  gg.setCaption("butAnimation","⏸️ Pause");
   gg.setCaption("T","T");
   solveODE();
 }

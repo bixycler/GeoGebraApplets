@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="9ed30d38-8ac5-4035-afcc-318e77b39aca"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="763" height="632" />
+	<window width="618" height="592" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.1310615989515072" orientation="1" />
+		<pane location="" divider="0.16181229773462782" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 , 22 , 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="763" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="618" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1" size="349" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="1409,594,458,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
-		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="361" window="346,23,1344,550" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="353" window="346,23,1344,550" />
 		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
 	</views>
 	<toolbar show="true" items="0 39 | 1 501 67 , 5 19 , 72 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
@@ -30,8 +30,8 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="762" height="578"/>
-	<coordSystem xZero="259.1136249379308" yZero="302.6067535324194" scale="216.3968737910036" yscale="216.39687379100465"/>
+	<size  width="617" height="538"/>
+	<coordSystem xZero="259.1136249379308" yZero="302.6067535324194" scale="216.39687379100354" yscale="216.39687379100465"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
 	<bgColor r="255" g="255" b="255"/>
 	<axesColor r="0" g="0" b="0"/>
@@ -96,7 +96,7 @@
 	<auxiliary val="true"/>
 </element>
 <element type="numeric" label="N">
-	<value val="60"/>
+	<value val="20"/>
 	<slider min="Nmin" max="200" absoluteScreenLocation="true" width="200" x="12" y="64" fixed="true" horizontal="true" showAlgebra="false"/>
 	<lineStyle thickness="10" type="0" typeHidden="1"/>
 	<show object="true" label="true"/>
@@ -120,7 +120,7 @@
 </element>
 <element type="angle" label="ϕ">
 	<angleStyle val="3"/>
-	<value val="1.3089969389957472"/>
+	<value val="5.3180182308267225"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="200" x="268" y="30" fixed="true" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="6" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
@@ -144,7 +144,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.15643446504023092" y="-0.9876883405951378" z="1"/>
+	<coords x="0.7954734808548961" y="0.6059884002657108" z="1"/>
 </element>
 <expression label="C11" exp="((A * cos(ϕ + (A11 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A11 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C11">
@@ -156,7 +156,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.25881904510252074" y="-0.9659258262890683" z="1"/>
+	<coords x="0.5692795234308444" y="0.8221440410307372" z="1"/>
 </element>
 <expression label="C10" exp="((A * cos(ϕ + (A10 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A10 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C10">
@@ -168,7 +168,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.35836794954530016" y="-0.9335804264972017" z="1"/>
+	<coords x="0.28736051984971234" y="0.9578224948453148" z="1"/>
 </element>
 <expression label="B12" exp="((A * cos(ϕ + (A12 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B12">
@@ -179,7 +179,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.15643446504023092" y="0" z="1"/>
+	<coords x="0.7954734808548961" y="0" z="1"/>
 </element>
 <expression label="B11" exp="((A * cos(ϕ + (A11 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B11">
@@ -190,7 +190,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.25881904510252074" y="0" z="1"/>
+	<coords x="0.5692795234308444" y="0" z="1"/>
 </element>
 <expression label="B10" exp="((A * cos(ϕ + (A10 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B10">
@@ -201,18 +201,18 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.35836794954530016" y="0" z="1"/>
+	<coords x="0.28736051984971234" y="0" z="1"/>
 </element>
 <expression label="r" exp="(abs(C12 - C11) + abs(C10 - C11)) / (abs(B12 - B11) + abs(B10 - B11))" />
 <element type="numeric" label="r">
-	<value val="1.0366969375330117"/>
+	<value val="1.2314936011926287"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <element type="numeric" label="v">
 	<value val="0.3"/>
 	<slider min="-1" max="1" absoluteScreenLocation="true" width="160" x="11" y="91" fixed="true" horizontal="true" showAlgebra="true"/>
 	<lineStyle thickness="10" type="0" typeHidden="1"/>
-	<show object="false" label="true"/>
+	<show object="true" label="true"/>
 	<condition showObject="xSpacecraft"/>
 	<objColor r="0" g="153" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
@@ -222,7 +222,7 @@
 	<caption val="&#x1f680;v"/>
 </element>
 <element type="numeric" label="t0">
-	<value val="1834.690109696434"/>
+	<value val="6.283185307179586"/>
 	<show object="false" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<layer val="0"/>
@@ -231,7 +231,7 @@
 </element>
 <expression label="t" exp="t0 + ϕ" />
 <element type="numeric" label="t">
-	<value val="1835.9991066354298"/>
+	<value val="11.60120353800631"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <element type="button" label="butAnimation">
@@ -242,8 +242,8 @@
 	<labelMode val="3"/>
 	<fixed val="true"/>
 	<auxiliary val="true"/>
-	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸ Pause&quot;)&apos;);}"/>
-	<caption val="⏸ Pause"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;▶️ Play&quot;)&apos;);}else{ggbApplet.startAnimation(); ggbApplet.evalCommand(&apos;SetCaption(butAnimation,&quot;⏸️ Pause&quot;)&apos;);}"/>
+	<caption val="⏸️ Pause"/>
 	<font serif="false" sizeM="1.4" size="5" style="0"/>
 </element>
 <command name="Circle">
@@ -286,7 +286,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.25881904510252074" y="-0.9659258262890683" z="1"/>
+	<coords x="0.5692795234308444" y="0.8221440410307372" z="1"/>
 </element>
 <command name="Vector">
 	<input a0="O" a1="P"/>
@@ -302,7 +302,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="O"/>
-	<coords x="0.25881904510252074" y="-0.9659258262890683" z="0"/>
+	<coords x="0.5692795234308444" y="0.8221440410307372" z="0"/>
 </element>
 <command name="Sequence">
 	<input a0="((A * cos(ϕ + (k * ((2 * pi)) / N))), ((-A) * sin(ϕ + (k * ((2 * pi)) / N))))" a1="k" a2="1" a3="N"/>
@@ -558,7 +558,7 @@
 	<coords x="0" y="2" z="0"/>
 </element>
 <element type="boolean" label="xCircle">
-	<value val="false"/>
+	<value val="true"/>
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<layer val="0"/>
@@ -598,7 +598,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.05960629670101719" y="-0.9659258262890683" z="1"/>
+	<coords x="0.8478359346270019" y="0.8221440410307372" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pp"/>
@@ -615,7 +615,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="0" y="-0.31842534180353793" z="-0.3075752613929614"/>
+	<coords x="0" y="0.2785564111961575" z="-0.22901349355582867"/>
 </element>
 <expression label="Pn" exp="C11 + (((B10 - B11) * r) * N / Nmin)" type="point" />
 <element type="point" label="Pn">
@@ -626,7 +626,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.5684251782143083" y="-0.9659258262890683" z="1"/>
+	<coords x="0.2220980744660785" y="0.8221440410307372" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="P" a1="Pn"/>
@@ -643,7 +643,7 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="0" y="0.30960613311178753" z="0.29905655995016667"/>
+	<coords x="0" y="-0.34718144896476594" z="0.28543315942279934"/>
 </element>
 <expression label="Pc" exp="(Pp + Pn) / 2" type="point" />
 <element type="point" label="Pc">
@@ -654,7 +654,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.2544094407566455" y="-0.9659258262890683" z="1"/>
+	<coords x="0.5349670045465402" y="0.8221440410307372" z="1"/>
 </element>
 <command name="Vector">
 	<input a0="P" a1="Pc"/>
@@ -671,7 +671,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="P"/>
-	<coords x="-0.004409604345875229" y="0" z="0"/>
+	<coords x="-0.0343125188843042" y="0" z="0"/>
 </element>
 <command name="Sequence">
 	<input a0="Segment[((A * cos((k * ((2 * pi)) / N))), ((-A) * sin((k * ((2 * pi)) / N)))), ((A * cos((k * ((2 * pi)) / N))), (A * sin((k * ((2 * pi)) / N))))]" a1="k" a2="1" a3="N / 2"/>
@@ -711,7 +711,7 @@
 </element>
 <expression label="pos" exp="(A * cos((t * v) - pi / 2))" />
 <element type="numeric" label="pos">
-	<value val="-0.8526401643532664"/>
+	<value val="-0.3323257502333703"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="Pvp" exp="(pos, ((-A) * sin((t * v) - pi / 2)))" type="point" />
@@ -724,7 +724,7 @@
 	<caption val="&#x1f680;+"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.8526401643532664" y="-0.5224985647172966" z="1"/>
+	<coords x="-0.3323257502333703" y="-0.9431646705278074" z="1"/>
 </element>
 <expression label="Pvn" exp="(pos, (A * sin((t * v) - pi / 2)))" type="point" />
 <element type="point" label="Pvn">
@@ -737,7 +737,7 @@
 	<caption val="&#x1f680;-"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.8526401643532664" y="0.5224985647172966" z="1"/>
+	<coords x="-0.3323257502333703" y="0.9431646705278074" z="1"/>
 </element>
 <command name="Segment">
 	<input a0="Pvp" a1="Pvn"/>
@@ -754,11 +754,11 @@
 	<keepTypeOnTransform val="true"/>
 	<startStyle val="default"/>
 	<endStyle val="default"/>
-	<coords x="-1.0449971294345932" y="0" z="-0.8910065241898032"/>
+	<coords x="-1.8863293410556148" y="0" z="-0.6268758134535262"/>
 </element>
 <element type="angle" label="oϕ">
 	<angleStyle val="3"/>
-	<value val="1.3089969389957472"/>
+	<value val="5.3180182308267225"/>
 	<slider min="0" max="6.283185307179586" absoluteScreenLocation="true" width="180" fixed="true" horizontal="true" showAlgebra="false"/>
 	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
 	<arcSize val="30"/>
@@ -793,7 +793,7 @@
 	<caption val="&#x1f680;"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.8526401643532664" y="-0.15674956941518903" z="1"/>
+	<coords x="-0.3323257502333703" y="-0.2829494011583422" z="1"/>
 </element>
 <expression label="sheetDescr" exp="&quot;B: points on base line, C: points on circle&quot;"/>
 <element type="text" label="sheetDescr">
@@ -813,7 +813,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.9659258262890682" y="-0.2588190451025209" z="1"/>
+	<coords x="-0.5692795234308445" y="-0.8221440410307372" z="1"/>
 </element>
 <expression label="C2" exp="((A * cos(ϕ + (A2 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A2 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C2">
@@ -825,7 +825,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.9335804264972017" y="-0.3583679495453003" z="1"/>
+	<coords x="-0.7954734808548961" y="-0.6059884002657107" z="1"/>
 </element>
 <expression label="C3" exp="((A * cos(ϕ + (A3 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A3 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C3">
@@ -837,7 +837,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.8910065241883678" y="-0.45399049973954686" z="1"/>
+	<coords x="-0.9438009515832295" y="-0.33051439271322264" z="1"/>
 </element>
 <expression label="C4" exp="((A * cos(ϕ + (A4 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A4 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C4">
@@ -849,7 +849,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.8386705679454239" y="-0.5446390350150272" z="1"/>
+	<coords x="-0.9997426093226983" y="-0.022687333572780955" z="1"/>
 </element>
 <expression label="C5" exp="((A * cos(ϕ + (A5 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A5 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C5">
@@ -861,7 +861,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.7771459614569708" y="-0.6293203910498375" z="1"/>
+	<coords x="-0.9578224948453148" y="0.2873605198497124" z="1"/>
 </element>
 <expression label="C6" exp="((A * cos(ϕ + (A6 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A6 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C6">
@@ -873,7 +873,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.7071067811865475" y="-0.7071067811865476" z="1"/>
+	<coords x="-0.8221440410307372" y="0.5692795234308445" z="1"/>
 </element>
 <expression label="C7" exp="((A * cos(ϕ + (A7 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A7 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C7">
@@ -885,7 +885,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.6293203910498374" y="-0.7771459614569709" z="1"/>
+	<coords x="-0.6059884002657108" y="0.7954734808548961" z="1"/>
 </element>
 <expression label="C8" exp="((A * cos(ϕ + (A8 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A8 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C8">
@@ -897,7 +897,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.5446390350150271" y="-0.838670567945424" z="1"/>
+	<coords x="-0.3305143927132227" y="0.9438009515832295" z="1"/>
 </element>
 <expression label="C9" exp="((A * cos(ϕ + (A9 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A9 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C9">
@@ -909,7 +909,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.45399049973954686" y="-0.8910065241883678" z="1"/>
+	<coords x="-0.022687333572781018" y="0.9997426093226983" z="1"/>
 </element>
 <expression label="C13" exp="((A * cos(ϕ + (A13 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A13 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C13">
@@ -921,7 +921,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.052335956242943744" y="-0.9986295347545738" z="1"/>
+	<coords x="0.9438009515832295" y="0.33051439271322275" z="1"/>
 </element>
 <expression label="C14" exp="((A * cos(ϕ + (A14 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A14 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C14">
@@ -933,7 +933,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.05233595624294384" y="-0.9986295347545738" z="1"/>
+	<coords x="0.9997426093226983" y="0.02268733357278108" z="1"/>
 </element>
 <expression label="C15" exp="((A * cos(ϕ + (A15 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A15 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C15">
@@ -945,7 +945,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.1564344650402308" y="-0.9876883405951378" z="1"/>
+	<coords x="0.9578224948453148" y="-0.2873605198497123" z="1"/>
 </element>
 <expression label="C16" exp="((A * cos(ϕ + (A16 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A16 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C16">
@@ -957,7 +957,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.25881904510252085" y="-0.9659258262890683" z="1"/>
+	<coords x="0.8221440410307373" y="-0.5692795234308444" z="1"/>
 </element>
 <expression label="C17" exp="((A * cos(ϕ + (A17 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A17 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C17">
@@ -969,7 +969,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.35836794954530027" y="-0.9335804264972017" z="1"/>
+	<coords x="0.6059884002657109" y="-0.795473480854896" z="1"/>
 </element>
 <expression label="C18" exp="((A * cos(ϕ + (A18 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A18 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C18">
@@ -981,7 +981,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.45399049973954675" y="-0.8910065241883679" z="1"/>
+	<coords x="0.3305143927132228" y="-0.9438009515832295" z="1"/>
 </element>
 <expression label="C19" exp="((A * cos(ϕ + (A19 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A19 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C19">
@@ -993,7 +993,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.5446390350150271" y="-0.838670567945424" z="1"/>
+	<coords x="0.02268733357278114" y="-0.9997426093226983" z="1"/>
 </element>
 <expression label="C20" exp="((A * cos(ϕ + (A20 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A20 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C20">
@@ -1005,7 +1005,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.6293203910498376" y="-0.7771459614569708" z="1"/>
+	<coords x="-0.28736051984971134" y="-0.9578224948453151" z="1"/>
 </element>
 <expression label="C21" exp="((A * cos(ϕ + (A21 * ((2 * pi)) / N))), ((-A) * sin(ϕ + (A21 * ((2 * pi)) / N))))" type="point" />
 <element type="point" label="C21">
@@ -1017,7 +1017,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.7071067811865475" y="-0.7071067811865476" z="1"/>
+	<coords x="-0.5692795234308451" y="-0.8221440410307368" z="1"/>
 </element>
 <expression label="B1" exp="((A * cos(ϕ + (A1 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B1">
@@ -1029,7 +1029,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.9659258262890682" y="0" z="1"/>
+	<coords x="-0.5692795234308445" y="0" z="1"/>
 </element>
 <expression label="B2" exp="((A * cos(ϕ + (A2 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B2">
@@ -1041,7 +1041,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.9335804264972017" y="0" z="1"/>
+	<coords x="-0.7954734808548961" y="0" z="1"/>
 </element>
 <expression label="B3" exp="((A * cos(ϕ + (A3 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B3">
@@ -1053,7 +1053,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.8910065241883678" y="0" z="1"/>
+	<coords x="-0.9438009515832295" y="0" z="1"/>
 </element>
 <expression label="B4" exp="((A * cos(ϕ + (A4 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B4">
@@ -1065,7 +1065,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.8386705679454239" y="0" z="1"/>
+	<coords x="-0.9997426093226983" y="0" z="1"/>
 </element>
 <expression label="B5" exp="((A * cos(ϕ + (A5 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B5">
@@ -1077,7 +1077,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.7771459614569708" y="0" z="1"/>
+	<coords x="-0.9578224948453148" y="0" z="1"/>
 </element>
 <expression label="B6" exp="((A * cos(ϕ + (A6 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B6">
@@ -1089,7 +1089,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.7071067811865475" y="0" z="1"/>
+	<coords x="-0.8221440410307372" y="0" z="1"/>
 </element>
 <expression label="B7" exp="((A * cos(ϕ + (A7 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B7">
@@ -1101,7 +1101,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.6293203910498374" y="0" z="1"/>
+	<coords x="-0.6059884002657108" y="0" z="1"/>
 </element>
 <expression label="B8" exp="((A * cos(ϕ + (A8 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B8">
@@ -1113,7 +1113,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.5446390350150271" y="0" z="1"/>
+	<coords x="-0.3305143927132227" y="0" z="1"/>
 </element>
 <expression label="B9" exp="((A * cos(ϕ + (A9 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B9">
@@ -1125,7 +1125,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.45399049973954686" y="0" z="1"/>
+	<coords x="-0.022687333572781018" y="0" z="1"/>
 </element>
 <expression label="B13" exp="((A * cos(ϕ + (A13 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B13">
@@ -1137,7 +1137,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="0.052335956242943744" y="0" z="1"/>
+	<coords x="0.9438009515832295" y="0" z="1"/>
 </element>
 <expression label="B14" exp="((A * cos(ϕ + (A14 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B14">
@@ -1149,7 +1149,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.05233595624294384" y="0" z="1"/>
+	<coords x="0.9997426093226983" y="0" z="1"/>
 </element>
 <expression label="B15" exp="((A * cos(ϕ + (A15 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B15">
@@ -1161,7 +1161,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.1564344650402308" y="0" z="1"/>
+	<coords x="0.9578224948453148" y="0" z="1"/>
 </element>
 <expression label="B16" exp="((A * cos(ϕ + (A16 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B16">
@@ -1173,7 +1173,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.25881904510252085" y="0" z="1"/>
+	<coords x="0.8221440410307373" y="0" z="1"/>
 </element>
 <expression label="B17" exp="((A * cos(ϕ + (A17 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B17">
@@ -1185,7 +1185,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.35836794954530027" y="0" z="1"/>
+	<coords x="0.6059884002657109" y="0" z="1"/>
 </element>
 <expression label="B18" exp="((A * cos(ϕ + (A18 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B18">
@@ -1197,7 +1197,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.45399049973954675" y="0" z="1"/>
+	<coords x="0.3305143927132228" y="0" z="1"/>
 </element>
 <expression label="B19" exp="((A * cos(ϕ + (A19 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B19">
@@ -1209,7 +1209,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.5446390350150271" y="0" z="1"/>
+	<coords x="0.02268733357278114" y="0" z="1"/>
 </element>
 <expression label="B20" exp="((A * cos(ϕ + (A20 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B20">
@@ -1221,7 +1221,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.6293203910498376" y="0" z="1"/>
+	<coords x="-0.28736051984971134" y="0" z="1"/>
 </element>
 <expression label="B21" exp="((A * cos(ϕ + (A21 * ((2 * pi)) / N))), 0)" type="point" />
 <element type="point" label="B21">
@@ -1233,7 +1233,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-0.7071067811865475" y="0" z="1"/>
+	<coords x="-0.5692795234308451" y="0" z="1"/>
 </element>
 <command name="Vector">
 	<input a0="C11" a1="C11 + ((C12 - C11) * N / Nmin)"/>
@@ -1249,7 +1249,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="C11"/>
-	<coords x="-0.3071537401868695" y="-0.06528754291820837" z="0"/>
+	<coords x="0.22619395742405168" y="-0.21615564076502647" z="0"/>
 </element>
 <command name="Vector">
 	<input a0="B11" a1="B11 + ((B12 - B11) * N / Nmin)"/>
@@ -1265,7 +1265,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="B11"/>
-	<coords x="-0.3071537401868695" y="0" z="0"/>
+	<coords x="0.22619395742405168" y="0" z="0"/>
 </element>
 <command name="Vector">
 	<input a0="B11" a1="B11 + (vForce * N / Nmin)"/>
@@ -1280,7 +1280,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="B11"/>
-	<coords x="-0.013228813037625686" y="0" z="0"/>
+	<coords x="-0.0343125188843042" y="0" z="0"/>
 </element>
 </construction>
 </geogebra>
