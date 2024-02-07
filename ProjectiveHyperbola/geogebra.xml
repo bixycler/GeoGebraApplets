@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.823.0" app="classic" platform="w" id="E1D6F882-CB5F-4BF4-B867-20BED6D25E20"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="939" height="683" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="939" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="1" size="466" tab="ALGEBRA" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="380" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="939" height="630"/>
+	<coordSystem xZero="324.3698127049304" yZero="343.32717833521224" scale="75.94110871698592" yscale="75.94110871698567"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="255" g="127" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="h" unitLabel="" tickStyle="0" showNumbers="true" selectionAllowed="false"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="10"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="ProjectiveHyperbola" author="" date="">
+<element type="numeric" label="u">
+	<value val="0.11157177565710448"/>
+	<slider min="0" max="10" absoluteScreenLocation="true" width="100" x="20" y="299" fixed="true" horizontal="false" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<condition showObject="¬χLockUV"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-8" y="-10"/>
+	<labelMode val="3"/>
+	<animation step="0.00001" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(χLockT, SetCoords(T, x(O), y(O)+oyT))"/>
+	<caption val="$u=e^{%v}$"/>
+</element>
+<element type="point" label="V">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="-24" y="10"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="SetValue(v, ln(abs(V-V&apos;)/2))&#xa;If(χLockUV, SetValue(u, v+ln(ruv_0)))&#xa;If(χLockT, SetCoords(T, x(O), y(O)+oyT))"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-2" y="-1" z="1"/>
+</element>
+<expression label="O" exp="V / 2" type="point" />
+<element type="point" label="O">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-19" y="5"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="3"/>
+	<coords x="-1" y="-0.5" z="1"/>
+</element>
+<expression label="N" exp="O + (0, (-ℯ^(u)))" type="point" />
+<element type="point" label="N">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="29"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<coords x="-1" y="-1.6180339887498945" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="V" a1="N"/>
+	<output a0="vVN"/>
+</command>
+<element type="vector" label="vVN">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-7" y="10"/>
+	<labelMode val="3"/>
+	<caption val="n"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="V"/>
+	<coords x="1" y="-0.6180339887498945" z="0"/>
+</element>
+<expression label="P" exp="O + (0, ℯ^(u))" type="point" />
+<element type="point" label="P">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-6" y="-6"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<coords x="-1" y="0.6180339887498945" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="V" a1="P"/>
+	<output a0="vVP"/>
+</command>
+<element type="vector" label="vVP">
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-2" y="6"/>
+	<labelMode val="3"/>
+	<caption val="p"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="V"/>
+	<coords x="1" y="1.6180339887498945" z="0"/>
+</element>
+<element type="numeric" label="ruv_{0}">
+	<value val="0.9999999999999996"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="boolean" label="χLockUV">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="84" y="187"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="SetValue(ruv_0,(2 * e^u) / abs(V-V&apos;))"/>
+	<caption val="Lock u/v"/>
+</element>
+<element type="numeric" label="v">
+	<value val="0.11157177565710492"/>
+	<slider min="0" max="10" absoluteScreenLocation="true" width="200" x="22" y="176" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="9"/>
+	<labelOffset x="-14" y="4"/>
+	<labelMode val="3"/>
+	<animation step="0.00001" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetCoords(V, x(V_1)*e^v*2, y(V_1)*e^v*2)&#xa;If(χLockUV, SetValue(u, v+ln(ruv_0)))&#xa;If(χLockT, SetCoords(T, x(O), y(O)+oyT))&#xa;"/>
+	<caption val="$v=e^{%v}$"/>
+</element>
+<element type="boolean" label="χMetric">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="17" y="78"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Show metric"/>
+</element>
+<expression label="txtMovables" exp="&quot;Movables: T, V&quot;"/>
+<element type="text" label="txtMovables">
+	<show object="true" label="false" ev="40"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<absoluteScreenLocation x="23" y="31"/>
+</element>
+<command name="Segment">
+	<input a0="N" a1="P"/>
+	<output a0="NP"/>
+</command>
+<element type="segment" label="NP">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="2" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-2.236067977499789" y="0" z="-2.236067977499789"/>
+</element>
+<command name="Ray">
+	<input a0="V" a1="P"/>
+	<output a0="rVP"/>
+</command>
+<element type="ray" label="rVP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="-1.6180339887498945" y="1" z="-2.236067977499789"/>
+</element>
+<command name="Ray">
+	<input a0="V" a1="N"/>
+	<output a0="rVN"/>
+</command>
+<element type="ray" label="rVN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="0.6180339887498945" y="1" z="2.236067977499789"/>
+</element>
+<command name="Ray">
+	<input a0="P" a1="vVN"/>
+	<output a0="rPVN"/>
+</command>
+<element type="ray" label="rPVN">
+	<show object="true" label="false"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="0.6180339887498945" y="1" z="0"/>
+</element>
+<command name="Ray">
+	<input a0="N" a1="vVP"/>
+	<output a0="rNVP"/>
+</command>
+<element type="ray" label="rNVP">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="-1.6180339887498945" y="1" z="0"/>
+</element>
+<command name="Intersect">
+	<input a0="rPVN" a1="rNVP"/>
+	<output a0="V&apos;"/>
+</command>
+<element type="point" label="V&apos;">
+	<show object="true" label="true"/>
+	<objColor r="102" g="0" b="204" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-10" y="-5"/>
+	<labelMode val="0"/>
+	<pointSize val="2"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0" z="2.236067977499789"/>
+</element>
+<expression label="V_{1}" exp="V&apos; + (V - V&apos;) / abs(V - V&apos;)" type="point" />
+<element type="point" label="V_{1}">
+	<show object="false" label="true"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.8944271909999159" y="-0.4472135954999579" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="V" a1="V&apos;"/>
+	<output a0="vVV&apos;"/>
+</command>
+<element type="vector" label="vVV&apos;">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="V"/>
+	<coords x="2" y="1" z="0"/>
+</element>
+<command name="Point">
+	<input a0="NP"/>
+	<output a0="T"/>
+</command>
+<element type="point" label="T">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="9"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<ggbscript onUpdate="If(!χLockT, SetValue(oyT, y(T)-y(O)), SetCoords(T, x(O), y(O)+oyT))"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-1" y="-0.7107334309145985" z="1"/>
+</element>
+<command name="Ray">
+	<input a0="V" a1="T"/>
+	<output a0="rVT"/>
+</command>
+<element type="ray" label="rVT">
+	<show object="true" label="false"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="-0.2892665690854015" y="1" z="0.421466861829197"/>
+</element>
+<command name="Intersect">
+	<input a0="rVT" a1="rNVP"/>
+	<output a0="Y"/>
+</command>
+<element type="point" label="Y">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="-10" y="-2"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.421466861829197" y="-0.6819477075713963" z="1.328767419664493"/>
+</element>
+<command name="Intersect">
+	<input a0="rVT" a1="rPVN"/>
+	<output a0="X"/>
+</command>
+<element type="point" label="X">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="-6" y="-4"/>
+	<labelMode val="0"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.421466861829197" y="-0.26048084574219926" z="0.907300557835296"/>
+</element>
+<command name="Vector">
+	<input a0="Y" a1="N"/>
+	<output a0="vYN"/>
+</command>
+<element type="vector" label="vYN">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="y"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Y"/>
+	<coords x="-0.6828136695768661" y="-1.1048157253584088" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="X" a1="P"/>
+	<output a0="vXP"/>
+</command>
+<element type="vector" label="vXP">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-1" y="-1"/>
+	<labelMode val="3"/>
+	<caption val="x"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="X"/>
+	<coords x="-1.4645283838850087" y="0.9051283187298886" z="0"/>
+</element>
+<command name="Segment">
+	<input a0="V" a1="V&apos;"/>
+	<output a0="VV&apos;"/>
+</command>
+<element type="segment" label="VV&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≠ &quot;DoubleCone&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="-1" y="2" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="O" a1="T"/>
+	<output a0="vOT"/>
+</command>
+<element type="vector" label="vOT">
+	<show object="true" label="true"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="0"/>
+	<labelMode val="3"/>
+	<caption val="t"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="O"/>
+	<coords x="0" y="-0.2107334309145985" z="0"/>
+</element>
+<expression label="H" exp="X + vVN - vYN" type="point" />
+<element type="point" label="H">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;Hyperbola&quot;"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="2.147342053461875" y="0.19968740662852014" z="1"/>
+</element>
+<command name="Locus">
+	<input a0="H" a1="T"/>
+	<output a0="h"/>
+</command>
+<element type="locus" label="h">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;Hyperbola&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<auxiliary val="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="numeric" label="MaxN">
+	<value val="30"/>
+	<slider min="10" max="50" absoluteScreenLocation="true" width="200" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<expression label="p" exp="abs(vVP)" />
+<element type="numeric" label="p">
+	<value val="1.9021130325903066"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="n" exp="abs(vVN)" />
+<element type="numeric" label="n">
+	<value val="1.175570504584946"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="x_{i}" exp="abs(vXP)" />
+<element type="numeric" label="x_{i}">
+	<value val="1.7216563712226753"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="y_{i}" exp="abs(vYN)" />
+<element type="numeric" label="y_{i}">
+	<value val="1.2987887797329682"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<expression label="t_{i}" exp="real(vOT / (P - O))" />
+<element type="numeric" label="t_{i}">
+	<value val="-0.18848571066271924"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="If">
+	<input a0="y_{i} ≟ y_{i}" a1="y_{i} / p" a2="Infinity"/>
+	<output a0="e_{i}"/>
+</command>
+<element type="numeric" label="e_{i}">
+	<value val="0.6828136695768661"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Sequence">
+	<input a0="P + (vVN * e_{i}^((-i)))" a1="i" a2="(-MaxN)" a3="MaxN"/>
+	<output a0="Xs"/>
+</command>
+<element type="list" label="Xs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="N + (vVP * e_{i}^(i))" a1="i" a2="(-MaxN)" a3="MaxN"/>
+	<output a0="Ys"/>
+</command>
+<element type="list" label="Ys">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="O + ((P - O) * (e_{i}^(i) - 1) / (e_{i}^(i) + 1))" a1="i" a2="(-MaxN)" a3="MaxN"/>
+	<output a0="Ts"/>
+</command>
+<element type="list" label="Ts">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="3"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Xs(i) + Ys(i) - V" a1="i" a2="1" a3="(2 * MaxN) + 1"/>
+	<output a0="Hs"/>
+</command>
+<element type="list" label="Hs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="Sequence">
+	<input a0="Ray[V, Ts(i)]" a1="i" a2="1" a3="(2 * MaxN) + 1"/>
+	<output a0="Rs"/>
+</command>
+<element type="list" label="Rs">
+	<show object="true" label="false" ev="8"/>
+	<condition showObject="χMetric ∧ χFan"/>
+	<objColor r="0" g="204" b="51" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<element type="boolean" label="χFan">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="102" b="51" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="17" y="111"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Metric fan"/>
+</element>
+<command name="Ray">
+	<input a0="V" a1="V&apos;"/>
+	<output a0="rVV&apos;"/>
+</command>
+<element type="ray" label="rVV&apos;">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="15" typeHidden="1" opacity="178"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<coords x="-1" y="2" z="0"/>
+</element>
+<expression label="X&apos;" exp="V - vXP" type="point" />
+<element type="point" label="X&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot; ∧ t_{i} &lt; 0"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="-10" y="29"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.5354716161149913" y="-1.9051283187298886" z="1"/>
+</element>
+<expression label="Y&apos;" exp="V - vYN" type="point" />
+<element type="point" label="Y&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot; ∧ t_{i} &gt; 0"/>
+	<objColor r="68" g="68" b="68" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="-14" y="-4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-1.317186330423134" y="0.10481572535840877" z="1"/>
+</element>
+<command name="Vector">
+	<input a0="X" a1="X&apos;"/>
+	<output a0="vXX&apos;"/>
+</command>
+<element type="vector" label="vXX&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot; ∧ t_{i} &lt; 0"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="p"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="X"/>
+	<coords x="-1" y="-1.6180339887498945" z="0"/>
+</element>
+<command name="Vector">
+	<input a0="Y" a1="Y&apos;"/>
+	<output a0="vYY&apos;"/>
+</command>
+<element type="vector" label="vYY&apos;">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot; ∧ t_{i} &gt; 0"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="n"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<startPoint exp="Y"/>
+	<coords x="-1" y="0.6180339887498943" z="0"/>
+</element>
+<expression label="V_{X}" exp="V + (V&apos; - V) / e_{i}" type="point" />
+<element type="point" label="V_{X}">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot;"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-9" y="35"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="0.9290567677700174" y="0.4645283838850087" z="1"/>
+</element>
+<expression label="V_{Y}" exp="V + ((V&apos; - V) * e_{i})" type="point" />
+<element type="point" label="V_{Y}">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot;"/>
+	<objColor r="0" g="153" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="-17" y="-4"/>
+	<labelMode val="0"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="-0.6343726608462679" y="-0.31718633042313393" z="1"/>
+</element>
+<expression label="coneX" exp="{Polygon[V_{X}, V, X&apos;]}" />
+<element type="list" label="coneX">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot;"/>
+	<objColor r="102" g="255" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="coneY" exp="{Polygon[V_{Y}, V, Y&apos;]}" />
+<element type="list" label="coneY">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;ViewCone&quot;"/>
+	<objColor r="102" g="255" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="0" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="views" exp="{&quot;Hyperbola&quot;, &quot;ViewCone&quot;, &quot;DoubleCone&quot;}"/>
+<element type="list" label="views">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="5" y="50"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="If(SelectedElement(views)!=&quot;Hyperbola&quot;, {SetValue(χMetric,False),SetValue(χFan,False)})"/>
+	<caption val="View:"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="coneP" exp="{Polygon[V, P, N, Y]}" />
+<element type="list" label="coneP">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;DoubleCone&quot;"/>
+	<objColor r="255" g="0" b="0" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="coneN" exp="{Polygon[V, N, P, X]}" />
+<element type="list" label="coneN">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="SelectedElement[views] ≟ &quot;DoubleCone&quot;"/>
+	<objColor r="0" g="0" b="255" alpha="0.1"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="text1" exp="&quot;e^φ = \frac{y}{p} = \frac{n}{x} = \frac{1+t}{1-t} = \frac{TY}{TV} = \frac{TV}{TX} = \frac{TN}{TP} = \frac{VY}{VX} = &quot; + (LaTeX[e_{i}]) + &quot;&quot;" />
+<element type="text" label="text1">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="true" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="163" y="12"/>
+</element>
+<element type="boolean" label="χLockT">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="9"/>
+	<labelOffset x="84" y="219"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="SetValue(oyT, y(T)-y(O))"/>
+	<caption val="Lock TO"/>
+</element>
+<element type="numeric" label="oyT">
+	<value val="-0.2107334309145985"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="button1">
+	<show object="true" label="true"/>
+	<objColor r="255" g="255" b="255" alpha="0"/>
+	<bgColor r="101" g="87" b="210" alpha="255"/>
+	<layer val="9"/>
+	<labelOffset x="88" y="257"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<ggbscript val="SetCoords(V, -2,-1)"/>
+	<caption val="Bring V back!"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<command name="Line">
+	<input a0="V&apos;" a1="V_{1}"/>
+	<output a0="lV_1"/>
+</command>
+<element type="line" label="lV_1">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="8"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="implicit"/>
+	<coords x="0.4472135954999579" y="-0.8944271909999159" z="0"/>
+</element>
+<expression label="ruv" exp="((2 * ℯ^(u))) / abs(vVV&apos;)" />
+<element type="numeric" label="ruv">
+	<value val="0.9999999999999996"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+</element>
+<command name="Angle">
+	<input a0="N" a1="V" a2="P"/>
+	<output a0="α"/>
+</command>
+<element type="angle" label="α">
+	<angleStyle val="0"/>
+	<value val="1.5707963267948961"/>
+	<lineStyle thickness="5" type="0" typeHidden="2" opacity="178"/>
+	<arcSize val="30"/>
+	<show object="true" label="false"/>
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<layer val="8"/>
+	<labelMode val="1"/>
+</element>
+<command name="Sequence">
+	<input a0="V + ((V&apos; - V) * e_{i}^(i))" a1="i" a2="(-MaxN)" a3="MaxN"/>
+	<output a0="Vs"/>
+</command>
+<element type="list" label="Vs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMetric"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="3"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="text2" exp="&quot;x·y = n·p; \quad TX·TY = TV^2; \quad t = \frac{e^φ-1}{e^φ+1} = \textrm{tanh}(\frac{φ}{2}) = 2·\textrm{logistic}(φ) - 1 = &quot; + (LaTeX[t_{i}]) + &quot;&quot;" />
+<element type="text" label="text2">
+	<show object="true" label="false" ev="8"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<isLaTeX val="true"/>
+	<font serif="true" sizeM="1" size="0" style="0"/>
+	<absoluteScreenLocation x="161" y="61"/>
+</element>
+</construction>
+</geogebra>
