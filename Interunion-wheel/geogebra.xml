@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<geogebra format="5.0" version="5.0.745.0" app="classic" platform="w" id="EA08A88C-395B-423E-A59B-189D1DFA34BD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<geogebra format="5.0" version="5.2.823.0" app="classic" platform="w" id="EA08A88C-395B-423E-A59B-189D1DFA34BD"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 <gui>
-	<window width="763" height="632" />
+	<window width="837" height="668" />
 	<perspectives>
 <perspective id="tmp">
 	<panes>
-		<pane location="" divider="0.1310615989515072" orientation="1" />
+		<pane location="" divider="0.11947431302270012" orientation="1" />
 	</panes>
 	<views>
 		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
 		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="150" window="100,100,600,400" />
 		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
-		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="763" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="837" window="100,100,600,400" />
 		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
 		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
 		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="344" window="50,50,500,500" />
@@ -30,7 +30,7 @@
 </gui>
 <euclidianView>
 	<viewNumber viewNo="1"/>
-	<size  width="762" height="578"/>
+	<size  width="837" height="615"/>
 	<coordSystem xZero="190.5000000000002" yZero="440.5000000000002" scale="49.99999999999995" yscale="50.00000000000004"/>
 	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
 	<bgColor r="255" g="255" b="255"/>
@@ -95,7 +95,7 @@
 	<ggbscript onUpdate="ZoomIn(1)"/>
 </element>
 <element type="numeric" label="n">
-	<value val="4.6"/>
+	<value val="9.5"/>
 	<slider min="0" max="N" absoluteScreenLocation="true" width="200" x="30" y="145" fixed="true" horizontal="true" showAlgebra="true"/>
 	<pointSize val="3"/>
 	<lineStyle thickness="2" type="0" typeHidden="1"/>
@@ -151,7 +151,7 @@
 <expression label="waϕ" exp="(360° * n / a)" />
 <element type="angle" label="waϕ">
 	<angleStyle val="3"/>
-	<value val="2.4085543677521746"/>
+	<value val="4.974188368183839"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="sa" exp="(s * a / (a + b))" />
@@ -171,7 +171,7 @@
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1"/>
 	<coordStyle style="cartesian"/>
-	<coords x="-1.6720758573241368" y="-1.5055438643074313" z="0"/>
+	<coords x="0.5823428514806707" y="2.173333109150404" z="0"/>
 </element>
 <expression label="dirsgn" exp="cos(dir)" />
 <element type="numeric" label="dirsgn">
@@ -187,7 +187,7 @@
 <expression label="wbϕ" exp="((360° * n / b) * dirsgn)" />
 <element type="angle" label="wbϕ">
 	<angleStyle val="3"/>
-	<value val="-7.225663103256523"/>
+	<value val="-14.922565104551516"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <command name="Vector">
@@ -201,7 +201,7 @@
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
-	<coords x="-0.4408389392193555" y="-0.6067627457812101" z="0"/>
+	<coords x="0.5303300858899098" y="-0.5303300858899114" z="0"/>
 </element>
 <expression label="eyeVector" exp="wavector + wbvector" type="vector" />
 <element type="vector" label="eyeVector">
@@ -212,7 +212,7 @@
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
-	<coords x="-2.1129147965434925" y="-2.112306610088641" z="0"/>
+	<coords x="1.1126729373705806" y="1.6430030232604924" z="0"/>
 </element>
 <element type="boolean" label="χVectors">
 	<value val="true"/>
@@ -302,7 +302,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="waO"/>
-	<coords x="-1.6720758573241365" y="1.5055438643074313" z="0"/>
+	<coords x="0.5823428514806706" y="-2.173333109150404" z="0"/>
 </element>
 <command name="Segment">
 	<input a0="waO" a1="eyeO"/>
@@ -339,7 +339,7 @@
 <expression label="eyeϕ" exp="(mod_{1}(arg(eyeVector) / ((2 * pi))) * 360°)" />
 <element type="angle" label="eyeϕ">
 	<angleStyle val="3"/>
-	<value val="3.926846875074589"/>
+	<value val="0.9755237667439157"/>
 	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
 </element>
 <expression label="O" exp="(0, 0)" type="point"/>
@@ -367,131 +367,131 @@
 	<trace val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-2.1129147965434925" y="-2.112306610088641" z="1"/>
+	<coords x="1.1126729373705806" y="1.6430030232604924" z="1"/>
 </element>
 <expression label="A1" exp="floor(n) - 10" />
 <element type="numeric" label="A1">
-	<value val="-6"/>
+	<value val="-1"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A2" exp="A1 + 1" />
 <element type="numeric" label="A2">
-	<value val="-5"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A3" exp="A2 + 1" />
 <element type="numeric" label="A3">
-	<value val="-4"/>
+	<value val="1"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A4" exp="A3 + 1" />
 <element type="numeric" label="A4">
-	<value val="-3"/>
+	<value val="2"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A5" exp="A4 + 1" />
 <element type="numeric" label="A5">
-	<value val="-2"/>
+	<value val="3"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A6" exp="A5 + 1" />
 <element type="numeric" label="A6">
-	<value val="-1"/>
+	<value val="4"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A7" exp="A6 + 1" />
 <element type="numeric" label="A7">
-	<value val="0"/>
+	<value val="5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A8" exp="A7 + 1" />
 <element type="numeric" label="A8">
-	<value val="1"/>
+	<value val="6"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A9" exp="A8 + 1" />
 <element type="numeric" label="A9">
-	<value val="2"/>
+	<value val="7"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A10" exp="A9 + 1" />
 <element type="numeric" label="A10">
-	<value val="3"/>
+	<value val="8"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A11" exp="A10 + 1" />
 <element type="numeric" label="A11">
-	<value val="4"/>
+	<value val="9"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A12" exp="A11 + 1" />
 <element type="numeric" label="A12">
-	<value val="5"/>
+	<value val="10"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A13" exp="A12 + 1" />
 <element type="numeric" label="A13">
-	<value val="6"/>
+	<value val="11"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A14" exp="A13 + 1" />
 <element type="numeric" label="A14">
-	<value val="7"/>
+	<value val="12"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A15" exp="A14 + 1" />
 <element type="numeric" label="A15">
-	<value val="8"/>
+	<value val="13"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A16" exp="A15 + 1" />
 <element type="numeric" label="A16">
-	<value val="9"/>
+	<value val="14"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A17" exp="A16 + 1" />
 <element type="numeric" label="A17">
-	<value val="10"/>
+	<value val="15"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A18" exp="A17 + 1" />
 <element type="numeric" label="A18">
-	<value val="11"/>
+	<value val="16"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A19" exp="A18 + 1" />
 <element type="numeric" label="A19">
-	<value val="12"/>
+	<value val="17"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A20" exp="A19 + 1" />
 <element type="numeric" label="A20">
-	<value val="13"/>
+	<value val="18"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="A21" exp="A20 + 1" />
 <element type="numeric" label="A21">
-	<value val="14"/>
+	<value val="19"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
@@ -521,7 +521,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
 	<startPoint exp="wbO"/>
-	<coords x="-0.4408389392193559" y="0.6067627457812099" z="0"/>
+	<coords x="0.5303300858899096" y="0.5303300858899114" z="0"/>
 </element>
 <command name="Sequence">
 	<input a0="(x(waO) + ((0.98 * sa) * cos(waϕ + ((2 * pi) * k / a))), y(waO) + ((0.98 * sa) * sin(waϕ + ((2 * pi) * k / a))))" a1="k" a2="1" a3="a"/>
@@ -554,6 +554,7 @@
 <element type="button" label="butAnimation">
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="0"/>
 	<labelOffset x="8" y="9"/>
 	<labelMode val="3"/>
@@ -566,6 +567,7 @@
 <element type="button" label="butClear">
 	<show object="true" label="true"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
 	<layer val="0"/>
 	<labelOffset x="17" y="232"/>
 	<labelMode val="0"/>
@@ -617,7 +619,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.5" y="5.51091059616309e-16" z="1"/>
+	<coords x="1.948557158514987" y="1.8749999999999998" z="1"/>
 </element>
 <expression label="B2" exp="fz(A2)" type="point" />
 <element type="point" label="B2">
@@ -629,7 +631,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.9485571585149872" y="1.8749999999999998" z="1"/>
+	<coords x="1.5" y="0" z="1"/>
 </element>
 <expression label="B3" exp="fz(A3)" type="point" />
 <element type="point" label="B3">
@@ -641,7 +643,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.8749999999999996" y="1.9485571585149868" z="1"/>
+	<coords x="1.948557158514987" y="-1.8749999999999998" z="1"/>
 </element>
 <expression label="B4" exp="fz(A4)" type="point" />
 <element type="point" label="B4">
@@ -653,7 +655,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="2.755455298081545e-16" y="1.5" z="1"/>
+	<coords x="1.8750000000000002" y="-1.9485571585149868" z="1"/>
 </element>
 <expression label="B5" exp="fz(A5)" type="point" />
 <element type="point" label="B5">
@@ -665,7 +667,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.8750000000000002" y="1.9485571585149868" z="1"/>
+	<coords x="2.755455298081545e-16" y="-1.5" z="1"/>
 </element>
 <expression label="B6" exp="fz(A6)" type="point" />
 <element type="point" label="B6">
@@ -677,7 +679,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.948557158514987" y="1.8749999999999998" z="1"/>
+	<coords x="-1.8749999999999996" y="-1.9485571585149868" z="1"/>
 </element>
 <expression label="B7" exp="fz(A7)" type="point" />
 <element type="point" label="B7">
@@ -689,7 +691,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.5" y="0" z="1"/>
+	<coords x="-1.9485571585149872" y="-1.8749999999999998" z="1"/>
 </element>
 <expression label="B8" exp="fz(A8)" type="point" />
 <element type="point" label="B8">
@@ -701,7 +703,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.948557158514987" y="-1.8749999999999998" z="1"/>
+	<coords x="-1.5" y="-5.51091059616309e-16" z="1"/>
 </element>
 <expression label="B9" exp="fz(A9)" type="point" />
 <element type="point" label="B9">
@@ -713,7 +715,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.8750000000000002" y="-1.9485571585149868" z="1"/>
+	<coords x="-1.9485571585149866" y="1.8750000000000002" z="1"/>
 </element>
 <expression label="B10" exp="fz(A10)" type="point" />
 <element type="point" label="B10">
@@ -725,7 +727,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="2.755455298081545e-16" y="-1.5" z="1"/>
+	<coords x="-1.8750000000000009" y="1.9485571585149868" z="1"/>
 </element>
 <expression label="B11" exp="fz(A11)" type="point" />
 <element type="point" label="B11">
@@ -737,7 +739,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.8749999999999996" y="-1.9485571585149868" z="1"/>
+	<coords x="-8.266365894244634e-16" y="1.5" z="1"/>
 </element>
 <expression label="B12" exp="fz(A12)" type="point" />
 <element type="point" label="B12">
@@ -749,7 +751,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.9485571585149872" y="-1.8749999999999998" z="1"/>
+	<coords x="1.8750000000000002" y="1.9485571585149863" z="1"/>
 </element>
 <expression label="B13" exp="fz(A13)" type="point" />
 <element type="point" label="B13">
@@ -761,7 +763,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.5" y="-5.51091059616309e-16" z="1"/>
+	<coords x="1.9485571585149881" y="1.8750000000000009" z="1"/>
 </element>
 <expression label="B14" exp="fz(A14)" type="point" />
 <element type="point" label="B14">
@@ -773,7 +775,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.9485571585149866" y="1.8750000000000002" z="1"/>
+	<coords x="1.5" y="1.102182119232618e-15" z="1"/>
 </element>
 <expression label="B15" exp="fz(A15)" type="point" />
 <element type="point" label="B15">
@@ -785,7 +787,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.8750000000000009" y="1.948557158514987" z="1"/>
+	<coords x="1.9485571585149886" y="-1.8749999999999984" z="1"/>
 </element>
 <expression label="B16" exp="fz(A16)" type="point" />
 <element type="point" label="B16">
@@ -797,7 +799,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-8.266365894244634e-16" y="1.5" z="1"/>
+	<coords x="1.8749999999999993" y="-1.9485571585149881" z="1"/>
 </element>
 <expression label="B17" exp="fz(A17)" type="point" />
 <element type="point" label="B17">
@@ -809,7 +811,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.8750000000000002" y="1.9485571585149863" z="1"/>
+	<coords x="2.70999527859096e-15" y="-1.5" z="1"/>
 </element>
 <expression label="B18" exp="fz(A18)" type="point" />
 <element type="point" label="B18">
@@ -821,7 +823,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.9485571585149881" y="1.8750000000000009" z="1"/>
+	<coords x="-1.8749999999999982" y="-1.9485571585149875" z="1"/>
 </element>
 <expression label="B19" exp="fz(A19)" type="point" />
 <element type="point" label="B19">
@@ -833,7 +835,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.5" y="1.102182119232618e-15" z="1"/>
+	<coords x="-1.948557158514987" y="-1.8749999999999996" z="1"/>
 </element>
 <expression label="B20" exp="fz(A20)" type="point" />
 <element type="point" label="B20">
@@ -845,7 +847,7 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.9485571585149886" y="-1.8749999999999984" z="1"/>
+	<coords x="-1.5" y="-1.6532731788489269e-15" z="1"/>
 </element>
 <expression label="B21" exp="fz(A21)" type="point" />
 <element type="point" label="B21">
@@ -857,257 +859,257 @@
 	<coordStyle style="complex"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="1.8749999999999993" y="-1.9485571585149881" z="1"/>
+	<coords x="-1.948557158514986" y="1.8749999999999982" z="1"/>
 </element>
 <expression label="C1" exp="mod_{1}(arg(B1) / ((2 * pi)))" />
 <element type="numeric" label="C1">
-	<value val="0.49999999999999994"/>
+	<value val="0.12193857291114996"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C2" exp="mod_{1}(arg(B2) / ((2 * pi)))" />
 <element type="numeric" label="C2">
-	<value val="0.3780614270888501"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C3" exp="mod_{1}(arg(B3) / ((2 * pi)))" />
 <element type="numeric" label="C3">
-	<value val="0.37193857291114996"/>
+	<value val="0.87806142708885"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C4" exp="mod_{1}(arg(B4) / ((2 * pi)))" />
 <element type="numeric" label="C4">
-	<value val="0.24999999999999997"/>
+	<value val="0.87193857291115"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C5" exp="mod_{1}(arg(B5) / ((2 * pi)))" />
 <element type="numeric" label="C5">
-	<value val="0.12806142708885004"/>
+	<value val="0.75"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C6" exp="mod_{1}(arg(B6) / ((2 * pi)))" />
 <element type="numeric" label="C6">
-	<value val="0.12193857291114996"/>
+	<value val="0.62806142708885"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C7" exp="mod_{1}(arg(B7) / ((2 * pi)))" />
 <element type="numeric" label="C7">
-	<value val="0"/>
+	<value val="0.62193857291115"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C8" exp="mod_{1}(arg(B8) / ((2 * pi)))" />
 <element type="numeric" label="C8">
-	<value val="0.87806142708885"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C9" exp="mod_{1}(arg(B9) / ((2 * pi)))" />
 <element type="numeric" label="C9">
-	<value val="0.87193857291115"/>
+	<value val="0.37806142708885004"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C10" exp="mod_{1}(arg(B10) / ((2 * pi)))" />
 <element type="numeric" label="C10">
-	<value val="0.75"/>
+	<value val="0.37193857291115"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C11" exp="mod_{1}(arg(B11) / ((2 * pi)))" />
 <element type="numeric" label="C11">
-	<value val="0.62806142708885"/>
+	<value val="0.2500000000000001"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C12" exp="mod_{1}(arg(B12) / ((2 * pi)))" />
 <element type="numeric" label="C12">
-	<value val="0.62193857291115"/>
+	<value val="0.12806142708885002"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C13" exp="mod_{1}(arg(B13) / ((2 * pi)))" />
 <element type="numeric" label="C13">
-	<value val="0.5"/>
+	<value val="0.12193857291114996"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C14" exp="mod_{1}(arg(B14) / ((2 * pi)))" />
 <element type="numeric" label="C14">
-	<value val="0.37806142708885004"/>
+	<value val="1.169451549755813e-16"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C15" exp="mod_{1}(arg(B15) / ((2 * pi)))" />
 <element type="numeric" label="C15">
-	<value val="0.37193857291115"/>
+	<value val="0.8780614270888502"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C16" exp="mod_{1}(arg(B16) / ((2 * pi)))" />
 <element type="numeric" label="C16">
-	<value val="0.2500000000000001"/>
+	<value val="0.8719385729111498"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C17" exp="mod_{1}(arg(B17) / ((2 * pi)))" />
 <element type="numeric" label="C17">
-	<value val="0.12806142708885002"/>
+	<value val="0.7500000000000002"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C18" exp="mod_{1}(arg(B18) / ((2 * pi)))" />
 <element type="numeric" label="C18">
-	<value val="0.12193857291114996"/>
+	<value val="0.62806142708885"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C19" exp="mod_{1}(arg(B19) / ((2 * pi)))" />
 <element type="numeric" label="C19">
-	<value val="1.1694515497558127e-16"/>
+	<value val="0.62193857291115"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C20" exp="mod_{1}(arg(B20) / ((2 * pi)))" />
 <element type="numeric" label="C20">
-	<value val="0.8780614270888502"/>
+	<value val="0.5000000000000001"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="C21" exp="mod_{1}(arg(B21) / ((2 * pi)))" />
 <element type="numeric" label="C21">
-	<value val="0.8719385729111498"/>
+	<value val="0.3780614270888501"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D1" exp="abs(B1) / s" />
 <element type="numeric" label="D1">
-	<value val="0.5"/>
+	<value val="0.9013878188659973"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D2" exp="abs(B2) / s" />
 <element type="numeric" label="D2">
-	<value val="0.9013878188659974"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D3" exp="abs(B3) / s" />
 <element type="numeric" label="D3">
-	<value val="0.9013878188659971"/>
+	<value val="0.9013878188659973"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D4" exp="abs(B4) / s" />
 <element type="numeric" label="D4">
-	<value val="0.5"/>
+	<value val="0.9013878188659973"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D5" exp="abs(B5) / s" />
 <element type="numeric" label="D5">
-	<value val="0.9013878188659973"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D6" exp="abs(B6) / s" />
 <element type="numeric" label="D6">
-	<value val="0.9013878188659973"/>
+	<value val="0.9013878188659971"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D7" exp="abs(B7) / s" />
 <element type="numeric" label="D7">
-	<value val="0.5"/>
+	<value val="0.9013878188659974"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D8" exp="abs(B8) / s" />
 <element type="numeric" label="D8">
-	<value val="0.9013878188659973"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D9" exp="abs(B9) / s" />
 <element type="numeric" label="D9">
-	<value val="0.9013878188659973"/>
+	<value val="0.9013878188659974"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D10" exp="abs(B10) / s" />
 <element type="numeric" label="D10">
-	<value val="0.5"/>
+	<value val="0.9013878188659974"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D11" exp="abs(B11) / s" />
 <element type="numeric" label="D11">
-	<value val="0.9013878188659971"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D12" exp="abs(B12) / s" />
 <element type="numeric" label="D12">
-	<value val="0.9013878188659974"/>
+	<value val="0.9013878188659973"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D13" exp="abs(B13) / s" />
 <element type="numeric" label="D13">
-	<value val="0.5"/>
+	<value val="0.9013878188659978"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D14" exp="abs(B14) / s" />
 <element type="numeric" label="D14">
-	<value val="0.9013878188659974"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D15" exp="abs(B15) / s" />
 <element type="numeric" label="D15">
-	<value val="0.9013878188659975"/>
+	<value val="0.9013878188659974"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D16" exp="abs(B16) / s" />
 <element type="numeric" label="D16">
-	<value val="0.5"/>
+	<value val="0.9013878188659975"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D17" exp="abs(B17) / s" />
 <element type="numeric" label="D17">
-	<value val="0.9013878188659973"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D18" exp="abs(B18) / s" />
 <element type="numeric" label="D18">
-	<value val="0.9013878188659978"/>
+	<value val="0.9013878188659971"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D19" exp="abs(B19) / s" />
 <element type="numeric" label="D19">
-	<value val="0.5"/>
+	<value val="0.9013878188659973"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D20" exp="abs(B20) / s" />
 <element type="numeric" label="D20">
-	<value val="0.9013878188659974"/>
+	<value val="0.5"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="D21" exp="abs(B21) / s" />
 <element type="numeric" label="D21">
-	<value val="0.9013878188659975"/>
+	<value val="0.9013878188659966"/>
 	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
 	<auxiliary val="true"/>
 </element>
@@ -1120,7 +1122,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="16.309733552923255" z="1"/>
+	<coords x="6" y="16.191923828413636" z="1"/>
 </element>
 <expression label="E3" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A3 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E3">
@@ -1131,7 +1133,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="15.131636307827083" z="1"/>
+	<coords x="6" y="15.013826583317467" z="1"/>
 </element>
 <expression label="E4" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A4 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E4">
@@ -1142,7 +1144,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="13.953539062730911" z="1"/>
+	<coords x="6" y="13.835729338221292" z="1"/>
 </element>
 <expression label="E5" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A5 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E5">
@@ -1153,7 +1155,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="12.775441817634738" z="1"/>
+	<coords x="6" y="12.657632093125121" z="1"/>
 </element>
 <expression label="E6" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A6 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E6">
@@ -1164,7 +1166,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="11.597344572538566" z="1"/>
+	<coords x="6" y="11.479534848028948" z="1"/>
 </element>
 <expression label="E7" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A7 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E7">
@@ -1175,7 +1177,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="10.419247327442392" z="1"/>
+	<coords x="6" y="10.301437602932776" z="1"/>
 </element>
 <expression label="E8" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A8 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E8">
@@ -1186,7 +1188,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="9.24115008234622" z="1"/>
+	<coords x="6" y="9.123340357836604" z="1"/>
 </element>
 <expression label="E9" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A9 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E9">
@@ -1197,7 +1199,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="8.063052837250048" z="1"/>
+	<coords x="6" y="7.945243112740431" z="1"/>
 </element>
 <expression label="E10" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A10 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E10">
@@ -1208,7 +1210,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="6.884955592153876" z="1"/>
+	<coords x="6" y="6.767145867644259" z="1"/>
 </element>
 <expression label="E11" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A11 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E11">
@@ -1219,7 +1221,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="5.706858347057703" z="1"/>
+	<coords x="6" y="5.589048622548086" z="1"/>
 </element>
 <expression label="E12" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A12 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E12">
@@ -1230,7 +1232,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="4.52876110196153" z="1"/>
+	<coords x="6" y="4.410951377451914" z="1"/>
 </element>
 <expression label="E13" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A13 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E13">
@@ -1241,7 +1243,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="3.350663856865358" z="1"/>
+	<coords x="6" y="3.232854132355741" z="1"/>
 </element>
 <expression label="E14" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A14 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E14">
@@ -1252,7 +1254,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="2.1725666117691858" z="1"/>
+	<coords x="6" y="2.054756887259569" z="1"/>
 </element>
 <expression label="E15" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A15 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E15">
@@ -1263,7 +1265,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="0.9944693666730133" z="1"/>
+	<coords x="6" y="0.8766596421633963" z="1"/>
 </element>
 <expression label="E16" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A16 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E16">
@@ -1274,7 +1276,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-0.18362787842315953" z="1"/>
+	<coords x="6" y="-0.30143760293277566" z="1"/>
 </element>
 <expression label="E17" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A17 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E17">
@@ -1285,7 +1287,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-1.3617251235193315" z="1"/>
+	<coords x="6" y="-1.4795348480289476" z="1"/>
 </element>
 <expression label="E18" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A18 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E18">
@@ -1296,7 +1298,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-2.5398223686155035" z="1"/>
+	<coords x="6" y="-2.6576320931251214" z="1"/>
 </element>
 <expression label="E19" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A19 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E19">
@@ -1307,7 +1309,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-3.7179196137116755" z="1"/>
+	<coords x="6" y="-3.8357293382212916" z="1"/>
 </element>
 <expression label="E20" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A20 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E20">
@@ -1318,7 +1320,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-4.896016858807847" z="1"/>
+	<coords x="6" y="-5.013826583317467" z="1"/>
 </element>
 <expression label="E21" exp="(x(eyeO), y(eyeO) - (((2 * pi) * (A21 - n)) * s / (a + b)))" type="point" />
 <element type="point" label="E21">
@@ -1329,7 +1331,7 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="-6.074114103904021" z="1"/>
+	<coords x="6" y="-6.191923828413637" z="1"/>
 </element>
 <command name="Rotate">
 	<input a0="(x(waO) + sa, y(waO) - sa)" a1="waϕ" a2="waO"/>
@@ -1342,7 +1344,7 @@
 	<labelMode val="0"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
-	<coords x="3.5834680069832947" y="8.177619721631569" z="1"/>
+	<coords x="2.1590097423302668" y="2.2443240393689257" z="1"/>
 </element>
 <command name="Rotate">
 	<input a0="(x(waO) - sa, y(waO) - sa)" a1="waϕ" a2="waO"/>
@@ -1355,7 +1357,7 @@
 	<labelMode val="0"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
-	<coords x="6.927619721631568" y="5.166531993016705" z="1"/>
+	<coords x="0.9943240393689257" y="6.590990257669733" z="1"/>
 </element>
 <command name="Rotate">
 	<input a0="(x(wbO) - sb, y(wbO) - sb)" a1="wbϕ + dir" a2="wbO"/>
@@ -1368,7 +1370,7 @@
 	<labelMode val="0"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
-	<coords x="5.702398314999434" y="5.165923806561855" z="1"/>
+	<coords x="6.749999999999998" y="6.060660171779821" z="1"/>
 </element>
 <command name="Rotate">
 	<input a0="(x(wbO) + sb, y(wbO) - sb)" a1="wbϕ + dir" a2="wbO"/>
@@ -1381,7 +1383,7 @@
 	<labelMode val="0"/>
 	<pointSize val="5"/>
 	<pointStyle val="0"/>
-	<coords x="6.584076193438145" y="3.952398314999434" z="1"/>
+	<coords x="5.689339828220179" y="4.999999999999998" z="1"/>
 </element>
 <command name="Circle">
 	<input a0="Point[O, wavector]" a1="abs(sb)"/>
@@ -1396,7 +1398,7 @@
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<eqnStyle style="specific"/>
 	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
-	<matrix A0="1" A1="1" A2="4.5" A3="0" A4="1.6720758573241368" A5="1.5055438643074313"/>
+	<matrix A0="1" A1="1" A2="4.5" A3="0" A4="-0.5823428514806707" A5="-2.173333109150404"/>
 </element>
 <command name="Vector">
 	<input a0="Point[O, wavector]" a1="eyeP"/>
@@ -1410,8 +1412,8 @@
 	<labelMode val="0"/>
 	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
 	<coordStyle style="cartesian"/>
-	<startPoint x="-1.6720758573241368" y="-1.5055438643074313" z="1"/>
-	<coords x="-0.4408389392193557" y="-0.6067627457812099" z="0"/>
+	<startPoint x="0.5823428514806707" y="2.173333109150404" z="1"/>
+	<coords x="0.5303300858899099" y="-0.5303300858899114" z="0"/>
 </element>
 <element type="boolean" label="χRings">
 	<value val="true"/>
@@ -1447,151 +1449,151 @@
 	<auxiliary val="true"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="6" y="17.487830798019427" z="1"/>
+	<coords x="6" y="17.37002107350981" z="1"/>
 </element>
 <expression label="F1" exp="(N * mod_{1}(A1 / N))" />
 <element type="numeric" label="F1">
-	<value val="6"/>
+	<value val="11"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F2" exp="(N * mod_{1}(A2 / N))" />
 <element type="numeric" label="F2">
-	<value val="6.999999999999999"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F3" exp="(N * mod_{1}(A3 / N))" />
 <element type="numeric" label="F3">
-	<value val="8"/>
+	<value val="1"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F4" exp="(N * mod_{1}(A4 / N))" />
 <element type="numeric" label="F4">
-	<value val="9"/>
+	<value val="2"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F5" exp="(N * mod_{1}(A5 / N))" />
 <element type="numeric" label="F5">
-	<value val="10"/>
+	<value val="3"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F6" exp="(N * mod_{1}(A6 / N))" />
 <element type="numeric" label="F6">
-	<value val="11"/>
+	<value val="4"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F7" exp="(N * mod_{1}(A7 / N))" />
 <element type="numeric" label="F7">
-	<value val="0"/>
+	<value val="5"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F8" exp="(N * mod_{1}(A8 / N))" />
 <element type="numeric" label="F8">
-	<value val="1"/>
+	<value val="6"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F9" exp="(N * mod_{1}(A9 / N))" />
 <element type="numeric" label="F9">
-	<value val="2"/>
+	<value val="7"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F10" exp="(N * mod_{1}(A10 / N))" />
 <element type="numeric" label="F10">
-	<value val="3"/>
+	<value val="8"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F11" exp="(N * mod_{1}(A11 / N))" />
 <element type="numeric" label="F11">
-	<value val="4"/>
+	<value val="9"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F12" exp="(N * mod_{1}(A12 / N))" />
 <element type="numeric" label="F12">
-	<value val="5"/>
+	<value val="10"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F13" exp="(N * mod_{1}(A13 / N))" />
 <element type="numeric" label="F13">
-	<value val="6"/>
+	<value val="11"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F14" exp="(N * mod_{1}(A14 / N))" />
 <element type="numeric" label="F14">
-	<value val="7"/>
+	<value val="0"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F15" exp="(N * mod_{1}(A15 / N))" />
 <element type="numeric" label="F15">
-	<value val="8"/>
+	<value val="0.9999999999999991"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F16" exp="(N * mod_{1}(A16 / N))" />
 <element type="numeric" label="F16">
-	<value val="9"/>
+	<value val="2.000000000000001"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F17" exp="(N * mod_{1}(A17 / N))" />
 <element type="numeric" label="F17">
-	<value val="10"/>
+	<value val="3"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F18" exp="(N * mod_{1}(A18 / N))" />
 <element type="numeric" label="F18">
-	<value val="11"/>
+	<value val="3.999999999999999"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F19" exp="(N * mod_{1}(A19 / N))" />
 <element type="numeric" label="F19">
-	<value val="0"/>
+	<value val="5.000000000000001"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F20" exp="(N * mod_{1}(A20 / N))" />
 <element type="numeric" label="F20">
-	<value val="0.9999999999999991"/>
+	<value val="6"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
 </element>
 <expression label="F21" exp="(N * mod_{1}(A21 / N))" />
 <element type="numeric" label="F21">
-	<value val="2.000000000000001"/>
+	<value val="6.999999999999999"/>
 	<objColor r="0" g="0" b="0" alpha="0"/>
 	<labelOffset x="-30" y="4"/>
 	<auxiliary val="true"/>
@@ -1902,7 +1904,7 @@
 	<labelMode val="0"/>
 	<pointSize val="4"/>
 	<pointStyle val="0"/>
-	<coords x="-1.6720758573241368" y="-1.5055438643074313" z="1"/>
+	<coords x="0.5823428514806707" y="2.173333109150404" z="1"/>
 </element>
 <expression label="fa" exp="fa(x) = arg(fz(x))" />
 <element type="function" label="fa">
