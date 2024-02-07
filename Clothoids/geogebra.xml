@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.2.823.0" app="classic" platform="w" id="cb43c094-5760-4b5d-9b3b-b0e989bac3c1"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="874" height="684" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="874" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="0" size="236" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="1" size="47" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="320" window="290,102,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 39 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="true" cmd="true" top="algebra" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="874" height="631"/>
+	<coordSystem xZero="387.88618473914687" yZero="307.6442914000209" scale="91.35874539719572" yscale="91.35874539719572"/>
+	<evSettings axes="true" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="3"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="true" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="true" label="" unitLabel="" tickStyle="1" showNumbers="false"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+	<startAnimation val="true"/>
+</kernel>
+<tableview min="-2" max="2" step="1"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="Clothoids" author="" date="">
+<element type="numeric" label="ω">
+	<value val="0.04"/>
+	<slider min="-1" max="1" absoluteScreenLocation="true" width="200" x="535" y="46" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<condition showObject="SelectedElement[funcNames] ≟ &quot;Meander curve&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelOffset x="-26" y="5"/>
+	<labelMode val="9"/>
+	<animation step="0.01" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(χLemniscate,false)"/>
+	<caption val="ω/π"/>
+</element>
+<element type="numeric" label="ϕ_{max}">
+	<value val="-1.6"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="100" x="404" y="45" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<condition showObject="SelectedElement[funcNames] ≟ &quot;Meander curve&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-48" y="0"/>
+	<labelMode val="9"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="SetValue(χLemniscate,false)"/>
+	<caption val="ϕ_{max}/π"/>
+</element>
+<element type="boolean" label="χSingleArm">
+	<value val="true"/>
+	<show object="false" label="true"/>
+	<condition showObject="SelectedElement[funcNames] ≟ &quot;Log spiral&quot; ∨ SelectedElement[funcNames] ≟ &quot;Archimedean spiral&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="393" y="13"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="One-arm spiral"/>
+</element>
+<expression label="funcs" exp="{x, sin(x), ((ϕ_{max} * pi) * (sin(x) + ω)), tan(x), atan(x), ℯ^(x), ln(x), 5 / x, 2 / sqrt(abs(x) + 1), x^(2) + 1, x^(2) - 4, x^(3) - (3 * x^(2)) + 1, (5 * x^(4)) - (18 * x^(2)) + 5}" />
+<element type="list" label="funcs">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="45"/>
+	<labelMode val="3"/>
+	<ggbscript onUpdate="ZoomIn(1)&#xa;SetValue(Len,lens(SelectedIndex(funcs)))&#xa;SetValue(funcNames,SelectedIndex(funcs))&#xa;SetValue(curves,{})&#xa;SetValue(χTrace,true)&#xa;SetTrace(oscCircle, χTrace)"/>
+	<caption val="Curvature function"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<command name="SelectedElement">
+	<input a0="funcs"/>
+	<output a0="κ"/>
+</command>
+<element type="function" label="κ">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χTangent"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<caption val="Curvature function"/>
+	<lineStyle thickness="3" type="0" typeHidden="1" opacity="178"/>
+</element>
+<command name="Integral">
+	<input a0="κ"/>
+	<output a0="ϕ"/>
+</command>
+<element type="function" label="ϕ">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="85" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<caption val="orientation of tangent vector"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<element type="numeric" label="lp">
+	<value val="5.98"/>
+	<slider min="If[χSingleArmSpiral ∧ χCentricSpiral, 0, (-Len)]" max="Len" absoluteScreenLocation="true" width="200" x="29" y="177" fixed="true" horizontal="true" showAlgebra="true"/>
+	<pointSize val="2"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="255" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-80" y="3"/>
+	<labelMode val="9"/>
+	<animation speed="1" type="0" playing="true"/>
+	<caption val="arc position"/>
+</element>
+<expression label="funcNames" exp="{&quot;Euler spiral&quot;, &quot;Sinusoid&quot;, &quot;Meander curve&quot;, &quot;Log hook&quot;, &quot;Tangent spiral&quot;, &quot;Exp spiral&quot;, &quot;Lox spiral&quot;, &quot;Log spiral&quot;, &quot;Archimedean spiral&quot;, &quot;Alien face&quot;, &quot;Baboon face&quot;, &quot;Arty-3&quot;, &quot;Cockoid&quot;}"/>
+<element type="list" label="funcNames">
+	<show object="true" label="true" ev="4"/>
+	<objColor r="0" g="100" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="5" y="85"/>
+	<labelMode val="3"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="ZoomIn(1)&#xa;SetValue(funcs,SelectedIndex(funcNames))&#xa;SetValue(Len,lens(SelectedIndex(funcNames)))&#xa;SetValue(curves,{})&#xa;SetValue(χTrace,true)&#xa;SetTrace(oscCircle, χTrace)"/>
+	<caption val="&gt;"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<comboBox val="true"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="χCentricSpiral" exp="SelectedElement[funcNames] ≟ &quot;Log spiral&quot; ∨ SelectedElement[funcNames] ≟ &quot;Archimedean spiral&quot; ∨ SelectedElement[funcNames] ≟ &quot;Lox spiral&quot;" />
+<element type="boolean" label="χCentricSpiral">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<checkbox fixed="true"/>
+</element>
+<command name="If">
+	<input a0="χCentricSpiral" a1="(0.001 * sgn(x))" a2="0"/>
+	<output a0="zero"/>
+</command>
+<element type="function" label="zero">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="255" g="85" b="0" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<fixed val="true"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+</element>
+<expression label="χSingleArmSpiral" exp="χSingleArm ∨ SelectedElement[funcNames] ≟ &quot;Lox spiral&quot;" />
+<element type="boolean" label="χSingleArmSpiral">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+	<caption val="One-arm spiral"/>
+</element>
+<element type="numeric" label="Len">
+	<value val="10"/>
+	<slider min="1" max="MaxLen" absoluteScreenLocation="true" width="200" x="30" y="142" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="10" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-69" y="6"/>
+	<labelMode val="9"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<ggbscript onUpdate="ZoomIn(1)"/>
+	<caption val="Arc length"/>
+</element>
+<element type="numeric" label="MaxLen">
+	<value val="20"/>
+	<slider min="-5" max="20" absoluteScreenLocation="true" width="200" fixed="true" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="1"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+<command name="Vector">
+	<input a0="(cos(ϕ(lp)), sin(ϕ(lp)))"/>
+	<output a0="tg"/>
+</command>
+<element type="vector" label="tg">
+	<show object="false" label="false"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="tangent vector"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<coords x="0.5658307049909743" y="-0.8245214450148747" z="0"/>
+</element>
+<expression label="oscRadius" exp="1 / κ(lp)" />
+<element type="numeric" label="oscRadius">
+	<value val="0.16722408026755853"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<caption val="radius of osculating circle"/>
+</element>
+<expression label="Pl" exp="(Integral[cos(ϕ(x)), zero(lp), lp], Integral[sin(ϕ(x)), zero(lp), lp])" type="point" />
+<element type="point" label="Pl">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<caption val="The point traversing clothoid"/>
+	<pointSize val="2"/>
+	<pointStyle val="1"/>
+	<coords x="0.7460459840245898" y="0.795635165911212" z="1"/>
+</element>
+<expression label="norm" exp="(oscRadius * Rotate[tg, pi / 2])" type="vector" />
+<element type="vector" label="norm">
+	<show object="false" label="false" ev="4"/>
+	<objColor r="244" g="0" b="153" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<selectionAllowed val="false"/>
+	<caption val="normal vector (perpendicular to tangent vector)"/>
+	<lineStyle thickness="5" type="0" typeHidden="1" opacity="178"/>
+	<coordStyle style="cartesian"/>
+	<coords x="0.13787984030349074" y="0.09462051922925992" z="0"/>
+</element>
+<element type="numeric" label="l">
+	<value val="0"/>
+	<slider min="If[χSingleArmSpiral ∧ χCentricSpiral, 0, (-Len)]" max="Len" absoluteScreenLocation="true" width="200" x="30" y="173" fixed="true" horizontal="true" showAlgebra="false"/>
+	<pointSize val="2"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="true" label="true" ev="1"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<animation speed="1" type="0" playing="false"/>
+	<caption val="the parameter t ∈ [-Len,+Len] (for locus only)"/>
+</element>
+<expression label="lens" exp="{10, (2 * pi), 20, pi / 2, 15, 5, 15, 15, 20, 5, 5, 5, 3}"/>
+<element type="list" label="lens">
+	<objColor r="0" g="100" b="0" alpha="0.10000000149011612"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="5" type="0" typeHidden="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+	<symbolic val="true" />
+</element>
+<expression label="Pκ" exp="(lp, κ(lp))" type="point" />
+<element type="point" label="Pκ">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χTangent"/>
+	<objColor r="255" g="127" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<caption val="the point traversing curvature function"/>
+	<pointSize val="4"/>
+	<pointStyle val="0"/>
+	<coords x="5.98" y="5.98" z="1"/>
+</element>
+<element type="button" label="butAnimation">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="16" y="19"/>
+	<labelMode val="3"/>
+	<fixed val="true"/>
+	<auxiliary val="true"/>
+	<javascript val="if(ggbApplet.isAnimationRunning()){ggbApplet.stopAnimation();}else{ggbApplet.startAnimation();}"/>
+	<caption val="⏯️ Animation"/>
+	<font serif="false" sizeM="1.4" size="7" style="0"/>
+</element>
+<expression label="oscCenter" exp="Pl + norm" type="point" />
+<element type="point" label="oscCenter">
+	<show object="false" label="true" ev="4"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="center of osculating circle"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="0.8839258243280805" y="0.8902556851404719" z="1"/>
+</element>
+<expression label="fmatchSin" exp="fmatchSin(x) = (-0.89 * sin((x * pi / 2.4)))" type="function"/>
+<element type="function" label="fmatchSin">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMatching ∧ SelectedElement[funcNames] ≟ &quot;Sinusoid&quot;"/>
+	<objColor r="153" g="51" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<fixed val="true"/>
+	<lineStyle thickness="2" type="10" typeHidden="1"/>
+</element>
+<element type="boolean" label="χTangent">
+	<value val="false"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="26" y="183"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Curvature &amp; Tangent"/>
+</element>
+<element type="boolean" label="χMatching">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<condition showObject="SelectedElement[funcNames] ≟ &quot;Sinusoid&quot; ∨ SelectedElement[funcNames] ≟ &quot;Archimedean spiral&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="395" y="55"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<caption val="Matching curve"/>
+</element>
+<element type="boolean" label="χLemniscate">
+	<value val="false"/>
+	<show object="false" label="true"/>
+	<condition showObject="SelectedElement[funcNames] ≟ &quot;Meander curve&quot;"/>
+	<objColor r="0" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelOffset x="397" y="65"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="ZoomIn(1)&#xa;If(χLemniscate, {SetValue(ϕ_{max}, 0.766), SetValue(ω, 0)})&#xa;"/>
+	<caption val="Lemniscate (∞)"/>
+</element>
+<command name="Circle">
+	<input a0="oscCenter" a1="abs(oscRadius)"/>
+	<output a0="oscCircle"/>
+</command>
+<element type="conic" label="oscCircle">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χTangent ∨ χTrace"/>
+	<objColor r="153" g="51" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<trace val="true"/>
+	<selectionAllowed val="false"/>
+	<caption val="osculating circle"/>
+	<lineStyle thickness="1" type="0" typeHidden="1" opacity="178"/>
+	<eqnStyle style="specific"/>
+	<eigenvectors x0="1" y0="0" z0="1.0" x1="0" y1="1" z1="1.0"/>
+	<matrix A0="1" A1="1" A2="1.545916154817677" A3="0" A4="-0.8839258243280805" A5="-0.8902556851404719"/>
+</element>
+<command name="Segment">
+	<input a0="Pl" a1="Pl + (0.2 * tg)"/>
+	<output a0="tgs"/>
+</command>
+<element type="segment" label="tgs">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χTangent"/>
+	<objColor r="255" g="0" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="tangent vector"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<outlyingIntersections val="false"/>
+	<keepTypeOnTransform val="true"/>
+	<startStyle val="default"/>
+	<endStyle val="default"/>
+	<coords x="0.16490428900297494" y="0.11316614099819489" z="-0.21306514392773013"/>
+</element>
+<element type="boolean" label="χTrace">
+	<value val="true"/>
+	<show object="true" label="true"/>
+	<objColor r="127" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="141" y="13"/>
+	<labelMode val="3"/>
+	<checkbox fixed="true"/>
+	<ggbscript onUpdate="ZoomIn(1)&#xa;SetTrace(oscCircle, χTrace)&#xa;If(χTrace, SetValue(curves,{}), SetValue(curves, {Locus(P,l)}))"/>
+	<caption val="Tracing"/>
+</element>
+<expression label="curves" exp="{}"/>
+<element type="list" label="curves">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="0" playing="false"/>
+	<lineStyle thickness="1" type="0" typeHidden="1"/>
+	<listType val="locus"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<angleStyle val="0"/>
+</element>
+<expression label="P" exp="(Integral[cos(ϕ(x)), zero(l), l], Integral[sin(ϕ(x)), zero(l), l])" type="point" />
+<element type="point" label="P">
+	<show object="false" label="false"/>
+	<objColor r="0" g="255" b="0" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="3"/>
+	<caption val="The point traversing clothoid (for locus only)"/>
+	<pointSize val="2"/>
+	<pointStyle val="0"/>
+	<coords x="0" y="0" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="true" label="true" ev="4"/>
+	<condition showObject="χMatching ∧ SelectedElement[funcNames] ≟ &quot;Archimedean spiral&quot;"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelOffset x="-12" y="34"/>
+	<labelMode val="0"/>
+	<animation step="1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="-0.10821279009650472" y="0.5105618646274953" z="1"/>
+</element>
+<command name="CurveCartesian">
+	<input a0="A + ((0.117 * θ) * (cos(θ), sin(θ)))" a1="θ" a2="0" a3="(6 * pi)"/>
+	<output a0="fmatchArchSpiral"/>
+</command>
+<element type="curvecartesian" label="fmatchArchSpiral">
+	<show object="true" label="false" ev="4"/>
+	<condition showObject="χMatching ∧ SelectedElement[funcNames] ≟ &quot;Archimedean spiral&quot;"/>
+	<objColor r="255" g="0" b="255" alpha="0"/>
+	<layer val="1"/>
+	<labelMode val="0"/>
+	<lineStyle thickness="1" type="10" typeHidden="1"/>
+</element>
+<element type="numeric" label="c_{1}">
+	<value val="0"/>
+	<slider min="-5" max="5" absoluteScreenLocation="true" width="200" fixed="true" horizontal="true" showAlgebra="true"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="1"/>
+	<labelMode val="2"/>
+	<animation speed="1" type="0" playing="false"/>
+</element>
+</construction>
+</geogebra>
