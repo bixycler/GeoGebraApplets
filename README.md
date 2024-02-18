@@ -28,9 +28,19 @@ Published applets about UniThread:
 - [UniTorus](UniTorus/), [Split Torus](Split%20Torus/): From Karel Vreeburg's stone sculpture ["Hidden Split Torus 2"](https://www.karelvreeburg.com/kunstwerk/13285086_Hidden+Split+Torus+2.html) (left-handed), Thijs wrote a (right-handed) model [Split Torus](https://www.geogebra.org/m/n8MCvefK), then I forked it to add a "glass cover" covering the split and a Möbius strip inside the split. That modified model is used as a new version of the [UniTorus](https://www.geogebra.org/m/kgqctbes), the symbol of Unïnfo: https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html
 - [TopoMorph](TopoMorph/): function morphing with [homotopy](https://en.wikipedia.org/wiki/Homotopy): https://www.geogebra.org/m/mekmjqcg
 - [Helicoid](Helicoid/), [ArchimedeanSpiral](ArchimedeanSpiral/), [LogarithmicSpiral](LogarithmicSpiral/): The relativity between rotational and translational & scaling transformations.
+- [ArcRefinement](ArcRefinement/): The refinement of the waveform made of half-circle arcs represent yin & yang, as shown in [☯ Làm mịn hình sóng = Âm-Dương giao hòa = Giải thoát](https://creatzynotes.blogspot.com/2023/03/lam-min-hinh-song-am-duong-giao-hoa.html): https://www.geogebra.org/m/jbphjwmp
+- [CIE Reps](CIE%20Reps/): Many representations of the CIE: 2 circles of content/intent, phase flower (wheel), linear box, pendulumn wave, with change of intent and change of time: https://www.geogebra.org/m/dhxkubcd
+- [FormContentCircle](FormContentCircle/): Form and content in the flow of particles circling around which show the continuity between form and content: https://www.geogebra.org/m/j7czr4s5
+- [OneUnitError](OneUnitError/): A demonstration of the common mistake of counting error by 1 unit (less/more than the actual value): https://www.geogebra.org/m/xhpjjxyn
+  + This is related to the 2-circle representation of the CIE.
 
 Published applets about Geometry:
 
+- [CircularArcDifferentialProjection](CircularArcDifferentialProjection/): Project quarter arc to differential sectors on axes: https://www.geogebra.org/m/csjkab6w   
+  to show both 
+  + the area relation x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup> and 
+  + the meaning of the phase space as the unfolded & flat space of the phase cone: the total phase traces a spiral on that cone. 
+- [ProjectiveHyperbola](ProjectiveHyperbola/): Hyperbolic metric, inversive geometry, exponential, logistic function, all are linked together by projection in projective geometry: https://www.geogebra.org/m/mfzazy9d
 - [PerspectiveProjection](PerspectiveProjection/), [CrossRatio](CrossRatio/), [PappusTheorem](PappusTheorem/), [CrossRatioMetricCompare](CrossRatioMetricCompare/), [HarmonicConjugatesPole](HarmonicConjugatesPole/), [CrossRatioMetric](CrossRatioMetric/): Projective Geometry: Homography, Cross-ratio, Harmonic Conjugates, Polarity: https://www.geogebra.org/m/bf7sgf7b
 - [ConicSections](ConicSections/), [Quadrilateral2Square](Quadrilateral2Square/): Shine a light on Conic sections: https://www.geogebra.org/m/nknaryzz
 - [ProjectiveConic](ProjectiveConic/): Using Pascal Theorem to construct a conic from 5 points (N, P, I, V_N, V_P): The 6th point E traces out the conic: https://www.geogebra.org/m/b3zwgzep
@@ -42,7 +52,7 @@ Published applets about Geometry:
 Published applets about curves and surfaces:
 
 - [Exponentialoid](Exponentialoid/): The surface z = e<sup>xy</sup>: https://www.geogebra.org/m/neecnddv
-- [Clothoid](Clothoid/): The curve for smooth transition between two tracks of different curvatures: https://www.geogebra.org/m/utf6atj4
+- [Clothoids](Clothoids/): The curve for smooth transition between two tracks of different curvatures: https://www.geogebra.org/m/b4ept5sn
 
 Unpublished applets:
 
